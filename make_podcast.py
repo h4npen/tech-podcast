@@ -196,15 +196,26 @@ def generate_script_with_gemini(articles_batch, is_first, is_last):
         "Content-Type": "application/json"
     }
 
-    try:
-        response = requests.post(url, headers=headers, json=payload, timeout=60)
-        response.raise_for_status()
-        res_json = response.json()
-        script_text = res_json['candidates'][0]['content']['parts'][0]['text']
-        return script_text
-    except Exception as e:
-        print(f"Gemini API call failed: {e}")
-        return ""
+    max_retries = 3
+    for attempt in range(max_retries):
+        try:
+            # タイムアウトを120秒に延長
+            response = requests.post(url, headers=headers, json=payload, timeout=120)
+            response.raise_for_status()
+            res_json = response.json()
+            script_text = res_json['candidates'][0]['content']['parts'][0]['text']
+            return script_text
+        except (requests.exceptions.Timeout, requests.exceptions.ConnectionError) as e:
+            print(f"Gemini API timeout or connection error (attempt {attempt+1}/{max_retries}): {e}")
+            if attempt < max_retries - 1:
+                time.sleep(5)
+            else:
+                print("Gemini API failed due to timeout after max retries.")
+        except Exception as e:
+            print(f"Gemini API call failed with error: {e}")
+            break
+            
+    return ""
 
 def process_and_combine_scripts(articles):
     # 最大6本のニュースを取り上げる
