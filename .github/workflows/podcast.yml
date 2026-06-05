@@ -1,0 +1,63 @@
+name: Daily Tech Podcast Generator
+
+on:
+  schedule:
+    # 毎日 UTC 21:30 = 日本時間 朝6:30
+    - cron: '30 21 * * *'
+  workflow_dispatch: # 手動実行用
+
+permissions:
+  contents: write
+
+jobs:
+  build-podcast:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v4
+      with:
+        persist-credentials: true
+
+    - name: Set up Python
+      uses: actions/setup-python@v5
+      with:
+        python-version: '3.10'
+
+    - name: Install System Dependencies (ffmpeg)
+      run: |
+        sudo apt-get update
+        sudo apt-get install -y ffmpeg
+
+    - name: Install Python Dependencies
+      run: |
+        python -m pip install --upgrade pip
+        pip install requests feedparser pydub
+
+    - name: Start VOICEVOX Engine (Docker CPU version)
+      run: |
+        docker run -d -p 50021:50021 voicevox/voicevox_engine:cpu-ubuntu-latest
+        echo "VOICEVOX Engine container started."
+
+    - name: Run make_podcast.py
+      env:
+        GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+        GITHUB_REPOSITORY_OWNER: ${{ github.repository_owner }}
+        GITHUB_REPOSITORY_NAME: ${{ github.event.repository.name }}
+      run: |
+        python make_podcast.py
+
+    - name: Commit and Push Changes
+      run: |
+        git config --global user.name "github-actions[bot]"
+        git config --global user.email "github-actions[bot]@users.noreply.github.com"
+        
+        # 変更されたファイルがある場合のみコミット
+        git add podcasts/ podcast.xml podcast_history.json carryover.json
+        if ! git diff --cached --quiet; then
+          git commit -m "Auto-generated daily podcast: $(date +'%Y-%m-%d')"
+          git push origin HEAD:${{ github.ref }}
+          echo "Changes committed and pushed."
+        else
+          echo "No new changes to commit."
+        fi

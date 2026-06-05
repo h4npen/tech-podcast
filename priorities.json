@@ -1,0 +1,21 @@
+{
+  "must_include": [
+    "Claude",
+    "ChatGPT",
+    "Gemini",
+    "AWS",
+    "Azure",
+    "GCP",
+    "NVIDIA",
+    "OpenAI"
+  ],
+  "boost": [
+    "Kubernetes",
+    "セキュリティ",
+    "Docker",
+    "Python",
+    "Go言語",
+    "TypeScript",
+    "Rust"
+  ]
+}
