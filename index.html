@@ -1,0 +1,494 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Daily Tech News Podcast</title>
+  <!-- Google Fonts & Icons -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Outfit:wght@400;600;800&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" rel="stylesheet">
+  
+  <style>
+    :root {
+      --bg-dark: #0b0f19;
+      --bg-card: #151c2c;
+      --primary: #8a2be2;
+      --primary-glow: rgba(138, 43, 226, 0.4);
+      --accent-green: #39ff14;
+      --accent-pink: #ff007f;
+      --text-main: #f3f4f6;
+      --text-muted: #9ca3af;
+      --border: #232d45;
+    }
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      background-color: var(--bg-dark);
+      color: var(--text-main);
+      font-family: 'Inter', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+    }
+
+    header {
+      background: radial-gradient(circle at top, #1e1b4b 0%, var(--bg-dark) 70%);
+      padding: 3rem 1.5rem;
+      text-align: center;
+      border-bottom: 1px solid var(--border);
+    }
+
+    .header-content {
+      max-width: 800px;
+      margin: 0 auto;
+    }
+
+    h1 {
+      font-family: 'Outfit', sans-serif;
+      font-size: 2.8rem;
+      font-weight: 800;
+      letter-spacing: -0.03em;
+      background: linear-gradient(135deg, #a78bfa 0%, #ec4899 100%);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      margin-bottom: 0.5rem;
+    }
+
+    .subtitle {
+      color: var(--text-muted);
+      font-size: 1.1rem;
+      margin-bottom: 1.5rem;
+      font-weight: 300;
+    }
+
+    .badge-container {
+      display: flex;
+      justify-content: center;
+      gap: 0.5rem;
+      margin-bottom: 1.5rem;
+    }
+
+    .badge {
+      background: rgba(255, 255, 255, 0.05);
+      border: 1px solid rgba(255, 255, 255, 0.1);
+      padding: 0.3rem 0.8rem;
+      border-radius: 9999px;
+      font-size: 0.8rem;
+      color: var(--text-muted);
+    }
+
+    .btn-container {
+      display: flex;
+      justify-content: center;
+      gap: 1rem;
+      flex-wrap: wrap;
+    }
+
+    .btn {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.5rem;
+      padding: 0.75rem 1.5rem;
+      border-radius: 9999px;
+      font-weight: 600;
+      text-decoration: none;
+      transition: all 0.3s ease;
+      cursor: pointer;
+      font-size: 0.95rem;
+    }
+
+    .btn-apple {
+      background-color: #ffffff;
+      color: #000000;
+    }
+
+    .btn-apple:hover {
+      background-color: #e5e5e5;
+      transform: translateY(-2px);
+      box-shadow: 0 4px 12px rgba(255,255,255,0.1);
+    }
+
+    .btn-rss {
+      background-color: var(--primary);
+      color: #ffffff;
+    }
+
+    .btn-rss:hover {
+      background-color: #7b1fa2;
+      transform: translateY(-2px);
+      box-shadow: 0 4px 12px var(--primary-glow);
+    }
+
+    .container {
+      max-width: 1200px;
+      margin: 2rem auto;
+      padding: 0 1.5rem;
+      display: grid;
+      grid-template-columns: 350px 1fr;
+      gap: 2rem;
+      flex-grow: 1;
+    }
+
+    @media (max-width: 900px) {
+      .container {
+        grid-template-columns: 1fr;
+      }
+    }
+
+    /* エピソードリスト */
+    .episode-list {
+      display: flex;
+      flex-direction: column;
+      gap: 1rem;
+    }
+
+    .episode-card {
+      background-color: var(--bg-card);
+      border: 1px solid var(--border);
+      border-radius: 12px;
+      padding: 1.25rem;
+      cursor: pointer;
+      transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    }
+
+    .episode-card:hover {
+      border-color: var(--primary);
+      transform: scale(1.02);
+      box-shadow: 0 4px 20px rgba(0,0,0,0.3);
+    }
+
+    .episode-card.active {
+      border-color: var(--primary);
+      background: linear-gradient(145deg, #1e1b4b 0%, var(--bg-card) 100%);
+      box-shadow: 0 4px 20px var(--primary-glow);
+    }
+
+    .episode-date {
+      font-size: 0.85rem;
+      color: var(--text-muted);
+      margin-bottom: 0.25rem;
+    }
+
+    .episode-title {
+      font-size: 1.1rem;
+      font-weight: 600;
+      color: var(--text-main);
+    }
+
+    /* エピソード詳細 */
+    .episode-detail {
+      background-color: var(--bg-card);
+      border: 1px solid var(--border);
+      border-radius: 16px;
+      padding: 2rem;
+      display: flex;
+      flex-direction: column;
+      gap: 2rem;
+      height: fit-content;
+    }
+
+    .detail-header {
+      border-bottom: 1px solid var(--border);
+      padding-bottom: 1.5rem;
+    }
+
+    .detail-date {
+      color: var(--accent-pink);
+      font-weight: 600;
+      font-size: 0.9rem;
+      margin-bottom: 0.5rem;
+    }
+
+    .detail-title {
+      font-size: 1.8rem;
+      font-weight: 700;
+      font-family: 'Outfit', sans-serif;
+    }
+
+    /* 音楽プレーヤー */
+    .player-container {
+      background: rgba(255, 255, 255, 0.02);
+      border: 1px solid var(--border);
+      border-radius: 12px;
+      padding: 1.5rem;
+    }
+
+    audio {
+      width: 100%;
+      outline: none;
+    }
+
+    /* ニュースセクション */
+    .news-section {
+      display: flex;
+      flex-direction: column;
+      gap: 1.5rem;
+    }
+
+    .section-title {
+      font-size: 1.25rem;
+      font-weight: 600;
+      display: flex;
+      align-items: center;
+      gap: 0.5rem;
+      border-bottom: 1px solid var(--border);
+      padding-bottom: 0.5rem;
+    }
+
+    .news-card {
+      background: rgba(255,255,255,0.01);
+      border: 1px solid var(--border);
+      border-radius: 12px;
+      padding: 1.5rem;
+      transition: border-color 0.3s;
+    }
+
+    .news-card:hover {
+      border-color: rgba(255,255,255,0.15);
+    }
+
+    .news-source {
+      font-size: 0.75rem;
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+      color: var(--accent-green);
+      font-weight: 600;
+      margin-bottom: 0.5rem;
+    }
+
+    .news-title {
+      font-size: 1.15rem;
+      font-weight: 600;
+      margin-bottom: 0.75rem;
+      color: var(--text-main);
+    }
+
+    .news-summary {
+      font-size: 0.95rem;
+      color: var(--text-muted);
+      line-height: 1.6;
+      margin-bottom: 1rem;
+    }
+
+    .news-link {
+      color: var(--primary);
+      text-decoration: none;
+      font-weight: 600;
+      display: inline-flex;
+      align-items: center;
+      gap: 0.25rem;
+      font-size: 0.9rem;
+      transition: color 0.3s;
+    }
+
+    .news-link:hover {
+      color: #a78bfa;
+    }
+
+    /* フッター */
+    footer {
+      text-align: center;
+      padding: 2rem;
+      color: var(--text-muted);
+      font-size: 0.85rem;
+      border-top: 1px solid var(--border);
+      margin-top: auto;
+    }
+
+    /* 空状態 */
+    .empty-state {
+      text-align: center;
+      padding: 3rem;
+      color: var(--text-muted);
+    }
+
+    .empty-icon {
+      font-size: 3rem;
+      margin-bottom: 1rem;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <div class="header-content">
+      <h1>Daily Tech News Podcast</h1>
+      <p class="subtitle">ずんだもんと四国めたんが毎朝最新のテックニュースをお届けするポッドキャスト番組</p>
+      
+      <div class="badge-container">
+        <span class="badge">ずんだもん (話者ID: 1)</span>
+        <span class="badge">四国めたん (話者ID: 2)</span>
+        <span class="badge">完全自動生成</span>
+      </div>
+
+      <div class="btn-container">
+        <!-- Apple Podcast連携URL -->
+        <a id="btn-apple-podcast" href="#" class="btn btn-apple">
+          <span class="material-symbols-outlined">podcasts</span> Apple Podcastで聴く
+        </a>
+        <button id="btn-copy-rss" class="btn btn-rss">
+          <span class="material-symbols-outlined">rss_feed</span> RSSフィードをコピー
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main class="container">
+    <!-- 左：エピソード一覧 -->
+    <div>
+      <h2 style="font-size: 1.25rem; margin-bottom: 1rem; font-weight: 600;">過去のエピソード</h2>
+      <div class="episode-list" id="episode-list-container">
+        <!-- JSで挿入 -->
+      </div>
+    </div>
+
+    <!-- 右：詳細表示 -->
+    <div class="episode-detail" id="episode-detail-container">
+      <div class="empty-state">
+        <span class="material-symbols-outlined empty-icon">radio</span>
+        <p>エピソードを選択してください</p>
+      </div>
+    </div>
+  </main>
+
+  <footer>
+    <p>&copy; 2026 Daily Tech News Podcast All rights reserved.</p>
+  </footer>
+
+  <script>
+    // RSS フィードのベースURLを自動構築
+    const protocol = window.location.protocol;
+    const host = window.location.host;
+    const pathname = window.location.pathname.replace(/\/index\.html$/, '').replace(/\/$/, '');
+    const baseUrl = `${protocol}//${host}${pathname}`;
+    const rssUrl = `${baseUrl}/podcast.xml`;
+    
+    // Apple Podcastの pcastスキームURL
+    const pcastUrl = rssUrl.replace(/^https?:\/\//, 'pcast://');
+    document.getElementById('btn-apple-podcast').href = pcastUrl;
+
+    // RSSコピー処理
+    document.getElementById('btn-copy-rss').addEventListener('click', () => {
+      navigator.clipboard.writeText(rssUrl).then(() => {
+        alert('RSSフィードのURLをコピーしました！\nポッドキャストアプリに貼り付けて登録してください。');
+      });
+    });
+
+    let episodesData = [];
+
+    // 日付フォーマット変換
+    function formatDate(dateStr) {
+      const date = new Date(dateStr);
+      return `${date.getFullYear()}年${date.getMonth() + 1}月${date.getDate()}日`;
+    }
+
+    // ドメイン抽出
+    function getDomain(urlStr) {
+      try {
+        const url = new URL(urlStr);
+        return url.hostname.replace('www.', '');
+      } catch (e) {
+        return 'WEB';
+      }
+    }
+
+    // エピソード選択時の詳細描画
+    function selectEpisode(index) {
+      const episode = episodesData[index];
+      
+      // アクティブカードのクラス変更
+      document.querySelectorAll('.episode-card').forEach((card, idx) => {
+        if (idx === index) {
+          card.classList.add('active');
+        } else {
+          card.classList.remove('active');
+        }
+      });
+
+      const detailContainer = document.getElementById('episode-detail-container');
+      
+      // ニュースカードの生成
+      let newsHtml = '';
+      if (episode.articles && episode.articles.length > 0) {
+        newsHtml = episode.articles.map(art => `
+          <div class="news-card">
+            <div class="news-source">${getDomain(art.url)}</div>
+            <div class="news-title">${art.title}</div>
+            <p class="news-summary">${art.summary || '記事の要約は音声内でお聞きいただけます。'}</p>
+            <a href="${art.url}" target="_blank" class="news-link">
+              記事を読む <span class="material-symbols-outlined" style="font-size: 16px;">open_in_new</span>
+            </a>
+          </div>
+        `).join('');
+      } else {
+        newsHtml = '<p style="color: var(--text-muted);">ニュース詳細情報はありません。</p>';
+      }
+
+      detailContainer.innerHTML = `
+        <div class="detail-header">
+          <div class="detail-date">${formatDate(episode.date)} 配信</div>
+          <h2 class="detail-title">テックニュース ${formatDate(episode.date)}</h2>
+        </div>
+
+        <div class="player-container">
+          <p style="margin-bottom: 0.75rem; font-size: 0.9rem; color: var(--text-muted); display:flex; align-items:center; gap:0.25rem;">
+            <span class="material-symbols-outlined" style="font-size:16px;">graphic_eq</span> ポッドキャストを再生する
+          </p>
+          <audio controls src="${episode.audio_file}"></audio>
+        </div>
+
+        <div class="news-section">
+          <h3 class="section-title">
+            <span class="material-symbols-outlined">menu_book</span> 紹介されたニュース
+          </h3>
+          ${newsHtml}
+        </div>
+      `;
+    }
+
+    // データロード
+    async function loadEpisodes() {
+      try {
+        const response = await fetch('episodes.json');
+        if (!response.ok) throw new Error('Failed to load episodes.json');
+        episodesData = await response.json();
+        
+        const listContainer = document.getElementById('episode-list-container');
+        if (episodesData.length === 0) {
+          listContainer.innerHTML = '<p class="empty-state">配信されたエピソードがありません。</p>';
+          return;
+        }
+
+        // リストの挿入
+        listContainer.innerHTML = episodesData.map((ep, idx) => `
+          <div class="episode-card" onclick="selectEpisode(${idx})">
+            <div class="episode-date">${formatDate(ep.date)}</div>
+            <div class="episode-title">テックニュース ${formatDate(ep.date)}</div>
+          </div>
+        `).join('');
+
+        // デフォルトで最初（最新）のエピソードを選択
+        selectEpisode(0);
+
+      } catch (err) {
+        console.error(err);
+        document.getElementById('episode-list-container').innerHTML = `
+          <p class="empty-state" style="color: var(--accent-pink);">
+            データの読み込みに失敗しました。まだ音声が生成されていない可能性があります。
+          </p>
+        `;
+      }
+    }
+
+    // 初回読み込み
+    window.addEventListener('DOMContentLoaded', loadEpisodes);
+  </script>
+</body>
+</html>

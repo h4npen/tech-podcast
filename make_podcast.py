@@ -431,6 +431,32 @@ def create_new_rss_structure():
     
     return rss, channel
 
+def update_episodes_json(audio_filename, articles_used):
+    print("Updating episodes.json for Web UI...")
+    episodes_file = "episodes.json"
+    episodes = load_json(episodes_file, [])
+    
+    today_str = datetime.now().strftime("%Y-%m-%d")
+    
+    # 重複防止のため、今日のデータがあれば一旦除外して追加
+    episodes = [ep for ep in episodes if ep.get("date") != today_str]
+    
+    new_episode = {
+        "date": today_str,
+        "audio_file": f"podcasts/{audio_filename}",
+        "articles": [
+            {
+                "title": art["title"],
+                "url": art["url"],
+                "summary": re.sub(r'<[^>]*>', '', art.get("summary", ""))[:300]
+            }
+            for art in articles_used
+        ]
+    }
+    
+    episodes.insert(0, new_episode) # 最新を一番上に
+    save_json(episodes_file, episodes)
+
 def update_history(articles_used):
     history = load_json(HISTORY_FILE, [])
     for art in articles_used:
@@ -471,6 +497,9 @@ def main():
 
     # ポッドキャストRSS更新
     update_podcast_rss(audio_filename, articles_used)
+
+    # Web UI用JSONの更新
+    update_episodes_json(audio_filename, articles_used)
 
     # 配信済み履歴の更新
     update_history(articles_used)
