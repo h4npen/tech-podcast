@@ -52,6 +52,9 @@ jobs:
         git config --global user.name "github-actions[bot]"
         git config --global user.email "github-actions[bot]@users.noreply.github.com"
         
+        # フォルダが存在しない場合のエラーを防ぐ
+        mkdir -p podcasts
+        
         # 変更されたファイルがある場合のみコミット
         git add podcasts/ podcast.xml podcast_history.json carryover.json
         if ! git diff --cached --quiet; then
