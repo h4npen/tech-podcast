@@ -55,8 +55,12 @@ jobs:
         # フォルダが存在しない場合のエラーを防ぐ
         mkdir -p podcasts
         
-        # 変更されたファイルがある場合のみコミット
-        git add podcasts/ podcast.xml podcast_history.json carryover.json
+        # 存在する場合のみ git add を実行する
+        if [ -d podcasts ]; then git add podcasts/; fi
+        if [ -f podcast.xml ]; then git add podcast.xml; fi
+        if [ -f podcast_history.json ]; then git add podcast_history.json; fi
+        if [ -f carryover.json ]; then git add carryover.json; fi
+        
         if ! git diff --cached --quiet; then
           git commit -m "Auto-generated daily podcast: $(date +'%Y-%m-%d')"
           git push origin HEAD:${{ github.ref }}
