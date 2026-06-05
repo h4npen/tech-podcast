@@ -1,0 +1,29 @@
+<?xml version='1.0' encoding='utf-8'?>
+<rss version="2.0" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd">
+  <channel>
+    <title>毎朝テックニュースポッドキャスト</title>
+    <link>https://h4npen.github.io/tech-podcast/</link>
+    <description>ずんだもんと四国めたんが毎朝最新のテックニュースをお届けするポッドキャストです。</description>
+    <language>ja</language>
+    <itunes:author>Tech Podcast System</itunes:author>
+    <itunes:summary>ずんだもんと四国めたんによるテックニュース掛け合い番組。</itunes:summary>
+    <itunes:category text="Technology">
+      <itunes:category text="Tech News" />
+    </itunes:category>
+    <item>
+      <title>テックニュース 2026年06月05日</title>
+      <description>毎朝のテックニュースポッドキャストです。
+
+【本日のニュース】
+- AWS、他クラウドと500Mbpsまでの接続が無料に。AWS  Interconnect - multicloudに無料枠が登場 (https://www.publickey1.jp/blog/26/aws500mbpsaws_interconnect_-_multicloud.html)
+- ChatGPTの“記憶”を刷新　メモリ機能の新基盤展開、無料ユーザーへも順次 (https://www.itmedia.co.jp/news/articles/2606/05/news091.html)
+- OpenAIのGPT-5.5やCodexがAWS/Amazon Bedrockで利用可能に (https://gihyo.jp/article/2026/06/openai-on-aws?utm_source=feed)
+- Windows版Codexアプリがコンピュータユースに対応、ChatGPTモバイルアプリからWindowsに接続可能に (https://gihyo.jp/article/2026/06/codex-computer-use-on-windows?utm_source=feed)
+- OpenAI、プライベートMCPサーバーをChatGPTやCodexに安全に接続できる「Secure MCP Tunnel」を提供開始 (https://gihyo.jp/article/2026/05/openai-secure-mcp-tunnel?utm_source=feed)
+- ChatGPTモバイルアプリ内でCodexプレビュー版が利用可能に (https://gihyo.jp/article/2026/05/codex-in-chatgpt-mobile?utm_source=feed)</description>
+      <pubDate>Fri, 05 Jun 2026 04:50:21 +0000</pubDate>
+      <enclosure url="https://h4npen.github.io/tech-podcast/podcasts/podcast_20260605.mp3" length="4877997" type="audio/mpeg" />
+      <guid isPermaLink="false">podcast_20260605.mp3</guid>
+    </item>
+  </channel>
+</rss>
