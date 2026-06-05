@@ -4,34 +4,34 @@
     "audio_file": "podcasts/podcast_20260605.mp3",
     "articles": [
       {
-        "title": "AWS、他クラウドと500Mbpsまでの接続が無料に。AWS  Interconnect - multicloudに無料枠が登場",
-        "url": "https://www.publickey1.jp/blog/26/aws500mbpsaws_interconnect_-_multicloud.html",
-        "summary": "Amazon Web Services（AWS）は、Google CloudやMicrosoft Azureなどのクラウドと閉域網による高速な接続を実現する新サービス「AWS Interconnect - multicloud」において、5..."
+        "title": "Gemini・Claude・ChatGPT・Copilot の4つのAIにそれらの使い分けを聞いたら、全員が自分をハブだと思っていた",
+        "url": "https://zenn.dev/minipoisson/articles/ai-self-cognition",
+        "summary": "きっかけ：「自分の使い分け」をAIに聞くとどうなるか Gemini・Claude・ChatGPT・Copilot——これら4つのAIのチャット履歴をすべて一つのNotebookLMノートブックに統合したところで、ふと思いつきました。 「各AIは自分を他のAIとどう使い分けるよう勧めているのだろう？　そして、その自己評価は他のAIの評価と一致してい..."
       },
       {
-        "title": "ChatGPTの“記憶”を刷新　メモリ機能の新基盤展開、無料ユーザーへも順次",
-        "url": "https://www.itmedia.co.jp/news/articles/2606/05/news091.html",
-        "summary": "米OpenAIは6月4日（現地時間）、ChatGPTのメモリ機能を強化したと発表した。新基盤「Dreaming V3」により、過去の会話から得た文脈を正確に引き継ぐだけでなく、時間の経過にも自動で追従する。"
+        "title": "OpenAI、最先端の画像生成モデル「ChatGPT Images 2.0」を発表 ——日本語を含む非ラテン文字のレンダリング能力も向上",
+        "url": "https://gihyo.jp/article/2026/04/chatgpt-images-2.0?utm_source=feed",
+        "summary": "OpenAIは2026年4月21日、最先端の画像生成モデルを発表した。ChatGPTでは「ChatGPT Images 2.0」として、開発者向けAPIでは「GPT Image 2」として展開する。"
       },
       {
-        "title": "OpenAIのGPT-5.5やCodexがAWS/Amazon Bedrockで利用可能に",
-        "url": "https://gihyo.jp/article/2026/06/openai-on-aws?utm_source=feed",
-        "summary": "OpenAIとAmazonは2026年6月1日、OpenAIのGPT-5.5、GPT-5.4とCodexがAWSの生成AIサービスであるAmazon Bedrockで利用可能となったことを発表した。"
+        "title": "OpenAI、Claude Code用のCodexプラグインをリリース",
+        "url": "https://gihyo.jp/article/2026/03/codex-plugin-cc?utm_source=feed",
+        "summary": "OpenAIは2026年3月31日、Claude CodeからCodexを使えるようにするプラグインをリリースした。"
       },
       {
-        "title": "Windows版Codexアプリがコンピュータユースに対応、ChatGPTモバイルアプリからWindowsに接続可能に",
-        "url": "https://gihyo.jp/article/2026/06/codex-computer-use-on-windows?utm_source=feed",
-        "summary": "OpenAIは2026年5月29日、Codexアプリの新バージョン26.527をリリースした。このバージョンでWindowsでのコンピュータ操作に対応した。またCodexのWindowsサポートにより、モバイル版ChatGPTアプリでWindowsとのSSHを介した接続ができるようになった。"
+        "title": "OpenAI、ChatGPT用の最新モデル「GPT-5.3 Instant」をリリース",
+        "url": "https://gihyo.jp/article/2026/03/gpt-5.3-instant?utm_source=feed",
+        "summary": "OpenAIは2026年3月3日、ChatGPTでもっとも多く利用されているモデルのアップデートとして、GPT-5.3 Instantを発表した。"
       },
       {
-        "title": "OpenAI、プライベートMCPサーバーをChatGPTやCodexに安全に接続できる「Secure MCP Tunnel」を提供開始",
-        "url": "https://gihyo.jp/article/2026/05/openai-secure-mcp-tunnel?utm_source=feed",
-        "summary": "OpenAIは2026年5月28日、プライベートネットワーク内のMCPサーバーを、インターネットに公開することなくOpenAIのサービスに接続できる「Secure MCP Tunnel」の提供を開始した。"
+        "title": "フロンティアモデル「Claude Opus 4.6」および「GPT-5.3-Codex」がリリース ——ソフトウェア開発はAgentic Engineeringへ",
+        "url": "https://gihyo.jp/article/2026/02/claude-opus-4.6-and-gpt-5.3-codex?utm_source=feed",
+        "summary": "2026年2月5日、AnthropicはClaude Opus 4.6を発表しました。同日、OpenAIもGPT‑5.3‑Codexを発表しました。これらのモデルは両社のフロンティアモデルです。同日にリリースされたため、今回は一緒に取り上げます。"
       },
       {
-        "title": "ChatGPTモバイルアプリ内でCodexプレビュー版が利用可能に",
-        "url": "https://gihyo.jp/article/2026/05/codex-in-chatgpt-mobile?utm_source=feed",
-        "summary": "OpenAIは2026年5月14日、ChatGPTのモバイルアプリ内で実行できるCodexをプレビュー版としてリリースした。"
+        "title": "GitHub⁠⁠、ClaudeとCodexをエージェントとして直接実行する機能を、Copilot Pro+/Enterpriseユーザー向けにパブリックプレビューで提供開始 ——Visual Studio Codeでも利用可能に",
+        "url": "https://gihyo.jp/article/2026/02/github-agent-hq-claude-and-codex?utm_source=feed",
+        "summary": "GitHubは2026年2月4日、GitHubにおけるAIエージェント利用戦略「Agent HQ」において、AnthropicのClaudeおよびOpenAIのCodexが、GitHubおよびVisual Studio Code上で直接コーディングエージェントとして利用できるようになったことを発表した。"
       }
     ]
   }

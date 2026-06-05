@@ -1,15 +1,15 @@
 <?xml version='1.0' encoding='utf-8'?>
-<rss version="2.0" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd">
+<rss xmlns:ns0="http://www.itunes.com/dtds/podcast-1.0.dtd" version="2.0">
   <channel>
     <title>毎朝テックニュースポッドキャスト</title>
     <link>https://h4npen.github.io/tech-podcast/</link>
     <description>ずんだもんと四国めたんが毎朝最新のテックニュースをお届けするポッドキャストです。</description>
     <language>ja</language>
-    <itunes:author>Tech Podcast System</itunes:author>
-    <itunes:summary>ずんだもんと四国めたんによるテックニュース掛け合い番組。</itunes:summary>
-    <itunes:category text="Technology">
-      <itunes:category text="Tech News" />
-    </itunes:category>
+    <ns0:author>Tech Podcast System</ns0:author>
+    <ns0:summary>ずんだもんと四国めたんによるテックニュース掛け合い番組。</ns0:summary>
+    <ns0:category text="Technology">
+      <ns0:category text="Tech News" />
+    </ns0:category>
     <item>
       <title>テックニュース 2026年06月05日</title>
       <description>毎朝のテックニュースポッドキャストです。
@@ -23,6 +23,21 @@
 - ChatGPTモバイルアプリ内でCodexプレビュー版が利用可能に (https://gihyo.jp/article/2026/05/codex-in-chatgpt-mobile?utm_source=feed)</description>
       <pubDate>Fri, 05 Jun 2026 04:50:21 +0000</pubDate>
       <enclosure url="https://h4npen.github.io/tech-podcast/podcasts/podcast_20260605.mp3" length="4877997" type="audio/mpeg" />
+      <guid isPermaLink="false">podcast_20260605.mp3</guid>
+    </item>
+    <item>
+      <title>テックニュース 2026年06月05日</title>
+      <description>毎朝のテックニュースポッドキャストです。
+
+【本日のニュース】
+- Gemini・Claude・ChatGPT・Copilot の4つのAIにそれらの使い分けを聞いたら、全員が自分をハブだと思っていた (https://zenn.dev/minipoisson/articles/ai-self-cognition)
+- OpenAI、最先端の画像生成モデル「ChatGPT Images 2.0」を発表 ——日本語を含む非ラテン文字のレンダリング能力も向上 (https://gihyo.jp/article/2026/04/chatgpt-images-2.0?utm_source=feed)
+- OpenAI、Claude Code用のCodexプラグインをリリース (https://gihyo.jp/article/2026/03/codex-plugin-cc?utm_source=feed)
+- OpenAI、ChatGPT用の最新モデル「GPT-5.3 Instant」をリリース (https://gihyo.jp/article/2026/03/gpt-5.3-instant?utm_source=feed)
+- フロンティアモデル「Claude Opus 4.6」および「GPT-5.3-Codex」がリリース ——ソフトウェア開発はAgentic Engineeringへ (https://gihyo.jp/article/2026/02/claude-opus-4.6-and-gpt-5.3-codex?utm_source=feed)
+- GitHub⁠⁠、ClaudeとCodexをエージェントとして直接実行する機能を、Copilot Pro+/Enterpriseユーザー向けにパブリックプレビューで提供開始 ——Visual Studio Codeでも利用可能に (https://gihyo.jp/article/2026/02/github-agent-hq-claude-and-codex?utm_source=feed)</description>
+      <pubDate>Fri, 05 Jun 2026 22:42:49 +0000</pubDate>
+      <enclosure url="https://h4npen.github.io/tech-podcast/podcasts/podcast_20260605.mp3" length="4572717" type="audio/mpeg" />
       <guid isPermaLink="false">podcast_20260605.mp3</guid>
     </item>
   </channel>
