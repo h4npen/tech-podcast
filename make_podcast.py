@@ -132,7 +132,7 @@ def generate_script_with_gemini(articles_batch, is_first, is_last):
         print("Error: GEMINI_API_KEY environment variable is not set.")
         sys.exit(1)
 
-    url = f"https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent?key={api_key}"
+    url = f"https://generativelanguage.googleapis.com/v1beta/models/gemini-3.5-flash:generateContent?key={api_key}"
     
     # 記事テキストの作成
     articles_text = ""
