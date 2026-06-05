@@ -36,7 +36,7 @@ jobs:
 
     - name: Start VOICEVOX Engine (Docker CPU version)
       run: |
-        docker run -d -p 50021:50021 voicevox/voicevox_engine:cpu-ubuntu-latest
+        docker run -d -p 50021:50021 voicevox/voicevox_engine:cpu-latest
         echo "VOICEVOX Engine container started."
 
     - name: Run make_podcast.py
