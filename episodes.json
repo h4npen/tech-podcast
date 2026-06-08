@@ -1,5 +1,41 @@
 [
   {
+    "date": "2026-06-08",
+    "audio_file": "podcasts/podcast_20260608.mp3",
+    "articles": [
+      {
+        "title": "OpenAI、上場前にChatGPTの「スーパーアプリ」化を計画　海外報道",
+        "url": "https://www.itmedia.co.jp/news/articles/2606/08/news094.html",
+        "summary": "米OpenAIが過去最大となるChatGPTの刷新を計画している。コーディングツールやAIエージェントを備えた「スーパーアプリ」に変え、株式市場への上場を前に収益を押し上げる狙いがあると、6月7日、英Financial Timesが報じた。"
+      },
+      {
+        "title": "OpenAI、Agents SDKをアップデート。サンドボックス対応やメモリ制御を追加",
+        "url": "https://gihyo.jp/article/2026/04/openai-agents-sdk-updates?utm_source=feed",
+        "summary": "OpenAIは2026年4月15日、エージェントを開発するためのフレームワークである「Agents SDK」のPython版の大規模なアップデートを発表した。"
+      },
+      {
+        "title": "OpenAI、Trusted Access for Cyberを拡張、上位ティアでGPT-5.4-Cyber提供へ",
+        "url": "https://gihyo.jp/article/2026/04/openai-gpt-5.4-cyber?utm_source=feed",
+        "summary": "OpenAIは2026年4月14日、サイバー防衛に携わる個人やチーム向けプログラム「Trusted Access for Cyber（TAC）」の拡張を発表した。"
+      },
+      {
+        "title": "Anthropic、重要ソフトウェアを保護するための取り組み「Project Glasswing」を発表 ——最新フロンティアモデル「Claude Mythos Preview」で脆弱性発見と修正を支援",
+        "url": "https://gihyo.jp/article/2026/04/project-glasswing?utm_source=feed",
+        "summary": "Anthropicは2026年4月7日、世界で重要なソフトウェアのセキュリティ確保を支援する緊急の取り組みとして、「Project Glasswing」を発表した。この取り組みは、未公開のフロンティアモデル「Claude Mythos Preview」を基盤としている。"
+      },
+      {
+        "title": "NVIDIA、OpenClawにセキュリティ制御を追加するプラグイン「NVIDIA NemoClaw」をプレビューリリース",
+        "url": "https://gihyo.jp/article/2026/03/nemoclaw?utm_source=feed",
+        "summary": "NVIDIAは2026年3月17日、AIチャットアシスタントOpenClawのプライバシーとセキュリティを強化し、安全に利用できるようにするオープンソースのプラグイン「NVIDIA NemoClaw」を早期プレビューとしてリリースした。"
+      },
+      {
+        "title": "複雑な脆弱性を推論、実用性の高い修正を提案する「Codex Security」リサーチプレビュー版として公開",
+        "url": "https://gihyo.jp/article/2026/03/codex-security?utm_source=feed",
+        "summary": "OpenAIは2026年3月6日、AIセキュリティエージェント「Codex Security」をリサーチプレビュー版として公開した。"
+      }
+    ]
+  },
+  {
     "date": "2026-06-07",
     "audio_file": "podcasts/podcast_20260607.mp3",
     "articles": [

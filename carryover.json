@@ -1,100 +1,100 @@
 [
   {
-    "title": "OpenAI、Agents SDKをアップデート。サンドボックス対応やメモリ制御を追加",
-    "url": "https://gihyo.jp/article/2026/04/openai-agents-sdk-updates?utm_source=feed",
-    "summary": "OpenAIは2026年4月15日、エージェントを開発するためのフレームワークである「Agents SDK」のPython版の大規模なアップデートを発表した。",
-    "score": 110,
-    "fetched_at": "2026-06-07T22:36:21.491737+00:00"
-  },
-  {
-    "title": "OpenAI、Trusted Access for Cyberを拡張、上位ティアでGPT-5.4-Cyber提供へ",
-    "url": "https://gihyo.jp/article/2026/04/openai-gpt-5.4-cyber?utm_source=feed",
-    "summary": "OpenAIは2026年4月14日、サイバー防衛に携わる個人やチーム向けプログラム「Trusted Access for Cyber（TAC）」の拡張を発表した。",
-    "score": 110,
-    "fetched_at": "2026-06-07T22:36:21.491792+00:00"
-  },
-  {
-    "title": "Anthropic、重要ソフトウェアを保護するための取り組み「Project Glasswing」を発表 ——最新フロンティアモデル「Claude Mythos Preview」で脆弱性発見と修正を支援",
-    "url": "https://gihyo.jp/article/2026/04/project-glasswing?utm_source=feed",
-    "summary": "Anthropicは2026年4月7日、世界で重要なソフトウェアのセキュリティ確保を支援する緊急の取り組みとして、「Project Glasswing」を発表した。この取り組みは、未公開のフロンティアモデル「Claude Mythos Preview」を基盤としている。",
-    "score": 110,
-    "fetched_at": "2026-06-07T22:36:21.491918+00:00"
-  },
-  {
-    "title": "NVIDIA、OpenClawにセキュリティ制御を追加するプラグイン「NVIDIA NemoClaw」をプレビューリリース",
-    "url": "https://gihyo.jp/article/2026/03/nemoclaw?utm_source=feed",
-    "summary": "NVIDIAは2026年3月17日、AIチャットアシスタントOpenClawのプライバシーとセキュリティを強化し、安全に利用できるようにするオープンソースのプラグイン「NVIDIA NemoClaw」を早期プレビューとしてリリースした。",
-    "score": 110,
-    "fetched_at": "2026-06-07T22:36:21.492268+00:00"
-  },
-  {
-    "title": "複雑な脆弱性を推論、実用性の高い修正を提案する「Codex Security」リサーチプレビュー版として公開",
-    "url": "https://gihyo.jp/article/2026/03/codex-security?utm_source=feed",
-    "summary": "OpenAIは2026年3月6日、AIセキュリティエージェント「Codex Security」をリサーチプレビュー版として公開した。",
-    "score": 110,
-    "fetched_at": "2026-06-07T22:36:21.492461+00:00"
-  },
-  {
     "title": "AIが脆弱性を推論し検知、修正を提案する「Claude Code Security」限定リサーチプレビュー版として提供開始",
     "url": "https://gihyo.jp/article/2026/02/claude-code-security?utm_source=feed",
     "summary": "Anthropicは2026年2月20日、Web版Claude Code上でAIがコードをスキャンして、セキュリティ脆弱性を検出しパッチを提案する新機能「Claude Code Security」を限定リサーチプレビュー版として公開した。",
     "score": 110,
-    "fetched_at": "2026-06-07T22:36:21.492683+00:00"
+    "fetched_at": "2026-06-08T22:55:43.658251+00:00"
   },
   {
     "title": "マイクロソフト独自のLinuxディストリビューション「Azure Linux 4.0」パブリックプレビュー開始。Azureに最適化、WSLでも利用可能に",
     "url": "https://www.publickey1.jp/blog/26/linuxazure_linux_40azurewsl.html",
     "summary": "マイクロソフトは同社が独自に構築したLinuxディストリビューション「Azure Linux 4.0」のパブリックプレビューを発表しました。 Azure Linux 4.0はFedora由来のRPMベースのLinuxディストリビューションで...",
     "score": 100,
-    "fetched_at": "2026-06-07T22:36:19.538459+00:00"
+    "fetched_at": "2026-06-08T22:55:42.123990+00:00"
   },
   {
     "title": "Oracle Database@AWSが大阪リージョンでも提供開始。これでAWS東京リージョンとAWS大阪リージョンの両方で利用可能に",
     "url": "https://www.publickey1.jp/blog/26/oracle_databaseawsawsaws.html",
     "summary": "Amazon Web Services（AWS）は、AWSのクラウドデータセンターにOracle Cloudのインフラを持ち込み、そこでOracle Databaseを提供する「Oracle Database@AWS」がAWS大阪リージョン...",
     "score": 100,
-    "fetched_at": "2026-06-07T22:36:19.538531+00:00"
+    "fetched_at": "2026-06-08T22:55:42.124059+00:00"
   },
   {
     "title": "AWS、インストール不要でWebブラウザから使えるコーディングAIエージェント「Kiro Web」発表",
     "url": "https://www.publickey1.jp/blog/26/awswebaikiro_web.html",
     "summary": "Amazon Web Services（AWS）は、Webブラウザから使えてインストール不要のコーディングAIエージェント「Kiro Web」をプレビュー公開しました。 Introducing Kiro Web, now in previe...",
     "score": 100,
-    "fetched_at": "2026-06-07T22:36:19.538553+00:00"
+    "fetched_at": "2026-06-08T22:55:42.124080+00:00"
   },
   {
     "title": "AIニュースノート：Gemma 4 12B公開、Nemotron 3 Ultra公開、画像モデルReve 2.0／Ideogram 4.0公開、ChatGPTメモリー改善、Hermes Desktop公開など",
     "url": "https://gihyo.jp/article/2026/06/ai-news-note-20260605?utm_source=feed",
     "summary": "gihyo.jpのニュース記事として取り上げていなかったもののなかから、直近（2026年6月3日〜5日頃）に発表・公開されたAI関連の興味深いニュースの概要を簡単にまとめてみました。",
     "score": 100,
-    "fetched_at": "2026-06-07T22:36:21.490539+00:00"
+    "fetched_at": "2026-06-08T22:55:43.656154+00:00"
   },
   {
     "title": "Ubuntu 26.10（Stonking）の開発; Snapshot 1、「Ubuntu入り」Windows 365 開発者向けイメージ、NVIDIA OpenShell snap",
     "url": "https://gihyo.jp/admin/clip/01/ubuntu-topics/202606/05?utm_source=feed",
     "summary": "stonkingの最初のスナップショットリリース、Snapshot 1がリリースされました。",
     "score": 100,
-    "fetched_at": "2026-06-07T22:36:21.490550+00:00"
+    "fetched_at": "2026-06-08T22:55:43.656165+00:00"
   },
   {
     "title": "DSXが示すNVIDIAの未来：垂直統合と水平分散のハイブリッド戦略～NVIDIA GTC Taipei 2026、Jensen Huangキーノートから",
     "url": "https://gihyo.jp/article/2026/06/nvidia-gtc?utm_source=feed",
     "summary": "NVIDIAのCEOであるJensen Huang氏（以降Jensen）と言えば、もはや COMPUTEX TAIPEIの「顔」とも言える IT業界のスターです。今年も一般公開前の 6月1日にJensenはGTCのキーノートに登壇し、たっぷり2時間、多くのことについて語りました。",
     "score": 100,
-    "fetched_at": "2026-06-07T22:36:21.490563+00:00"
+    "fetched_at": "2026-06-08T22:55:43.656177+00:00"
   },
   {
     "title": "OpenAI、Codexのビジネス用途を広げる役割別プラグインを公開、アノテーション対象拡大やSitesのプレビュー提供も",
     "url": "https://gihyo.jp/article/2026/06/codex-business-workflows?utm_source=feed",
     "summary": "OpenAIは2026年6月2日、Codex向けに、職種や役割に合わせて使える6種類の新しい「役割別プラグイン」、成果物をWebサイトやアプリとして共有できる「Sites」のプレビュー提供、選択箇所を指定して修正を依頼できる「アノテーション」の対象拡大を発表した。",
     "score": 100,
-    "fetched_at": "2026-06-07T22:36:21.490585+00:00"
+    "fetched_at": "2026-06-08T22:55:43.656198+00:00"
   },
   {
     "title": "Claude Opus 4.8登場、Claude Codeの「ダイナミックワークフロー」機能もリリース",
     "url": "https://gihyo.jp/article/2026/05/claude-opus-4-8?utm_source=feed",
     "summary": "Anthropicは2026年5月28日、同社のフロンティアモデルの最新バージョンClaude Opus 4.8をリリースした。",
     "score": 100,
-    "fetched_at": "2026-06-07T22:36:21.490703+00:00"
+    "fetched_at": "2026-06-08T22:55:43.656312+00:00"
+  },
+  {
+    "title": "Gemini Intelligence が示す「エージェント・ファースト」の未来",
+    "url": "https://gihyo.jp/article/2026/05/android-weekly-topics-260528?utm_source=feed",
+    "summary": "5月12日、Googleは「Gemini Intelligence」を発表しました。",
+    "score": 100,
+    "fetched_at": "2026-06-08T22:55:43.656381+00:00"
+  },
+  {
+    "title": "第912回　26.04 LTSとNVIDIA/AMDのGPGPU事情",
+    "url": "https://gihyo.jp/admin/serial/01/ubuntu-recipe/0912?utm_source=feed",
+    "summary": "今回は執筆時点でのUbuntu 26.04 LTSのNVIDIA/AMDのGPGPU対応状況を報告します。",
+    "score": 100,
+    "fetched_at": "2026-06-08T22:55:43.656416+00:00"
+  },
+  {
+    "title": "Microsoft、Fedoraベースの「Azure Linux 4」ソースコードをGitHubで公開",
+    "url": "https://gihyo.jp/article/2026/05/daily-linux-260525?utm_source=feed",
+    "summary": "5月18日～20日の3日間に渡って米ミネアポリスで開催された「Open Source Summit North America 2026」で、Linuxコミュニティからもっとも注目されたトピックのひとつがMicrosoftによる「Azure Linux 4」のパブリックプレビュー開始のニュースだった。",
+    "score": 100,
+    "fetched_at": "2026-06-08T22:55:43.656445+00:00"
+  },
+  {
+    "title": "OpenAI、Codexのgoalモードを一般提供開始",
+    "url": "https://gihyo.jp/article/2026/05/codex-goal?utm_source=feed",
+    "summary": "OpenAIは2026年5月21日、Codexのアップデートを行い、実験的な機能として提供していたgoalモードの一般提供を開始した。",
+    "score": 100,
+    "fetched_at": "2026-06-08T22:55:43.656511+00:00"
+  },
+  {
+    "title": "Google検索、AI対応の新しい検索ボックスを発表、AIモードにGemini 3.5 Flashも導入",
+    "url": "https://gihyo.jp/article/2026/05/google-ai-search?utm_source=feed",
+    "summary": "Googleは2026年5月19日、Google I/O 2026に合わせて、検索におけるAI機能の更新を発表した。",
+    "score": 100,
+    "fetched_at": "2026-06-08T22:55:43.656546+00:00"
   }
 ]
