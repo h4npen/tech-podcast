@@ -1,5 +1,41 @@
 [
   {
+    "date": "2026-06-09",
+    "audio_file": "podcasts/podcast_20260609.mp3",
+    "articles": [
+      {
+        "title": "OpenAIがIPO申請を発表　時期は未定",
+        "url": "https://www.itmedia.co.jp/news/articles/2606/09/news074.html",
+        "summary": "ChatGPTを手がける米OpenAIは6月8日（現地時間）、米国での新規株式公開（IPO）を内密に申請していたことを発表した。"
+      },
+      {
+        "title": "AIが脆弱性を推論し検知、修正を提案する「Claude Code Security」限定リサーチプレビュー版として提供開始",
+        "url": "https://gihyo.jp/article/2026/02/claude-code-security?utm_source=feed",
+        "summary": "Anthropicは2026年2月20日、Web版Claude Code上でAIがコードをスキャンして、セキュリティ脆弱性を検出しパッチを提案する新機能「Claude Code Security」を限定リサーチプレビュー版として公開した。"
+      },
+      {
+        "title": "マイクロソフト独自のLinuxディストリビューション「Azure Linux 4.0」パブリックプレビュー開始。Azureに最適化、WSLでも利用可能に",
+        "url": "https://www.publickey1.jp/blog/26/linuxazure_linux_40azurewsl.html",
+        "summary": "マイクロソフトは同社が独自に構築したLinuxディストリビューション「Azure Linux 4.0」のパブリックプレビューを発表しました。 Azure Linux 4.0はFedora由来のRPMベースのLinuxディストリビューションで..."
+      },
+      {
+        "title": "Oracle Database@AWSが大阪リージョンでも提供開始。これでAWS東京リージョンとAWS大阪リージョンの両方で利用可能に",
+        "url": "https://www.publickey1.jp/blog/26/oracle_databaseawsawsaws.html",
+        "summary": "Amazon Web Services（AWS）は、AWSのクラウドデータセンターにOracle Cloudのインフラを持ち込み、そこでOracle Databaseを提供する「Oracle Database@AWS」がAWS大阪リージョン..."
+      },
+      {
+        "title": "AWS、インストール不要でWebブラウザから使えるコーディングAIエージェント「Kiro Web」発表",
+        "url": "https://www.publickey1.jp/blog/26/awswebaikiro_web.html",
+        "summary": "Amazon Web Services（AWS）は、Webブラウザから使えてインストール不要のコーディングAIエージェント「Kiro Web」をプレビュー公開しました。 Introducing Kiro Web, now in previe..."
+      },
+      {
+        "title": "Anthropic、ミュトス級AI「Claude Fable 5」を一般公開　保護機能解除版「Mythos 5」も限定提供",
+        "url": "https://www.itmedia.co.jp/news/articles/2606/10/news058.html",
+        "summary": "Anthropicは、新AIモデル「Claude Fable 5」を一般公開した。同社の最上位「Mythosクラス」に属し、これまで一般提供を見送ってきた水準の能力を、悪用を防ぐ保護機能とともに全ユーザーへ開放した。同時に、サイバー関連の保護機能を解除した上位版「Claude Mythos 5」を信頼できるパートナー向けに限定提供する。画像認識だけで「ポケモン ファイアレッド」をクリアするなどビジョン性能の大幅向上もアピールした。"
+      }
+    ]
+  },
+  {
     "date": "2026-06-08",
     "audio_file": "podcasts/podcast_20260608.mp3",
     "articles": [
