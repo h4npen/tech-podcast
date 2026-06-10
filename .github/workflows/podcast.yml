@@ -1,10 +1,12 @@
-name: Daily Tech Podcast Generator
+name: Tech Podcast System (Daily Pool & Weekly Build)
 
 on:
   schedule:
-    # 毎日 UTC 21:30 = 日本時間 朝6:30
-    - cron: '30 21 * * *'
-  workflow_dispatch: # 手動実行用
+    # デイリー収集（月〜土の日本時間朝6:30 JST ➔ 日〜金の21:30 UTC）
+    - cron: '30 21 * * 0-5'
+    # ウィークリー配信（日曜の日本時間朝6:30 JST ➔ 土曜の21:30 UTC）
+    - cron: '30 21 * * 6'
+  workflow_dispatch: # 手動実行用（デフォルトでbuildモード実行）
 
 permissions:
   contents: write
@@ -25,6 +27,8 @@ jobs:
         python-version: '3.10'
 
     - name: Install System Dependencies (ffmpeg)
+      # 音声結合時に必要なのでbuildモードのときのみffmpegをインストール
+      if: github.event_name == 'workflow_dispatch' || github.event.schedule == '30 21 * * 6'
       run: |
         sudo apt-get update
         sudo apt-get install -y ffmpeg
@@ -35,6 +39,8 @@ jobs:
         pip install requests feedparser pydub
 
     - name: Start VOICEVOX Engine (Docker CPU version)
+      # buildモードのときのみVOICEVOX Dockerコンテナを起動
+      if: github.event_name == 'workflow_dispatch' || github.event.schedule == '30 21 * * 6'
       run: |
         docker run -d -p 50021:50021 voicevox/voicevox_engine:cpu-latest
         echo "VOICEVOX Engine container started."
@@ -45,7 +51,14 @@ jobs:
         GITHUB_REPOSITORY_OWNER: ${{ github.repository_owner }}
         GITHUB_REPOSITORY_NAME: ${{ github.event.repository.name }}
       run: |
-        python make_podcast.py
+        # 手動実行、または土曜21:30 UTC（日曜朝6:30 JST）の時はbuildを実行
+        if [ "${{ github.event_name }}" = "workflow_dispatch" ] || [ "${{ github.event.schedule }}" = "30 21 * * 6" ]; then
+          echo "Mode: BUILD (Weekly Podcast Production)"
+          python make_podcast.py --mode build
+        else
+          echo "Mode: FETCH (Daily News Pooling)"
+          python make_podcast.py --mode fetch
+        fi
 
     - name: Commit and Push Changes
       run: |
@@ -63,7 +76,7 @@ jobs:
         if [ -f episodes.json ]; then git add episodes.json; fi
         
         if ! git diff --cached --quiet; then
-          git commit -m "Auto-generated daily podcast: $(date +'%Y-%m-%d')"
+          git commit -m "Automated update (daily pool / weekly build)"
           git push origin HEAD:${{ github.ref }}
           echo "Changes committed and pushed."
         else
