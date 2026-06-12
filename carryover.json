@@ -1043,6 +1043,55 @@
     "fetched_at": "2026-06-11T23:05:01.150825+00:00"
   },
   {
+    "title": "OpenAI、クラウド開発環境のOnaを買収　「Codex」の強化狙い",
+    "url": "https://www.itmedia.co.jp/news/articles/2606/12/news072.html",
+    "summary": "OpenAIは、クラウド開発環境を提供するOna（旧Gitpod）の買収を発表した。Onaのセキュアなクラウド実行基盤をAIコーディングツール「Codex」に統合し、エージェントがPCを離れても長時間稼働し続けられる環境を実現する狙いだ。",
+    "score": 100,
+    "fetched_at": "2026-06-12T22:55:09.948349+00:00"
+  },
+  {
+    "title": "OpenAI、Codexのレート制限リセット保存機能を展開 ——Plus/Pro向け紹介特典で追加リセットも",
+    "url": "https://gihyo.jp/article/2026/06/openai-codex-rate-limit-resets?utm_source=feed",
+    "summary": "OpenAIは日本時間2026年6月12日、Codexのレート制限リセットを保存し、後から使えるようにする機能の展開を始めたと発表した。",
+    "score": 100,
+    "fetched_at": "2026-06-12T22:55:11.808609+00:00"
+  },
+  {
+    "title": "Geminiは暴動、GPTは餓死、Grokは犯罪、AIモデル版「シムシティ」がヤバすぎた",
+    "url": "https://www.sbbit.jp/article/st/185729",
+    "summary": "米国のAI企業Emergence AIが実施した、自律型AIエージェントによる都市運営シミュレーション「Emergence World」の実験結果が公表された。15日間にわたり仮想の町を運営させた結果、AIモデルの違いによって、構築される社会の安全性や意思決定のプロセスに明確な差異が生じることが確認された。 同実験は、図書館や警察...",
+    "score": 100,
+    "fetched_at": "2026-06-12T22:55:12.101538+00:00"
+  },
+  {
+    "title": "Claude Fable 5 のゲーム制作能力は、今までのモデルより頭一つ抜けて優れているかも - ABAの日誌",
+    "url": "https://aba.hatenablog.com/entry/2026/06/12/175339",
+    "summary": "Claude Fable 5 がリリースされた。Fable 5は、Anthropic が “Mythos級” と呼ぶ、長期自律タスクや高度な研究・サイバー領域で従来モデルを大きく上回る能力層のモデルを、一般提供向けに安全制御付きで公開した高性能モデルである。Fable 5 は長期・複雑なタスクに強いが、サイバー、生物、モデル蒸留など一部の高リス...",
+    "score": 100,
+    "fetched_at": "2026-06-12T22:55:12.101588+00:00"
+  },
+  {
+    "title": "Geminiはアメリカもイギリスも結構「ジェミナイ」と発音されることが多いが、日本語では「ジェミニ」…この発音はどのように決定されたのだろうか？→様々な推測が集まる",
+    "url": "https://togetter.com/li/2708323",
+    "summary": "だいじろー @DB_Daijiro Geminiはアメリカもイギリスも結構ジェミナイって発音されてるけど日本語はジェミニ（Google Japanの公式見解）、誰が日本語読み発音を決定するんだろうなあ🧐 2026-06-11 22:33:06 Geminiの日本語表記は「ジェミニ」　英語の発音との違いが話題に #エキスパートトピ（山口健太） - エキスパート...",
+    "score": 100,
+    "fetched_at": "2026-06-12T22:55:12.101667+00:00"
+  },
+  {
+    "title": "Claude Code × Obsidian で『記憶の二層構造』を作る",
+    "url": "https://zenn.dev/0rv3/articles/b6a7172bfda1ed",
+    "summary": "はじめに Claude(Claude Code / claude.ai)を日常的に使っていると、「前にこの話したよね」「あのアイデア、どこかに書いた気がする」という場面が増えてくる。 これを解消するために、以下の二層構造を構築した。 長期ナレッジ層: Obsidian + MCP連携で、claude.aiからアイデアや内省を直接読み書き 作業文脈層: Claud...",
+    "score": 100,
+    "fetched_at": "2026-06-12T22:55:12.101714+00:00"
+  },
+  {
+    "title": "プログラミングの知識は不要？ 　話題の「Claude Code」で非エンジニアが「欲しかったあのツール」を作る",
+    "url": "https://atmarkit.itmedia.co.jp/ait/articles/2606/12/news014.html",
+    "summary": "非エンジニアのためのClaude Code入門 AnthropicのAIコーディングツール「Claude Code」が注目を集めている。プログラマー向けの製品と思われがちだが、自然言語の指示で実際の成果物を出力する特性は、IT管理者やマーケティング担当者といった非開発者にこそ大きな価値がある。本Tech TIPSでは、コマンドライン不要で手...",
+    "score": 100,
+    "fetched_at": "2026-06-12T22:55:12.101730+00:00"
+  },
+  {
     "title": "Cloudflare、WordPressの機能をTypeScriptで再構築した「EmDash」をオープンソースとしてプレビューリリース ―WordPressプラグインのセキュリティ問題を解消",
     "url": "https://gihyo.jp/article/2026/04/emdash?utm_source=feed",
     "summary": "Cloudflareは2026年4月1日、メジャーなCMSであるWordPressの機能をTypeScriptで実装した「EmDash」を、MITライセンスの元GitHub上に公開した。",
@@ -6158,5 +6207,285 @@
     "summary": "目次 はじめに 改善前の開発フロー 直列処理のボトルネック 数字で見るコスト AIで直列から並列へ転換する 最初のアプローチ ── 直列のまま高速化しようとした（失敗） 方針転換 ── 並列化に切り替える（成功） 改善後の開発フロー（並列化） フィージビリティレポートを生成するAIワークフロー 実際に生成されたレポー...",
     "score": 0,
     "fetched_at": "2026-06-11T23:05:01.150862+00:00"
+  },
+  {
+    "title": "SpaceX、NASDAQに上場――公開価格135ドル、初日終値は約19％高で約12兆円調達",
+    "url": "https://www.itmedia.co.jp/news/articles/2606/13/news024.html",
+    "summary": "SpaceXは、ナスダック市場に新規株式公開した。公開価格ベースで約750億ドル（約12兆円）を調達し、初日の終値時点で時価総額は約2兆1000億ドルに達した。サウジアラムコを上回る史上最大規模の新規上場となった。",
+    "score": 0,
+    "fetched_at": "2026-06-12T22:55:09.948223+00:00"
+  },
+  {
+    "title": "厚労省、Teamsチャット2年10カ月分が消失　東芝が作業ミス　一部は復元困難",
+    "url": "https://www.itmedia.co.jp/news/articles/2606/12/news129.html",
+    "summary": "厚生労働省が2023年1月4日から25年10月29日年に送信された「Microsoft Teams」のチャットが消失したと発表した。原因はシステム運用を委託していた東芝の作業ミス。消えたデータのうち、行政文書が含まれる一部チャットは復元が困難という。",
+    "score": 0,
+    "fetched_at": "2026-06-12T22:55:09.948239+00:00"
+  },
+  {
+    "title": "「メタプラネット証券」誕生へ　Siiibo証券を21億円で買収、ビットコイン連動型金融商品の販売視野に",
+    "url": "https://www.itmedia.co.jp/news/articles/2606/12/news126.html",
+    "summary": "メタプラネットは6月12日、個人向け社債のオンラインプラットフォームを運営するSiiibo証券（東京都中央区）の全株式を取得し、完全子会社化すると発表した。取得価額は21億円。取得完了後には商号を「メタプラネット証券」に変更する予定だ。",
+    "score": 0,
+    "fetched_at": "2026-06-12T22:55:09.948249+00:00"
+  },
+  {
+    "title": "“11億円超資金流出”のはてな、通期最終赤字に転落見込み　被害額を特別損失に計上",
+    "url": "https://www.itmedia.co.jp/news/articles/2606/12/news122.html",
+    "summary": "はてなは6月12日、4月に公表した資金流出事案の被害最大額11億7900万円を特別損失として計上すると発表した。これに伴い2026年7月期の通期業績予想を下方修正し、当期純損益は7億6700万円の赤字に転落する見通しとなった。",
+    "score": 0,
+    "fetched_at": "2026-06-12T22:55:09.948258+00:00"
+  },
+  {
+    "title": "「スマホ買取10％UP」実は終了後も同条件　ゲオストアで景品表示法違反　消費者庁",
+    "url": "https://www.itmedia.co.jp/news/articles/2606/12/news112.html",
+    "summary": "消費者庁は6月11日、スマートフォンとタブレットの買取サービスを巡り、期間限定キャンペーンをうたいながら実際には期限後も同等以上の条件で買い取っていたとして、ゲオストアに措置命令を出した。",
+    "score": 0,
+    "fetched_at": "2026-06-12T22:55:09.948266+00:00"
+  },
+  {
+    "title": "ニッチなのに累計55万個のヒット　「手のひらネットワーク機器」第4弾を見てきた　今回のテーマは？",
+    "url": "https://www.itmedia.co.jp/news/articles/2606/12/news061.html",
+    "summary": "Tインフラ機器を12分の1で再現したカプセルトイ「手のひらネットワーク機器」の第4弾が6月11日に発売された。テーマはInteropの「ShowNet」。会場では想定以上の売れ行きで、シリーズ累計出荷は55万個を超える。賛同、色、社名の縁と毎回変わる機種選定の裏側や、1人で何十個も買うファンの実態を仕掛け人に聞いた。",
+    "score": 0,
+    "fetched_at": "2026-06-12T22:55:09.948275+00:00"
+  },
+  {
+    "title": "ANA、国内線リニューアルの混乱で「お詫び」　Xではオーバーブッキング巡る臆測も",
+    "url": "https://www.itmedia.co.jp/news/articles/2606/12/news100.html",
+    "summary": "全日本空輸（ANA）は6月11日、国内線サービスのリニューアルに伴い利用者に不便と心配をかけているとして、公式サイトにお詫びを掲載した。",
+    "score": 0,
+    "fetched_at": "2026-06-12T22:55:09.948304+00:00"
+  },
+  {
+    "title": "Starlink対抗の衛星ネット「Amazon Leo」　NTTが国内提供へ　災害時や離島でも“つながる回線”に",
+    "url": "https://www.itmedia.co.jp/news/articles/2606/12/news095.html",
+    "summary": "NTTは6月11日、グループ3社が米Amazonの衛星ブロードバンド通信サービス「Amazon Leo」の再販事業者契約を締結したと発表した。今後は技術検証などを進め、国内の法人・官公庁向けに提供体制を構築する。",
+    "score": 0,
+    "fetched_at": "2026-06-12T22:55:09.948315+00:00"
+  },
+  {
+    "title": "公取委、KADOKAWAに勧告　フリーランス法違反、ライターなどに取引条件示さず",
+    "url": "https://www.itmedia.co.jp/news/articles/2606/12/news085.html",
+    "summary": "月刊誌などの制作を委託したフリーランスのライターやイラストレーターなど113人に対し、取引条件を書面で明示しなかったことなどがフリーランス法に違反するとして、是正を求める勧告を出した。",
+    "score": 0,
+    "fetched_at": "2026-06-12T22:55:09.948324+00:00"
+  },
+  {
+    "title": "DAZNに批判殺到　W杯「月980円」、実は年2万6340円……「騙された」「ダークパターン」",
+    "url": "https://www.itmedia.co.jp/news/articles/2606/12/news081.html",
+    "summary": "980円に見えるプランは最低でも2万6340円かかるため、「新手の詐欺」といった投稿が相次いでいる。",
+    "score": 0,
+    "fetched_at": "2026-06-12T22:55:09.948332+00:00"
+  },
+  {
+    "title": "SIM挿すだけで量子安全、ドコモビジネスが開発中　迫る「Q-Day」でIoT機器にも“耐量子”の必要性",
+    "url": "https://www.itmedia.co.jp/news/articles/2606/12/news058.html",
+    "summary": "開催中の「Interop Tokyo 2026」で、NTTドコモビジネスが量子コンピュータでも解読できない暗号通信と相互認証をSIMカードに実装したシステムを展示している。物理SIMを挿すだけで、IoTデバイスも“量子安全”にできるのが特徴だ。なぜエッジデバイスの耐量子にSIMカードを使うのか、ブースで聞いた。",
+    "score": 0,
+    "fetched_at": "2026-06-12T22:55:09.948341+00:00"
+  },
+  {
+    "title": "任天堂、Switch 2多言語版に“買い占め”確認　「プレイ時間50時間以上」の購入制限復活",
+    "url": "https://www.itmedia.co.jp/news/articles/2606/12/news071.html",
+    "summary": "買い占めの疑いがある注文を複数確認したため、一時的に販売を停止していた。",
+    "score": 0,
+    "fetched_at": "2026-06-12T22:55:09.948357+00:00"
+  },
+  {
+    "title": "Waymo、月額29.99ドルの招待制サブスク「Waymo Premier」　優先配車や還元を提供",
+    "url": "https://www.itmedia.co.jp/news/articles/2606/12/news070.html",
+    "summary": "Alphabet傘下の自動運転企業Waymoは、招待制の月額サブスクリプションプログラム「Waymo Premier」を発表した。月額29.99ドルで、優先配車、10％のキャッシュバック、乗車キャンセルの無料化などの特典を受けられる。サンフランシスコなどの一部ユーザーから提供を開始し、順次拡大する。",
+    "score": 0,
+    "fetched_at": "2026-06-12T22:55:09.948365+00:00"
+  },
+  {
+    "title": "金はなぜ錆びずに輝き続ける？　単に「酸素と結びつきにくい」だけじゃない　米大学が学術誌で発表",
+    "url": "https://www.itmedia.co.jp/news/articles/2606/12/news023.html",
+    "summary": "米テュレーン大学に所属する研究者らが学術誌Physical Review Lettersで発表した論文「Role of Reconstruction in the Inertness of Gold toward Oxygen」は、金がいつまでも美しい輝きを保ち続ける理由について明らかにした研究報告だ。",
+    "score": 0,
+    "fetched_at": "2026-06-12T22:55:09.948375+00:00"
+  },
+  {
+    "title": "Ubuntu 26.10（Stonking）の開発; ロードマップと音声入力",
+    "url": "https://gihyo.jp/admin/clip/01/ubuntu-topics/202606/12?utm_source=feed",
+    "summary": "stonkingのロードマップが公開されました。このロードマップには28.04 LTSまでの全体感が含められており、「次のLTSへの第一歩」としてのstonkingの位置付けが示されています。",
+    "score": 0,
+    "fetched_at": "2026-06-12T22:55:11.808626+00:00"
+  },
+  {
+    "title": "GitHub、Copilot CLI向け「LSP Setup」スキルを紹介、定義ジャンプや型情報でコード理解を支援",
+    "url": "https://gihyo.jp/article/2026/06/github-copilot-cli-lsp-setup?utm_source=feed",
+    "summary": "GitHubは2026年6月10日、GitHub Copilot CLIでLanguage Server Protocol（LSP）サーバーを設定するエージェントスキル「LSP Setup」をGitHub Blogで紹介した。",
+    "score": 0,
+    "fetched_at": "2026-06-12T22:55:11.808638+00:00"
+  },
+  {
+    "title": "MCP連携でOpus 4.8超え、1兆パラメータ「Kimi K2.7 Code」無償公開",
+    "url": "https://pc.watch.impress.co.jp/docs/news/2116913.html",
+    "summary": "",
+    "score": 0,
+    "fetched_at": "2026-06-12T22:55:12.101512+00:00"
+  },
+  {
+    "title": "警視庁、メール受信者の注意力を逆手に取った「二段階式フィッシングメール」に注意喚起",
+    "url": "https://internet.watch.impress.co.jp/docs/news/2116742.html",
+    "summary": "",
+    "score": 0,
+    "fetched_at": "2026-06-12T22:55:12.101526+00:00"
+  },
+  {
+    "title": "無料のAI音楽検出ツールを音楽配信サービスのDeezerがリリース、YouTube MusicやSpotifyなどのプレイリストをスキャン可能",
+    "url": "https://gigazine.net/news/20260612-deezer-ai-generated-music-detector/",
+    "summary": "音楽ストリーミングサービスのDeezerが、YouTube Music・Spotify・Apple Musicなどの他サービスで作成したプレイリストをスキャンして、プレイリストに含まれているAI生成音楽を検出できる無料サービスをリリースしました。 Deezerの無料AI 音楽検出機能｜AI 曲チェッカー https://www.deezer.com/explore/ja/ai-music-d...",
+    "score": 0,
+    "fetched_at": "2026-06-12T22:55:12.101559+00:00"
+  },
+  {
+    "title": "ゲーム事業部設立して、終了したお話",
+    "url": "https://zenn.dev/91works/articles/b535a86336cf42",
+    "summary": "はじめに 会社からゲーム事業部作ってみない？と言われたのがきっかけで事業部を作ってみることになり、その経過と終了までをまとめたものになります。 これから事業を始めていく人や、事業を始めるってどういうことなんだろう？という方に少しでも参考になれば幸いです。 事業計画書 まずは事業として設立するには事業...",
+    "score": 0,
+    "fetched_at": "2026-06-12T22:55:12.101568+00:00"
+  },
+  {
+    "title": "厚労省、Teamsチャット750万件が消失　委託業者の誤操作で - 日本経済新聞",
+    "url": "https://www.nikkei.com/article/DGXZQOUA12ATG0S6A610C2000000/",
+    "summary": "厚生労働省は12日、業務で使う米マイクロソフト「Teams（チームス）」のチャット約750万件が消失し、復元できない状態にあると公表した。省内システムの運用を委託した東芝がシステム切り替え中に誤って操作したことが原因という。業務上のチャットは行",
+    "score": 0,
+    "fetched_at": "2026-06-12T22:55:12.101578+00:00"
+  },
+  {
+    "title": "厚生労働省LANシステムの更改作業におけるチャットデータの一部消失事案について | ニュース | 東芝",
+    "url": "https://www.global.toshiba/jp/news/corporate/2026/06/news-20260612-01.html",
+    "summary": "当社が受注した厚生労働省LANシステムの更改作業において、一部のデータを誤って消失させる事案が発生しました。 関係者の皆様に多大なご迷惑とご心配をおかけしておりますことを、深くお詫び申し上げます。 当社は本件を真摯に受け止め、再発防止に取り組んでまいります。 １．事案の概要 厚生労働省LANシステム（Micro...",
+    "score": 0,
+    "fetched_at": "2026-06-12T22:55:12.101597+00:00"
+  },
+  {
+    "title": "2026年夏開始の新作アニメ一覧",
+    "url": "https://gigazine.net/news/20260613-anime-2026summer/",
+    "summary": "放送・配信中のアニメが終わり、入れ替わりに新たな作品が始まる時期がやってきました。2026年夏(2026年6月～2026年9月ごろ)に始まるアニメの数は約75本で、近年の傾向から外れることなく多め。1話2分～5分程度のショートアニメも含まれているとはいえ、PVをチェックするだけでも相当な時間を要します。 オリジナルアニ...",
+    "score": 0,
+    "fetched_at": "2026-06-12T22:55:12.101606+00:00"
+  },
+  {
+    "title": "late.sh",
+    "url": "https://late.sh/",
+    "summary": "this.copied = null, 2000); } }\" class=\"max-w-lg mx-auto pt-8 sm:pt-16\">",
+    "score": 0,
+    "fetched_at": "2026-06-12T22:55:12.101613+00:00"
+  },
+  {
+    "title": "空気中から1リットル近い飲料水を取り出せるジャケットが開発される",
+    "url": "https://gigazine.net/news/20260612-jacket-pulls-drinking-water-from-air/",
+    "summary": "テキサス大学オースティン校の研究チームが、空気中の水分を集めて飲料水を取り出せるジャケット型デバイスを開発しました。この技術は繊維そのものに水分回収機能を持たせることで、ハイキングやキャンプ、農作業、災害対応、軍事活動など、飲料水を確保しにくい環境での利用を想定しています。 Scalable hierarchical ...",
+    "score": 0,
+    "fetched_at": "2026-06-12T22:55:12.101622+00:00"
+  },
+  {
+    "title": "AIへの指示まで履歴として保存する新バージョン管理システム「DeltaDB」をZedが発表",
+    "url": "https://gigazine.net/news/20260612-zed-deltadb/",
+    "summary": "コードエディタ「Zed」を開発するZedが、AIエージェント時代に向けた開発履歴管理ツール「DeltaDB」を発表しました。Gitのようにコミット単位で変更を記録するのではなく、コードが作られていく途中の会話や編集操作まで記録し、人間とAIエージェントが作業の流れを追いやすくする仕組みとのことです。 Software Is Made...",
+    "score": 0,
+    "fetched_at": "2026-06-12T22:55:12.101631+00:00"
+  },
+  {
+    "title": "「ググる」が死語になる日　Google検索が“入口”ではなくなった背景",
+    "url": "https://www.itmedia.co.jp/business/articles/2606/12/news012.html",
+    "summary": "世界を読み解くニュース・サロン： 本連載は、国際情勢やビジネス動向を深掘り、グローバルな課題とそれが企業に与える影響を分析する。米中関係やテクノロジー業界の変動、地政学的リスクに焦点を当て、複雑な要素を多角的に捉えながら、現代社会の重要な問題を分析。読者にとって成功への洞察を提供していく。 2024年...",
+    "score": 0,
+    "fetched_at": "2026-06-12T22:55:12.101640+00:00"
+  },
+  {
+    "title": "【西川和久の不定期コラム】 PC高すぎ問題へのアンチテーゼ！あえて「3年前のスペック」で作られた10万円ミニPCの実力",
+    "url": "https://pc.watch.impress.co.jp/docs/column/nishikawa/2116566.html",
+    "summary": "",
+    "score": 0,
+    "fetched_at": "2026-06-12T22:55:12.101647+00:00"
+  },
+  {
+    "title": "自称インフルエンサーの要求を、店員が毅然と断っており信用できる店だと思った「店員さんも慣れているのかな」「今風な迷惑客」",
+    "url": "https://togetter.com/li/2708372",
+    "summary": "めいなん🍆 @054758373 昨日大須で細かいモノ色々買ってたんだけど、レジで目の前の客が「インフルエンサーだから提供しろ」みたいな事言ってる事案に初めて遭遇した。 都市伝説だと思っていた。 店員さんが笑顔で「ぶっ飛ばすぞ」的な事言っててココは信用出来るな！と思った。 2026-06-12 09:10:32",
+    "score": 0,
+    "fetched_at": "2026-06-12T22:55:12.101657+00:00"
+  },
+  {
+    "title": "Blueskyは2026年中に新機能「コミュニティ」を追加予定、同じ興味を持つ人々とより深く交流できる小規模スペース",
+    "url": "https://gigazine.net/news/20260612-bluesky-communities-deeper-smaller-spaces/",
+    "summary": "X(旧Twitter)の代替SNSとして人気のBlueskyに、同じことに興味を持つ人々とより深く交流できる「コミュニティ」機能が追加されることが明らかになりました。 communities are coming to Bluesky this year. today, Bluesky is one big space. communities will be smaller spaces inside that where you can go deeper a...",
+    "score": 0,
+    "fetched_at": "2026-06-12T22:55:12.101679+00:00"
+  },
+  {
+    "title": "「Surface Laptop Ultra」はCopilot+ PCのはずだが、どこにも書いていない？",
+    "url": "https://forest.watch.impress.co.jp/docs/serial/usecopilotpc/2116720.html",
+    "summary": "",
+    "score": 0,
+    "fetched_at": "2026-06-12T22:55:12.101686+00:00"
+  },
+  {
+    "title": "顔を検出し頭部を撃つ新型ドローン、ウクライナが使用か　「スローターボット」の恐怖 | Forbes JAPAN 公式サイト（フォーブス ジャパン）",
+    "url": "https://forbesjapan.com/articles/detail/98901",
+    "summary": "ロシアの軍事ブロガーたちは、熱画像装置（サーマルイメージャー）とAI（人工知能）を搭載し、目標の顔を検出して高速の飛翔体を発射する新型FPV（一人称視点）ドローン（無人機）をウクライナ軍が使用している可能性があると警告を発している。ある動画には、ロシア兵がこうしたドローンから頭部への精密射撃を受けたよ...",
+    "score": 0,
+    "fetched_at": "2026-06-12T22:55:12.101695+00:00"
+  },
+  {
+    "title": "【GitHub Actions】明日からマネできる CI 高速化テクニック 3 選 - Timee Product Team Blog",
+    "url": "https://tech.timee.co.jp/entry/2026/06/12/120143",
+    "summary": "はじめに こんにちは、タイミーでエンジニアをしている徳富(@yannKazu1)です。 タイミーではメインサービスのバックエンドを Rails で開発しています（Go を採用しているプロダクトもありますが、本記事では Rails を前提とします）。 突然ですが、皆さんのチームでは CI の待ち時間、気になっていませんか？ 「Push し...",
+    "score": 0,
+    "fetched_at": "2026-06-12T22:55:12.101705+00:00"
+  },
+  {
+    "title": "初心者でも自転車で富士山に登れるだと!?　50歳を過ぎてからなぜか「富士ヒル」にはまってしまった理由【ぼっち・ざ・ろーど！その11】【空いた時間でなにしてる？】",
+    "url": "https://internet.watch.impress.co.jp/docs/column/hobbytime/2116552.html",
+    "summary": "",
+    "score": 0,
+    "fetched_at": "2026-06-12T22:55:12.101721+00:00"
+  },
+  {
+    "title": "SpaceX、宇宙データセンター「AI1」概要公開--懸念の冷却「実はカンタン」とマスク氏",
+    "url": "https://japan.cnet.com/article/35248768/",
+    "summary": "イーロン・マスク氏率いるSpaceXは6月8日(現地時間)、軌道上AIデータセンター衛星の初代機「AI1」の設計詳細を、公式Xアカウントに投稿した約30分の技術アップデート動画で公開した。宇宙でAIコンピューティングを展開するという同社の構想に対しては、かねて「真空の宇宙では熱を捨てられないのではないか」という疑問...",
+    "score": 0,
+    "fetched_at": "2026-06-12T22:55:12.101739+00:00"
+  },
+  {
+    "title": "スキマバイトで無断欠勤したら3年間の利用停止になった…利用停止期間はサービスで差があるものの、無断欠勤に辟易する現場からの声が寄せられる",
+    "url": "https://togetter.com/li/2708349",
+    "summary": "スキマバイトで無断欠勤したら3年間の利用停止になった…利用停止期間はサービスで差があるものの、無断欠勤に辟易する現場からの声が寄せられる",
+    "score": 0,
+    "fetched_at": "2026-06-12T22:55:12.101748+00:00"
+  },
+  {
+    "title": "日本初、2階建て「3Dプリンター住宅」誕生！ 造形はわずか10日、前例なき構造計算や法律の壁をどう突破したか　宮城県栗原市",
+    "url": "https://suumo.jp/journal/2026/06/12/217716/",
+    "summary": "宮城県栗原市の山あいののどかなまちに、高さ約6ｍの円筒形の建物が姿を現した。2025年11月、日本初となる「2階建て3Dプリンター住宅」が誕生したのだ。1階建ての事例はSUUMOジャーナルでも何度か紹介してきたが、2階建ては初。どのようにしてできあがったのか、今どうなっているのか、話を聞いた。 宮城県栗原市に日本...",
+    "score": 0,
+    "fetched_at": "2026-06-12T22:55:12.101756+00:00"
+  },
+  {
+    "title": "Emacs Appearances in Pop Culture",
+    "url": "https://ianyepan.github.io/posts/emacs-in-pop-culture/",
+    "summary": "software engineer, emacs enthusiast, keyboard lover. occasionally nerdy. As an Emacs user, few things are as delightful as catching my favorite text editor out in the wild. It doesn’t happen often though – Emacs is niche, and pop culture rarely gives it a nod. This post tracks down every one I kn...",
+    "score": 0,
+    "fetched_at": "2026-06-12T22:55:12.101768+00:00"
+  },
+  {
+    "title": "GitHub Agentic Workflows is now in public preview - GitHub Changelog",
+    "url": "https://github.blog/changelog/2026-06-11-github-agentic-workflows-is-now-in-public-preview/",
+    "summary": "GitHub Agentic Workflows is now in public preview. With agentic workflows, you can automate reasoning-based tasks like issue triage, CI failure analysis, and documentation updates by leveraging coding agents inside GitHub Actions. Define your automation in natural language Markdown files, and Git...",
+    "score": 0,
+    "fetched_at": "2026-06-12T22:55:12.101783+00:00"
+  },
+  {
+    "title": "三井住友信託銀行、こんなに酷い入力フォームは久しぶりに見た「ぜ、全角…！？」「電話番号生年月日はギリ耐えたがメールアドレス全角えぐい」",
+    "url": "https://togetter.com/li/2708248",
+    "summary": "toroddi @toroddi @kazeburo 90年代でもなかなかおめにかかれない酷さ そして半角で入力すると「全角で入力してください」と怒られる 判別してるならそのまま置換しろや!と思わずにはいられない 2026-06-12 08:21:41 一二三はじめ @Ihuhim_Ahizem ネットバンキングでの振込で 振込依頼人名を変更するときに 姓と名の間の...",
+    "score": 0,
+    "fetched_at": "2026-06-12T22:55:12.101793+00:00"
   }
 ]
