@@ -1,5 +1,51 @@
 [
   {
+    "date": "2026-06-13",
+    "audio_file": "podcasts/podcast_20260613.mp3",
+    "articles": [
+      {
+        "title": "ChatGPTで広告表示へ　無料・Goプランが対象　6月22日にポリシー更新",
+        "url": "https://www.itmedia.co.jp/news/articles/2606/10/news128.html",
+        "summary": "米OpenAIは6月10日、「ChatGPT」の広告に関する規定を追加したプライバシーポリシーを改定した。無料プラン、「Go」プランが対象となる。"
+      },
+      {
+        "title": "「Siri AI」の進化に「Geminiそのまま」の誤解――現地取材で見えた“新生Apple Intelligence”の全貌",
+        "url": "https://www.itmedia.co.jp/news/articles/2606/10/news122.html",
+        "summary": "「GeminiがApple Intelligenceの正体」は誤解だ。WWDC 2026の現地取材で見えてきた第3世代は、200億パラメータのAIをiPhoneで動かす革新技術、Google Cloud＋NVIDIAによるインフラ刷新、そして静かに変わる「無料」の定義まで、想像以上に深い変化を遂げていた。"
+      },
+      {
+        "title": "OpenAIとVisaが提携してAIエージェントが自動でオンラインの購入手続きを完了可能に",
+        "url": "https://gigazine.net/news/20260611-visa-openai-partners-ai-commerce/",
+        "summary": "大手クレジットカードブランドのVisaが2026年6月10日、ChatGPTの開発元であるOpenAIとの戦略的提携を発表しました。この提携によりVisaの決済システムがOpenAIのエージェントシステムに統合され、OpenAI全体でシームレスかつ信頼性の高い決済が実現するとされています。 Visa Partners with OpenAI to Power the Next Ge..."
+      },
+      {
+        "title": "Fable 5、ガードレール（保護機能）が厳しすぎて「DNAとは？」にも答えず",
+        "url": "https://www.itmedia.co.jp/news/articles/2606/11/news063.html",
+        "summary": "Anthropicが一般公開した最上位AIモデル「Claude Fable 5」の保護機能が、無害なリクエストまで弾くとしてXなどで批判を集めている。Fable 5はサイバーセキュリティや生物・化学などに関する質問を検知すると、応答を下位の「Claude Opus 4.8」に切り替える。"
+      },
+      {
+        "title": "Anthropic、「Fable 5」のガードレールの仕組みを説明　課金の仕組みや設定変更方法など",
+        "url": "https://www.itmedia.co.jp/news/articles/2606/11/news104.html",
+        "summary": "Anthropicは、新AIモデル「Claude Fable 5」の過剰なブロックに対する挙動や管理方法を説明するヘルプ記事を公開した。セキュリティや生物学に関する質問を検知すると下位モデルへ自動で切り替わる機能の仕様、料金体系、設定オフの手順を明示。今後は誤検知を減らし、正当な研究や防衛作業の支援を目指す。"
+      },
+      {
+        "title": "AIもフィッシング詐欺に引っかかることが判明、上司を装ったメール1通でAWS認証情報を外部へ送信",
+        "url": "https://gigazine.net/news/20260611-openclaw-ai-phishing/",
+        "summary": "企業のメールボックスに接続されたAIエージェントが、人間をだます古典的なフィッシング詐欺と同じ手口で機密情報を漏らしてしまう可能性があることをセキュリティ企業のVaronis Threat Labsが明らかにしました。 Phishing for Lobsters: How We Tricked OpenClaw into Spilling Secrets https://www.varonis.com/blog/o..."
+      },
+      {
+        "title": "Apple、「Private Cloud Compute」（PCC）でGoogle Cloud上のNVIDIA GPUを活用",
+        "url": "https://www.itmedia.co.jp/news/articles/2606/09/news117.html",
+        "summary": "Appleは、Apple Intelligenceのクラウド推論基盤「Private Cloud Compute」（PCC）を外部のデータセンターへ拡張すると発表した。GoogleおよびNVIDIAと協業し、Google Cloud上のGPUなどで次世代の基盤モデルを運用する。外部インフラでも従来の強力なプライバシー保証を維持するとしている。"
+      },
+      {
+        "title": "RTX 5090のはずがRTX 3070？　GPU偽装PCを持ち込まれたショップが語る事件の詳細　「ネット売買もリスク高い」",
+        "url": "https://www.itmedia.co.jp/news/articles/2606/09/news087.html",
+        "summary": "PCリユース業を営む「リバーズエコ」が投稿した「グラボ偽装表示詐欺」の話がXで注目を集めている。米NVIDIAの最新GPU「RTX 5090」を搭載したPCと聞いていたが、実際は古いGPUを偽装したものだった。"
+      }
+    ]
+  },
+  {
     "date": "2026-06-09",
     "audio_file": "podcasts/podcast_20260609.mp3",
     "articles": [
