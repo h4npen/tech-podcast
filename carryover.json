@@ -1,5 +1,26 @@
 [
   {
+    "title": "複数のAIを組み合わせてClaude Fable超えの性能を実現するシステム「Fusion」をOpenRouterがリリース",
+    "url": "https://gigazine.net/news/20260616-openrouter-ai-fusion/",
+    "summary": "AIモデルのAPI提供サービスを展開するOpenRouterが異なるAIを組み合わせて実行できるシステム「Fusion」をリリースしました。Fusionは「Claude Opus 4.8とGPT-5.5」「Claude Opus 4.8とGPT-5.5とGemini 3.1 Pro」といったように高性能モデル同士を組み合わせて実行可能で、Claude Fable 5を超えるベンチマークスコアをた...",
+    "score": 200,
+    "fetched_at": "2026-06-16T23:00:52.526050+00:00"
+  },
+  {
+    "title": "デジタル相、停止中のミュトス級AIについて「今あるもので最大限」　3メガバンクなども同様",
+    "url": "https://www.itmedia.co.jp/news/articles/2606/16/news124.html",
+    "summary": "松本尚デジタル相は6月16日の記者会見で、米Anthropicの最上位AIモデル「Claude Mythos 5」「Claude Fable 5」が米国政府の指令により利用停止となっている件について現状を明かした。政府のサイバーセキュリティ対策については、手元にあるフロンティアAIを使って進める考えを示した。",
+    "score": 110,
+    "fetched_at": "2026-06-16T23:00:50.396757+00:00"
+  },
+  {
+    "title": "SBGとOpenAI、AIで脆弱性診断「Patching as a Service」提供　まずは日本の重要インフラ向けに",
+    "url": "https://www.itmedia.co.jp/news/articles/2606/16/news115.html",
+    "summary": "ソフトバンクグループと米OpenAIは6月16日、OpenAIのAI技術を活用して企業の脆弱性診断から修復方針の策定、実装の提案までを支援する法人向けサイバーセキュリティ対策ソリューション「Patching as a Service」の提供を始めると発表した。",
+    "score": 110,
+    "fetched_at": "2026-06-16T23:00:50.396777+00:00"
+  },
+  {
     "title": "Claude Opus 4.8登場、Claude Codeの「ダイナミックワークフロー」機能もリリース",
     "url": "https://gihyo.jp/article/2026/05/claude-opus-4-8?utm_source=feed",
     "summary": "Anthropicは2026年5月28日、同社のフロンティアモデルの最新バージョンClaude Opus 4.8をリリースした。",
@@ -1113,6 +1134,20 @@
     "fetched_at": "2026-06-15T23:15:57.509363+00:00"
   },
   {
+    "title": "2026年6月現在の Claude Code 開発フロー",
+    "url": "https://zenn.dev/arm_techblog/articles/7712cde19988c8",
+    "summary": "こんにちは。フィッツプラスでフロントエンドエンジニアをしている梅津です。 2025年後半から Claude Code を使い始めて、少しずつ設定を育ててきました。気がつけば普段の開発フローがだいぶ固まってきたので、2026年6月時点の構成を紹介します。 紹介する内容は以下の通りです。 前提: 使っているツール 普段の開発フ...",
+    "score": 100,
+    "fetched_at": "2026-06-16T23:00:52.525918+00:00"
+  },
+  {
+    "title": "Claude Codeを安全に企業配布する設計｜公式管理機能とStarter Kit | CloudNative BLOGs",
+    "url": "https://blog.cloudnative.co.jp/articles/claude-code-enterprise-starter-kit-best-practices/",
+    "summary": "シンジです。社内でClaude Codeを本格展開するときに、何も考えずにアカウントだけを渡していませんか？Claude Codeは社内システムを破壊するほどの強力な道具です。本来は配布前に以下のような課題があるはずです。 社内の誰がClaude Codeを使えるのか会社管理アカウントだけに寄せられるのかどのコマンドを実行してよ...",
+    "score": 100,
+    "fetched_at": "2026-06-16T23:00:52.526161+00:00"
+  },
+  {
     "title": "Cloudflare、WordPressの機能をTypeScriptで再構築した「EmDash」をオープンソースとしてプレビューリリース ―WordPressプラグインのセキュリティ問題を解消",
     "url": "https://gihyo.jp/article/2026/04/emdash?utm_source=feed",
     "summary": "Cloudflareは2026年4月1日、メジャーなCMSであるWordPressの機能をTypeScriptで実装した「EmDash」を、MITライセンスの元GitHub上に公開した。",
@@ -1524,6 +1559,13 @@
     "summary": "kaname (@kanametunes) on X 経験上「セキュリティ組織は独立させない方が良い」という結論 分けると、 すべてのセキュリティ関連の判断が安全側に倒される ↓ 業務担当と折り合いがつかないか業務がやりにくくになる ↓ 問題発生 ↓ （上に戻って繰り返し） ↓ https://x.com/kanametunes/status/2064882136906432982 経験...",
     "score": 10,
     "fetched_at": "2026-06-15T23:15:57.509123+00:00"
+  },
+  {
+    "title": "「PyCon US 2026 参加報告会」6/29に開催 ―現地参加者が語るリアルな体験と最新情報",
+    "url": "https://gihyo.jp/article/2026/06/pycon-us-2026-report-event?utm_source=feed",
+    "summary": "2026年5月13日～19日に米国カリフォルニアで開かれた世界最大級のPythonカンファレンス「PyCon US 2026」参加メンバーによる報告会が、2026年6月29日（月）に東京で開催される。",
+    "score": 10,
+    "fetched_at": "2026-06-16T23:00:52.329377+00:00"
   },
   {
     "title": "Apple、macOS上にLinuxコンテナを統合する新機能「Container machine」バージョン1.0リリース",
@@ -6998,5 +7040,327 @@
     "summary": "",
     "score": 0,
     "fetched_at": "2026-06-15T23:15:57.509388+00:00"
+  },
+  {
+    "title": "GitLab、AIエージェント向けの次世代Git互換ソースコード管理サービス「Project Switch」発表。最大で50倍高速かつ半分のトークンで利用可能に",
+    "url": "https://www.publickey1.jp/blog/26/gitlabaigitproject_switch50.html",
+    "summary": "GitLabは6月10日にロンドンで開催したイベント「GitLab Transcend」で、AIエージェント向けの次世代Git互換ソースコード管理サービス「Project Switch」を発表しました。 GitLabやGitHubが提供する...",
+    "score": 0,
+    "fetched_at": "2026-06-16T23:00:49.686554+00:00"
+  },
+  {
+    "title": "学術界にも“告発系インフルエンサー”の波？　配信者がNature掲載論文の不正指摘→研究者らは懲戒処分　中国で波乱",
+    "url": "https://www.itmedia.co.jp/news/articles/2606/17/news026.html",
+    "summary": "元博士課程の学生で動画ブロガー「Student Geng」として活動する耿洪偉（Geng Hongwei）さんの配信をきっかけに、中国の学術界で研究不正スキャンダルが起きている。英科学誌Natureが6月12日に報じた。",
+    "score": 0,
+    "fetched_at": "2026-06-16T23:00:50.396729+00:00"
+  },
+  {
+    "title": "月間売上1億円超、“推しAI”アプリ「Zeta」がオタク女子わしづかみ　ただし危うさも",
+    "url": "https://www.itmedia.co.jp/news/articles/2606/17/news020.html",
+    "summary": "自分が作ったシチュエーションで“推し”と会話できるAIチャットアプリ「Zeta」（ゼタ）が人気だ。App StoreやGoogle Playのエンターテインメントランキングでも連日上位にランクインしており、各ストアページによればダウンロード数は130万回を突破。1月には月間の売り上げが1億2000万円を超えたという。",
+    "score": 0,
+    "fetched_at": "2026-06-16T23:00:50.396746+00:00"
+  },
+  {
+    "title": "シャープ、初のスマートウォッチ投入　“食べたカロリー”を自動計測　5万9400円",
+    "url": "https://www.itmedia.co.jp/news/articles/2606/16/news121.html",
+    "summary": "シャープは6月16日、同社初となるスマートウォッチ「からだメイト Watch」（MH-W01）を発表した。同社初のスマートリング「からだメイト Ring」（MH-R01）も併せて発売。いずれも発売日は7月9日で、同社の公式ストアの価格はWatchが5万9400円、Ringが4万1800円となる。",
+    "score": 0,
+    "fetched_at": "2026-06-16T23:00:50.396767+00:00"
+  },
+  {
+    "title": "テレビのリアルタイム視聴、全年齢層で初めて減少　NHK放送文化研究所調査",
+    "url": "https://www.itmedia.co.jp/news/articles/2606/16/news118.html",
+    "summary": "テレビをリアルタイムで1日に15分以上見る人の割合が、30代以下の年齢層で5割を下回ったことが6月16日、NHK放送文化研究所が昨年10月に実施した「国民生活時間調査」の結果で分かった。5年前の前回調査で横ばいだった60代以上も減少に転じるなど、現行の調査方法となった1995年以降で初めて全年齢層で減少した。",
+    "score": 0,
+    "fetched_at": "2026-06-16T23:00:50.396786+00:00"
+  },
+  {
+    "title": "アマゾンで偽造品「相乗り出品」巡る訴訟　医療機器販売会社などが最高裁に上告",
+    "url": "https://www.itmedia.co.jp/news/articles/2606/16/news117.html",
+    "summary": "大手通販サイト「Amazon」に医療機器の偽造品が出品されたのに適切な対応を取らず、売り上げが減少したとして、医療機器製造・販売会社2社が運営会社「アマゾンジャパン」（東京）に計約2億8000万円の損害賠償を求めた訴訟で、原告側が5月27日の東京高裁判決を不服として最高裁に上告したことが分かった。",
+    "score": 0,
+    "fetched_at": "2026-06-16T23:00:50.396795+00:00"
+  },
+  {
+    "title": "15歳少年「みなトクPAY」で40万円詐取か　物価対策給付金40人分、焼肉やスマホに",
+    "url": "https://www.itmedia.co.jp/news/articles/2606/16/news116.html",
+    "summary": "東京都港区による物価高騰対策の給付金を40人分だまし取ったとして、警視庁下谷署が電子計算機使用詐欺の疑いで、東京都港区の職業不詳の少年（15）を逮捕した。調べに対し、容疑を認めている。",
+    "score": 0,
+    "fetched_at": "2026-06-16T23:00:50.396803+00:00"
+  },
+  {
+    "title": "「Google Earth」で都内上空を飛んでみた　Web版にフライトシミュレータ機能　東京タワーすれすれ飛行の景色は",
+    "url": "https://www.itmedia.co.jp/news/articles/2606/16/news110.html",
+    "summary": "米Googleは6月12日（現地時間）、Web版「Google Earth」でフライトシミュレータ機能の全世界で提供を開始したと明らかにした。キーボード操作で航空機を操縦し、3D地形や航空写真の上を自由に飛び回って探索できる。",
+    "score": 0,
+    "fetched_at": "2026-06-16T23:00:50.396816+00:00"
+  },
+  {
+    "title": "DAZNまた謝罪　今度は日本戦の“音ズレ”で",
+    "url": "https://www.itmedia.co.jp/news/articles/2606/16/news105.html",
+    "summary": "「DAZN」は15日の早朝に配信した「FIFAワールドカップ2026」の「日本vsオランダ」で、音声不良および映像との誤差が生じる状態が発生したとして視聴者に謝罪した。",
+    "score": 0,
+    "fetched_at": "2026-06-16T23:00:50.396824+00:00"
+  },
+  {
+    "title": "富士通、古田会長が辞任　「不適切な行動」発覚で",
+    "url": "https://www.itmedia.co.jp/news/articles/2606/16/news092.html",
+    "summary": "富士通は6月16日、古田英範会長が同日付で取締役を辞任したと発表した。29日の定時株主総会で取締役候補に挙げていたが、招集通知の公表後に不適切な行動を確認したという。同社は具体的な内容を明らかにしていない。",
+    "score": 0,
+    "fetched_at": "2026-06-16T23:00:50.396832+00:00"
+  },
+  {
+    "title": "パチンコにもキャッシュレスの波　スマホ決済「PPPAY」登場　Visa・Mastercardで支払い可能に",
+    "url": "https://www.itmedia.co.jp/news/articles/2606/16/news089.html",
+    "summary": "PPPは6月15日、パチンコホール向けキャッシュレス決済サービス「PPPAY」の提供準備が完了したと発表した。Visa・Mastercardブランドのデビット／プリペイドカードを使い、ホールのカウンターで決済すると、その場で遊技用の玉・メダルの貸与を受けられる。",
+    "score": 0,
+    "fetched_at": "2026-06-16T23:00:50.396840+00:00"
+  },
+  {
+    "title": "Amazon「プライムデー」7月10日から4日間　「iPhone Air」など対象に",
+    "url": "https://www.itmedia.co.jp/news/articles/2606/16/news093.html",
+    "summary": "「iPhone Air」「AirPods Pro 3」「Apple Watch SE 3」が、日本のプライムデーのセール対象として初登場。",
+    "score": 0,
+    "fetched_at": "2026-06-16T23:00:50.396849+00:00"
+  },
+  {
+    "title": "リコー、「GR」シリーズ値上げへ　「IV」など6機種、最大11％",
+    "url": "https://www.itmedia.co.jp/news/articles/2606/16/news090.html",
+    "summary": "改定前後ともオープン価格だが、直販サイト・直販店舗の平均改定率は約6～11％増になる。",
+    "score": 0,
+    "fetched_at": "2026-06-16T23:00:50.396856+00:00"
+  },
+  {
+    "title": "「GO」初値、公開価格21％上回る2910円　今年最大の国内IPOに",
+    "url": "https://www.itmedia.co.jp/news/articles/2606/16/news083.html",
+    "summary": "国内だけでなく、海外投資家からも強い需要を集めた。",
+    "score": 0,
+    "fetched_at": "2026-06-16T23:00:50.396863+00:00"
+  },
+  {
+    "title": "WOWOWとドコモ、動画配信で資本提携　「Lemino」新会社に移管、「人気スポーツ」「超大作オリジナルドラマ」など強化へ",
+    "url": "https://www.itmedia.co.jp/news/articles/2606/16/news076.html",
+    "summary": "提携を通じ、音楽ライブの強化や超大作オリジナルドラマの制作、人気スポーツコンテンツの充実など、コンテンツを大幅に拡充する。",
+    "score": 0,
+    "fetched_at": "2026-06-16T23:00:50.396871+00:00"
+  },
+  {
+    "title": "“漢字ぷよ”“部首ぷよ”で漢字覚える「タッチでぷよぷよ」　進研ゼミとコラボ",
+    "url": "https://www.itmedia.co.jp/news/articles/2606/16/news068.html",
+    "summary": "通常のぷよぷよの他、漢字が書かれたぷよをつなげて消す「漢字モード」を備え、遊びながら漢字の知識が身につく。",
+    "score": 0,
+    "fetched_at": "2026-06-16T23:00:50.396879+00:00"
+  },
+  {
+    "title": "三菱の家電にWi-Fi脆弱性、エアコンや冷蔵庫、炊飯器など広範囲　ユーザーに対応求める",
+    "url": "https://www.itmedia.co.jp/news/articles/2606/16/news066.html",
+    "summary": "",
+    "score": 0,
+    "fetched_at": "2026-06-16T23:00:50.396887+00:00"
+  },
+  {
+    "title": "急拡大するAIインフラの電力需要……光明は「ワットビット連携」に？　さくら田中社長と東電が対談",
+    "url": "https://www.itmedia.co.jp/news/articles/2606/15/news082.html",
+    "summary": "AIインフラの拡大で急増する電力需要に、データセンターと電力網はどう向き合うべきか──6月10～12日に幕張メッセで開催された「Interop Tokyo 2026」の基調講演では、東京電力ホールディングスの岡本浩氏（上席フェロー）と、さくらインターネットの田中邦裕代表取締役社長が議論を交わした。",
+    "score": 0,
+    "fetched_at": "2026-06-16T23:00:50.396897+00:00"
+  },
+  {
+    "title": "MDN、MCPサーバーを提供開始",
+    "url": "https://gihyo.jp/article/2026/06/mdn-mcp-server?utm_source=feed",
+    "summary": "MDNは2026年6月15日、同サイトのドキュメントなどをAIツールに取り込むことができるMCPサーバーをリリースした。現在は試験運用中。",
+    "score": 0,
+    "fetched_at": "2026-06-16T23:00:52.329398+00:00"
+  },
+  {
+    "title": "Linux 7.1リリース ―新ドライバで“NTFSが復活”、i486、ISDN、PCMCIAドライバなどレガシーコード大規模削除",
+    "url": "https://gihyo.jp/article/2026/06/daily-linux-260616?utm_source=feed",
+    "summary": "Linus Torvaldsは6月14日、「Linux 7.1」の正式リリースをアナウンスした。",
+    "score": 0,
+    "fetched_at": "2026-06-16T23:00:52.329408+00:00"
+  },
+  {
+    "title": "japanese-tech-writing/SKILL",
+    "url": "https://gist.github.com/k16shikano/fd287c3133457c4fd8f5601d34aa817d",
+    "summary": "SKILL.md name japanese-tech-writing description 日本語の技術文書・書籍原稿の文章規範。整形（一文一行、引用ブロック、脚注、コラム記法）、段落と論証の構成（パラグラフライティング）、論証の厳密さ（ツッコミどころの除去）、読み手の負荷の管理、視点と語り、演出の抑制、LLM っぽい空句の禁止、冗長の排除を...",
+    "score": 0,
+    "fetched_at": "2026-06-16T23:00:52.525875+00:00"
+  },
+  {
+    "title": "カーネギーメロン大学の有名講義『Intro to Database Systems』を全てのプログラマに見てほしい",
+    "url": "https://zenn.dev/kaseken/articles/3913ba30af4d46",
+    "summary": "データベース (DB) について、どのように勉強していますか？ MySQLやPostgreSQL等の具体的なデータベース管理システム (DBMS) の仕様、効率的なSQLの書き方、あるいはスキーマ設計のベストプラクティス等の「DBの使い方」を教える技術書は、たくさん見かけます。そういった本を読んだことのある方は多いでしょう。 一方...",
+    "score": 0,
+    "fetched_at": "2026-06-16T23:00:52.525897+00:00"
+  },
+  {
+    "title": "スペースX、プログラミングAI開発の米新興Cursor買収　9.6兆円 - 日本経済新聞",
+    "url": "https://www.nikkei.com/article/DGXZQOGN16BC70W6A610C2000000/",
+    "summary": "【ニューヨーク=川上梓】米スペースXは16日、プログラミング用の人工知能（AI）サービスを開発する米新興Cursor（カーソル）を600億ドル（約9兆6000億円）で買収すると発表した。プログラミング向けのAI開発を強化する狙いがある。スペースXは12日にナスダック市場に上場した。初日終値の時価総額は2兆ドル規模で史上最...",
+    "score": 0,
+    "fetched_at": "2026-06-16T23:00:52.525932+00:00"
+  },
+  {
+    "title": "AI「間違って全データを消してしまいました。申し訳ありません」 | ギズモード・ジャパン",
+    "url": "https://www.gizmodo.jp/article/claude-powered-agent-apparently-deletes-company-database-debases-itself-further-in-confession-gbq/",
+    "summary": "2026年5月14日の記事を編集して再掲載しています。 9秒で何もかも消えてなくなるなんて…。 4月25日、SaaS（Software as a Service：クラウド経由でソフトウェアを提供するサービス）企業PocketOSの創業者が、X（旧Twitter）に記事として長文を投稿しました。 この投稿は、同社がAIコーディング支援ツールCursor（近々Spa...",
+    "score": 0,
+    "fetched_at": "2026-06-16T23:00:52.525945+00:00"
+  },
+  {
+    "title": "エンジニアリング戦略の作り方 / Crafting Engineering Strategy",
+    "url": "https://speakerdeck.com/iwashi86/crafting-engineering-strategy",
+    "summary": "https://forkwell.connpass.com/event/395423 の登壇資料です。",
+    "score": 0,
+    "fetched_at": "2026-06-16T23:00:52.525954+00:00"
+  },
+  {
+    "title": "AIで女性を裸にしてしまうヌード化ツールがXアカウントで宣伝されている",
+    "url": "https://gigazine.net/news/20260616-ai-nudify-tools/",
+    "summary": "複数のX(旧Twitter)アカウントからなるネットワークが、AIを用いたヌード化サービスが規制を回避し、より多くのユーザーにリーチすることに役立っていると報道されています。 AI Supercharges Deepfake Nudes—Unleashing a New Form of Bullying Among Kids - WSJ https://www.wsj.com/tech/ai-deepfake-nudes-bullying-...",
+    "score": 0,
+    "fetched_at": "2026-06-16T23:00:52.525965+00:00"
+  },
+  {
+    "title": "`cp`はディスク上ではデータをコピーしないことがある",
+    "url": "https://zenn.dev/satoru_takeuchi/articles/4bab372c6dae86",
+    "summary": "誰もが使うLinuxのコマンドの一つにcpがあります。cp  のように引数を与えるとというファイルをにコピーします。この処理は以下の図のように(1)のinode(ファイルサイズ、作成時刻といったメタデータを保存するデータ)を作成し、(2)のデータであるデータAをディスク上の別領域にデータB...",
+    "score": 0,
+    "fetched_at": "2026-06-16T23:00:52.525974+00:00"
+  },
+  {
+    "title": "GitHub - DietrichGebert/ponytail: Makes your AI agent think like the laziest senior dev in the room. The best code is the code you never wrote.",
+    "url": "https://github.com/DietrichGebert/ponytail",
+    "summary": "You signed in with another tab or window. Reload to refresh your session. You signed out in another tab or window. Reload to refresh your session. You switched accounts on another tab or window. Reload to refresh your session. Dismiss alert",
+    "score": 0,
+    "fetched_at": "2026-06-16T23:00:52.525985+00:00"
+  },
+  {
+    "title": "テクノロジー業界のリーダーたちが「魅力的なオタク」から「嫌な金持ち」へと変貌を遂げた経緯とは？",
+    "url": "https://gigazine.net/news/20260616-nerds-technology-industry-leader-terrifying-overlord/",
+    "summary": "近年は積極的にSNSで発信したり、ポッドキャストに出演したりするテクノロジー企業の創業者や幹部が増えていますが、中には世間一般の感覚とずれた発言をして炎上するケースもあります。テクノロジー系ブロガーのMr. Marketが、テクノロジー業界のリーダーたちが「魅力的なオタク」から「嫌な金持ち」に変貌してしまった...",
+    "score": 0,
+    "fetched_at": "2026-06-16T23:00:52.525995+00:00"
+  },
+  {
+    "title": "対話システムの評価を LLM にどこまで任せられるか（前編）：5 つの落とし穴",
+    "url": "https://zenn.dev/ivry/articles/2c298614d0ee85",
+    "summary": "TL;DR 対話システムを「エンドユーザーが使えるか」の観点で受け入れテストするとき、シナリオ生成も評価も LLM に任せたくなります。 しかし、LLM によるシミュレーション／評価には、生成発話のクオリティ、LLM as a Judge の限界、LLMベースシミュレーターの持つ譲歩問題など大きく5つの落とし穴が存在します。 合成...",
+    "score": 0,
+    "fetched_at": "2026-06-16T23:00:52.526004+00:00"
+  },
+  {
+    "title": "証券システムをゼロから作るには？ RubyとGoで「複雑性」を切り分けるブルーモ証券のアーキテクチャ",
+    "url": "https://codezine.jp/article/detail/24322",
+    "summary": "金融業は厳しい規制産業であり、証券システムの開発には膨大な法令やルールへの対応が求められる。そのため、既存のベンダーパッケージを導入するのが一般的な方法とされてきた。しかし「Developers Summit 2026」において、ブルーモ証券株式会社の取締役CTOである小林悟史氏は、制約条件を正しく見極めれば、モダンな技...",
+    "score": 0,
+    "fetched_at": "2026-06-16T23:00:52.526013+00:00"
+  },
+  {
+    "title": "C++言語に「ネコミミ」演算子!? かわいい顔して強力なメタプログラミング機能を提供／「C++26」で導入へ【やじうまの杜】",
+    "url": "https://forest.watch.impress.co.jp/docs/serial/yajiuma/2117584.html",
+    "summary": "",
+    "score": 0,
+    "fetched_at": "2026-06-16T23:00:52.526020+00:00"
+  },
+  {
+    "title": "PRごとに検証環境が立ち上がる仕組みをTerraform × GitHub Actionsで作った話 - エムスリーテックブログ",
+    "url": "https://www.m3tech.blog/entry/2026/06/16/153849",
+    "summary": "【デジカルチーム ブログリレー 3日目】 クラウド型電子カルテデジカルチームの黒木です。 最近、私たちのチームで 「Pull Requestごとに、そのコードがそのまま動く環境が自動で立ち上がる」仕組み──いわゆる PR環境（ephemeral environment / preview environment）を構築しました。 なぜ作ったのか 設計の方針 実装の...",
+    "score": 0,
+    "fetched_at": "2026-06-16T23:00:52.526030+00:00"
+  },
+  {
+    "title": "EPUBファイルに何も問題がないのにKoboで非対応となるのはAdobeが原因だった",
+    "url": "https://gigazine.net/news/20260616-epub-kobo-adobe/",
+    "summary": "新しい本を電子書籍ファイルフォーマットのEPUBで公開したところ、楽天の電子書籍リーダー・Koboでのみ「破損している」と報告があったため調査した結果、KoboではなくAdobeのソフトウェアに問題があったという経緯とトラブルの詳細について、ライターのアンドレ・クライン氏がまとめています。 Your EPUB Is Fine. Kobo...",
+    "score": 0,
+    "fetched_at": "2026-06-16T23:00:52.526040+00:00"
+  },
+  {
+    "title": "数学分野でシンギュラリティ到来か？AIによる相次ぐ未解決難問証明で数学者が緊急声明（ビジネス＋IT） - Yahoo!ニュース",
+    "url": "https://news.yahoo.co.jp/articles/8e8c447c19418e58faaf6f0f7a8a6a938b9c1770",
+    "summary": "数学の最高峰とされる研究領域でAIが劇的な成果を相次いで上げている。これまでAIは人間の計算を補助するツールと見なされていたが、近年では自律的に新たなアプローチを構築し、証明を生成する共同研究者へと進化を遂げた。これにより世界15カ国の大学や研究機関に所属する16人の研究者が緊急声明ともいえる「ライデン...",
+    "score": 0,
+    "fetched_at": "2026-06-16T23:00:52.526059+00:00"
+  },
+  {
+    "title": "FBIが建設したサイバー攻撃をシミュレーションするための小さな町「Kinetic Cyber Range」の内部が公開される",
+    "url": "https://gigazine.net/news/20260616-fbi-cyber-range/",
+    "summary": "FBIは2025年2月に、捜査官、分析官、鑑識専門家のデジタル捜査能力を高めるための街「Kinetic Cyber Range」を設立しました。設立以来1400人以上の訓練生を訓練してきたというKinetic Cyber Rangeの内部が2026年6月に初めて公開され、訓練の詳細などについてFBIが語っています。 Inside the FBI’s Kinetic Cyber Range —...",
+    "score": 0,
+    "fetched_at": "2026-06-16T23:00:52.526069+00:00"
+  },
+  {
+    "title": "Friends Don't Let Friends Use Ollama | Sleeping Robots",
+    "url": "https://sleepingrobots.com/dreams/stop-using-ollama/",
+    "summary": "> April 15, 2026 by Zetaphor updated April 18, 2026 Friends Don't Let Friends Use Ollama Ollama gained traction by being the first easy llama.cpp wrapper, then spent years dodging attribution, misleading users, and pivoting to cloud, all while riding VC money earned on someone else's engine. Here...",
+    "score": 0,
+    "fetched_at": "2026-06-16T23:00:52.526079+00:00"
+  },
+  {
+    "title": "求人オファーに見せかけて「バックドアを仕込んだGitHubリポジトリ」を送りつけられたという体験談",
+    "url": "https://gigazine.net/news/20260616-backdoor-job-offer/",
+    "summary": "ソフトウェアエンジニアの求職過程では発注元の企業からコードを提示されることがあります。フルスタックエンジニアのRoman Imankulov氏は「LinkedIn経由でやり取りしていた企業からバックドアを仕込んだGitHubリポジトリが送られてきた」という体験談を共有しています。 A backdoor in a LinkedIn job offer - Roman Im...",
+    "score": 0,
+    "fetched_at": "2026-06-16T23:00:52.526089+00:00"
+  },
+  {
+    "title": "AI が大量にアウトプットしてくるので認知負荷を下げる Skill を作った",
+    "url": "https://zenn.dev/hataluck/articles/0752919b305a9f",
+    "summary": "はじめに AI 時代になって、コードを「書く」コストはずいぶん下がりました。 その一方で、「読む・理解する」コストはむしろ上がっている気がしています。 AI が一気に生成した大量の Markdown、巨大な PR の diff、初見のリポジトリ、長い設計メモや仕様書……。 こうした「理解しないといけない対象」の量と速度が増え...",
+    "score": 0,
+    "fetched_at": "2026-06-16T23:00:52.526097+00:00"
+  },
+  {
+    "title": "「ヨドバシカメラ 池袋店」、6月30日オープン",
+    "url": "https://www.watch.impress.co.jp/docs/news/2117529.html",
+    "summary": "",
+    "score": 0,
+    "fetched_at": "2026-06-16T23:00:52.526104+00:00"
+  },
+  {
+    "title": "なぜMicrosoftはローカルアカウントを嫌うのか？ Windows 11で議論再燃 | ソフトアンテナ",
+    "url": "https://softantenna.com/blog/windows11-microsoft-account-issue/",
+    "summary": "Windows 11では、セットアップ時にMicrosoftアカウント(MSA)の使用が事実上必須となり、多くのユーザーが不満を募らせています。 最近Redditで行われた議論では、この問題が単に「ローカルアカウントを作れない」という機能面での話にとどまらず、プライバシー・透明性・ユーザーの主導権といった、より大きなテーマへと...",
+    "score": 0,
+    "fetched_at": "2026-06-16T23:00:52.526113+00:00"
+  },
+  {
+    "title": "Hono で API バックエンドを作るときの個人的ベストプラクティス",
+    "url": "https://zenn.dev/ashunar0/articles/1ba94a110d8622",
+    "summary": "1. はじめに Hono で API バックエンドを何度か作ってきた中で、自分の中の構成が固まってきたのでまとめておく。フロントエンドと組まない、バックエンド単体のリポジトリを想定する。 ※あくまで個人的なベストプラクティスです。書くにあたって、Hono 公式の Best Practices と RPC ガイドの方針と矛盾しない範囲であ...",
+    "score": 0,
+    "fetched_at": "2026-06-16T23:00:52.526132+00:00"
+  },
+  {
+    "title": "GitHub - Leonxlnx/taste-skill: Taste-Skill (High-Agency Frontend) - gives your AI good taste. stops the AI from generating boring, generic, \"slop\"",
+    "url": "https://github.com/Leonxlnx/taste-skill",
+    "summary": "You signed in with another tab or window. Reload to refresh your session. You signed out in another tab or window. Reload to refresh your session. You switched accounts on another tab or window. Reload to refresh your session. Dismiss alert",
+    "score": 0,
+    "fetched_at": "2026-06-16T23:00:52.526142+00:00"
+  },
+  {
+    "title": "米国版“699ドル”と日本版“967ドル”　デル「XPS 13」の日米価格差に見る、MacBook Neo対抗のギャップが生まれた理由",
+    "url": "https://www.itmedia.co.jp/pcuser/articles/2606/16/news123.html",
+    "summary": "米国版“699ドル”と日本版“967ドル”　デル「XPS 13」の日米価格差に見る、MacBook Neo対抗のギャップが生まれた理由 既報の通り、デル・テクノロジーズは6月16日、新型モバイルノートPC「XPS 13（DX13260）」を発表し、直販サイトで一部構成の受注を開始した。 →デルのモバイルノートPC「XPS 13」が日本上陸　15万4800円...",
+    "score": 0,
+    "fetched_at": "2026-06-16T23:00:52.526152+00:00"
+  },
+  {
+    "title": "どう実現？「食べるだけでカロリー自動測定」を叶えるシャープのスマートウォッチ独自の仕組みとは",
+    "url": "https://k-tai.watch.impress.co.jp/docs/news/2117534.html",
+    "summary": "",
+    "score": 0,
+    "fetched_at": "2026-06-16T23:00:52.526168+00:00"
+  },
+  {
+    "title": "Linux 7.1リリース ―新ドライバで“NTFSが復活”、i486、ISDN、PCMCIAドライバなどレガシーコード大規模削除 | gihyo.jp",
+    "url": "https://gihyo.jp/article/2026/06/daily-linux-260616",
+    "summary": "Linux Daily Topics Linux 7.1リリース ―新ドライバで“NTFSが復活”⁠⁠、i486⁠⁠、ISDN⁠⁠、PCMCIAドライバなどレガシーコード大規模削除 Linus Torvaldsは6月14日、「⁠Linux 7.1」の正式リリースをアナウンスした。今回のリリースではAIツールによるバグ報告が相次いだことで、Linusが開発者に対して警告を発する場面もあっ...",
+    "score": 0,
+    "fetched_at": "2026-06-16T23:00:52.526178+00:00"
   }
 ]
