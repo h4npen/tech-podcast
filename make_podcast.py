@@ -129,6 +129,46 @@ def fetch_and_pool_news():
     save_json(CARRYOVER_FILE, pooled_list)
     print(f"Total articles pooled in carryover.json: {len(pooled_list)}")
 
+    # --- 今日の日次ニュース記事リストを daily_news.json に書き出す ---
+    update_daily_news(articles)
+
+
+def update_daily_news(new_articles):
+    """今日取得したニュース記事をdaily_news.jsonに追記・更新する。"""
+    DAILY_NEWS_FILE = "daily_news.json"
+    today_str = datetime.now(timezone.utc).strftime("%Y-%m-%d")
+
+    daily_data = load_json(DAILY_NEWS_FILE, [])
+
+    # 今日の日付エントリを探す（なければ新規作成）
+    today_entry = next((d for d in daily_data if d.get("date") == today_str), None)
+    if today_entry is None:
+        today_entry = {"date": today_str, "articles": []}
+        daily_data.insert(0, today_entry)
+
+    # 既存URLと重複しない記事だけ追加
+    existing_urls = {a["url"] for a in today_entry["articles"]}
+    for art in new_articles:
+        if art["url"] not in existing_urls:
+            today_entry["articles"].append({
+                "title": art["title"],
+                "url": art["url"],
+                "summary": re.sub(r'<[^>]*>', '', art.get("summary", ""))[:300],
+                "score": art.get("score", 0),
+                "fetched_at": art.get("fetched_at", "")
+            })
+            existing_urls.add(art["url"])
+
+    # スコア順に並び替え
+    today_entry["articles"].sort(key=lambda x: x.get("score", 0), reverse=True)
+
+    # 30日より古いエントリを削除
+    cutoff = (datetime.now(timezone.utc) - timedelta(days=30)).strftime("%Y-%m-%d")
+    daily_data = [d for d in daily_data if d.get("date", "") >= cutoff]
+
+    save_json(DAILY_NEWS_FILE, daily_data)
+    print(f"daily_news.json updated: {len(today_entry['articles'])} articles for {today_str}.")
+
 # === 2. Gemini API を使用した台本生成 ===
 def generate_script_with_gemini(articles_batch, is_first, is_last):
     api_key = os.environ.get("GEMINI_API_KEY")

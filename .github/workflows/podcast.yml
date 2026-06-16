@@ -74,6 +74,7 @@ jobs:
         if [ -f podcast_history.json ]; then git add podcast_history.json; fi
         if [ -f carryover.json ]; then git add carryover.json; fi
         if [ -f episodes.json ]; then git add episodes.json; fi
+        if [ -f daily_news.json ]; then git add daily_news.json; fi
         
         if ! git diff --cached --quiet; then
           git commit -m "Automated update (daily pool / weekly build)"
