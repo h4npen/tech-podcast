@@ -1,5 +1,360 @@
 [
   {
+    "date": "2026-06-17",
+    "articles": [
+      {
+        "title": "Pythonパッケージマネージャー「uv」、脆弱性確認コマンド「uv audit」をプレビュー提供",
+        "url": "https://gihyo.jp/article/2026/06/uv-audit-preview?utm_source=feed",
+        "summary": "OpenAI傘下のAstralは2026年6月8日、Pythonパッケージマネージャー「uv」に、依存関係の脆弱性を確認する新コマンドuv auditと、インストール時に既知のマルウェア情報を照合する機能を追加したと発表した。いずれも現時点ではプレビュー機能で、設計の反復に伴い破壊的変更が入る可能性があるとしている。",
+        "score": 110,
+        "fetched_at": "2026-06-17T22:56:09.367042+00:00"
+      },
+      {
+        "title": "SBGとOpenAI、AIで脆弱性診断「Patching as a Service」提供　まずは日本の重要インフラ向けに",
+        "url": "https://www.itmedia.co.jp/news/articles/2606/16/news115.html",
+        "summary": "ソフトバンクグループと米OpenAIは6月16日、OpenAIのAI技術を活用して企業の脆弱性診断から修復方針の策定、実装の提案までを支援する法人向けサイバーセキュリティ対策ソリューション「Patching as a Service」の提供を始めると発表した。",
+        "score": 110,
+        "fetched_at": "2026-06-17T22:56:08.088437+00:00"
+      },
+      {
+        "title": "デジタル相、停止中のミュトス級AIについて「今あるもので最大限」　3メガバンクなども同様",
+        "url": "https://www.itmedia.co.jp/news/articles/2606/16/news124.html",
+        "summary": "松本尚デジタル相は6月16日の記者会見で、米Anthropicの最上位AIモデル「Claude Mythos 5」「Claude Fable 5」が米国政府の指令により利用停止となっている件について現状を明かした。政府のサイバーセキュリティ対策については、手元にあるフロンティアAIを使って進める考えを示した。",
+        "score": 110,
+        "fetched_at": "2026-06-17T22:56:08.088418+00:00"
+      },
+      {
+        "title": "OpenAIが「AIにバレずにAIをテストする手法」の開発に成功",
+        "url": "https://gigazine.net/news/20260617-openai-simulating-deployment/",
+        "summary": "OpenAIやAnthropicなどのAI企業はAIモデルを製品化する前に社内で安全リスクの分析を行っています。新たに、OpenAIが安全リスクの高精度な分析手法を発表しました。 Predicting model behavior before release by simulating deployment | OpenAI https://openai.com/index/deployment-simulation/ 多くのAI企業はAIモデ...",
+        "score": 100,
+        "fetched_at": "2026-06-17T22:56:09.756185+00:00"
+      },
+      {
+        "title": "Claude Opus 4.7超えの中華モデル「GLM-5.2」が正式発表される、一部テストではClaude Fable 5を上回りオープンモデルとして誰でもダウンロード可能に",
+        "url": "https://gigazine.net/news/20260617-z-ai-glm-5-2-release/",
+        "summary": "中国のAI企業であるZ.aiがAIモデル「GLM-5.2」を日本時間の2026年6月17日に正式発表しました。GLM-5.2は各種ベンチマークでClaude Opus 4.7を上回るスコアを記録しており、人間によるブラインドテストではClaude Fable 5を上回った例もあります。 GLM-5.2: Built for Long-Horizon Tasks https://z.ai/blog/glm-5.2 GLM-...",
+        "score": 100,
+        "fetched_at": "2026-06-17T22:56:09.756173+00:00"
+      },
+      {
+        "title": "AntigravityとローカルLLMをMCPで繋ぐ！完全無料でクオータを99%削減する連携術",
+        "url": "https://zenn.dev/kojimaru/articles/2864ef6ce8b85c",
+        "summary": "はじめに 生成AIをヘビーに使い倒す開発者や学習者にとって、最大の敵は「APIクオータ（利用制限）の枯渇」ではないでしょうか。 私はAIアシスタント「Antigravity（Gemini）」の優秀な対話UI（特に出力に対してピンポイントでコメントできる機能）が大好きで、思考整理やブログの下書きに使い込んでいました。 しかし、...",
+        "score": 100,
+        "fetched_at": "2026-06-17T22:56:09.756001+00:00"
+      },
+      {
+        "title": "Claude Code、リモートMCPサーバーをサポート",
+        "url": "https://gihyo.jp/article/2025/06/claude-code-remote-mcp?utm_source=feed",
+        "summary": "2025年6月19日、Anthropicは同社のAIコーディングエージェントClaude CodeがリモートMCPサーバーをサポートしたことを発表した。",
+        "score": 100,
+        "fetched_at": "2026-06-17T22:56:09.373766+00:00"
+      },
+      {
+        "title": "OpenAI、Agents SDKを利用したカスタマーサービスとアプリケーションテスト向けのAIエージェントのデモを公開",
+        "url": "https://gihyo.jp/article/2025/06/openai-agent-demo?utm_source=feed",
+        "summary": "OpenAIは2025年6月、Agents SDKを活用したカスタマーサービスおよびアプリケーションテスト向けのAIエージェントのデモアプリをGitHubで公開した。",
+        "score": 100,
+        "fetched_at": "2026-06-17T22:56:09.373758+00:00"
+      },
+      {
+        "title": "オープンソースのAIコーディングエージェントopencodeが一般利用可能に",
+        "url": "https://gihyo.jp/article/2025/06/opencode?utm_source=feed",
+        "summary": "ターミナル上で動作するオープンソースのAIコーディングエージェント「opencode」は2025年6月20日、Claude Pro/Maxへの対応や、75以上のLLMプロバイダに対応して一般利用できるようになったことをアナウンスした。",
+        "score": 100,
+        "fetched_at": "2026-06-17T22:56:09.373740+00:00"
+      },
+      {
+        "title": "“次のディナーもあるかもね” - Linus、Bill Gatesと「歴史的」初顔合わせ",
+        "url": "https://gihyo.jp/article/2025/06/daily-linux-250623?utm_source=feed",
+        "summary": "6月20日、Microsoft AzureのCTOを務めるMark RussinovichはLinus Torvalds、Bill Gates、Dave Cutler、そしてRussinovich本人が写っているスリリングな写真を投稿した。",
+        "score": 100,
+        "fetched_at": "2026-06-17T22:56:09.373713+00:00"
+      },
+      {
+        "title": "Java on Azure Day 2025 基調講演レポート――Oracleとの戦略的協業、AI時代のJava開発生産性向上・レガシーモダナイズ・AIアプリ基盤の最新動向",
+        "url": "https://gihyo.jp/article/2025/06/java-on-azure-day-2025?utm_source=feed",
+        "summary": "2025年6月17日、日本マイクロソフトは、毎年恒例となった「Java on Azure Day 2025」を開催しました。",
+        "score": 100,
+        "fetched_at": "2026-06-17T22:56:09.373704+00:00"
+      },
+      {
+        "title": "Google、Geminiをコマンドラインから利用できるGemini CLIをオープンソースとして公開",
+        "url": "https://gihyo.jp/article/2025/06/gemini-cli?utm_source=feed",
+        "summary": "Googleは2025年6月25日、AIアシスタントGeminiをコマンドラインから操作できる「Gemini CLI」をオープンソースとして公開した。",
+        "score": 100,
+        "fetched_at": "2026-06-17T22:56:09.373611+00:00"
+      },
+      {
+        "title": "Anthropic、「アーティファクト」に作成アプリへのAI搭載機能と成果物共有のための専用スペースを追加",
+        "url": "https://gihyo.jp/article/2025/06/ai-apps-with-claude-artifacts?utm_source=feed",
+        "summary": "Anthropicは2025年6月25日、Claudeのコンテンツ作成機能であるアーティファクト（Artifacts）に、成果物の作成、ホスティング、共有のための専用スペースと、作品自体にAIを搭載させる機能を追加したことを発表した。",
+        "score": 100,
+        "fetched_at": "2026-06-17T22:56:09.373603+00:00"
+      },
+      {
+        "title": "Anthropic、ワンクリックでローカルMCPサーバーをインストールできる「Desktop Extensions」をリリース",
+        "url": "https://gihyo.jp/article/2025/06/claude-desktop-extensions?utm_source=feed",
+        "summary": "Anthropicは2025年6月25日、Claude Desktop上でボタンをクリックするだけでローカルMCP（Model Context Protocol）サーバーをインストールできるパッケージツール「Desktop Extensions」をリリースした。",
+        "score": 100,
+        "fetched_at": "2026-06-17T22:56:09.373553+00:00"
+      },
+      {
+        "title": "レベルアップ！つよつよエンジニアを目指すには？",
+        "url": "https://gihyo.jp/article/2025/07/aws-learning-guide-03?utm_source=feed",
+        "summary": "この連載では、それぞれのレベル別にAWSの学び方を紹介します。第3回は、「既にAWSを知っている人が、エンジニアとしてのレベルアップを目指すにはどうすべきか」についていくつかの方策を提案します。",
+        "score": 100,
+        "fetched_at": "2026-06-17T22:56:09.373421+00:00"
+      },
+      {
+        "title": "AWS、AIエージェント型IDE「Kiro」をリリース ―プロトタイプ作成から本番環境までAIがサポートする“スペック駆動開発”が可能に",
+        "url": "https://gihyo.jp/article/2025/07/kiro?utm_source=feed",
+        "summary": "AWSは2025年7月14日、新しいAIエージェント機能を備えたIDE、「Kiro」をプレビューリリースした。",
+        "score": 100,
+        "fetched_at": "2026-06-17T22:56:09.373220+00:00"
+      },
+      {
+        "title": "Anthropic、ワンクリックでClaudeに接続できるツールディレクトリを公開",
+        "url": "https://gihyo.jp/article/2025/07/cloude-directory?utm_source=feed",
+        "summary": "Anthropicは2025年7月15日、Claudeに接続するツールの新しいディレクトリを公開した。",
+        "score": 100,
+        "fetched_at": "2026-06-17T22:56:09.373183+00:00"
+      },
+      {
+        "title": "手首にAIで久々の革命か？ GeminiがWear OS搭載をサポート",
+        "url": "https://gihyo.jp/article/2025/07/android-weekly-topics-250717?utm_source=feed",
+        "summary": "7月9日、GoogleはWear OS搭載のスマートウォッチでGeminiが利用できるようになったと発表しました。",
+        "score": 100,
+        "fetched_at": "2026-06-17T22:56:09.373150+00:00"
+      },
+      {
+        "title": "AIツール「Claude」を使ってBlender上でモデリングしてみよう～準備編～",
+        "url": "https://gihyo.jp/article/2025/07/blender-basics-57?utm_source=feed",
+        "summary": "第57回目は、AIツールを使って指示を出し、Blender上でモデリングを行うための準備をしていきます。",
+        "score": 100,
+        "fetched_at": "2026-06-17T22:56:09.373103+00:00"
+      },
+      {
+        "title": "Claude Codeにカスタムサブエージェント機能が登場 ―複数のサブエージェントによるタスク特化の「エージェントチーム」を作成可能に",
+        "url": "https://gihyo.jp/article/2025/07/claude-code-sub-agents?utm_source=feed",
+        "summary": "Anthropicは2025年7月24日、同社のコーディングAIツールClaude Codeでカスタムサブエージェント（Custom Sub Agents）機能が追加されたことをアナウンスした。",
+        "score": 100,
+        "fetched_at": "2026-06-17T22:56:09.372974+00:00"
+      },
+      {
+        "title": "技術資格に「合格する」ための勉強法 ——IPA&AWS試験で成果を出した“実践ノウハウ”を公開",
+        "url": "https://gihyo.jp/article/2025/07/how-to-study-to-pass-technical-qualifications?utm_source=feed",
+        "summary": "2025年7月10日に開催された、ハイヤールー社主催の勉強会「Study Hack」では「資格で人生を変える勉強法」というテーマを取り上げました。登壇したのは、IPAとAWS認定資格のすべての区分に合格したENECHANGE社の岩本さんです。試行錯誤を重ねて培った勉強のノウハウをもとに「合格する」ための勉強法のエッセンスが紹介されました。",
+        "score": 100,
+        "fetched_at": "2026-06-17T22:56:09.372947+00:00"
+      },
+      {
+        "title": "Anthropic、Claude ProとMaxで新たな“週次レート制限”の導入を予告",
+        "url": "https://gihyo.jp/article/2025/07/cloude-weekly-rate-limits?utm_source=feed",
+        "summary": "Anthropicは2025年7月29日の𝕏へのポストで、同社のClaude ProおよびClaude Maxプランのユーザーに対して、8月下旬から週ごとの使用レート制限を行うことを予告した。",
+        "score": 100,
+        "fetched_at": "2026-06-17T22:56:09.372927+00:00"
+      },
+      {
+        "title": "Linux 6.16リリース ― NVIDIA GPUサポート強化、Intel APXサポート",
+        "url": "https://gihyo.jp/article/2025/07/daily-linux-250730?utm_source=feed",
+        "summary": "Linus Torvaldsは7月27日（米国時間）、「Linux 6.16」を公開した。",
+        "score": 100,
+        "fetched_at": "2026-06-17T22:56:09.372901+00:00"
+      },
+      {
+        "title": "クラスメソッド、Claude Codeを使った開発を体系化、効率化するフレームワーク「Tsumiki」をオープンソースとして公開",
+        "url": "https://gihyo.jp/article/2025/07/classmethod-tsumiki?utm_source=feed",
+        "summary": "クラスメソッドは2025年7月29日、AnthropicのAIコーディングツールClaude Codeを使った開発を体系化・効率化するフレームワーク「Tsumiki」（積み木）をオープンソースとして公開した。",
+        "score": 100,
+        "fetched_at": "2026-06-17T22:56:09.372865+00:00"
+      },
+      {
+        "title": "AIニュースノート：America’s AI Action Plan、ChatGPT学習モード、Qwen3-30B-A3B-Instruct-2507-FP8など",
+        "url": "https://gihyo.jp/article/2025/07/ai-news-note-20250730?utm_source=feed",
+        "summary": "gihyo.jpのニュース記事として取り上げていなかったもののなかから、直近の興味深いAIに関連するニュース概要を簡単にまとめてみました。",
+        "score": 100,
+        "fetched_at": "2026-06-17T22:56:09.372855+00:00"
+      },
+      {
+        "title": "Gemini CLIでカスタムスラッシュコマンドのサポートを開始",
+        "url": "https://gihyo.jp/article/2025/07/gemini-cli-custom-slash-commands?utm_source=feed",
+        "summary": "Googleは2025年7月31日、コマンドライン型AIアシスタント「Gemini CLI」で再利用可能なプロンプトを定義できる「カスタムスラッシュコマンド」をサポートしたことを発表した。",
+        "score": 100,
+        "fetched_at": "2026-06-17T22:56:09.372846+00:00"
+      },
+      {
+        "title": "Android Studio Narwhal Feature Dropの安定版が登場 ―Geminiを使ったエージェントモードが利用可能に",
+        "url": "https://gihyo.jp/article/2025/08/android-studio-narwhal-feature-drop?utm_source=feed",
+        "summary": "Googleは2025年7月31日、Android開発用の公式IDEであるAndroid Studioの最新バージョン「Android Studio Narwhal Feature Drop」を安定版としてリリースしたことを発表した。",
+        "score": 100,
+        "fetched_at": "2026-06-17T22:56:09.372782+00:00"
+      },
+      {
+        "title": "OpenAI、o3-miniと同等以上のオープンモデル「gpt-oss」をリリース ——ハーモニーレスポンス形式を扱うトークナイザーやレンダラーもオープンソースで公開",
+        "url": "https://gihyo.jp/article/2025/08/openai-gpt-oss?utm_source=feed",
+        "summary": "OpenAIは2025年8月5日、2つのオープンモデル「gpt-oss-120b」と「gpt-oss-20b」をリリースした。",
+        "score": 100,
+        "fetched_at": "2026-06-17T22:56:09.372737+00:00"
+      },
+      {
+        "title": "Android XRとGeminiの組み合わせで起こる化学変化とは",
+        "url": "https://gihyo.jp/article/2025/08/android-weekly-topics-250807?utm_source=feed",
+        "summary": "Android XRは、Project Moohanの名前で呼ばれており、Samsungがデバイスを開発中で、2025年内（Q3からQ4）には発売されるとされています。",
+        "score": 100,
+        "fetched_at": "2026-06-17T22:56:09.372728+00:00"
+      },
+      {
+        "title": "Gemini CLI GitHub Actionsが登場 ―AIエージェントが開発ワークフローを強力にアシスト",
+        "url": "https://gihyo.jp/article/2025/08/gemini-cli-github-actions?utm_source=feed",
+        "summary": "Googleは2025年8月5日、AIが開発ワークフローの自動化をアシストする「Gemini CLI GitHub Actions」をベータ版としてリリースした",
+        "score": 100,
+        "fetched_at": "2026-06-17T22:56:09.372691+00:00"
+      },
+      {
+        "title": "OpenAI、GPT‑5をリリース ——これまでで最高の性能で、ハルシネーションの大幅低減も達成、Codex CLIでもGPT-5が利用可能に",
+        "url": "https://gihyo.jp/article/2025/08/openai-gpt-5?utm_source=feed",
+        "summary": "OpenAIは2025年8月7日、これまでで最も優れたAIシステムであるGPT‑5を発表した。",
+        "score": 100,
+        "fetched_at": "2026-06-17T22:56:09.372656+00:00"
+      },
+      {
+        "title": "AIツール「Claude」を使ってBlender上でモデリングしてみよう～初歩的な実践編～",
+        "url": "https://gihyo.jp/article/2025/08/blender-basics-58?utm_source=feed",
+        "summary": "第58回目は、AIを使って指示を出し、Blender上でモデリングを行う方法を見ていきます。",
+        "score": 100,
+        "fetched_at": "2026-06-17T22:56:09.372628+00:00"
+      },
+      {
+        "title": "Gemini CLI、VS Codeとの連携強化 ―コンテキストを認識しエディタ内差分表示が可能に",
+        "url": "https://gihyo.jp/article/2025/08/gemini-cli-vs-code-integration?utm_source=feed",
+        "summary": "Googleは2025年8月13日、コマンドラインAIコードアシスタントGemini CLIをVS Codeに統合し、より連携を強化した開発ができるようになったことを発表した。",
+        "score": 100,
+        "fetched_at": "2026-06-17T22:56:09.372600+00:00"
+      },
+      {
+        "title": "AIニュースノート：Google検索：AIの影響, Microsoft 365 Copilot、GPT-5搭載, Claude Sonnet 4、APIで100万トークンのコンテキストに対応, Kaggle Game Arena：ゲーム対戦による新ベンチマークなど",
+        "url": "https://gihyo.jp/article/2025/08/ai-news-note-20250814?utm_source=feed",
+        "summary": "gihyo.jpのニュース記事として取り上げていなかったもののなかから、直近の興味深いAIに関連するニュース概要を簡単にまとめてみました。",
+        "score": 100,
+        "fetched_at": "2026-06-17T22:56:09.372590+00:00"
+      },
+      {
+        "title": "GPT-5、開発に使うための基礎知識　 ——ワンショットでのフロントエンド開発の各モデル比較も",
+        "url": "https://gihyo.jp/article/2025/08/programming-with-chatgpt-05?utm_source=feed",
+        "summary": "今回はOpenAIの新しいモデルGPT-5を、開発者視点で徹底解説します。APIの新機能やプロンプト設計の要点、フロントエンド開発の作例と他モデルとの比較までを一気に見ていきます。",
+        "score": 100,
+        "fetched_at": "2026-06-17T22:56:09.372512+00:00"
+      },
+      {
+        "title": "OpenAI、AIコーディングエージェントをガイドするための「AGENTS.md」サイトを公開",
+        "url": "https://gihyo.jp/article/2025/08/agents-md-site?utm_source=feed",
+        "summary": "OpenAIは2025年8月20日、AIコーディングエージェントをガイドするためのシンプルなフォーマット「AGENTS.md」を案内するサイトを公開した。",
+        "score": 100,
+        "fetched_at": "2026-06-17T22:56:09.372503+00:00"
+      },
+      {
+        "title": "AIニュースノート：AGENTS.mdの採用は広がる？（VS Code, cline）, ExcelのCopilot関数でAIを活用, Claude CodeがTeam・Enterpriseプランに対応など",
+        "url": "https://gihyo.jp/article/2025/08/22?utm_source=feed",
+        "summary": "gihyo.jpのニュース記事として取り上げていなかったもののなかから、直近の興味深いAIに関連するニュース概要を簡単にまとめてみました。",
+        "score": 100,
+        "fetched_at": "2026-06-17T22:56:09.372468+00:00"
+      },
+      {
+        "title": "AIツール「Claude」を使ってBlender上でモデリングしてみよう ～さらに複雑な実践編～",
+        "url": "https://gihyo.jp/article/2025/08/blender-basics-59?utm_source=feed",
+        "summary": "第59回目は、AIを使って指示を出し、Blender上でモデリングを行い、そこに自分自身で手を加えていく方法を見ていきます。",
+        "score": 100,
+        "fetched_at": "2026-06-17T22:56:09.372459+00:00"
+      },
+      {
+        "title": "Google、一貫性を維持した画像編集を可能にする「Gemini 2.5 Flash Image」をリリース",
+        "url": "https://gihyo.jp/article/2025/08/gemini-2.5-flash-image?utm_source=feed",
+        "summary": "Googleは2025年8月26日、新しい画像生成・編集モデル「Gemini 2.5 Flash Image」を発表した。",
+        "score": 100,
+        "fetched_at": "2026-06-17T22:56:09.372414+00:00"
+      },
+      {
+        "title": "OpenAI、Codexの機能を強化し、VS CodeやCursorから使うための新しい拡張機能を公開 ——Codex CLIでは画像入力、メッセージキューイング、ウェブ検索も可能に",
+        "url": "https://gihyo.jp/article/2025/08/openai-codex-new-ide-extension?utm_source=feed",
+        "summary": "OpenAIは2025年8月27日、Codexの機能を強化し、VS CodeやCursorからの使うための新しい拡張機能をリリースした。またGPT-5のリリース以降、Codex CLIの開発が活発に行われており、今回のアップデートで画像入力、メッセージキューイング、ウェブ検索などの新機能が追加された。",
+        "score": 100,
+        "fetched_at": "2026-06-17T22:56:09.372389+00:00"
+      },
+      {
+        "title": "Ubuntu 25.10（questing）の開発; MySQLのメモリ効率の改善、 NVIDIA Jetson Thorのサポート",
+        "url": "https://gihyo.jp/admin/clip/01/ubuntu-topics/202508/29?utm_source=feed",
+        "summary": "データベースワークロードに関連する、興味深い取り組みが行われています。MySQL 8.4のUbuntuパッケージにおいてtcmallocを利用するようにしたことで実現されています。",
+        "score": 100,
+        "fetched_at": "2026-06-17T22:56:09.372377+00:00"
+      },
+      {
+        "title": "そこそこエンジニアでもいいんじゃない？",
+        "url": "https://gihyo.jp/article/2025/09/aws-learning-guide-04?utm_source=feed",
+        "summary": "この連載では、それぞれのレベル別にAWSの学び方を紹介します。第4回は、「既にAWSを知っている人が、エンジニアとしてのレベルアップを目指すにはどうすべきか」についていくつかの方策を提案します。",
+        "score": 100,
+        "fetched_at": "2026-06-17T22:56:09.372322+00:00"
+      },
+      {
+        "title": "AIツール「Claude」を使って画像をもとにBlender上でモデリングしてみよう 〜Hyper3D使用と未使用の比較〜",
+        "url": "https://gihyo.jp/article/2025/09/blender-basics-60?utm_source=feed",
+        "summary": "第60回目は、画像をAIに見せその画像をもとに、Blender上でモデリングを行っていく様子を見ていきます。",
+        "score": 100,
+        "fetched_at": "2026-06-17T22:56:09.372201+00:00"
+      },
+      {
+        "title": "OpenAI、コーディングエージェントにより最適化した「GPT-5-Codex」をリリース",
+        "url": "https://gihyo.jp/article/2025/09/gpt-5-codex?utm_source=feed",
+        "summary": "OpenAIは2025年9月15日、AIコーディングエージェントCodex向けにさらに最適化されたGPT-5の新バージョン「GPT-5-Codex」をリリースした。",
+        "score": 100,
+        "fetched_at": "2026-06-17T22:56:09.372096+00:00"
+      },
+      {
+        "title": "Google、ChromeにGeminiをより深く統合、AIエージェント型ブラウジングアシスタントやアドレスバーでのAIモード検索を実現へ ―9/18から米国向け英語版Chromeで提供開始",
+        "url": "https://gihyo.jp/article/2025/09/chrome-ai-edition?utm_source=feed",
+        "summary": "Googleは2025年9月18日、WebブラウザChromeの米国ユーザー向け英語版に複数のレベルでAIモデルGeminiを組み込み、AIによるブラウジング体験を向上させるアップデート版を提供することを発表した。",
+        "score": 100,
+        "fetched_at": "2026-06-17T22:56:09.371991+00:00"
+      },
+      {
+        "title": "AIツール「Claude」を使ってオブジェクトをたくさん並べてみよう",
+        "url": "https://gihyo.jp/article/2025/09/blender-basics-61?utm_source=feed",
+        "summary": "第61回目は、「Claude」を使って、Blenderのオブジェクトを均等に並べて生成してみたり、ランダムに並べて生成してみたりすると、どのような結果になるのかを見ていきます。",
+        "score": 100,
+        "fetched_at": "2026-06-17T22:56:09.371947+00:00"
+      },
+      {
+        "title": "NVIDIA、日本の人口統計や地理・文化にもとづいたオープンソースのAI開発向けデータセットを公開",
+        "url": "https://gihyo.jp/article/2025/09/nemotron-personas-japan?utm_source=feed",
+        "summary": "NVIDIAは2025年9月23日、日本における人口統計、地理的分布、性格特性の分布に基づいて合成的に生成されたペルソナのオープンソースデータセット「Nemotron-Personas-Japan」を公開した。",
+        "score": 100,
+        "fetched_at": "2026-06-17T22:56:09.371858+00:00"
+      },
+      {
+        "title": "Claude Sonnet 4.5リリース、Claude CodeにネイティブVS Code機能拡張など大幅機能強化",
+        "url": "https://gihyo.jp/article/2025/09/claude-sonnet-4-5?utm_source=feed",
+        "summary": "Anthropicは2025年9月30日、同社のAIモデルClaude Sonnetの新バージョンSonnet 4.5をリリースした。",
+        "score": 100,
+        "fetched_at": "2026-06-17T22:56:09.371755+00:00"
+      },
+      {
+        "title": "OpenAI、動画生成モデル「Sora 2」とソーシャルアプリ「Sora」を発表",
+        "url": "https://gihyo.jp/article/2025/10/sora2?utm_source=feed",
+        "summary": "OpenAIは2025年9月30日、動画生成モデルSora 2を発表し、同モデルを使える新しいソーシャルアプリSoraのiOS向けの提供とそ段階的利用を米国とカナダで開始した。",
+        "score": 100,
+        "fetched_at": "2026-06-17T22:56:09.371705+00:00"
+      },
+      {
+        "title": "OpenAI、エージェントを構築、デプロイ、最適化するツール「AgentKit」を発表",
+        "url": "https://gihyo.jp/article/2025/10/openai-agentkit?utm_source=feed",
+        "summary": "OpenAIは2025年10月6日、AIエージェントを構築、デプロイ、最適化するためのツールキット「AgentKit」を発表した。",
+        "score": 100,
+        "fetched_at": "2026-06-17T22:56:09.371589+00:00"
+      }
+    ]
+  },
+  {
     "date": "2026-06-16",
     "articles": [
       {
