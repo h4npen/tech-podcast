@@ -33,6 +33,9 @@ PRONUNCIATION_FILE = "pronunciation.json"
 OUTPUT_DIR = "podcasts"
 RSS_FILE = "podcast.xml"
 
+# 日次ニュース（サイト表示用）の1日あたり最大件数
+DAILY_NEWS_MAX_ARTICLES = 50
+
 # === 共通ユーティリティ ===
 def load_json(path, default):
     if os.path.exists(path):
@@ -159,15 +162,19 @@ def update_daily_news(new_articles):
             })
             existing_urls.add(art["url"])
 
-    # スコア順に並び替え
-    today_entry["articles"].sort(key=lambda x: x.get("score", 0), reverse=True)
+    # スコア降順 → 取得日時降順（同スコア内では新しい記事を優先）でソートし、上限件数に絞る
+    today_entry["articles"].sort(
+        key=lambda x: (x.get("score", 0), x.get("fetched_at", "")),
+        reverse=True
+    )
+    today_entry["articles"] = today_entry["articles"][:DAILY_NEWS_MAX_ARTICLES]
 
     # 30日より古いエントリを削除
     cutoff = (datetime.now(timezone.utc) - timedelta(days=30)).strftime("%Y-%m-%d")
     daily_data = [d for d in daily_data if d.get("date", "") >= cutoff]
 
     save_json(DAILY_NEWS_FILE, daily_data)
-    print(f"daily_news.json updated: {len(today_entry['articles'])} articles for {today_str}.")
+    print(f"daily_news.json updated: {len(today_entry['articles'])} articles for {today_str} (max {DAILY_NEWS_MAX_ARTICLES}).")
 
 # === 2. Gemini API を使用した台本生成 ===
 def generate_script_with_gemini(articles_batch, is_first, is_last):
