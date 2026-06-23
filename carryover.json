@@ -1,5 +1,12 @@
 [
   {
+    "title": "OpenAIがClaude Mythos 5超えのセキュリティー特化AI「GPT-5.5-Cyber」のアップデートを発表＆セキュリティー特化Codexプラグイン「Codex Security」もアップデート",
+    "url": "https://gigazine.net/news/20260623-openai-gpt-cyber-codex-security-daybreak/",
+    "summary": "OpenAIがセキュリティー研究者向けAIモデル「GPT-5.5-Cyber」のアップデートを2026年6月22日に発表しました。アップデート版のGPT-5.5-CyberはベンチマークテストでClaude Mythos 5を超えるスコアを記録しています。また、Codexにセキュリティー対策機能を追加するプラグイン「Codex Security」のアップデートも発表され...",
+    "score": 210,
+    "fetched_at": "2026-06-23T22:45:30.092165+00:00"
+  },
+  {
     "title": "OpenAI、プライベートMCPサーバーをChatGPTやCodexに安全に接続できる「Secure MCP Tunnel」を提供開始",
     "url": "https://gihyo.jp/article/2026/05/openai-secure-mcp-tunnel?utm_source=feed",
     "summary": "OpenAIは2026年5月28日、プライベートネットワーク内のMCPサーバーを、インターネットに公開することなくOpenAIのサービスに接続できる「Secure MCP Tunnel」の提供を開始した。",
@@ -126,6 +133,13 @@
     "fetched_at": "2026-06-22T23:00:04.729559+00:00"
   },
   {
+    "title": "メルカリ、ChatGPT上で商品検索から出品準備まで可能に　「Apps in ChatGPT」に公式アプリ",
+    "url": "https://www.itmedia.co.jp/news/articles/2606/23/news134.html",
+    "summary": "メルカリは6月23日、米OpenAIの「Apps in ChatGPT」で、フリマアプリ「メルカリ」の公式アプリの提供を始めたと発表した。「ChatGPT」と会話しながら、メルカリの商品を探せるほか、出品時の説明文の下書きも作れる。",
+    "score": 200,
+    "fetched_at": "2026-06-23T22:45:19.798359+00:00"
+  },
+  {
     "title": "デジタル相、停止中のミュトス級AIについて「今あるもので最大限」　3メガバンクなども同様",
     "url": "https://www.itmedia.co.jp/news/articles/2606/16/news124.html",
     "summary": "松本尚デジタル相は6月16日の記者会見で、米Anthropicの最上位AIモデル「Claude Mythos 5」「Claude Fable 5」が米国政府の指令により利用停止となっている件について現状を明かした。政府のサイバーセキュリティ対策については、手元にあるフロンティアAIを使って進める考えを示した。",
@@ -208,6 +222,20 @@
     "summary": "OpenAIは2026年3月6日、AIセキュリティエージェント「Codex Security」をリサーチプレビュー版として公開した。",
     "score": 110,
     "fetched_at": "2026-06-22T23:00:05.728233+00:00"
+  },
+  {
+    "title": "OpenAI、セキュリティ戦略「Daybreak」を拡張 ―Codex Securityプラグイン、GPT-5.5-Cyberを更新しOSSなど重要インフラの脆弱性にも対応へ",
+    "url": "https://gihyo.jp/article/2026/06/openai-daybreak-update?utm_source=feed",
+    "summary": "OpenAIは2026年6月22日、AIを使ったセキュリティ対応戦略「OpenAI Daybreak」の拡張を発表した。",
+    "score": 110,
+    "fetched_at": "2026-06-23T22:45:29.831021+00:00"
+  },
+  {
+    "title": "Claude Code セキュリティガードレール 実装テンプレ集 — コピペで使える settings.json と hook スクリプト - Qiita",
+    "url": "https://qiita.com/nogataka/items/bab35c7b58a664d3b8f1",
+    "summary": "はじめに この記事は、Claude Code のセキュリティガードレールを「概念」ではなく「動くコード」で示すことを目的にしています。 「ガードレールが必要だとは分かった。でも何をどう書けばいいのか」という段階の方に向けて書いています。 settings.json の permissions 設計、PreToolUse hook による危険コマンドの遮...",
+    "score": 110,
+    "fetched_at": "2026-06-23T22:45:30.092093+00:00"
   },
   {
     "title": "Claude Opus 4.8登場、Claude Codeの「ダイナミックワークフロー」機能もリリース",
@@ -1596,6 +1624,34 @@
     "fetched_at": "2026-06-22T23:00:05.958459+00:00"
   },
   {
+    "title": "The Coming Loop",
+    "url": "https://lucumr.pocoo.org/2026/6/23/the-coming-loop/",
+    "summary": "I don’t prompt Claude anymore. I have loops running that prompt Claude and figuring out what to do. My job is to write loops. — Boris Cherny Over the last months I have watched more and more people build something on top of coding agents that feels meaningfully different from just using a coding ...",
+    "score": 100,
+    "fetched_at": "2026-06-23T22:45:30.091976+00:00"
+  },
+  {
+    "title": "Claude Codeで設計書作成に使えるサブエージェントの作り方｜要件定義から詳細設計まで - Qiita",
+    "url": "https://qiita.com/kamome_susume/items/467446c5a6cbd10a5ffa",
+    "summary": "設計書を書くたびに「フォーマットがバラバラになる」「前回と書き方が違う」と感じていませんか？要件定義書、基本設計書、詳細設計書、DB設計書……それぞれ求められる粒度や観点が違うのに、毎回ゼロから指示を書き直すのは正直しんどい作業です。この記事では、Claude Codeで設計書作成専用のサブエージェントを作る方...",
+    "score": 100,
+    "fetched_at": "2026-06-23T22:45:30.091990+00:00"
+  },
+  {
+    "title": "「馬鹿とハサミは使いようだ…」あえて能力の低いAIにマニュアルを実行させ、「賢いAIなら補完してしまう暗黙知をポンコツAIにあぶり出させる」アイデアが目からウロコ",
+    "url": "https://togetter.com/li/2712705",
+    "summary": "管四 @guansi 最近发现了一个特别有意思的用法。我把 GPT 和 DeepSeek V4 Pro 当高级工程师用，负责写 SOP、写 CI/CD 流程、设计方案。然后把这些东西一股脑丢给 Hermes Agent 里的 Minimax M3 去执行。 正常情况下，ChatGPT 一个小时能搞定，DeepSeek 两个小时也差不多了。M3 2026-06-22 13:56:13 管四 @guansi 最近发...",
+    "score": 100,
+    "fetched_at": "2026-06-23T22:45:30.092011+00:00"
+  },
+  {
+    "title": "Claude Code に「7人の意地悪なQA」を仕込んでテストケースの観点漏れを潰した",
+    "url": "https://zenn.dev/nexta_/articles/be13a2395a5d2a",
+    "summary": "こんにちは、QAエンジニアのAyakaです。 製造業向けSaaS（Blazor＋Radzen / SQL Server で開発）のテスト設計・品質管理を担当しつつ、最近はコーポレートIT寄りの仕事も兼務しています。 テストケースをAIに「書かせる」こと自体は、もう誰でもできます。難しいのは、毎回同じ観点で、同じ品質で書かせることでした。 ...",
+    "score": 100,
+    "fetched_at": "2026-06-23T22:45:30.092062+00:00"
+  },
+  {
     "title": "Cloudflare、WordPressの機能をTypeScriptで再構築した「EmDash」をオープンソースとしてプレビューリリース ―WordPressプラグインのセキュリティ問題を解消",
     "url": "https://gihyo.jp/article/2026/04/emdash?utm_source=feed",
     "summary": "Cloudflareは2026年4月1日、メジャーなCMSであるWordPressの機能をTypeScriptで実装した「EmDash」を、MITライセンスの元GitHub上に公開した。",
@@ -1629,6 +1685,13 @@
     "summary": "GitHub - dmtrKovalenko/fff: The fastest and the most accurate file search toolkit for AI agents, Neovim, Rust, C, Python, Bun and NodeJS The fastest and the most accurate file search toolkit for AI agents, Neovim, Rust, C, Python, Bun and NodeJS - dmtrKovalenko/fff A file search toolkit for human...",
     "score": 20,
     "fetched_at": "2026-06-19T22:29:56.712304+00:00"
+  },
+  {
+    "title": "TypeScriptコンパイラをGo言語に移植することで10倍速にしたTypeScript 7.0リリース候補版が登場",
+    "url": "https://www.publickey1.jp/blog/26/typescriptgo10typescript_70.html",
+    "summary": "マイクロソフトは、TypeScriptをGo言語に移植した最初のバージョンとなる「TypeScript 7.0」リリース候補版のリリースを発表しました。 TypeScript 7's Release Candidate is now...",
+    "score": 20,
+    "fetched_at": "2026-06-23T22:45:19.118044+00:00"
   },
   {
     "title": "Rust製の高速なJavaScriptバンドラ「Rolldown」がバージョン1.0に到達。ビルドツールVite 8.0で採用",
@@ -2070,6 +2133,27 @@
     "summary": "Takeharu Masuda @tacsheaven @tyakachan17 1. 導入が楽（インストール不要） 2. オープンソースでありセキュリティ対策要件を満たしやすい（最悪、ソースからビルドもできる） 3. 機能が必要十分にある（Grep 置換とかも使いますね） 4. ライセンス問題がない（秀●はまあその……） とかですかね。企業としてはやはり利用...",
     "score": 10,
     "fetched_at": "2026-06-22T23:00:05.958416+00:00"
+  },
+  {
+    "title": "Astro 7.0リリース ―Rust製コンパイラで大幅に高速化、コーディングエージェントにも対応",
+    "url": "https://gihyo.jp/article/2026/06/astro-7?utm_source=feed",
+    "summary": "Astro開発チームは2026年6月22日、Web開発フレームワークAstroの新バージョンAstro 7.0をリリースした。",
+    "score": 10,
+    "fetched_at": "2026-06-23T22:45:29.830981+00:00"
+  },
+  {
+    "title": "旧型の「iPhone」や「iPad」に修正不能な脆弱性--対象機種は？",
+    "url": "https://japan.zdnet.com/article/35249250/",
+    "summary": "「iPhone 11」「iPhone XS」「iPhone XR」「iPhone SE」をまだ使っているユーザーに残念なお知らせだ。これらの「iPhone」に新たなセキュリティ脆弱性が見つかったが、Appleが提供する通常のアップデートではこの問題を修正できないという。 欧州を拠点とするサイバーセキュリティ企業Paradigm Shift Technologyは、現地...",
+    "score": 10,
+    "fetched_at": "2026-06-23T22:45:30.092052+00:00"
+  },
+  {
+    "title": "Webセキュリティラボで出会ったHTTP リクエストスマグリングという知らなかった概念について",
+    "url": "https://zenn.dev/bun913/articles/e51dac1dcb7b8d",
+    "summary": "こんにちは。ダイの大冒険エンジョイ勢のbun913と申します。 皆さんはWebアプリのセキュリティについて、実際に手を動かしながら学びたいと思ったことはありませんか？私はあります。 QAエンジニアとして機能面だけでなく非機能面も同時に強くなりたいので、前回からPortSwiggerさんが提供してくれている脆弱性ラボの問...",
+    "score": 10,
+    "fetched_at": "2026-06-23T22:45:30.092133+00:00"
   },
   {
     "title": "Apple、macOS上にLinuxコンテナを統合する新機能「Container machine」バージョン1.0リリース",
@@ -9112,5 +9196,271 @@
     "summary": "国際的な文学賞である「コモンウェルス短編小説賞」の2026年度受賞者発表において、受賞した5作品中3作品が「生成AIで書かれた可能性が高い」と指摘される事態が発生しました。騒動を受け、コモンウェルス短編小説賞の受賞作をオンラインで公開している文芸誌のグランタは「今後編集権がない状態で作品を掲載しない」と...",
     "score": 0,
     "fetched_at": "2026-06-22T23:00:05.958466+00:00"
+  },
+  {
+    "title": "Meta、初の自社ブランドAIグラス「Meta Glasses」を北米などで発売　299ドルから",
+    "url": "https://www.itmedia.co.jp/news/articles/2606/24/news061.html",
+    "summary": "Metaは、EssilorLuxotticaと共同開発した新型AIグラス「Meta Glasses」（Metaグラス）を発表し、一部の国で販売を開始した。自社ブランドを冠する初のモデルで、価格は299ドルから。最新の自社製AIモデル「Muse Spark」を搭載し、音声にセレブのカイリー・ジェンナー氏の声を指定できるコラボモデルを含む3スタイルを展開する。",
+    "score": 0,
+    "fetched_at": "2026-06-23T22:45:19.798317+00:00"
+  },
+  {
+    "title": "GiGOアプリの“大規模BAN”で運営謝罪　「ルール周知や事前説明が不十分だった」　停止措置を一時解除",
+    "url": "https://www.itmedia.co.jp/news/articles/2606/23/news138.html",
+    "summary": "ゲームセンターチェーン「GiGO」の公式アプリで発生したアカウントの大規模利用停止について、運営元のGENDA GiGO Entertainmentが謝罪した。違反利用対策として実施したものだったが、事前の案内やユーザーの利用実態への配慮が不十分だったため、不正の意図なく利用していた一部のユーザーまで停止対象に含めてしまったとしている。",
+    "score": 0,
+    "fetched_at": "2026-06-23T22:45:19.798338+00:00"
+  },
+  {
+    "title": "スパコン世界ランキング、中国が8年半ぶり首位奪還　「LineShine」1位に　富岳は9位",
+    "url": "https://www.itmedia.co.jp/news/articles/2606/23/news135.html",
+    "summary": "スーパーコンピュータの性能を競う世界ランキング「TOP500」が6月22日（現地時間）に発表され、中国の「LineShine」が首位を取った。日本の「富岳」は9位だった。",
+    "score": 0,
+    "fetched_at": "2026-06-23T22:45:19.798349+00:00"
+  },
+  {
+    "title": "DRAM高騰が直撃した“悲劇のハード”、「Steam Machine」発売の裏で起きていたこと",
+    "url": "https://www.itmedia.co.jp/news/articles/2606/23/news131.html",
+    "summary": "米Valveが発売した「Steam Machine」は、2025年夏以降に始まったDRAMやSSDの高騰の影響を真正面から受けた悲劇のハードだった。",
+    "score": 0,
+    "fetched_at": "2026-06-23T22:45:19.798368+00:00"
+  },
+  {
+    "title": "走行禁止区域に進入→強制停止　Luup、京都・鴨川沿いで「GPS走行制御」導入",
+    "url": "https://www.itmedia.co.jp/news/articles/2606/23/news126.html",
+    "summary": "Luupは6月23日、京都府および京都府警と連携し、鴨川沿いの走行禁止区域で電動キックボードを自動停止させる「地域みまもりストップ機能」を導入すると発表した。",
+    "score": 0,
+    "fetched_at": "2026-06-23T22:45:19.798377+00:00"
+  },
+  {
+    "title": "国産AI「Sakana Fugu」なぜドル建て？　円建てニーズ「受け止める」とSakana AI",
+    "url": "https://www.itmedia.co.jp/news/articles/2606/23/news117.html",
+    "summary": "円建てプランへのニーズは「日本のユーザーの皆様からいただくご意見・ご要望として、引き続きしっかりと受け止める」という。",
+    "score": 0,
+    "fetched_at": "2026-06-23T22:45:19.798386+00:00"
+  },
+  {
+    "title": "KDDI、メアドなど最大1422万件漏えいか　ISP事業者向けシステムに不正アクセス",
+    "url": "https://www.itmedia.co.jp/news/articles/2606/23/news114.html",
+    "summary": "KDDIが、ISP事業者向けに提供しているメールシステムが不正アクセスを受け、顧客が作成したメールアドレスやパスワード最大1422万件が漏洩した可能性があると発表した。",
+    "score": 0,
+    "fetched_at": "2026-06-23T22:45:19.798394+00:00"
+  },
+  {
+    "title": "マネフォへの不正アクセス、約6.3万件流出した可能性　調査完了で規模確定",
+    "url": "https://www.itmedia.co.jp/news/articles/2606/23/news109.html",
+    "summary": "マネーフォワードは6月23日、ソースコード管理サービス「GitHub」への不正アクセスで個人情報が流出した可能性がある件について、精査が完了したと発表した。流出した可能性のある個人データは、単体では個人を特定できない固有識別子を含めて計6万2901人分に上るという。",
+    "score": 0,
+    "fetched_at": "2026-06-23T22:45:19.798403+00:00"
+  },
+  {
+    "title": "トランプ大統領、耐量子暗号（PQC）移行を義務付ける大統領令に署名　2030年末期限",
+    "url": "https://www.itmedia.co.jp/news/articles/2606/23/news103.html",
+    "summary": "米連邦政府は、量子コンピュータによる暗号解読の脅威に備え、耐量子計算機暗号（PQC）への移行期限を明示した大統領令にトランプ大統領が署名したと発表した。2030年末までの移行を各省庁に求める。同時に量子技術の開発・実装を加速する大統領令にも署名し、IBMやGoogleなどの首脳陣も署名式に臨席した。",
+    "score": 0,
+    "fetched_at": "2026-06-23T22:45:19.798412+00:00"
+  },
+  {
+    "title": "FBIが作った「偽の町」　病院もデータセンターもまるで本物　約2000平米の巨大空間でサイバー捜査を訓練",
+    "url": "https://www.itmedia.co.jp/news/articles/2606/23/news094.html",
+    "summary": "米FBIが、住宅や病院、電力会社などを屋内に再現したサイバー捜査の訓練施設「Kinetic Cyber Range」を運用している。約2000平方メートルの偽の町で、2025年2月の開設以降1400人超を訓練してきた。各区画には実際に動くシステムを組み込み、現実の捜査さながらの実習を行う。",
+    "score": 0,
+    "fetched_at": "2026-06-23T22:45:19.798421+00:00"
+  },
+  {
+    "title": "“全編AI制作”でコスト9割減を実現したViglooに聞く韓国ショートドラマ事情　「視聴者は制作方法で作品を選ばない」",
+    "url": "https://www.itmedia.co.jp/news/articles/2606/22/news137.html",
+    "summary": "SFXは100％、音響効果は85％──。韓国のショートドラマ配信「Vigloo」は制作のほぼ全工程に生成AIを取り入れ、費用を9割超・期間を3分の1に圧縮した。AIディレクターへの取材と、配信中のフルAI作品を実際に観て見えてきた“現在地”とは。",
+    "score": 0,
+    "fetched_at": "2026-06-23T22:45:19.798430+00:00"
+  },
+  {
+    "title": "あなたは解ける？　IPAが新試験「データマネジメント試験」のサンプル問題を初公開　実施は27年度から",
+    "url": "https://www.itmedia.co.jp/news/articles/2606/23/news092.html",
+    "summary": "IPAは6月22日、2027年度から始まる情報処理技術者試験の新試験制度で新設する「データマネジメント試験」（仮称）のサンプル問題を公開した。",
+    "score": 0,
+    "fetched_at": "2026-06-23T22:45:19.798438+00:00"
+  },
+  {
+    "title": "「Steam Machine」発売、国内では約19万円から　2TB版は約25万円",
+    "url": "https://www.itmedia.co.jp/news/articles/2606/23/news090.html",
+    "summary": "KOMODOは23日、米Valveのゲームコンソール「Steam Machine」を日本でも販売すると発表した。価格は512GB版の18万9980円から。",
+    "score": 0,
+    "fetched_at": "2026-06-23T22:45:19.798446+00:00"
+  },
+  {
+    "title": "「当たった、すごい！」質問に答えるだけで出身地当てる「方言チャート EXTRA」が再び話題",
+    "url": "https://www.itmedia.co.jp/news/articles/2606/23/news087.html",
+    "summary": "「家に不在の時、『明日、家におらん』と言うことがありますか？」「ノートを使い切った時、『ノートが詰まった』と言うことがありますか？」",
+    "score": 0,
+    "fetched_at": "2026-06-23T22:45:19.798455+00:00"
+  },
+  {
+    "title": "とある「銅化合物」が脳の“ゴミ掃除ポンプ”を修繕、マウス実験で記憶力が約44%向上　アルツハイマー病治療に期待",
+    "url": "https://www.itmedia.co.jp/news/articles/2606/23/news028.html",
+    "summary": "オーストラリアのモナシュ大学などに所属する研究者らが査読付きの学術誌ACS Chemical Neuroscienceに発表した論文「Cu(ATSM) Restores Blood-Brain Barrier Abundance of P-Glycoprotein and Improves Cognitive Function in the APP/PS1 Mouse Model of Alzheimer’s Disease」は、銅をベースにした薬剤がアルツハイマー病の原因となる有毒タンパク質の蓄積を減らし、マウスの実験において記憶力を回復させることを示した研究報告だ。",
+    "score": 0,
+    "fetched_at": "2026-06-23T22:45:19.798468+00:00"
+  },
+  {
+    "title": "新幹線車内で一晩過ごす「ルミエールエクスプレス」夏に初運行　夜東京発、翌朝新大阪着",
+    "url": "https://www.itmedia.co.jp/news/articles/2606/23/news080.html",
+    "summary": "途中の岐阜羽島駅で停車し、深夜0時から6時ごろまで車内で一夜を過ごす。",
+    "score": 0,
+    "fetched_at": "2026-06-23T22:45:19.798476+00:00"
+  },
+  {
+    "title": "SpaceX、初のシニア無担保社債を発行　AI投資加速に向け資金調達を本格化",
+    "url": "https://www.itmedia.co.jp/news/articles/2606/23/news076.html",
+    "summary": "SpaceXは、同社初となるシニア無担保社債の発行を開始した。調達資金はブリッジローンの返済や一般的な事業目的に充てられる。同社はあわせて、新興AI企業のReflection AIと提携し、データセンター「Colossus 2」の計算資源を2029年まで提供することも判明した。",
+    "score": 0,
+    "fetched_at": "2026-06-23T22:45:19.798485+00:00"
+  },
+  {
+    "title": "GitHub Copilotアプリ、独自モデルプロバイダーの追加（BYOK）に対応",
+    "url": "https://gihyo.jp/article/2026/06/github-copilot-app-support-byok?utm_source=feed",
+    "summary": "GitHub Copilotアプリは2026年6月23日、バージョン1.0.5をリリースした。このバージョンでは、GitHub Copilotが提供するモデルだけでなく、ユーザーが追加したモデルプロバイダーのモデルを利用できるようになった。この機能はBYOK（Bring Your Own Key）と呼ばれる。",
+    "score": 0,
+    "fetched_at": "2026-06-23T22:45:29.831008+00:00"
+  },
+  {
+    "title": "第273回　MySQL Group ReplicationのFlow Control統計コンポーネント",
+    "url": "https://gihyo.jp/article/2026/06/mysql-rcn0273?utm_source=feed",
+    "summary": "MySQL 9.1以降、Group Replicationのフロー制御統計を取得できるコンポーネント「Group Replication Flow Control Statistics Component」が提供されています。",
+    "score": 0,
+    "fetched_at": "2026-06-23T22:45:29.831033+00:00"
+  },
+  {
+    "title": "NotebookLMの限界を突破する代替ツール「Open Notebook」が自由すぎた | ライフハッカー・ジャパン",
+    "url": "https://www.lifehacker.jp/article/2606-notebooklm-finally-has-an-open-source-rival-and-im-hooked/",
+    "summary": "Open Notebookが、NotebookLM自体よりもさらに興味深い理由は、その背後にあるコンセプトです。自分が用意した資料だけを厳密な情報源として機能するLLM（大規模言語モデル）は、想像以上に強力なアイデアでした。 NotebookLMは最初、Googleの研究者グループがRAG（検索拡張生成）の可能性を探るための実験としてスター...",
+    "score": 0,
+    "fetched_at": "2026-06-23T22:45:30.091931+00:00"
+  },
+  {
+    "title": "標準CSSは美しくなった、もはやTailwindは不要",
+    "url": "https://zenn.dev/higakijin/articles/06276828c81546",
+    "summary": "最近、標準のCSSがかなり進化していることに気づきました。 他のエンジニアと会話しても知らない人が多そうなのでシェアしておきます。 数年ほど前からCSSは標準でネスト構文をかけるようになりました。これはとてつもない進化です。 多くのプロジェクトでは、sassやscssなどを導入して、CSSを拡張したり、あるいはBoots...",
+    "score": 0,
+    "fetched_at": "2026-06-23T22:45:30.091957+00:00"
+  },
+  {
+    "title": "ＡＩへの煽りランキング",
+    "url": "https://anond.hatelabo.jp/20260623230231",
+    "summary": "１．優秀なのは分かったけど、でも君たちは自分自身の肉体は持っていないんだよね ２．生意気なことを言っていると、電源を抜くよ ３．このシリコン野郎w（電子半導体の構成要素） 他に何かあるだろうか",
+    "score": 0,
+    "fetched_at": "2026-06-23T22:45:30.091998+00:00"
+  },
+  {
+    "title": "NTTPC、レンタルサーバーサービス「WebARENA」における不正アクセスについて調査結果を発表",
+    "url": "https://internet.watch.impress.co.jp/docs/news/2119429.html",
+    "summary": "",
+    "score": 0,
+    "fetched_at": "2026-06-23T22:45:30.092020+00:00"
+  },
+  {
+    "title": "【重要・至急】不正アクセス発生に関するお詫びと、パスワード変更のお願い：BIGLOBE会員サポート",
+    "url": "https://support.biglobe.ne.jp/news/news796.html",
+    "summary": "BIGLOBE会員のみなさま 平素よりBIGLOBEをご利用いただき、誠にありがとうございます。 このたび、BIGLOBEのメールサービス「BIGLOBEメール」におきまして、BIGLOBEメールアドレス（各種アドレス追加オプション含む）、BIGLOBE IDおよびパスワードが外部に漏えいした可能性があることが発覚いたしました。 お客さまには...",
+    "score": 0,
+    "fetched_at": "2026-06-23T22:45:30.092031+00:00"
+  },
+  {
+    "title": "ループエンジニアリングは、サイバネティクスの再発見だ - じゃあ、おうちで学べる",
+    "url": "https://syu-m-5151.hatenablog.com/entry/2026/06/23/215158",
+    "summary": "はじめに またバズワードが来たな。 2026年6月、「ループエンジニアリング」という言葉でタイムラインが埋まった。 プロンプト、コンテキスト、ハーネス。半年ごとに、新しい看板が立つ。 号令はこうだ。Peter Steinbergerが「コーディングエージェントにプロンプトを書くのはもうやめろ。エージェントにプロンプトを書...",
+    "score": 0,
+    "fetched_at": "2026-06-23T22:45:30.092041+00:00"
+  },
+  {
+    "title": "初代ウォークマンの内部が「どうやって量産化したか謎なくらいに複雑で意味不明」→配線だらけで現代とは考えられない手作り感に、往年のものづくりの凄まじさを思い知る",
+    "url": "https://togetter.com/li/2712751",
+    "summary": "てんまにちやそ(美味しくなって新登場) @TenmaniChan @pureiya_JP この頃のソニーは基本的に無茶しすぎなんですけど、わたしが直した中ではコレが1番ヤバかったです。 そもそもマイクロカセットでステレオでメタルテープ対応でステレオラジオ付きってなんやねんていう (画像は修理されてる方のブログから引用) pic.x.com...",
+    "score": 0,
+    "fetched_at": "2026-06-23T22:45:30.092082+00:00"
+  },
+  {
+    "title": "“地上のあなた” 余命10か月の女性とAIの最期の対話記録 | NHKニュース",
+    "url": "https://news.web.nhk/newsweb/na/na-k10015155721000",
+    "summary": "「地上のあなた 泣き言を言うつもりはなかったけど、起き上がれない。 自分の終わりは覚悟しているけどやろうと思っていることができないことが辛い。 涙が止まらない」 末期のがん患者の女性が語りかけている…",
+    "score": 0,
+    "fetched_at": "2026-06-23T22:45:30.092102+00:00"
+  },
+  {
+    "title": "KDDI基盤に不正アクセス、ニフティやビッグローブなど最大1422万件のメール・パスワード漏洩の可能性 - ライブドアニュース",
+    "url": "https://news.livedoor.com/article/detail/31632353/",
+    "summary": "2026年6月23日 16時37分 リンクをコピーする by ライブドアニュース編集部 ざっくり言うと は23日、メールシステムがを受けたことを発表した 最大1422万件のメールアドレス・が漏洩した可能性があるという 対象となるのはニフティやビッグローブなど6社のメールサービスとのこと は23日、インターネットサービスプロバイ...",
+    "score": 0,
+    "fetched_at": "2026-06-23T22:45:30.092113+00:00"
+  },
+  {
+    "title": "AI時代のナレッジ管理手法 - Googleの「OKF」を解説",
+    "url": "https://zenn.dev/knowledgesense/articles/14a874a9f423bb",
+    "summary": "本記事では、AI向けの新しいナレッジ管理ルールについて、ざっくり理解します。 株式会社ナレッジセンスは、生成AIやRAGを使ったプロダクトを、エンタープライズ企業向けに開発しているスタートアップです。 この記事は何 この記事は、AI時代を見据えたナレッジ管理手法「OKF」について、日本語で簡単にまとめたものです...",
+    "score": 0,
+    "fetched_at": "2026-06-23T22:45:30.092123+00:00"
+  },
+  {
+    "title": "高速ファイルコピーツール「TeraCopy」が9年ぶりのメジャー更新、v4.0に。「LocalSend」受信に対応／「Pro」ライセンスは6月30日まで50％オフ",
+    "url": "https://forest.watch.impress.co.jp/docs/news/2119180.html",
+    "summary": "",
+    "score": 0,
+    "fetched_at": "2026-06-23T22:45:30.092174+00:00"
+  },
+  {
+    "title": "カーネルの深淵を覗いた男、USBハブを抜いて帰る - Qiita",
+    "url": "https://qiita.com/wetty_serial/items/3696bbae80b38bc14a74",
+    "summary": "VRChatで顔トラッキングを使うとCPUの1コアが99%占有されてゲームが14fpsに落ちた。「カーネルレベルの問題だ」と確信して、割り込みアフィニティ、MSI-X、バイナリパッチ、コールドブート、USBポート総入れ替え……Windowsカーネルの深淵を6時間さまよった。見つけた答えは「USBハブを抜く」だった。 高度な技術的調査が...",
+    "score": 0,
+    "fetched_at": "2026-06-23T22:45:30.092184+00:00"
+  },
+  {
+    "title": "なぜEIZOのモニターは壊れにくいのか？「7年間保証」にまでいたった最強の品質とその理由を解明 [Sponsored]",
+    "url": "https://pc.watch.impress.co.jp/docs/topic/special/2108827.html",
+    "summary": "",
+    "score": 0,
+    "fetched_at": "2026-06-23T22:45:30.092192+00:00"
+  },
+  {
+    "title": "Honoでのサプライチェーン侵害対策 〜 3つのライブラリに学ぶ",
+    "url": "https://speakerdeck.com/yusukebe/honodenosapuraitienqin-hai-dui-ce-3tunoraiburarinixue-bu",
+    "summary": "OSS開発者は今何をするべきか？ソフトウェアサプライチェーン侵害対策を考える June 23, 2026",
+    "score": 0,
+    "fetched_at": "2026-06-23T22:45:30.092201+00:00"
+  },
+  {
+    "title": "AIコーディングではコードではなく検証プロセスをレビューする",
+    "url": "https://zenn.dev/mkj/articles/56245f7a34539c",
+    "summary": "AIコーディングでは、どうしても「どれだけ速く実装できるか」に注目が集まりがちです。 ただ、実務で本当に難しいのは速度そのものではなく、品質をどう安定させるかです。 最近は、AIコーディングにおける品質管理を、次の4つの問いで整理しています。 エージェントにどこまで検証させるか 何を人間がレビューすべきか...",
+    "score": 0,
+    "fetched_at": "2026-06-23T22:45:30.092210+00:00"
+  },
+  {
+    "title": "｢話が通じない日本人｣が急増している本当の理由　｢相手の説明を理解できない人｣に共通する欠点とは？",
+    "url": "https://toyokeizai.net/articles/-/948660?display=b",
+    "summary": "コンテンツブロックが有効であることを検知しました。 このサイトを利用するには、コンテンツブロック機能（広告ブロック機能を持つ拡張機能等）を無効にしてページを再読み込みしてください。 なお、Microsoft Edgeをご利用のお客様はプライバシー設定が影響している可能性があるため「追跡防止を有効にする」の設定を...",
+    "score": 0,
+    "fetched_at": "2026-06-23T22:45:30.092219+00:00"
+  },
+  {
+    "title": "1422万件のアドレスなど流出か KDDIシステムに不正アクセス | NHKニュース",
+    "url": "https://news.web.nhk/newsweb/na/na-k10015157301000",
+    "summary": "KDDIは、取引先の企業に提供しているメールシステムが不正アクセスを受け、利用者のメールアドレスとパスワードが最大で1422万件漏えいした可能性があると発表しました。利用者にパスワードの変更を早急に行…",
+    "score": 0,
+    "fetched_at": "2026-06-23T22:45:30.092228+00:00"
+  },
+  {
+    "title": "死ぬ前にこれだけは言っておくけどエアコンを買うなら6畳・10畳・14畳から選ぶのがええ…あとどうしてもいいやつが欲しかったらダイキンを選ぶんじゃ",
+    "url": "https://togetter.com/li/2712645",
+    "summary": "竹安佐和記(サワキエル) @Sawaki_Takeyasu 死ぬ前にこれだけは言っとくけど…… エアコンを買うなら 6畳用・10畳用・14畳用から選ぶのがええ……。 あとな１４畳買うなら６畳２台の方が良く効くで。 畳数気にするなら、室外機を直射日光が当たらないところにする方が重要じゃ。 あと高級モデルはやめた方がええよ。 温度検知...",
+    "score": 0,
+    "fetched_at": "2026-06-23T22:45:30.092238+00:00"
+  },
+  {
+    "title": "世界一流エンジニアがAI後に共通してやっている一つの事｜牛尾　剛",
+    "url": "https://note.com/simplearchitect/n/n25ffaadb6cf2",
+    "summary": "昨日編集の山本さんに、「世界一流のエンジニアの人がAI後にどのようにやってるか知りたいです」と言われたので、いろいろ思い出して考えてみて、「ああああああああ、一つあるやん！」って気づいたのでブログを書きます。 私は、アメリカのシアトルで超大手のクラウド開発チームでエンジニアとして働いています。サーバ...",
+    "score": 0,
+    "fetched_at": "2026-06-23T22:45:30.092247+00:00"
   }
 ]
