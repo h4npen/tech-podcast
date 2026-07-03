@@ -814,8 +814,15 @@
     }
     function fmtFetched(isoStr) {
       if (!isoStr) return '';
-      const d = new Date(isoStr);
-      return `${d.getFullYear()}.${String(d.getMonth()+1).padStart(2,'0')}.${String(d.getDate()).padStart(2,'0')}`;
+      try {
+        const d = new Date(isoStr);
+        if (isNaN(d)) return '';
+        return `${d.getFullYear()}.${String(d.getMonth()+1).padStart(2,'0')}.${String(d.getDate()).padStart(2,'0')}`;
+      } catch { return ''; }
+    }
+    function getArticleDate(art) {
+      // published_at（記事の公開日）を優先し、なければfetched_atで代替
+      return fmtFetched(art.published_at || art.fetched_at || '');
     }
     function getDomain(url) {
       try { return new URL(url).hostname.replace('www.',''); } catch { return 'WEB'; }
@@ -907,7 +914,7 @@
       let html = '';
       if (arts.length) {
         html = arts.map(a => {
-          const dateTag = fmtFetched(a.fetched_at);
+          const dateTag = getArticleDate(a);
           return `
             <div class="news-card">
               ${dateTag ? `<div class="news-card-date">${dateTag}</div>` : ''}

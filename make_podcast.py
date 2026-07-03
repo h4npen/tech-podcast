@@ -71,6 +71,9 @@ def fetch_and_pool_news():
     
     used_urls = {h["url"] for h in history}
 
+    # 日次ニュース用の「新しい記事」判定閾値（3日以内）
+    freshness_cutoff = datetime.now(timezone.utc) - timedelta(days=3)
+
     # RSSフィードの読み込み
     for url in RSS_FEEDS:
         try:
@@ -79,33 +82,67 @@ def fetch_and_pool_news():
                 title = entry.get("title", "")
                 link = entry.get("link", "")
                 summary = entry.get("summary", entry.get("description", ""))
-                
+
                 if not title or not link:
                     continue
                 if link in used_urls:
                     continue
-                
+
+                # RSSから記事の公開日時を取得
+                published_at = None
+                for field in ("published_parsed", "updated_parsed", "created_parsed"):
+                    t = entry.get(field)
+                    if t:
+                        try:
+                            import calendar
+                            published_at = datetime.fromtimestamp(
+                                calendar.timegm(t), tz=timezone.utc
+                            ).isoformat()
+                        except Exception:
+                            pass
+                        break
+                # 取得できなかった場合はfetch日時で代替
+                if not published_at:
+                    published_at = datetime.now(timezone.utc).isoformat()
+
                 # スコアリング（優先度判定）
                 score = 0
                 text_to_check = (title + " " + summary).lower()
-                
+
                 for word in must_include:
                     if word.lower() in text_to_check:
                         score += 100
-                
+
                 for word in boost_words:
                     if word.lower() in text_to_check:
                         score += 10
-                
+
                 articles.append({
                     "title": title,
                     "url": link,
                     "summary": summary,
                     "score": score,
+                    "published_at": published_at,
                     "fetched_at": datetime.now(timezone.utc).isoformat()
                 })
         except Exception as e:
             print(f"Error fetching feed {url}: {e}")
+
+    # 日次ニュース用：3日以内に公開された記事を抽出
+    fresh_articles = []
+    old_count = 0
+    for art in articles:
+        try:
+            pub = datetime.fromisoformat(art["published_at"].replace("Z", "+00:00"))
+            if pub >= freshness_cutoff:
+                fresh_articles.append(art)
+            else:
+                old_count += 1
+        except Exception:
+            fresh_articles.append(art)  # 日時不明の場合は含める
+
+    if old_count > 0:
+        print(f"Filtered out {old_count} articles older than 3 days from daily news.")
 
     # 既存のプール（未採用記事）をロード
     existing_pool = load_json(CARRYOVER_FILE, [])
@@ -132,8 +169,8 @@ def fetch_and_pool_news():
     save_json(CARRYOVER_FILE, pooled_list)
     print(f"Total articles pooled in carryover.json: {len(pooled_list)}")
 
-    # --- 今日の日次ニュース記事リストを daily_news.json に書き出す ---
-    update_daily_news(articles)
+    # --- 今日の日次ニュース記事リストを daily_news.json に書き出す（3日以内の新鮮記事のみ） ---
+    update_daily_news(fresh_articles)
 
 
 def update_daily_news(new_articles):
@@ -158,6 +195,7 @@ def update_daily_news(new_articles):
                 "url": art["url"],
                 "summary": re.sub(r'<[^>]*>', '', art.get("summary", ""))[:300],
                 "score": art.get("score", 0),
+                "published_at": art.get("published_at", ""),
                 "fetched_at": art.get("fetched_at", "")
             })
             existing_urls.add(art["url"])
