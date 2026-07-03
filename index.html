@@ -3,302 +3,543 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>週刊テックニュース Podcast & Daily News</title>
-  <meta name="description" content="ずんだもんと四国めたんが毎週最新テックニュースをお届けするポッドキャスト番組。毎日の注目記事も確認できます。">
-  <!-- Google Fonts & Icons -->
+  <title>Tech News Chronicle - 週刊テックニュース</title>
+  <meta name="description" content="ずんだもんと四国めたんが毎週最新テックニュースをお届け。毎日の注目記事も確認できます。">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Outfit:wght@400;600;800&display=swap" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&family=DotGothic16&family=M+PLUS+1+Code:wght@400;700&display=swap" rel="stylesheet">
 
   <style>
-    :root {
-      --bg-dark: #0b0f19;
-      --bg-card: #141926;
-      --bg-card2: #1a2235;
-      --primary: #7c3aed;
-      --primary-glow: rgba(124, 58, 237, 0.35);
-      --accent-pink: #f472b6;
-      --accent-cyan: #22d3ee;
-      --accent-green: #4ade80;
-      --text-main: #f1f5f9;
-      --text-muted: #94a3b8;
-      --border: #1e2d48;
-    }
-
+    /* =============================================
+       RESET & ROOT
+    ============================================= */
     *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
 
+    :root {
+      --ff-black:    #0a0a1a;
+      --ff-darkblue: #060c24;
+      --ff-navy:     #101840;
+      --ff-blue:     #1a2c6e;
+      --ff-midblue:  #2a4090;
+      --ff-window:   #08112b;
+      --ff-border:   #4a6fd4;
+      --ff-border2:  #7090ff;
+      --ff-gold:     #f0c030;
+      --ff-gold2:    #ffd84a;
+      --ff-white:    #e8e8f8;
+      --ff-silver:   #a8b8d8;
+      --ff-red:      #d04040;
+      --ff-green:    #40c040;
+      --ff-cyan:     #40d0d0;
+      --ff-purple:   #9040c0;
+      --ff-crystal:  #60b8ff;
+    }
+
+    html { scroll-behavior: smooth; }
+
     body {
-      background: var(--bg-dark);
-      color: var(--text-main);
-      font-family: 'Inter', -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      background-color: var(--ff-black);
+      color: var(--ff-white);
+      font-family: 'M PLUS 1 Code', monospace;
       min-height: 100vh;
       display: flex;
       flex-direction: column;
+      overflow-x: hidden;
     }
 
-    /* ===== HEADER ===== */
-    header {
-      background: radial-gradient(ellipse 80% 60% at 50% -10%, #2d1b69 0%, var(--bg-dark) 70%);
-      padding: 2.5rem 1.5rem 2rem;
-      text-align: center;
-      border-bottom: 1px solid var(--border);
-      position: relative;
+    /* =============================================
+       STARFIELD BACKGROUND
+    ============================================= */
+    #starfield {
+      position: fixed;
+      inset: 0;
+      z-index: 0;
+      pointer-events: none;
       overflow: hidden;
     }
-    header::before {
-      content: '';
+    .star {
       position: absolute;
-      inset: 0;
-      background: url("data:image/svg+xml,%3Csvg width='60' height='60' viewBox='0 0 60 60' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cg fill='%237c3aed' fill-opacity='0.04'%3E%3Cpath d='M36 34v-4h-2v4h-4v2h4v4h2v-4h4v-2h-4zm0-30V0h-2v4h-4v2h4v4h2V6h4V4h-4zM6 34v-4H4v4H0v2h4v4h2v-4h4v-2H6zM6 4V0H4v4H0v2h4v4h2V6h4V4H6z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
-      pointer-events: none;
+      background: var(--ff-white);
+      border-radius: 50%;
+      animation: twinkle var(--dur, 3s) var(--delay, 0s) infinite alternate;
     }
-    .header-content { max-width: 860px; margin: 0 auto; position: relative; }
+    @keyframes twinkle {
+      0%   { opacity: 0.1; transform: scale(0.8); }
+      100% { opacity: 0.9; transform: scale(1.2); }
+    }
 
-    h1 {
-      font-family: 'Outfit', sans-serif;
-      font-size: clamp(1.8rem, 5vw, 3rem);
-      font-weight: 800;
-      letter-spacing: -0.03em;
-      background: linear-gradient(135deg, #a78bfa 0%, #f472b6 60%, #fb923c 100%);
-      -webkit-background-clip: text;
-      -webkit-text-fill-color: transparent;
-      margin-bottom: 0.5rem;
+    /* scanline overlay */
+    body::after {
+      content: '';
+      position: fixed;
+      inset: 0;
+      z-index: 1;
+      pointer-events: none;
+      background: repeating-linear-gradient(
+        0deg,
+        transparent,
+        transparent 2px,
+        rgba(0,0,0,0.08) 2px,
+        rgba(0,0,0,0.08) 4px
+      );
     }
-    .subtitle {
-      color: var(--text-muted);
-      font-size: 1rem;
-      margin-bottom: 1.5rem;
+
+    /* everything else above scanlines */
+    header, nav, main, footer, .modal-overlay { position: relative; z-index: 2; }
+
+    /* =============================================
+       FF WINDOW MIXIN (共通ウィンドウスタイル)
+    ============================================= */
+    .ff-window {
+      background: var(--ff-window);
+      border: 3px solid var(--ff-border);
+      box-shadow:
+        inset 0 0 0 1px rgba(255,255,255,0.05),
+        0 0 0 1px var(--ff-navy),
+        0 0 20px rgba(74,111,212,0.3),
+        0 4px 40px rgba(0,0,0,0.8);
+      position: relative;
     }
-    .badge-container {
+    /* コーナーデコレーション */
+    .ff-window::before,
+    .ff-window::after {
+      content: '◆';
+      position: absolute;
+      color: var(--ff-gold);
+      font-size: 10px;
+      line-height: 1;
+    }
+    .ff-window::before { top: -7px; left: -1px; }
+    .ff-window::after  { bottom: -7px; right: -1px; }
+
+    /* =============================================
+       HEADER
+    ============================================= */
+    header {
+      background:
+        radial-gradient(ellipse 100% 80% at 50% 120%, #1a2c6e 0%, transparent 70%),
+        linear-gradient(180deg, #060c24 0%, #0a0a1a 100%);
+      padding: 2.5rem 1.5rem 2rem;
+      text-align: center;
+      border-bottom: 3px solid var(--ff-border);
+      box-shadow: 0 4px 40px rgba(74,111,212,0.4);
+    }
+
+    /* クリスタル */
+    .crystal-row {
       display: flex;
       justify-content: center;
-      gap: 0.5rem;
+      gap: 1.5rem;
+      margin-bottom: 1.5rem;
+    }
+    .crystal {
+      width: 20px;
+      height: 28px;
+      clip-path: polygon(50% 0%, 100% 35%, 100% 75%, 50% 100%, 0% 75%, 0% 35%);
+      animation: crystal-pulse 2s ease-in-out infinite;
+    }
+    .crystal-fire   { background: linear-gradient(180deg, #ff8060, #ff2020); animation-delay: 0s;    }
+    .crystal-ice    { background: linear-gradient(180deg, #a0e8ff, #4090ff); animation-delay: 0.5s;  }
+    .crystal-thunder{ background: linear-gradient(180deg, #ffe060, #f0a000); animation-delay: 1s;    }
+    .crystal-wind   { background: linear-gradient(180deg, #80ff80, #20a020); animation-delay: 1.5s;  }
+    .crystal-earth  { background: linear-gradient(180deg, #c09040, #604810); animation-delay: 0.25s; }
+    .crystal-water  { background: linear-gradient(180deg, #60c0ff, #0040c0); animation-delay: 0.75s; }
+    @keyframes crystal-pulse {
+      0%, 100% { opacity: 0.7; filter: brightness(0.9) drop-shadow(0 0 4px currentColor); transform: scale(1); }
+      50%       { opacity: 1.0; filter: brightness(1.4) drop-shadow(0 0 10px currentColor); transform: scale(1.1); }
+    }
+
+    .title-logo {
+      font-family: 'Press Start 2P', monospace;
+      font-size: clamp(0.9rem, 3vw, 1.6rem);
+      color: var(--ff-gold);
+      text-shadow:
+        2px 2px 0 #804000,
+        0 0 20px rgba(240,192,48,0.6),
+        0 0 40px rgba(240,192,48,0.3);
+      letter-spacing: 0.05em;
+      margin-bottom: 0.5rem;
+      animation: title-glow 3s ease-in-out infinite;
+    }
+    @keyframes title-glow {
+      0%, 100% { text-shadow: 2px 2px 0 #804000, 0 0 20px rgba(240,192,48,0.5); }
+      50%       { text-shadow: 2px 2px 0 #804000, 0 0 30px rgba(240,192,48,0.9), 0 0 60px rgba(240,192,48,0.4); }
+    }
+
+    .title-sub {
+      font-family: 'Press Start 2P', monospace;
+      font-size: clamp(0.45rem, 1.5vw, 0.65rem);
+      color: var(--ff-silver);
+      letter-spacing: 0.1em;
+      margin-bottom: 1.5rem;
+    }
+
+    .party-badges {
+      display: flex;
+      justify-content: center;
+      gap: 0.75rem;
       flex-wrap: wrap;
       margin-bottom: 1.5rem;
     }
-    .badge {
-      background: rgba(255,255,255,0.05);
-      border: 1px solid rgba(255,255,255,0.09);
-      padding: 0.3rem 0.85rem;
-      border-radius: 9999px;
-      font-size: 0.78rem;
-      color: var(--text-muted);
+    .party-badge {
+      font-family: 'Press Start 2P', monospace;
+      font-size: 0.5rem;
+      padding: 0.4rem 0.8rem;
+      background: var(--ff-navy);
+      border: 2px solid var(--ff-border);
+      color: var(--ff-silver);
+      letter-spacing: 0.05em;
     }
-    .btn-container { display: flex; justify-content: center; gap: 0.75rem; flex-wrap: wrap; }
-    .btn {
+    .party-badge.hero { border-color: var(--ff-gold); color: var(--ff-gold2); }
+
+    .header-commands {
+      display: flex;
+      justify-content: center;
+      gap: 1rem;
+      flex-wrap: wrap;
+    }
+    .cmd-btn {
+      font-family: 'Press Start 2P', monospace;
+      font-size: 0.55rem;
+      padding: 0.6rem 1.2rem;
+      background: var(--ff-blue);
+      border: 2px solid var(--ff-border2);
+      color: var(--ff-white);
+      cursor: pointer;
+      text-decoration: none;
       display: inline-flex;
       align-items: center;
-      gap: 0.4rem;
-      padding: 0.6rem 1.25rem;
-      border-radius: 9999px;
-      font-weight: 600;
-      text-decoration: none;
-      transition: all 0.25s;
-      cursor: pointer;
-      font-size: 0.9rem;
-      border: none;
+      gap: 0.5rem;
+      transition: all 0.15s;
+      letter-spacing: 0.05em;
+      position: relative;
     }
-    .btn-apple { background: #fff; color: #000; }
-    .btn-apple:hover { background: #e5e5e5; transform: translateY(-2px); box-shadow: 0 4px 14px rgba(255,255,255,0.12); }
-    .btn-rss { background: var(--primary); color: #fff; }
-    .btn-rss:hover { background: #6d28d9; transform: translateY(-2px); box-shadow: 0 4px 14px var(--primary-glow); }
+    .cmd-btn::before { content: '▶'; color: var(--ff-gold); font-size: 0.5rem; }
+    .cmd-btn:hover {
+      background: var(--ff-midblue);
+      border-color: var(--ff-gold);
+      color: var(--ff-gold2);
+      box-shadow: 0 0 12px rgba(240,192,48,0.4);
+    }
+    .cmd-btn:active { transform: scale(0.97); }
 
-    /* ===== TAB NAV ===== */
+    /* =============================================
+       TAB NAV (コマンドメニュー風)
+    ============================================= */
     .tab-nav {
       display: flex;
       justify-content: center;
-      gap: 0.5rem;
-      padding: 1.25rem 1.5rem 0;
-      border-bottom: 1px solid var(--border);
-      background: rgba(11,15,25,0.9);
+      gap: 0;
+      padding: 0;
+      border-bottom: 3px solid var(--ff-border);
+      background: var(--ff-darkblue);
       position: sticky;
       top: 0;
-      z-index: 10;
-      backdrop-filter: blur(12px);
+      z-index: 20;
+      box-shadow: 0 4px 20px rgba(0,0,0,0.6);
     }
     .tab-btn {
+      font-family: 'Press Start 2P', monospace;
+      font-size: 0.55rem;
+      padding: 0.9rem 2rem;
+      background: transparent;
+      border: none;
+      border-right: 1px solid var(--ff-border);
+      color: var(--ff-silver);
+      cursor: pointer;
+      letter-spacing: 0.08em;
+      transition: all 0.15s;
       display: flex;
       align-items: center;
-      gap: 0.4rem;
-      padding: 0.6rem 1.3rem;
-      border-radius: 8px 8px 0 0;
-      border: none;
-      background: transparent;
-      color: var(--text-muted);
-      font-size: 0.95rem;
-      font-weight: 600;
-      cursor: pointer;
-      transition: all 0.2s;
-      border-bottom: 2px solid transparent;
-      margin-bottom: -1px;
+      gap: 0.5rem;
       font-family: inherit;
+      position: relative;
     }
-    .tab-btn:hover { color: var(--text-main); background: rgba(255,255,255,0.04); }
+    .tab-btn .cursor { color: var(--ff-gold); opacity: 0; transition: opacity 0.1s; }
+    .tab-btn:hover .cursor, .tab-btn.active .cursor { opacity: 1; }
+    .tab-btn:hover { background: rgba(74,111,212,0.15); color: var(--ff-white); }
     .tab-btn.active {
-      color: #a78bfa;
-      border-bottom-color: #a78bfa;
-      background: rgba(124,58,237,0.08);
+      background: var(--ff-blue);
+      color: var(--ff-gold2);
+      border-bottom: 3px solid var(--ff-gold);
+      margin-bottom: -3px;
     }
-    .tab-btn .material-symbols-outlined { font-size: 18px; }
 
-    /* ===== LAYOUT ===== */
+    /* =============================================
+       MAIN LAYOUT
+    ============================================= */
     .container {
-      max-width: 1280px;
+      max-width: 1320px;
       margin: 1.5rem auto;
-      padding: 0 1.5rem;
+      padding: 0 1.25rem;
       display: grid;
-      grid-template-columns: 320px 1fr;
-      gap: 1.75rem;
+      grid-template-columns: 280px 1fr;
+      gap: 1.5rem;
       flex-grow: 1;
     }
-    @media (max-width: 880px) { .container { grid-template-columns: 1fr; } }
+    @media (max-width: 860px) { .container { grid-template-columns: 1fr; } }
 
-    /* ===== TAB PANELS ===== */
     .tab-panel { display: none; }
     .tab-panel.active { display: contents; }
 
-    /* ===== EPISODE LIST (left sidebar) ===== */
+    /* =============================================
+       SIDEBAR LABEL
+    ============================================= */
     .sidebar-label {
-      font-size: 0.75rem;
-      font-weight: 700;
-      text-transform: uppercase;
-      letter-spacing: 0.08em;
-      color: var(--text-muted);
+      font-family: 'Press Start 2P', monospace;
+      font-size: 0.5rem;
+      color: var(--ff-silver);
+      letter-spacing: 0.1em;
       margin-bottom: 0.75rem;
+      padding-left: 0.25rem;
     }
-    .episode-list { display: flex; flex-direction: column; gap: 0.75rem; }
+
+    /* =============================================
+       EPISODE LIST
+    ============================================= */
+    .episode-list { display: flex; flex-direction: column; gap: 0.5rem; }
     .episode-card {
-      background: var(--bg-card);
-      border: 1px solid var(--border);
-      border-radius: 12px;
-      padding: 1rem 1.25rem;
+      padding: 0.85rem 1rem;
       cursor: pointer;
-      transition: all 0.25s cubic-bezier(0.4,0,0.2,1);
+      transition: all 0.15s;
+      border-left: 3px solid transparent;
+      border-bottom: 1px solid var(--ff-navy);
+      background: rgba(16, 24, 64, 0.5);
     }
-    .episode-card:hover { border-color: #4c1d95; transform: translateX(3px); box-shadow: 0 4px 16px rgba(0,0,0,0.3); }
+    .episode-card:hover {
+      background: var(--ff-blue);
+      border-left-color: var(--ff-gold);
+      padding-left: 1.25rem;
+    }
     .episode-card.active {
-      border-color: var(--primary);
-      background: linear-gradient(135deg, #1e1b4b 0%, var(--bg-card) 100%);
-      box-shadow: 0 4px 20px var(--primary-glow);
+      background: var(--ff-blue);
+      border-left-color: var(--ff-gold2);
+      box-shadow: inset 4px 0 0 var(--ff-gold2);
     }
-    .episode-date { font-size: 0.78rem; color: var(--text-muted); margin-bottom: 0.2rem; }
-    .episode-title { font-size: 0.98rem; font-weight: 600; }
-
-    /* ===== EPISODE DETAIL (right) ===== */
-    .episode-detail {
-      background: var(--bg-card);
-      border: 1px solid var(--border);
-      border-radius: 16px;
-      padding: 2rem;
-      display: flex;
-      flex-direction: column;
-      gap: 1.75rem;
-      height: fit-content;
-    }
-    .detail-date { color: var(--accent-pink); font-weight: 600; font-size: 0.85rem; margin-bottom: 0.4rem; }
-    .detail-title { font-size: 1.7rem; font-weight: 700; font-family: 'Outfit', sans-serif; }
-    .detail-header { border-bottom: 1px solid var(--border); padding-bottom: 1.25rem; }
-
-    .player-container {
-      background: rgba(255,255,255,0.02);
-      border: 1px solid var(--border);
-      border-radius: 12px;
-      padding: 1.25rem;
-    }
-    audio { width: 100%; outline: none; }
-
-    .section-title {
-      font-size: 1.05rem;
-      font-weight: 600;
+    .episode-card-inner {
       display: flex;
       align-items: center;
       gap: 0.5rem;
-      border-bottom: 1px solid var(--border);
-      padding-bottom: 0.5rem;
-      margin-bottom: 1rem;
     }
-    .news-section { display: flex; flex-direction: column; gap: 0; }
-
-    /* ===== NEWS CARDS (shared) ===== */
-    .news-card {
-      background: rgba(255,255,255,0.01);
-      border: 1px solid var(--border);
-      border-radius: 12px;
-      padding: 1.25rem 1.5rem;
-      transition: all 0.2s;
-      margin-bottom: 0.75rem;
+    .ep-cursor {
+      color: var(--ff-gold);
+      font-size: 0.8rem;
+      opacity: 0;
+      transition: opacity 0.1s;
     }
-    .news-card:last-child { margin-bottom: 0; }
-    .news-card:hover { border-color: rgba(255,255,255,0.14); background: rgba(255,255,255,0.025); }
-    .news-source {
-      font-size: 0.7rem;
-      text-transform: uppercase;
-      letter-spacing: 0.06em;
-      color: var(--accent-cyan);
-      font-weight: 700;
-      margin-bottom: 0.4rem;
+    .episode-card:hover .ep-cursor,
+    .episode-card.active .ep-cursor { opacity: 1; }
+    .ep-info { flex: 1; }
+    .episode-date {
+      font-family: 'Press Start 2P', monospace;
+      font-size: 0.45rem;
+      color: var(--ff-silver);
+      margin-bottom: 0.3rem;
+      letter-spacing: 0.05em;
     }
-    .news-title { font-size: 1.05rem; font-weight: 600; margin-bottom: 0.5rem; line-height: 1.4; }
-    .news-summary { font-size: 0.9rem; color: var(--text-muted); line-height: 1.65; margin-bottom: 0.75rem; }
-    .news-link {
-      color: var(--primary);
-      text-decoration: none;
-      font-weight: 600;
-      display: inline-flex;
-      align-items: center;
-      gap: 0.2rem;
+    .episode-title {
       font-size: 0.85rem;
-      transition: color 0.2s;
-    }
-    .news-link:hover { color: #a78bfa; }
-    .news-score-badge {
-      display: inline-flex;
-      align-items: center;
-      gap: 0.2rem;
-      background: rgba(74,222,128,0.12);
-      border: 1px solid rgba(74,222,128,0.25);
-      color: var(--accent-green);
-      border-radius: 9999px;
-      padding: 0.15rem 0.6rem;
-      font-size: 0.72rem;
       font-weight: 700;
-      margin-bottom: 0.5rem;
+      color: var(--ff-white);
     }
 
-    /* ===== DAILY NEWS TAB ===== */
-    .daily-layout { display: contents; }
-    .daily-sidebar { display: flex; flex-direction: column; gap: 0.5rem; }
-    .day-btn {
-      background: var(--bg-card);
-      border: 1px solid var(--border);
-      border-radius: 10px;
-      padding: 0.75rem 1rem;
-      cursor: pointer;
-      transition: all 0.2s;
-      text-align: left;
-      font-family: inherit;
-      color: var(--text-muted);
-    }
-    .day-btn:hover { border-color: var(--accent-cyan); color: var(--text-main); transform: translateX(3px); }
-    .day-btn.active {
-      background: linear-gradient(135deg, #0e2a3d 0%, var(--bg-card) 100%);
-      border-color: var(--accent-cyan);
-      color: var(--accent-cyan);
-      font-weight: 600;
-      box-shadow: 0 2px 12px rgba(34,211,238,0.18);
-    }
-    .day-btn-date { font-size: 0.95rem; font-weight: 600; }
-    .day-btn-count { font-size: 0.78rem; color: var(--text-muted); margin-top: 0.1rem; }
-    .day-btn.active .day-btn-count { color: rgba(34,211,238,0.7); }
-
-    .daily-detail {
-      background: var(--bg-card);
-      border: 1px solid var(--border);
-      border-radius: 16px;
-      padding: 2rem;
+    /* =============================================
+       EPISODE DETAIL
+    ============================================= */
+    .episode-detail {
+      padding: 1.75rem;
+      display: flex;
+      flex-direction: column;
+      gap: 1.5rem;
       height: fit-content;
     }
+    .detail-header { border-bottom: 2px solid var(--ff-border); padding-bottom: 1.25rem; }
+    .detail-date {
+      font-family: 'Press Start 2P', monospace;
+      font-size: 0.5rem;
+      color: var(--ff-gold);
+      margin-bottom: 0.5rem;
+      letter-spacing: 0.08em;
+    }
+    .detail-title {
+      font-family: 'Press Start 2P', monospace;
+      font-size: clamp(0.6rem, 2vw, 0.95rem);
+      color: var(--ff-white);
+      line-height: 1.8;
+    }
+
+    .player-container {
+      background: rgba(0,0,0,0.3);
+      border: 2px solid var(--ff-midblue);
+      padding: 1.25rem;
+    }
+    .player-label {
+      font-family: 'Press Start 2P', monospace;
+      font-size: 0.45rem;
+      color: var(--ff-silver);
+      margin-bottom: 0.75rem;
+      display: flex;
+      align-items: center;
+      gap: 0.5rem;
+      letter-spacing: 0.08em;
+    }
+    audio {
+      width: 100%;
+      filter: hue-rotate(200deg) saturate(0.8);
+    }
+
+    .section-title {
+      font-family: 'Press Start 2P', monospace;
+      font-size: 0.55rem;
+      color: var(--ff-gold);
+      letter-spacing: 0.08em;
+      border-bottom: 2px solid var(--ff-border);
+      padding-bottom: 0.5rem;
+      margin-bottom: 1rem;
+      display: flex;
+      align-items: center;
+      gap: 0.5rem;
+    }
+
+    /* =============================================
+       NEWS CARDS (shared)  ← ここに日付を追加
+    ============================================= */
+    .news-card {
+      border: 2px solid var(--ff-border);
+      padding: 1.1rem 1.25rem;
+      transition: all 0.15s;
+      margin-bottom: 0.75rem;
+      background: rgba(10,18,48,0.6);
+      position: relative;
+    }
+    .news-card::before {
+      content: '';
+      position: absolute;
+      top: 0; left: 0;
+      width: 3px;
+      height: 100%;
+      background: var(--ff-border);
+      transition: background 0.15s, width 0.15s;
+    }
+    .news-card:hover { border-color: var(--ff-border2); background: rgba(26,44,110,0.5); }
+    .news-card:hover::before { background: var(--ff-gold); width: 4px; }
+
+    /* カード右上の日付バッジ */
+    .news-card-date {
+      position: absolute;
+      top: 0.6rem;
+      right: 0.75rem;
+      font-family: 'Press Start 2P', monospace;
+      font-size: 0.4rem;
+      color: var(--ff-silver);
+      letter-spacing: 0.05em;
+      background: rgba(0,0,0,0.5);
+      border: 1px solid var(--ff-border);
+      padding: 0.2rem 0.45rem;
+    }
+
+    .news-source {
+      font-family: 'Press Start 2P', monospace;
+      font-size: 0.4rem;
+      color: var(--ff-cyan);
+      letter-spacing: 0.06em;
+      margin-bottom: 0.4rem;
+    }
+    .news-title {
+      font-size: 1rem;
+      font-weight: 700;
+      margin-bottom: 0.5rem;
+      line-height: 1.5;
+      padding-right: 5rem; /* 日付バッジの分のスペース */
+    }
+    .news-summary {
+      font-size: 0.85rem;
+      color: var(--ff-silver);
+      line-height: 1.7;
+      margin-bottom: 0.75rem;
+    }
+    .news-link {
+      font-family: 'Press Start 2P', monospace;
+      font-size: 0.4rem;
+      color: var(--ff-crystal);
+      text-decoration: none;
+      display: inline-flex;
+      align-items: center;
+      gap: 0.4rem;
+      letter-spacing: 0.05em;
+      transition: color 0.15s;
+    }
+    .news-link::before { content: '▶'; color: var(--ff-gold); font-size: 0.35rem; }
+    .news-link:hover { color: var(--ff-gold2); }
+
+    .score-badge {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.3rem;
+      background: rgba(240,192,48,0.12);
+      border: 1px solid rgba(240,192,48,0.35);
+      color: var(--ff-gold);
+      padding: 0.15rem 0.5rem;
+      font-family: 'Press Start 2P', monospace;
+      font-size: 0.38rem;
+      margin-bottom: 0.4rem;
+      letter-spacing: 0.05em;
+    }
+
+    /* =============================================
+       DAILY NEWS SIDEBAR
+    ============================================= */
+    .daily-sidebar { display: flex; flex-direction: column; gap: 0.4rem; }
+    .day-btn {
+      font-family: 'M PLUS 1 Code', monospace;
+      background: rgba(16, 24, 64, 0.5);
+      border: 2px solid var(--ff-border);
+      border-left: 3px solid transparent;
+      padding: 0.75rem 1rem;
+      cursor: pointer;
+      transition: all 0.15s;
+      text-align: left;
+      color: var(--ff-silver);
+      font-size: 0.9rem;
+    }
+    .day-btn:hover {
+      background: var(--ff-blue);
+      border-color: var(--ff-border2);
+      border-left-color: var(--ff-cyan);
+      color: var(--ff-white);
+    }
+    .day-btn.active {
+      background: var(--ff-blue);
+      border-color: var(--ff-border2);
+      border-left-color: var(--ff-gold);
+      color: var(--ff-gold2);
+    }
+    .day-btn-date {
+      font-family: 'Press Start 2P', monospace;
+      font-size: 0.45rem;
+      font-weight: 700;
+      display: block;
+      margin-bottom: 0.25rem;
+      letter-spacing: 0.05em;
+    }
+    .day-btn-count {
+      font-size: 0.75rem;
+      color: var(--ff-silver);
+    }
+    .day-btn.active .day-btn-count { color: rgba(240,192,48,0.7); }
+    .today-tag {
+      font-family: 'Press Start 2P', monospace;
+      font-size: 0.35rem;
+      background: var(--ff-gold);
+      color: #000;
+      padding: 0.15rem 0.4rem;
+      margin-left: 0.5rem;
+    }
+
+    /* =============================================
+       DAILY DETAIL HEADER
+    ============================================= */
+    .daily-detail { padding: 1.75rem; height: fit-content; }
     .daily-header {
       display: flex;
       align-items: baseline;
@@ -307,231 +548,312 @@
       gap: 0.5rem;
       margin-bottom: 1.5rem;
       padding-bottom: 1rem;
-      border-bottom: 1px solid var(--border);
+      border-bottom: 2px solid var(--ff-border);
     }
     .daily-title {
-      font-family: 'Outfit', sans-serif;
-      font-size: 1.5rem;
-      font-weight: 700;
+      font-family: 'Press Start 2P', monospace;
+      font-size: clamp(0.5rem, 2vw, 0.85rem);
+      color: var(--ff-gold2);
+      line-height: 1.8;
+      letter-spacing: 0.05em;
     }
-    .daily-count-label {
-      font-size: 0.85rem;
-      color: var(--text-muted);
-    }
-    .today-chip {
-      background: linear-gradient(90deg, rgba(34,211,238,0.15), rgba(74,222,128,0.1));
-      border: 1px solid rgba(34,211,238,0.3);
-      color: var(--accent-cyan);
-      border-radius: 9999px;
-      padding: 0.2rem 0.7rem;
-      font-size: 0.75rem;
-      font-weight: 700;
-      margin-left: 0.5rem;
+    .daily-count {
+      font-family: 'Press Start 2P', monospace;
+      font-size: 0.45rem;
+      color: var(--ff-silver);
+      letter-spacing: 0.05em;
     }
 
-    /* ===== EMPTY / LOADING STATE ===== */
+    /* HP/MPバー風の「記事数インジケーター」 */
+    .article-bar-wrap {
+      margin-top: 0.75rem;
+    }
+    .article-bar-label {
+      font-family: 'Press Start 2P', monospace;
+      font-size: 0.4rem;
+      color: var(--ff-cyan);
+      margin-bottom: 0.3rem;
+      letter-spacing: 0.06em;
+    }
+    .article-bar {
+      height: 8px;
+      background: var(--ff-navy);
+      border: 1px solid var(--ff-border);
+      position: relative;
+      overflow: hidden;
+    }
+    .article-bar-fill {
+      height: 100%;
+      background: linear-gradient(90deg, #40c0ff, #80e8ff);
+      transition: width 0.6s ease;
+      position: relative;
+    }
+    .article-bar-fill::after {
+      content: '';
+      position: absolute;
+      top: 0; right: 0;
+      width: 4px; height: 100%;
+      background: #fff;
+      opacity: 0.7;
+      animation: bar-shine 1.5s ease-in-out infinite;
+    }
+    @keyframes bar-shine {
+      0%, 100% { opacity: 0.7; }
+      50%       { opacity: 0.2; }
+    }
+
+    /* =============================================
+       EMPTY / LOADING
+    ============================================= */
     .empty-state {
       text-align: center;
-      padding: 4rem 2rem;
-      color: var(--text-muted);
+      padding: 3rem 2rem;
+      color: var(--ff-silver);
     }
-    .empty-icon { font-size: 3.5rem; margin-bottom: 1rem; display: block; opacity: 0.5; }
-    .loading-dots {
-      display: inline-flex;
-      gap: 4px;
+    .empty-icon {
+      font-family: 'Press Start 2P', monospace;
+      font-size: 1.5rem;
+      display: block;
+      margin-bottom: 1rem;
+      color: var(--ff-border);
+      animation: blink 1.2s step-end infinite;
     }
-    .loading-dots span {
-      width: 8px;
-      height: 8px;
-      background: var(--primary);
-      border-radius: 50%;
-      animation: bounce 1.2s infinite;
+    .empty-text {
+      font-family: 'Press Start 2P', monospace;
+      font-size: 0.45rem;
+      letter-spacing: 0.08em;
+      line-height: 2;
     }
-    .loading-dots span:nth-child(2) { animation-delay: 0.15s; }
-    .loading-dots span:nth-child(3) { animation-delay: 0.3s; }
-    @keyframes bounce {
-      0%, 80%, 100% { transform: scale(0.7); opacity: 0.5; }
-      40% { transform: scale(1); opacity: 1; }
+    @keyframes blink {
+      0%, 100% { opacity: 1; }
+      50%       { opacity: 0; }
     }
 
-    /* ===== FOOTER ===== */
+    .loading-bar {
+      display: inline-flex;
+      gap: 4px;
+      margin-top: 1rem;
+    }
+    .loading-bar span {
+      width: 10px; height: 10px;
+      background: var(--ff-gold);
+      display: block;
+      animation: loading-bounce 0.8s ease-in-out infinite;
+    }
+    .loading-bar span:nth-child(2) { animation-delay: 0.1s; background: var(--ff-crystal); }
+    .loading-bar span:nth-child(3) { animation-delay: 0.2s; background: var(--ff-green); }
+    .loading-bar span:nth-child(4) { animation-delay: 0.3s; background: var(--ff-red); }
+    @keyframes loading-bounce {
+      0%, 80%, 100% { transform: scaleY(0.4); opacity: 0.5; }
+      40%           { transform: scaleY(1.2); opacity: 1; }
+    }
+
+    /* =============================================
+       FOOTER
+    ============================================= */
     footer {
       text-align: center;
-      padding: 1.75rem;
-      color: var(--text-muted);
-      font-size: 0.82rem;
-      border-top: 1px solid var(--border);
+      padding: 1.5rem;
+      border-top: 3px solid var(--ff-border);
+      background: var(--ff-darkblue);
       margin-top: auto;
     }
+    .footer-text {
+      font-family: 'Press Start 2P', monospace;
+      font-size: 0.4rem;
+      color: var(--ff-silver);
+      letter-spacing: 0.08em;
+      line-height: 2.5;
+    }
+    .footer-crystal { color: var(--ff-gold); }
+
+    /* =============================================
+       SCROLLBAR
+    ============================================= */
+    ::-webkit-scrollbar { width: 8px; }
+    ::-webkit-scrollbar-track { background: var(--ff-darkblue); }
+    ::-webkit-scrollbar-thumb { background: var(--ff-border); border: 1px solid var(--ff-black); }
+    ::-webkit-scrollbar-thumb:hover { background: var(--ff-border2); }
   </style>
 </head>
 <body>
 
+  <!-- スターフィールド -->
+  <div id="starfield"></div>
+
+  <!-- ===== HEADER ===== -->
   <header>
-    <div class="header-content">
-      <h1>🎙 週刊テックニュース</h1>
-      <p class="subtitle">ずんだもんと四国めたんが毎週最新テックニュースをお届け。毎日の記事ピックアップも確認できます。</p>
-      <div class="badge-container">
-        <span class="badge">🟢 ずんだもん</span>
-        <span class="badge">🌸 四国めたん</span>
-        <span class="badge">✨ 完全自動生成</span>
-        <span class="badge">📰 毎日更新</span>
-      </div>
-      <div class="btn-container">
-        <a id="btn-apple-podcast" href="#" class="btn btn-apple">
-          <span class="material-symbols-outlined">podcasts</span> Apple Podcastで聴く
-        </a>
-        <button id="btn-copy-rss" class="btn btn-rss">
-          <span class="material-symbols-outlined">rss_feed</span> RSSフィードをコピー
-        </button>
-      </div>
+    <div class="crystal-row">
+      <div class="crystal crystal-fire"></div>
+      <div class="crystal crystal-ice"></div>
+      <div class="crystal crystal-thunder"></div>
+      <div class="crystal crystal-wind"></div>
+      <div class="crystal crystal-earth"></div>
+      <div class="crystal crystal-water"></div>
+    </div>
+    <h1 class="title-logo">TECH NEWS CHRONICLE</h1>
+    <p class="title-sub">- WEEKLY TECH PODCAST &amp; DAILY NEWS -</p>
+    <div class="party-badges">
+      <span class="party-badge hero">♦ ZUNDAMON  Lv.99</span>
+      <span class="party-badge hero">♦ METAN     Lv.99</span>
+      <span class="party-badge">★ AUTO GENERATED</span>
+      <span class="party-badge">★ DAILY UPDATE</span>
+    </div>
+    <div class="header-commands">
+      <a id="btn-apple-podcast" href="#" class="cmd-btn">APPLE PODCAST</a>
+      <button id="btn-copy-rss" class="cmd-btn">COPY RSS FEED</button>
     </div>
   </header>
 
-  <!-- タブナビゲーション -->
+  <!-- ===== TAB NAV ===== -->
   <nav class="tab-nav" role="tablist">
-    <button class="tab-btn active" id="tab-podcast" role="tab" aria-controls="panel-podcast" onclick="switchTab('podcast')">
-      <span class="material-symbols-outlined">mic</span> ポッドキャスト
+    <button class="tab-btn active" id="tab-podcast" role="tab" onclick="switchTab('podcast')">
+      <span class="cursor">▶</span> PODCAST
     </button>
-    <button class="tab-btn" id="tab-daily" role="tab" aria-controls="panel-daily" onclick="switchTab('daily')">
-      <span class="material-symbols-outlined">newspaper</span> 日次ニュース
+    <button class="tab-btn" id="tab-daily" role="tab" onclick="switchTab('daily')">
+      <span class="cursor">▶</span> DAILY NEWS
     </button>
   </nav>
 
-  <!-- ===== ポッドキャストパネル ===== -->
+  <!-- ===== PODCAST PANEL ===== -->
   <div id="panel-podcast" role="tabpanel" class="tab-panel active">
     <main class="container">
-      <!-- 左: エピソード一覧 -->
       <div>
-        <p class="sidebar-label">エピソード一覧</p>
-        <div class="episode-list" id="episode-list-container">
+        <p class="sidebar-label">- EPISODE SELECT -</p>
+        <div class="ff-window episode-list" id="episode-list-container">
           <div class="empty-state">
-            <div class="loading-dots"><span></span><span></span><span></span></div>
+            <div class="loading-bar"><span></span><span></span><span></span><span></span></div>
           </div>
         </div>
       </div>
-
-      <!-- 右: エピソード詳細 -->
-      <div class="episode-detail" id="episode-detail-container">
+      <div class="ff-window episode-detail" id="episode-detail-container">
         <div class="empty-state">
-          <span class="material-symbols-outlined empty-icon">radio</span>
-          <p>エピソードを選択してください</p>
+          <span class="empty-icon">♪</span>
+          <p class="empty-text">SELECT AN EPISODE</p>
         </div>
       </div>
     </main>
   </div>
 
-  <!-- ===== 日次ニュースパネル ===== -->
+  <!-- ===== DAILY NEWS PANEL ===== -->
   <div id="panel-daily" role="tabpanel" class="tab-panel">
     <main class="container">
-      <!-- 左: 日付リスト -->
       <div>
-        <p class="sidebar-label">日付を選択</p>
-        <div class="daily-sidebar" id="daily-date-list">
+        <p class="sidebar-label">- DATE SELECT -</p>
+        <div class="ff-window daily-sidebar" id="daily-date-list" style="padding: 0.5rem;">
           <div class="empty-state" style="padding:2rem 0;">
-            <div class="loading-dots"><span></span><span></span><span></span></div>
+            <div class="loading-bar"><span></span><span></span><span></span><span></span></div>
           </div>
         </div>
       </div>
-
-      <!-- 右: その日の記事一覧 -->
-      <div class="daily-detail" id="daily-articles-container">
+      <div class="ff-window daily-detail" id="daily-articles-container">
         <div class="empty-state">
-          <span class="material-symbols-outlined empty-icon">calendar_today</span>
-          <p>日付を選択してください</p>
+          <span class="empty-icon">📅</span>
+          <p class="empty-text">SELECT A DATE</p>
         </div>
       </div>
     </main>
   </div>
 
+  <!-- ===== FOOTER ===== -->
   <footer>
-    <p>&copy; 2026 週刊テックニュース Podcast. All rights reserved. | Powered by Gemini API &amp; VOICEVOX</p>
+    <p class="footer-text">
+      <span class="footer-crystal">◆ ◆ ◆</span><br>
+      TECH NEWS CHRONICLE &copy; 2026<br>
+      POWERED BY GEMINI API &amp; VOICEVOX ENGINE<br>
+      <span class="footer-crystal">◆ ◆ ◆</span>
+    </p>
   </footer>
 
   <script>
-    // === ベースURL ===
-    const protocol = window.location.protocol;
-    const host = window.location.host;
-    const pathname = window.location.pathname.replace(/\/index\.html$/, '').replace(/\/$/, '');
-    const baseUrl = `${protocol}//${host}${pathname}`;
-    const rssUrl = `${baseUrl}/podcast.xml`;
+    /* ===== STARFIELD ===== */
+    (function() {
+      const sf = document.getElementById('starfield');
+      for (let i = 0; i < 120; i++) {
+        const s = document.createElement('div');
+        s.className = 'star';
+        const size = Math.random() < 0.8 ? 1 : Math.random() < 0.5 ? 2 : 3;
+        s.style.cssText = `
+          width:${size}px; height:${size}px;
+          top:${Math.random()*100}%;
+          left:${Math.random()*100}%;
+          --dur:${2 + Math.random()*4}s;
+          --delay:${Math.random()*4}s;
+        `;
+        sf.appendChild(s);
+      }
+    })();
 
+    /* ===== BASE URL / RSS ===== */
+    const baseUrl = `${location.protocol}//${location.host}${location.pathname.replace(/\/index\.html$/, '').replace(/\/$/, '')}`;
+    const rssUrl = `${baseUrl}/podcast.xml`;
     document.getElementById('btn-apple-podcast').href = rssUrl.replace(/^https?:\/\//, 'pcast://');
     document.getElementById('btn-copy-rss').addEventListener('click', () => {
-      navigator.clipboard.writeText(rssUrl).then(() => {
-        alert('RSSフィードのURLをコピーしました！\nポッドキャストアプリに貼り付けて登録してください。');
-      });
+      navigator.clipboard.writeText(rssUrl).then(() =>
+        alert('▶ RSS FEED URL COPIED!\nペーストしてポッドキャストアプリに登録してください。')
+      );
     });
 
-    // === タブ切り替え ===
+    /* ===== TAB SWITCH ===== */
     function switchTab(tab) {
       document.querySelectorAll('.tab-btn').forEach(b => b.classList.remove('active'));
       document.querySelectorAll('.tab-panel').forEach(p => p.classList.remove('active'));
       document.getElementById(`tab-${tab}`).classList.add('active');
       document.getElementById(`panel-${tab}`).classList.add('active');
-
-      if (tab === 'daily' && !dailyLoaded) {
-        loadDailyNews();
-      }
+      if (tab === 'daily' && !dailyLoaded) loadDailyNews();
     }
 
-    // === ユーティリティ ===
-    function formatDate(dateStr) {
+    /* ===== UTILS ===== */
+    function fmtDate(dateStr) {
       const d = new Date(dateStr + 'T00:00:00');
       const today = new Date(); today.setHours(0,0,0,0);
-      const isToday = d.getTime() === today.getTime();
       return {
-        label: `${d.getFullYear()}年${d.getMonth()+1}月${d.getDate()}日`,
-        isToday
+        label: `${d.getFullYear()}.${String(d.getMonth()+1).padStart(2,'0')}.${String(d.getDate()).padStart(2,'0')}`,
+        isToday: d.getTime() === today.getTime()
       };
     }
-
-    function getDomain(urlStr) {
-      try { return new URL(urlStr).hostname.replace('www.', ''); }
-      catch(e) { return 'WEB'; }
+    function fmtFetched(isoStr) {
+      if (!isoStr) return '';
+      const d = new Date(isoStr);
+      return `${d.getFullYear()}.${String(d.getMonth()+1).padStart(2,'0')}.${String(d.getDate()).padStart(2,'0')}`;
+    }
+    function getDomain(url) {
+      try { return new URL(url).hostname.replace('www.',''); } catch { return 'WEB'; }
     }
 
-    // === ポッドキャスト ===
+    /* ===== PODCAST ===== */
     let episodesData = [];
 
-    function selectEpisode(index) {
-      const episode = episodesData[index];
-      document.querySelectorAll('.episode-card').forEach((c, i) =>
-        c.classList.toggle('active', i === index)
+    function selectEpisode(i) {
+      const ep = episodesData[i];
+      document.querySelectorAll('.episode-card').forEach((c, j) =>
+        c.classList.toggle('active', j === i)
       );
-
+      const { label } = fmtDate(ep.date);
       let newsHtml = '';
-      if (episode.articles && episode.articles.length > 0) {
-        newsHtml = episode.articles.map(art => `
+      if (ep.articles && ep.articles.length > 0) {
+        newsHtml = ep.articles.map(a => `
           <div class="news-card">
-            <div class="news-source">${getDomain(art.url)}</div>
-            <div class="news-title">${art.title}</div>
-            <p class="news-summary">${art.summary || '記事の要約は音声内でお聞きいただけます。'}</p>
-            <a href="${art.url}" target="_blank" rel="noopener noreferrer" class="news-link">
-              記事を読む <span class="material-symbols-outlined" style="font-size:14px;">open_in_new</span>
-            </a>
+            <div class="news-source">${getDomain(a.url)}</div>
+            <div class="news-title">${a.title}</div>
+            <p class="news-summary">${a.summary || '▶ 詳細は音声でお聞きください。'}</p>
+            <a href="${a.url}" target="_blank" rel="noopener noreferrer" class="news-link">READ ARTICLE</a>
           </div>
         `).join('');
       } else {
-        newsHtml = '<p style="color:var(--text-muted);">ニュース詳細情報はありません。</p>';
+        newsHtml = '<p class="empty-text" style="font-size:0.45rem;color:var(--ff-silver);">NO ARTICLES</p>';
       }
-
-      const { label } = formatDate(episode.date);
       document.getElementById('episode-detail-container').innerHTML = `
         <div class="detail-header">
-          <div class="detail-date">${label} 配信</div>
-          <h2 class="detail-title">テックニュース ${label}</h2>
+          <div class="detail-date">◆ ${label}</div>
+          <h2 class="detail-title">WEEKLY TECH NEWS<br>${label}</h2>
         </div>
         <div class="player-container">
-          <p style="margin-bottom:0.6rem;font-size:0.85rem;color:var(--text-muted);display:flex;align-items:center;gap:0.3rem;">
-            <span class="material-symbols-outlined" style="font-size:16px;">graphic_eq</span> ポッドキャストを再生
-          </p>
-          <audio controls src="${episode.audio_file}" style="width:100%;"></audio>
+          <p class="player-label">♪ NOW PLAYING</p>
+          <audio controls src="${ep.audio_file}"></audio>
         </div>
-        <div class="news-section">
-          <h3 class="section-title">
-            <span class="material-symbols-outlined">menu_book</span> 紹介されたニュース
-          </h3>
+        <div>
+          <h3 class="section-title">◆ FEATURED ARTICLES</h3>
           ${newsHtml}
         </div>
       `;
@@ -539,132 +861,112 @@
 
     async function loadEpisodes() {
       try {
-        const res = await fetch('episodes.json');
-        if (!res.ok) throw new Error('Failed to load episodes.json');
-        episodesData = await res.json();
-
-        const listEl = document.getElementById('episode-list-container');
-        if (episodesData.length === 0) {
-          listEl.innerHTML = '<p class="empty-state">まだエピソードがありません。</p>';
+        const r = await fetch('episodes.json');
+        if (!r.ok) throw new Error();
+        episodesData = await r.json();
+        const el = document.getElementById('episode-list-container');
+        if (!episodesData.length) {
+          el.innerHTML = '<div class="empty-state"><p class="empty-text">NO EPISODES YET</p></div>';
           return;
         }
-
-        listEl.innerHTML = episodesData.map((ep, idx) => {
-          const { label } = formatDate(ep.date);
+        el.innerHTML = episodesData.map((ep, i) => {
+          const { label } = fmtDate(ep.date);
           return `
-            <div class="episode-card" onclick="selectEpisode(${idx})">
-              <div class="episode-date">${label}</div>
-              <div class="episode-title">📻 週刊テックニュース</div>
+            <div class="episode-card" onclick="selectEpisode(${i})">
+              <div class="episode-card-inner">
+                <span class="ep-cursor">▶</span>
+                <div class="ep-info">
+                  <div class="episode-date">${label}</div>
+                  <div class="episode-title">週刊テックニュース</div>
+                </div>
+              </div>
             </div>
           `;
         }).join('');
-
         selectEpisode(0);
-      } catch (err) {
-        console.error(err);
-        document.getElementById('episode-list-container').innerHTML = `
-          <div class="empty-state">
-            <span class="material-symbols-outlined empty-icon">error_outline</span>
-            <p>データの読み込みに失敗しました。</p>
-          </div>
-        `;
+      } catch {
+        document.getElementById('episode-list-container').innerHTML =
+          '<div class="empty-state"><p class="empty-text">LOAD FAILED</p></div>';
       }
     }
 
-    // === 日次ニュース ===
+    /* ===== DAILY NEWS ===== */
     let dailyData = [];
     let dailyLoaded = false;
-    let selectedDayIndex = 0;
 
-    function renderDayArticles(index) {
-      selectedDayIndex = index;
-      const day = dailyData[index];
-      const { label, isToday } = formatDate(day.date);
-
-      document.querySelectorAll('.day-btn').forEach((b, i) =>
-        b.classList.toggle('active', i === index)
+    function renderDay(i) {
+      const day = dailyData[i];
+      document.querySelectorAll('.day-btn').forEach((b, j) =>
+        b.classList.toggle('active', j === i)
       );
+      const { label, isToday } = fmtDate(day.date);
+      const arts = day.articles || [];
+      const max = 50;
+      const pct = Math.min(100, Math.round(arts.length / max * 100));
 
-      const count = day.articles ? day.articles.length : 0;
-      let articlesHtml = '';
-
-      if (count > 0) {
-        articlesHtml = day.articles.map(art => {
-          const hasScore = art.score && art.score > 0;
+      let html = '';
+      if (arts.length) {
+        html = arts.map(a => {
+          const dateTag = fmtFetched(a.fetched_at);
           return `
             <div class="news-card">
-              ${hasScore ? `<div class="news-score-badge">⭐ スコア ${art.score}</div>` : ''}
-              <div class="news-source">${getDomain(art.url)}</div>
-              <div class="news-title">${art.title}</div>
-              ${art.summary ? `<p class="news-summary">${art.summary}</p>` : ''}
-              <a href="${art.url}" target="_blank" rel="noopener noreferrer" class="news-link">
-                記事を読む <span class="material-symbols-outlined" style="font-size:14px;">open_in_new</span>
-              </a>
+              ${dateTag ? `<div class="news-card-date">${dateTag}</div>` : ''}
+              ${a.score > 0 ? `<div class="score-badge">★ SCORE ${a.score}</div>` : ''}
+              <div class="news-source">${getDomain(a.url)}</div>
+              <div class="news-title">${a.title}</div>
+              ${a.summary ? `<p class="news-summary">${a.summary}</p>` : ''}
+              <a href="${a.url}" target="_blank" rel="noopener noreferrer" class="news-link">READ ARTICLE</a>
             </div>
           `;
         }).join('');
       } else {
-        articlesHtml = `
-          <div class="empty-state" style="padding:3rem 1rem;">
-            <span class="material-symbols-outlined empty-icon">article</span>
-            <p>この日の記事データはありません。</p>
-          </div>
-        `;
+        html = '<div class="empty-state"><span class="empty-icon">?</span><p class="empty-text">NO ARTICLES</p></div>';
       }
 
       document.getElementById('daily-articles-container').innerHTML = `
         <div class="daily-header">
           <div>
-            <div class="daily-title">
-              📰 ${label}
-              ${isToday ? '<span class="today-chip">TODAY</span>' : ''}
+            <div class="daily-title">◆ ${label}${isToday ? ' <span style="font-size:0.5rem;color:var(--ff-green);">[TODAY]</span>' : ''}</div>
+            <div class="daily-count">${arts.length} ARTICLES FOUND</div>
+            <div class="article-bar-wrap">
+              <div class="article-bar-label">ARTICLE INDEX ▌${arts.length}/${max}</div>
+              <div class="article-bar"><div class="article-bar-fill" style="width:${pct}%;"></div></div>
             </div>
-            <div class="daily-count-label">記事 ${count} 件</div>
           </div>
         </div>
-        ${articlesHtml}
+        ${html}
       `;
     }
 
     async function loadDailyNews() {
       dailyLoaded = true;
       try {
-        const res = await fetch('daily_news.json');
-        if (!res.ok) throw new Error('Failed to load daily_news.json');
-        dailyData = await res.json();
-
-        const listEl = document.getElementById('daily-date-list');
-        if (dailyData.length === 0) {
-          listEl.innerHTML = '<p class="empty-state" style="padding:2rem 0;">まだニュースデータがありません。</p>';
+        const r = await fetch('daily_news.json');
+        if (!r.ok) throw new Error();
+        dailyData = await r.json();
+        const el = document.getElementById('daily-date-list');
+        if (!dailyData.length) {
+          el.innerHTML = '<div class="empty-state" style="padding:1rem;"><p class="empty-text">NO DATA YET</p></div>';
           return;
         }
-
-        listEl.innerHTML = dailyData.map((day, idx) => {
-          const { label, isToday } = formatDate(day.date);
-          const count = day.articles ? day.articles.length : 0;
+        el.innerHTML = dailyData.map((d, i) => {
+          const { label, isToday } = fmtDate(d.date);
+          const cnt = (d.articles || []).length;
           return `
-            <button class="day-btn" onclick="renderDayArticles(${idx})">
-              <div class="day-btn-date">${label}${isToday ? ' <span style="color:var(--accent-cyan);font-size:0.7rem;">TODAY</span>' : ''}</div>
-              <div class="day-btn-count">${count} 件の記事</div>
+            <button class="day-btn" onclick="renderDay(${i})">
+              <span class="day-btn-date">${label}${isToday ? '<span class="today-tag">TODAY</span>' : ''}</span>
+              <span class="day-btn-count">▌${cnt} articles</span>
             </button>
           `;
         }).join('');
-
-        renderDayArticles(0);
-
-      } catch (err) {
-        console.error(err);
-        document.getElementById('daily-date-list').innerHTML = `
-          <div class="empty-state" style="padding:2rem 0;">
-            <span class="material-symbols-outlined" style="font-size:2.5rem;opacity:0.4;display:block;margin-bottom:0.5rem;">cloud_off</span>
-            <p style="font-size:0.85rem;">daily_news.json が見つかりません。<br>次回のfetchモード実行後に表示されます。</p>
-          </div>
-        `;
+        renderDay(0);
+      } catch {
+        document.getElementById('daily-date-list').innerHTML =
+          '<div class="empty-state" style="padding:1rem;"><p class="empty-text" style="font-size:0.4rem;line-height:2.5;">DAILY_NEWS.JSON<br>NOT FOUND<br>NEXT FETCH WILL<br>GENERATE DATA.</p></div>';
         document.getElementById('daily-articles-container').innerHTML = '';
       }
     }
 
-    // 初回読み込み
     window.addEventListener('DOMContentLoaded', loadEpisodes);
   </script>
 </body>
