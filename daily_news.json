@@ -1,5 +1,394 @@
 [
   {
+    "date": "2026-07-05",
+    "articles": [
+      {
+        "title": ".env に API キーを書きたくないので 軽いCLI を作った",
+        "url": "https://zenn.dev/trknhr/articles/42c20e11812217",
+        "summary": "OPENAI_API_KEY=sk-... DATABASE_URL=postgres://... これは昔からある普通の運用ですが、AI agent をローカルで動かすことが増えてから少し気になるようになりました。 AI agent にリポジトリを触らせるということは、かなり雑に言うと「別の人に自分の作業ディレクトリを触ってもらう」ことに近いです。もちろん agent...",
+        "score": 100,
+        "published_at": "2026-07-04T02:26:11+00:00",
+        "fetched_at": "2026-07-05T22:29:38.327402+00:00"
+      },
+      {
+        "title": "中国Z.ai、Claude Code型AI開発エージェント「ZCode」を展開　月18ドルから、GLM-5.2と連携 | Ledge.ai",
+        "url": "https://ledge.ai/articles/z_ai_zcode_glm_5_2_coding_agent",
+        "summary": "Top > エンジニアリング > 中国Z.ai、Claude Code型AI開発エージェント「ZCode」を展開　月18ドルから、GLM-5.2と連携",
+        "score": 100,
+        "published_at": "2026-07-04T22:33:10+00:00",
+        "fetched_at": "2026-07-05T22:29:38.327388+00:00"
+      },
+      {
+        "title": "もうプロンプトは書かなくていい…管理職も活躍できる「ループ・エンジニアリング」の時代がやって来た | Business Insider Japan",
+        "url": "https://www.businessinsider.jp/article/2607-what-are-loops-ai-engineering-tips/",
+        "summary": "ループとは何か？ループとは、AIエージェントを自律的に反復させるシステムで、これを使えばユーザーはいちいちプロンプトを書く手間から解放される。代表例が「/goal（ゴール）」コマンドだ。これはアンソロピック（Anthropic）のClaude CodeやオープンAIのCodexといったAIツールに対し、段階を追ってその都度プロンプ...",
+        "score": 100,
+        "published_at": "2026-07-03T03:57:00+00:00",
+        "fetched_at": "2026-07-05T22:29:38.327362+00:00"
+      },
+      {
+        "title": "Fable 5をトークン破産させずに使い倒す — オーケストレーターに徹させる運用",
+        "url": "https://zenn.dev/yui/articles/740da24e9ee419",
+        "summary": "はじめに Claude Fable 5、今までのモデルと比べても頭ひとつ飛び出るぐらい賢いですよね。 以前出た時にすぐメインモデルに設定して、実装からデバッグから雑務まで全部やらせた結果、トークンが凄い勢いで食われていくので対策しました。 Fable 5 の賢さは活かしつつトークンは食わせないようにオーケストレーターに徹...",
+        "score": 100,
+        "published_at": "2026-07-04T11:32:30+00:00",
+        "fetched_at": "2026-07-05T22:29:38.327320+00:00"
+      },
+      {
+        "title": "GitHub - HUANGCHIHHUNGLeo/claude-real-video: Let Claude (or any LLM) actually watch a video — scene-aware, deduplicated frames + transcript, from a URL or local file. Runs locally, MIT.",
+        "url": "https://github.com/HUANGCHIHHUNGLeo/claude-real-video",
+        "summary": "Let Claude — or any LLM — actually watch a video. Same 58-second clip: fixed 1 fps sampling = 58 frames. crv keeps the 26 that actually differ — and --grid packs them into 3 contact sheets. Fewer tokens, nothing missed. This free version lets your AI see the video. crv Pro lets it understand it —...",
+        "score": 100,
+        "published_at": "2026-07-03T04:26:04+00:00",
+        "fetched_at": "2026-07-05T22:29:38.327261+00:00"
+      },
+      {
+        "title": "ClaudeのAPI費用が激減。システムプロンプトを「画像」として読ませる新ツールの仕組み | XenoSpectrum",
+        "url": "https://xenospectrum.com/pxpipe-claude-token-image-compression/",
+        "summary": "この記事のポイント 何が起きた: Claude Codeの入力コンテキストをPNG画像に変換し、トークン費用を約6割削減するローカルプロキシ「pxpipe」が登場した。なぜ重要か: テキストの従量課金に対し、画像はピクセルサイズに基づく固定課金というAIモデルの料金体系のギャップを突き、新たなコスト最適化の力学を提示した。...",
+        "score": 100,
+        "published_at": "2026-07-05T10:24:29+00:00",
+        "fetched_at": "2026-07-05T22:29:38.326986+00:00"
+      },
+      {
+        "title": "NVIDIA、AIインフラ調達の新ビジネスモデル発表　収益分配で新興企業を支援",
+        "url": "https://www.itmedia.co.jp/news/articles/2607/03/news077.html",
+        "summary": "NVIDIAは、AI関連企業がGPU搭載インフラへ容易にアクセスできるようにする新たなビジネスモデルを発表した。クラウド事業者と収益分配や資金調達支援を組み合わせた仕組みを構築し、新興企業の計算資源調達を後押しする。すでにSharon AIなどがこの枠組みの下で大規模なAIファクトリーの構築を進めている。",
+        "score": 100,
+        "published_at": "2026-07-03T00:39:00+00:00",
+        "fetched_at": "2026-07-05T22:29:35.983639+00:00"
+      },
+      {
+        "title": "Anthropic、Samsungと独自AIチップで協議か　報道受けNVIDIAなど半導体関連株が下落",
+        "url": "https://www.itmedia.co.jp/news/articles/2607/03/news101.html",
+        "summary": "米メディア「The Information」は7月2日（現地時間）、AI開発の米Anthropicが独自のAIチップの製造委託先として韓国Samsung Electronicsと協議していると報じた。報道を受け、同日の米株式市場ではNVIDIAなど半導体関連株が下落した。",
+        "score": 100,
+        "published_at": "2026-07-03T04:36:00+00:00",
+        "fetched_at": "2026-07-05T22:29:35.983574+00:00"
+      },
+      {
+        "title": "「Amazon Mechanical Turk」、7月30日で新規受付終了──2005年開始のAWSのクラウドソーシング",
+        "url": "https://www.itmedia.co.jp/news/articles/2607/06/news052.html",
+        "summary": "AWSのクラウドソーシングサービス「Amazon Mechanical Turk」が7月30日で新規顧客の受け付けを終了する。2005年開始の同サービスは、人間にしかできない細かい作業を世界中のクラウドワーカーに委託できるマーケットプレイスの草分け。AWSは「慎重な検討」の結果で、既存顧客は従来通り利用できるが新機能は追加しないとしている。",
+        "score": 100,
+        "published_at": "2026-07-05T22:07:00+00:00",
+        "fetched_at": "2026-07-05T22:29:35.983403+00:00"
+      },
+      {
+        "title": "防衛省のLUUP導入で小泉大臣がコメント　「情報保全上の問題ない」",
+        "url": "https://www.itmedia.co.jp/news/articles/2607/03/news128.html",
+        "summary": "防衛省市ヶ谷庁舎への電動モビリティシェアサービス「LUUP」導入を巡り、SNSでは位置情報の取り扱いを不安視する声が広がっていた。小泉防衛相が7月3日の閣議後会見で、導入の背景とセキュリティ上の懸念に対する見解をコメントした。",
+        "score": 10,
+        "published_at": "2026-07-03T09:15:00+00:00",
+        "fetched_at": "2026-07-05T22:29:35.983506+00:00"
+      },
+      {
+        "title": "三重県、複数部署でＵＳＢメモリーから「マルウェア」検知…６０００個以上？あり調査継続中",
+        "url": "https://www.yomiuri.co.jp/national/20260704-GYT1T00027/",
+        "summary": "【読売新聞】　陸上自衛隊がマルウェア（悪意あるプログラム）に感染したＵＳＢメモリーを昨年２月まで使用していた問題を受け、三重県は３日複数の部署のＵＳＢメモリーからマルウェアが検知されたと明らかにした。県は独自の調査を継続中だが現時点",
+        "score": 0,
+        "published_at": "2026-07-04T11:35:29+00:00",
+        "fetched_at": "2026-07-05T22:29:38.327375+00:00"
+      },
+      {
+        "title": "LINE「プレミアムブロック」の衝撃",
+        "url": "https://www.watch.impress.co.jp/docs/topic/watchplus/2122070.html",
+        "summary": "",
+        "score": 0,
+        "published_at": "2026-07-04T00:34:55+00:00",
+        "fetched_at": "2026-07-05T22:29:38.327346+00:00"
+      },
+      {
+        "title": "NECは即決、富士通は後に土下座、シャープは「10円やったらこうたるわ」…1978年、Microsoft BASICの営業で国内メーカーを回った西和彦氏が明かす各社の反応が濃すぎる",
+        "url": "https://togetter.com/li/2717051",
+        "summary": "西　和彦　Kazuhiko Nishi @nishikazuhiko 1978年に アスキーマイクロソフトとして BASICのソフトウェアを持って 国内企業を回った時に 受けた対応 ４８年前なので秘密保持契約は失効しています 各社の反応 日本電気　面白いからやりましょう NEC PC8000誕生　渡辺さん 沖電気　もっと詳しくお願いします OKI if800誕生...",
+        "score": 0,
+        "published_at": "2026-07-05T00:32:10+00:00",
+        "fetched_at": "2026-07-05T22:29:38.327291+00:00"
+      },
+      {
+        "title": "境野春彦さん「（高市首相の）父親が韓国人」→ツイ消し逆切れ",
+        "url": "https://posfie.com/@Elif87995911/p/2zvcrvp",
+        "summary": "境野春彦 | エネルギー問題 @LPGadvisorJP 経済産業省 資源エネルギー庁 LPガス取引適正化アドバイザリーグループ委員 | コネクトエネルギー合同会社CEO | 経営コンサルタント // LPガス業界構造・取引制度・エネルギー問題などを主に解説/石油、ガス、電気、再生可能エネルギーを実務管理者として経験/ 目下、有事にお...",
+        "score": 0,
+        "published_at": "2026-07-04T12:14:23+00:00",
+        "fetched_at": "2026-07-05T22:29:38.327276+00:00"
+      },
+      {
+        "title": "AI時代に生き残るのは、「賢い人」より「精神のマラソンができる人」 | AIという車があっても、自分の足で走りたい",
+        "url": "https://courrier.jp/news/archives/450760/",
+        "summary": "「知性が豊富にあるとき、意志には価値がある」 かつて、「AIが人間の仕事を奪う」と声高に叫ばれていた。しかしいま、実際にはこれとは真逆の事態が起こっている。 米テクノロジー企業「アクティブトラック」が、AIを導入した376の企業と1万人の従業員のデジタル活動を調査したところ、AI導入以前と比べて、メールや業...",
+        "score": 0,
+        "published_at": "2026-07-05T00:41:16+00:00",
+        "fetched_at": "2026-07-05T22:29:38.327242+00:00"
+      },
+      {
+        "title": "GitHub - Auto-Explore/GitComet: GitComet is fastest open source user interface for GIT workflows",
+        "url": "https://github.com/Auto-Explore/GitComet",
+        "summary": "You signed in with another tab or window. Reload to refresh your session. You signed out in another tab or window. Reload to refresh your session. You switched accounts on another tab or window. Reload to refresh your session. Dismiss alert",
+        "score": 0,
+        "published_at": "2026-07-05T10:56:47+00:00",
+        "fetched_at": "2026-07-05T22:29:38.327213+00:00"
+      },
+      {
+        "title": "2026年6月のwhywaitaのAI現在地",
+        "url": "https://blog.whywrite.it/2026/07/05/whywaita-ai-2026-06/",
+        "summary": "2026年6月のwhywaitaのAI現在地 2026/07/05 / whywaita / 0 Comments 2026年6月時点のAIの現在地をメモしておく。目まぐるしく状況が変わるので定期的にメモしたいのだが、AIでやりたいことが多すぎてメモに時間が割けない。業務と個人の話が混ざっているので、うちの会社全体がこうというわけではない。オチはないです...",
+        "score": 0,
+        "published_at": "2026-07-05T11:40:25+00:00",
+        "fetched_at": "2026-07-05T22:29:38.327198+00:00"
+      },
+      {
+        "title": "DBに向けるだけでREST APIと管理UIが生える単一バイナリのGoツール「adms」を作った",
+        "url": "https://zenn.dev/mickamy/articles/cfabd370bcefbe",
+        "summary": "TL;DR adms は、PostgreSQL / MySQL に接続するだけで PostgREST 風の HTTP API を自動で生やし、さらに ui.enabled: true で管理 UI まで同じバイナリから配信する Go 製ツールです（読みは \"adams\"）。 単一バイナリ。UI（HTML/CSS/JS + tree-shake 済み Tailwind）は embed.FS で埋め込み済みなので、node_modules も...",
+        "score": 0,
+        "published_at": "2026-07-05T12:57:13+00:00",
+        "fetched_at": "2026-07-05T22:29:38.327168+00:00"
+      },
+      {
+        "title": "MCPとは？自分だけの「毎朝ニュースを読むMCP」を作ってみる",
+        "url": "https://zenn.dev/sun_asterisk/articles/59fabe45a7aa76",
+        "summary": "MCPとは？自分だけの「毎朝ニュースを読むMCP」を作ってみる はじめに 最近はAIの進化が本当に速くて、「MCP」という言葉を耳にすることも増えてきました。私も同じで、最初は何のことかさっぱりでしたが、しばらく使っているうちに少しずつ慣れてきました。 ただ、これまではずっと誰かが作った既製のMCPを使うばかり。...",
+        "score": 0,
+        "published_at": "2026-07-05T00:00:42+00:00",
+        "fetched_at": "2026-07-05T22:29:38.327151+00:00"
+      },
+      {
+        "title": "AI相場の揺らぎでインド株再評価、「安全資産」的な位置付けに（Bloomberg） - Yahoo!ニュース",
+        "url": "https://news.yahoo.co.jp/articles/3d82b54732f11904bff3947073c215af95cb8da4",
+        "summary": "（ブルームバーグ）： 世界的なAI相場の恩恵を大きく取り逃したインド株式市場が、足元の市場の混乱を乗り切ろうとする投資家の関心を再び集めている。 AIブームがアジアから米国までの主要株価指数を大きく揺さぶる中、NSEニフティ50指数は世界の投資家にとって一種の安全資産としての位置付けを強めつつある。今年上半...",
+        "score": 0,
+        "published_at": "2026-07-05T08:08:14+00:00",
+        "fetched_at": "2026-07-05T22:29:38.327137+00:00"
+      },
+      {
+        "title": "CLI向けブラックボックス E2E テストランナー nao1215/atago を作った話",
+        "url": "https://debimate.jp/post/ja/2026-07-04-cli%E3%81%AB%E3%83%96%E3%83%A9%E3%83%83%E3%82%AF%E3%83%9C%E3%83%83%E3%82%AF%E3%82%B9%E3%83%86%E3%82%B9%E3%83%88e2e%E3%82%92%E8%A1%8C%E3%81%86atago%E3%82%92%E4%BD%9C%E3%81%A3%E3%81%9F%E8%A9%B1/",
+        "summary": "前書き：LLM の登場で自作 OSS の E2E テストを書く機会が増えた#LLM が登場してから、E2E（End to End） テストを書くのが楽になりました。維持は相変わらず大変ですが。 具体例としては、業務では k1LoW/runn を利用して API をシナリオベースで E2E したり、プライベートでは shellspec/shellspec を使って CLI のブ...",
+        "score": 0,
+        "published_at": "2026-07-05T14:34:07+00:00",
+        "fetched_at": "2026-07-05T22:29:38.327122+00:00"
+      },
+      {
+        "title": "AIがコードを書く時代、人間はAIにできないことをしよう",
+        "url": "https://ho.lc/slides/2026.07.03_kyoto_univ/1/",
+        "summary": "京都大学 工学部情報学科 講義「情報と職業」 / 2026-07-03",
+        "score": 0,
+        "published_at": "2026-07-03T09:58:50+00:00",
+        "fetched_at": "2026-07-05T22:29:38.327089+00:00"
+      },
+      {
+        "title": "コードレビュー指摘300件を3ヶ月分類したら効いていたのは2種類だけだった",
+        "url": "https://zenn.dev/kenimo49/articles/code-review-300-comments-2-effective-categories",
+        "summary": "Bug指摘の欠陥相関0.51は、Style指摘の0.04の約13倍。同じ「1件のレビューコメント」でも、効きめが1桁違う。 「nit:が多いレビューほどコードが歪む」という逆説 集計の途中で、不気味な相関に気づいた。nit: (Style系) が多いPRほど、3ヶ月後の欠陥相関がむしろ高い。Style指摘の自己相関ではなく、他カテゴリの欠陥相...",
+        "score": 0,
+        "published_at": "2026-07-05T01:01:02+00:00",
+        "fetched_at": "2026-07-05T22:29:38.327075+00:00"
+      },
+      {
+        "title": "GitHub - UniClipboard/UniClipboard: Real-time clipboard sync across all your devices — local-first, peer-to-peer, and end-to-end encrypted. No account. No cloud dependency. No central server.",
+        "url": "https://github.com/UniClipboard/UniClipboard",
+        "summary": "Cross-platform: First-class support on Windows, macOS, and Linux — your clipboard works wherever you do. iPhone and Android can join as a companion (see below). Cross-network sync: Real-time sync on the same Wi-Fi, across different home/office networks, or across the internet, with automatic NAT ...",
+        "score": 0,
+        "published_at": "2026-07-05T10:53:43+00:00",
+        "fetched_at": "2026-07-05T22:29:38.327059+00:00"
+      },
+      {
+        "title": "システム思考の実践例だった「エンジニアリング戦略の作り方」を読んだ - 勘と経験と読経",
+        "url": "https://agnozingdays.hatenablog.com/entry/2026/07/05/170000",
+        "summary": "読むのがホネな技術書やビジネス書を取り上げて2週間の読書期限を課して読んでアウトプットする仮想読書会「デッドライン読書会」の第91回。同僚と読書期限を約束することによって積読が確実に減るという仕組み。過去記事はこちら。 今回とりあげるのは「エンジニアリング戦略の作り方 ―エンジニアリングの難局を打破す...",
+        "score": 0,
+        "published_at": "2026-07-05T09:49:47+00:00",
+        "fetched_at": "2026-07-05T22:29:38.327037+00:00"
+      },
+      {
+        "title": "たくさんのリクエスト、本当にありがとうございます。 想像していた以上..",
+        "url": "https://anond.hatelabo.jp/20260705205433",
+        "summary": "たくさんのリクエスト、本当にありがとうございます。 想像していた以上に「あの人を見てみたい」「自分も載せてほしい」という声をいただいており、大変ありがたい一方で、掲載が追いついていません。 現在、順番待ちのリクエストが500件を超えています。 「まだ？」と思われている方、お待たせして申し訳ありません。 ...",
+        "score": 0,
+        "published_at": "2026-07-05T11:55:48+00:00",
+        "fetched_at": "2026-07-05T22:29:38.327020+00:00"
+      },
+      {
+        "title": "そうだ、時計作ろう - 重力に縋るな",
+        "url": "https://sksat.hatenablog.com/entry/pico-gnssdo",
+        "summary": "みなさん時間測ってますか？ 僕はパスタ茹でる時とかに測ります。 また、時間の間隔だけでなく、正確な時刻を知ったり、正確な時刻に合わせて何かアクションをしたい時があります。 たとえば JST 2026年06月21日22時23分24秒きっかりに数十 ns の精度でパスタを茹で始めたい時などがあると思います。 そんな時に便利なの...",
+        "score": 0,
+        "published_at": "2026-07-05T07:19:40+00:00",
+        "fetched_at": "2026-07-05T22:29:38.326967+00:00"
+      },
+      {
+        "title": "スタートアップをとりまく思想 - 🐴 (馬)",
+        "url": "https://blog.takaumada.com/entry/startup-thought-2026",
+        "summary": "なぜいま、スタートアップと思想なのか 日本で「シリコンバレー」と聞いて思い浮かぶのは、GAFAのような巨大テック企業か、「失敗を恐れず挑戦する起業家精神」といったビジネス書的なイメージではないでしょうか。 しかし、いまアメリカのテック業界で起きていること、そしてシリコンバレーが世界から注目されている理...",
+        "score": 0,
+        "published_at": "2026-07-05T10:27:15+00:00",
+        "fetched_at": "2026-07-05T22:29:38.326944+00:00"
+      },
+      {
+        "title": "エンタープライズAIにカスタマイズが必要な理由［後編］",
+        "url": "https://gihyo.jp/article/2026/06/enterprise-ai-customization-02?utm_source=feed",
+        "summary": "本稿では、柔軟性がなぜエンタープライズAIの成果を左右するのかを、ソフトウェア開発ライフサイクル全体の観点から、前後編に分けて解説します。",
+        "score": 0,
+        "published_at": "2026-07-02T23:49:00+00:00",
+        "fetched_at": "2026-07-05T22:29:38.091333+00:00"
+      },
+      {
+        "title": "Ubuntu 26.10（Stonking）の開発; ntpd-rsの導入計画",
+        "url": "https://gihyo.jp/admin/clip/01/ubuntu-topics/202607/03?utm_source=feed",
+        "summary": "StonkingのSnapshot 2の提供が開始されています。",
+        "score": 0,
+        "published_at": "2026-07-03T00:28:00+00:00",
+        "fetched_at": "2026-07-05T22:29:38.091313+00:00"
+      },
+      {
+        "title": "ソラコム、専門知識なしでIoT活用プロダクトを構成可能なAIエージェントサービス「SORACOM Agent」の提供を開始",
+        "url": "https://gihyo.jp/article/2026/07/soracom-agent?utm_source=feed",
+        "summary": "（株）ソラコムは2026年7月2日、IoTを活用した業務の自動化や現場改善、プロダクト開発を支援するマネージドAIエージェントサービス「SORACOM Agent（ソラコム エージェント）」を、7月7日からTechnology Preview版として開始することを発表した。",
+        "score": 0,
+        "published_at": "2026-07-03T04:31:00+00:00",
+        "fetched_at": "2026-07-05T22:29:38.091289+00:00"
+      },
+      {
+        "title": "書店特典のはずが……集英社「メタキラ」eBayで爆売れ　900枚以上売った出品者も  強い海外ニーズ",
+        "url": "https://www.itmedia.co.jp/news/articles/2607/03/news076.html",
+        "summary": "1つの出品だけで962点が売れた例もあった。価格は徐々に下がってきているものの、書店での混乱の背景には、海外コレクターの需要もありそうだ。",
+        "score": 0,
+        "published_at": "2026-07-03T00:25:00+00:00",
+        "fetched_at": "2026-07-05T22:29:35.983650+00:00"
+      },
+      {
+        "title": "KADOKAWAの早期退職に154人が応募　年約17億円の人件費削減へ",
+        "url": "https://www.itmedia.co.jp/news/articles/2607/03/news082.html",
+        "summary": "45歳以上の社員を対象に募集していた早期退職に154人が応募。年間約17億円の人件費削減効果を見込む。",
+        "score": 0,
+        "published_at": "2026-07-03T01:09:00+00:00",
+        "fetched_at": "2026-07-05T22:29:35.983626+00:00"
+      },
+      {
+        "title": "Amazonの衛星ブロードバンド「Leo」、打ち上げ300基突破で世界3位の規模に",
+        "url": "https://www.itmedia.co.jp/news/articles/2607/03/news083.html",
+        "summary": "Amazonは、低軌道衛星ブロードバンド事業「Amazon Leo」の公式ブログを更新し、300基以上の衛星を打ち上げて軌道上世界3位の規模になったと発表した。今後は打ち上げ頻度をさらに引き上げる方針だ。一方、競合のSpaceXが展開する「Starlink」は、約9600基の衛星を運用し契約者数は約1030万人に達している。",
+        "score": 0,
+        "published_at": "2026-07-03T01:29:00+00:00",
+        "fetched_at": "2026-07-05T22:29:35.983612+00:00"
+      },
+      {
+        "title": "Cloudflare、AIクローラー制御を全顧客に開放──「検索」「エージェント」「学習」の3分類で管理可能に",
+        "url": "https://www.itmedia.co.jp/news/articles/2607/03/news087.html",
+        "summary": "Cloudflareは、Webサイト運営者がAI関連のクローラーを「検索」「エージェント」「学習」の用途別に管理できる新機能を発表した。従来の単純な一括ブロックに代わり、挙動ベースでの制御を可能にする。また、AIの回答にコンテンツが使われた回数に応じて課金する仕組み「Pay Per Use」の実証実験なども発表した。",
+        "score": 0,
+        "published_at": "2026-07-03T01:55:00+00:00",
+        "fetched_at": "2026-07-05T22:29:35.983599+00:00"
+      },
+      {
+        "title": "CDを生んだソニーが、ゲームの“円盤”に終わりを告げる事情　プレステとディスクの30年史",
+        "url": "https://www.itmedia.co.jp/news/articles/2607/03/news098.html",
+        "summary": "ソニー・インタラクティブエンタテインメントは、PlayStationコンソール向けの新作ゲームのディスク生産を2028年1月に終了する。ゲームの流通手段としての光学ディスクは40年近い歴史を持つが、いよいよ終わりが見えてきた。",
+        "score": 0,
+        "published_at": "2026-07-03T03:57:00+00:00",
+        "fetched_at": "2026-07-05T22:29:35.983586+00:00"
+      },
+      {
+        "title": "無印、オーディオに本腰　シンプルすぎるノイキャンヘッドフォンなど5機種、7月15日発売",
+        "url": "https://www.itmedia.co.jp/news/articles/2607/03/news111.html",
+        "summary": "良品計画は7月2日、無印良品ブランドのオーディオデバイス5機種を7月15日から順次発売すると発表した。ワイヤレスイヤフォンは2990円から。ヘッドフォンやスピーカーまでを揃える。",
+        "score": 0,
+        "published_at": "2026-07-03T06:22:00+00:00",
+        "fetched_at": "2026-07-05T22:29:35.983560+00:00"
+      },
+      {
+        "title": "X投稿から新発見　カマキリ卵嚢に寄生するハチ、日本初記録　九大学生のポストが発端",
+        "url": "https://www.itmedia.co.jp/news/articles/2607/03/news113.html",
+        "summary": "「SNSを通じた観察情報が新たな発見につながることを示した事例」",
+        "score": 0,
+        "published_at": "2026-07-03T06:31:00+00:00",
+        "fetched_at": "2026-07-05T22:29:35.983548+00:00"
+      },
+      {
+        "title": "3万円で「Yahoo!ニュース」にPR掲載　プレスリリースをAIで「ニュース風記事」に",
+        "url": "https://www.itmedia.co.jp/news/articles/2607/03/news116.html",
+        "summary": "Yahoo!ニュース内に、企業の発表情報をニュース記事と同じフォーマットで掲載する。",
+        "score": 0,
+        "published_at": "2026-07-03T06:44:00+00:00",
+        "fetched_at": "2026-07-05T22:29:35.983536+00:00"
+      },
+      {
+        "title": "消火栓標識を「災害時の通信拠点」に　Starlink機器を標識柱に設置する技術デモ　全国12万本の活用探る",
+        "url": "https://www.itmedia.co.jp/news/articles/2607/03/news124.html",
+        "summary": "消火栓標識社は7月2日、衛星ブロードバンド「Starlink」の通信機器を消火栓標識柱に設置し、周辺にWi-Fi環境を構築する技術デモを実施したと発表した。災害時の情報アクセス拠点としての活用可能性を検証する。",
+        "score": 0,
+        "published_at": "2026-07-03T08:44:00+00:00",
+        "fetched_at": "2026-07-05T22:29:35.983524+00:00"
+      },
+      {
+        "title": "ゆうパック、平均約10％値上げ　ゆうパケットは一律360円に　10月から",
+        "url": "https://www.itmedia.co.jp/news/articles/2607/03/news136.html",
+        "summary": "日本郵便は7月3日、「ゆうパック」と「ゆうパケット」の基本運賃などを10月1日に改定すると発表した。ゆうパックの平均改定率は約10％で、ゆうパケットは厚さ別の料金を廃止し一律360円にする。",
+        "score": 0,
+        "published_at": "2026-07-03T10:24:00+00:00",
+        "fetched_at": "2026-07-05T22:29:35.983492+00:00"
+      },
+      {
+        "title": "講談社、「はたらく細胞」著者に謝罪　監修体制や作画環境「適切に履行できず」　本人のX投稿受け",
+        "url": "https://www.itmedia.co.jp/news/articles/2607/03/news139.html",
+        "summary": "講談社は7月3日、漫画「はたらく細胞」の作者・清水茜さんがX上で公表した連載当時の編集部対応などの指摘について謝罪文を掲載し、医療監修体制や作画環境の整備を「適切に履行することができませんでした」と認めた。",
+        "score": 0,
+        "published_at": "2026-07-03T12:15:00+00:00",
+        "fetched_at": "2026-07-05T22:29:35.983478+00:00"
+      },
+      {
+        "title": "GoPro復活ののろしか　“シネマ”を打ち出した「MISSION 1 PRO」レビュー",
+        "url": "https://www.itmedia.co.jp/news/articles/2607/04/news019.html",
+        "summary": "アクションカメラのシネマカメラ化が進む中に登場した「GoPro MISSION 1」ここ数年、競争激化によるシェア減やリコール、リストラなど暗い話題が続いていたGoPro社だが、新シリーズは復活ののろしとなるのか。",
+        "score": 0,
+        "published_at": "2026-07-03T22:14:00+00:00",
+        "fetched_at": "2026-07-05T22:29:35.983464+00:00"
+      },
+      {
+        "title": "ビッカメもヤマダもかなわんわ――開店ホヤホヤの「ヨドバシ池袋店」に潜入　元地元民が感じた“圧倒的な強み”とは",
+        "url": "https://www.itmedia.co.jp/news/articles/2607/03/news105.html",
+        "summary": "新たにオープンした「ヨドバシカメラ マルチメディア池袋」。すでにSNSなどでも大いに話題だが、元地元民から見ると……",
+        "score": 0,
+        "published_at": "2026-07-04T02:00:00+00:00",
+        "fetched_at": "2026-07-05T22:29:35.983450+00:00"
+      },
+      {
+        "title": "人気ホラーゲームの新作が発売中止？　告知投稿を見たマンガ家が感じた“モキュメンタリーの難しさ”",
+        "url": "https://www.itmedia.co.jp/news/articles/2607/05/news009.html",
+        "summary": "8月に発売される人気ホラーゲームシリーズ最新作である「日本事故物件監視協会3」について、公式Xアカウントの投稿がちょっとした物議を醸しました。",
+        "score": 0,
+        "published_at": "2026-07-04T22:14:00+00:00",
+        "fetched_at": "2026-07-05T22:29:35.983436+00:00"
+      },
+      {
+        "title": "「労働時間を長くしたい」男性3％・女性6％……どんな人？　東大が調査",
+        "url": "https://www.itmedia.co.jp/news/articles/2607/03/news044.html",
+        "summary": "東京大学社会科学研究所は、働く人たちの労働時間に関する最新の調査結果（2026年）を発表した。",
+        "score": 0,
+        "published_at": "2026-07-05T22:00:00+00:00",
+        "fetched_at": "2026-07-05T22:29:35.983421+00:00"
+      },
+      {
+        "title": "ブロードコムによるVMware製品抱き合わせ販売疑惑、独占禁止法違反と認定されず。公正取引委員会が調査を終了",
+        "url": "https://www.publickey1.jp/blog/26/vmware_9.html",
+        "summary": "公正取引委員会は、ブロードコムに対する独占禁止法違反の調査を、違反に認定するに足る事実が認められなかったとして終了すると発表しました。 VMware製品、ライセンス変更により事実上の大幅値上げ ブロードコムは2023年にVMwareを買収。...",
+        "score": 0,
+        "published_at": "2026-07-05T15:11:34+00:00",
+        "fetched_at": "2026-07-05T22:29:35.276447+00:00"
+      },
+      {
+        "title": "プログラミングのためのBGMや環境音など。仕事や勉強の邪魔にならない無料で使えそうな音源集。2026年版",
+        "url": "https://www.publickey1.jp/blog/26/bgm2026.html",
+        "summary": "在宅で仕事や勉強をしている時間が増えてくると、ずっと無音だと寂しい気がして、できれば仕事の邪魔にならないBGMや環境音があるといいなあ、と思ったことはありませんか？ 今年も、そうした音源を独自にピックアップした記事の2026年版を紹介しまし...",
+        "score": 0,
+        "published_at": "2026-07-05T15:52:01+00:00",
+        "fetched_at": "2026-07-05T22:29:35.276428+00:00"
+      }
+    ]
+  },
+  {
     "date": "2026-07-03",
     "articles": [
       {
