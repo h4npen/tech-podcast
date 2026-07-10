@@ -1,5 +1,410 @@
 [
   {
+    "date": "2026-07-10",
+    "articles": [
+      {
+        "title": "Claude、利用制限を全リセット　競合「GPT-5.6」公開と同日……OpenAI幹部「ビビってるね」",
+        "url": "https://www.itmedia.co.jp/aiplus/article/2607/10/2000000179/",
+        "summary": "米Anthropicは7月9日（現地時間、以下同）、AIサービス「Claude」の全ユーザーを対象に、1週間ごと／5時間ごとの利用制限（レートリミット）をそれぞれリセットした。開発者向け公式Xアカウント（@ClaudeDevs）で発表した。 同日にはライバルの米OpenAIが最新モデル「GPT-5.6」シリーズと、「Claude Cowork」に対抗した...",
+        "score": 200,
+        "published_at": "2026-07-10T01:33:32+00:00",
+        "fetched_at": "2026-07-10T22:31:21.751852+00:00"
+      },
+      {
+        "title": "OpenAI、フロンティアモデルGPT-5.6 Solを含むGPT-5.6シリーズを一般提供 ——Codexを統合し、ChatGPT Workと切り替えて使える新デスクトップアプリも利用可能に",
+        "url": "https://gihyo.jp/article/2026/07/gpt-5.6-ga?utm_source=feed",
+        "summary": "penAIは2026年7月9日、新たなフロンティアモデル「GPT-5.6 Sol」を最上位に置く大規模言語モデルGPT-5.6シリーズを一般提供した。性能とコストのバランスを取る「GPT-5.6 Terra」、高速・低コストの「GPT-5.6 Luna」と合わせた3モデルで構成される。",
+        "score": 200,
+        "published_at": "2026-07-10T06:12:00+00:00",
+        "fetched_at": "2026-07-10T22:31:21.399820+00:00"
+      },
+      {
+        "title": "Claude Code・Codex用に、超爆速で超安全なサンドボックスを作る方法 - Qiita",
+        "url": "https://qiita.com/Koukyosyumei/items/3bd4696237ea64c38971",
+        "summary": "こんにちは！コロンビア大学の博士課程でAI・セキュリティの研究をしている Koukyosyumei です。 さて、読者のほとんどの方が Claude Code や Codex を使って開発をしていると思いますが、皆さんは「AIエージェントがシェルコマンドやネットワークアクセスを実行するときにどのように安全性を確認しているか」についてど...",
+        "score": 110,
+        "published_at": "2026-07-10T08:27:48+00:00",
+        "fetched_at": "2026-07-10T22:31:21.751502+00:00"
+      },
+      {
+        "title": "JavaScriptランタイムのBun、Claude Fable 5を11日間稼働させてZigからRustへの移植を実現。Claudeをどう使ったのか？",
+        "url": "https://www.publickey1.jp/blog/26/javascriptbunclaude_fable_511zigrustclaude.html",
+        "summary": "JavaScriptランタイム「Bun」の作者であるJarred Sumner氏は、7月8日付けで公開したBun公式ブログの記事「Rewriting Bun in Rust | Bun Blog」で、約53万5000行のZig言語のコードを...",
+        "score": 110,
+        "published_at": "2026-07-09T15:47:05+00:00",
+        "fetched_at": "2026-07-10T22:31:20.061251+00:00"
+      },
+      {
+        "title": "声が人間すぎるChatGPTに大喜利を教える",
+        "url": "https://www.youtube.com/watch?v=9gxPx4eOonk",
+        "summary": "使用AI：GPT-Live（2026/7/9）",
+        "score": 100,
+        "published_at": "2026-07-10T00:32:33+00:00",
+        "fetched_at": "2026-07-10T22:31:21.751886+00:00"
+      },
+      {
+        "title": "Metaが独自開発AI「Muse Spark 1.1」を発表、Claude Opus 4.8と同等のベンチマークスコア",
+        "url": "https://gigazine.net/news/20260710-meta-muse-spark-1-1/",
+        "summary": "MetaのAI研究機関であるMeta Superintelligence Labsが、マルチモーダル推論モデルの「Muse Spark 1.1」を発表しました。2026年4月に登場した「Muse Spark」の大幅なアップグレード版として位置づけられており、ツールおよびPC操作、コーディング、マルチモーダル理解において大きな進歩を遂げているとのことです。 Intr...",
+        "score": 100,
+        "published_at": "2026-07-10T09:41:25+00:00",
+        "fetched_at": "2026-07-10T22:31:21.751772+00:00"
+      },
+      {
+        "title": "AWS Lambda MicroVMsでサーバレスにMinecraftを遊ぼう！",
+        "url": "https://zenn.dev/tosuri13/articles/78e93272fc2038",
+        "summary": "こんにちは👋 最近AWS LambdaにLambda MicroVMsと呼ばれる新機能が追加されました。 Lambdaを支える仮想化技術であるFirecrackerをベースとして、MicroVMと呼ばれる隔離されたステートフルなサンドボックス環境を、サーバレスに提供してくれる機能です。 Lambda MicroVMsのユースケースとしては、AIエージェントが生成し...",
+        "score": 100,
+        "published_at": "2026-07-08T17:01:16+00:00",
+        "fetched_at": "2026-07-10T22:31:21.751718+00:00"
+      },
+      {
+        "title": "Claude Codeとハーネスについて考えてみる",
+        "url": "https://speakerdeck.com/oikon48/claude-codetohanesunituitekao-etemiru",
+        "summary": "AI駆動開発勉強会 福岡出張版+ EnjoyAIDeveloping : https://enjoy-dev-ai.connpass.com/event/397844/",
+        "score": 100,
+        "published_at": "2026-07-10T11:58:18+00:00",
+        "fetched_at": "2026-07-10T22:31:21.751540+00:00"
+      },
+      {
+        "title": "OpenAI、AIとリアルタイムでより自然な会話ができる音声モデルGPT-Liveをリリース",
+        "url": "https://gihyo.jp/article/2026/07/gpt-live?utm_source=feed",
+        "summary": "OpenAIは2026年7月8日、AIとよりリアルな感覚で会話ができる新世代の音声モデル「GPT-Live」シリーズを発表した。",
+        "score": 100,
+        "published_at": "2026-07-09T02:07:00+00:00",
+        "fetched_at": "2026-07-10T22:31:21.399920+00:00"
+      },
+      {
+        "title": "Anthropic、Claude CodeでAIエージェントを活用するループ設計を紹介",
+        "url": "https://gihyo.jp/article/2026/07/coding-agent-loop-design-with-claude-code?utm_source=feed",
+        "summary": "AnthropicのClaude Codeチームは2026年6月30日、AIコーディングエージェントを使う際のループの考え方を紹介する記事「Getting started with loops」を公開した。",
+        "score": 100,
+        "published_at": "2026-07-09T02:57:00+00:00",
+        "fetched_at": "2026-07-10T22:31:21.399906+00:00"
+      },
+      {
+        "title": "「快活CLUB」へのサイバー攻撃、18歳男を新たに逮捕　ChatGPT製プログラムを使用　グループには当時小6も　報道",
+        "url": "https://www.itmedia.co.jp/news/articles/2607/09/news103.html",
+        "summary": "複合カフェ「快活CLUB」の運営会社がサイバー攻撃を受けた事件で、警視庁サイバー犯罪対策課が新たに18歳の会社員の男を逮捕したことが分かった。読売新聞オンラインなど複数のメディアが7月9日までに報じた。",
+        "score": 100,
+        "published_at": "2026-07-09T04:44:00+00:00",
+        "fetched_at": "2026-07-10T22:31:20.805900+00:00"
+      },
+      {
+        "title": "NVIDIAが「セガとの歴史を祝うイベント」開催へ　“革ジャン”フアンCEOも来日",
+        "url": "https://www.itmedia.co.jp/news/articles/2607/09/news138.html",
+        "summary": "米NVIDIAの日本法人が、セガとの歴史を祝う招待制イベントを開催する。ジェンスン・フアンCEOが来日するほか、セガ経営陣も参加する予定だ。",
+        "score": 100,
+        "published_at": "2026-07-09T09:10:00+00:00",
+        "fetched_at": "2026-07-10T22:31:20.805805+00:00"
+      },
+      {
+        "title": "OpenAIのフィジ・シモ氏、フルタイムの役職を退任――慢性疾患の療養に専念",
+        "url": "https://www.itmedia.co.jp/news/articles/2607/10/news079.html",
+        "summary": "OpenAIでAGI導入担当CEOを務めるフィジ・シモ氏が、フルタイムの役職を退き、パートタイムのアドバイザーに移行すると自身のXで明らかにした。7年前から抱える慢性疾患の療養に専念するためで、今後はAIによる疾病の治療などに取り組むという。アルトマンCEOは「本当に悲しい」とコメントした。",
+        "score": 100,
+        "published_at": "2026-07-10T00:31:00+00:00",
+        "fetched_at": "2026-07-10T22:31:20.805734+00:00"
+      },
+      {
+        "title": "Anthropic、Claudeの使い方を振り返る新機能「reflect」（振り返り）追加──AIとの付き合い方を見直すために",
+        "url": "https://www.itmedia.co.jp/news/articles/2607/10/news086.html",
+        "summary": "Anthropicは、AIアシスタント「Claude」の使い方を振り返るための新機能「reflect」(日本では「振り返り」）をβ版で公開した。過去のチャット活動をトピックや利用パターンごとに可視化し、AIの利用が自分の目標に沿っているかを見直せるようにする。休憩を促すナッジなどの機能も備える。",
+        "score": 100,
+        "published_at": "2026-07-10T01:24:00+00:00",
+        "fetched_at": "2026-07-10T22:31:20.805709+00:00"
+      },
+      {
+        "title": "「まるで人間」　OpenAIの新モデル「GPT-Live」のトーク力が話題　間を空けずに考えながら会話できる",
+        "url": "https://www.itmedia.co.jp/news/articles/2607/10/news114.html",
+        "summary": "OpenAIが提供を始めた音声会話向けモデル「GPT-Live」がXで話題だ。同社はこれまでも音声会話モデルを提供していたが、聞き取りと発話を同時に行う新アーキテクチャにより「会話が自然すぎる」などの声が上がっている。",
+        "score": 100,
+        "published_at": "2026-07-10T07:45:00+00:00",
+        "fetched_at": "2026-07-10T22:31:20.805646+00:00"
+      },
+      {
+        "title": "TypeScript 7.0が正式リリース",
+        "url": "https://gihyo.jp/article/2026/07/typescript-7-0?utm_source=feed",
+        "summary": "Microsoftは2026年7月8日、TypeScript 7.0を正式リリースした。",
+        "score": 10,
+        "published_at": "2026-07-09T05:20:00+00:00",
+        "fetched_at": "2026-07-10T22:31:21.399892+00:00"
+      },
+      {
+        "title": "はてなブログをプレゼン資料として表示するためのchrome拡張機能を作った - プププなテクブ",
+        "url": "https://blog.inorinrinrin.com/entry/2026/07/10/151212",
+        "summary": "その名をびっくりスライドといいます。 github.com www.youtube.com はてなブログなどの記事本文だけを抜き出し、モニター全体の全画面でプレゼンテーション表示します。スタイルやフォントなどは、記事本文のソレをそのまま投影します。 びっくりスライド で解決したいこと はてなブログの記事を、そのままプレゼンテー...",
+        "score": 0,
+        "published_at": "2026-07-10T08:21:02+00:00",
+        "fetched_at": "2026-07-10T22:31:21.751915+00:00"
+      },
+      {
+        "title": "メールアドレスの所有権確認をブラウザ経由で一瞬で済ませる新機能「Email Verification Protocol(EVP)」をChromeが試験提供中",
+        "url": "https://gigazine.net/news/20260710-chrome-email-verification-protocol/",
+        "summary": "ウェブサービスのユーザー登録で、ブラウザがメールプロバイダと直接通信して、ユーザーがメールアドレスを所有していることを確認できる「Email Verification Protocol」がChromeでテストされています。 Test the Email Verification Protocol with an origin trial  |  Blog  |  Chrome for Developers https://develo...",
+        "score": 0,
+        "published_at": "2026-07-10T08:27:30+00:00",
+        "fetched_at": "2026-07-10T22:31:21.751902+00:00"
+      },
+      {
+        "title": "名古屋駅前にヨドバシカメラ　名鉄ビルに26年夏開業",
+        "url": "https://www.watch.impress.co.jp/docs/news/2124271.html",
+        "summary": "",
+        "score": 0,
+        "published_at": "2026-07-10T07:30:13+00:00",
+        "fetched_at": "2026-07-10T22:31:21.751863+00:00"
+      },
+      {
+        "title": "7440億パラメーターの巨大AI「GLM-5.2」をメモリ25GBの普通のPCで動かす推論エンジン「Colibrì」が登場",
+        "url": "https://gigazine.net/news/20260710-colibri-glm/",
+        "summary": "7440億パラメーターを備えた大規模言語モデル「GLM-5.2」をメモリ25GBの一般向けPCで動作させる推論エンジン「Colibrì」が公開されました。VRAMやRAMにモデル全体を読み込むのではなく、必要になったデータだけをSSDから随時読み出す仕組みとなっています。 GitHub - JustVugg/colibri: Run GLM-5.2 (744B MoE) on a 25G...",
+        "score": 0,
+        "published_at": "2026-07-10T07:46:06+00:00",
+        "fetched_at": "2026-07-10T22:31:21.751838+00:00"
+      },
+      {
+        "title": "Metaの新AIツール「Muse Image」でインスタ投稿の画像生成を禁じる設定方法",
+        "url": "https://japan.zdnet.com/article/35250421/",
+        "summary": "読者のみなさんは、公開設定の「Instagram」アカウントを持っていないだろうか？ もし持っているなら、同サービスを運営するMetaの、AIを活用した新機能によって、あなたのInstagramへの投稿や「リール」動画が、知らないうちに画像生成に再利用されるおそれがある。 Metaは米国時間7月7日、新たに「Muse Image」という...",
+        "score": 0,
+        "published_at": "2026-07-10T02:11:15+00:00",
+        "fetched_at": "2026-07-10T22:31:21.751824+00:00"
+      },
+      {
+        "title": "海底に作られた人間の居住施設が間もなく稼働開始、海底で暮らすことにどんな意味があるのか？",
+        "url": "https://gigazine.net/news/20260710-human-habitat-bottom-ocean-deep/",
+        "summary": "「海底で暮らす」と聞くと楽しいアトラクションのように感じるかもしれませんが、大気圧よりも強い水圧がかかる環境下で暮らすには、さまざまな問題を解決する必要があります。近日中にアメリカの海底居住施設開発企業・DEEPが建設した海底居住施設のVanguard(ヴァンガード)が稼働し、4人のテストクルーが滞在を始めると...",
+        "score": 0,
+        "published_at": "2026-07-10T03:51:40+00:00",
+        "fetched_at": "2026-07-10T22:31:21.751810+00:00"
+      },
+      {
+        "title": "フィルムと同じタイミングで記録できるデジタルカメラ　1回のシャッターでフィルム＋デジタル　制御はホットシューで",
+        "url": "https://dc.watch.impress.co.jp/docs/news/2124137.html",
+        "summary": "",
+        "score": 0,
+        "published_at": "2026-07-10T06:33:25+00:00",
+        "fetched_at": "2026-07-10T22:31:21.751797+00:00"
+      },
+      {
+        "title": "Cloudflare R2をMacOSのFinderから見られるようにしてみた",
+        "url": "https://blog.sh1ma.dev/articles/20260710_1_cloudflare_r2_macos_finder/",
+        "summary": "sh1maのブログです",
+        "score": 0,
+        "published_at": "2026-07-10T13:01:43+00:00",
+        "fetched_at": "2026-07-10T22:31:21.751745+00:00"
+      },
+      {
+        "title": "嫌がる飲食店に、AIが何度も予約の電話を……　「オートリザーブ問題」はなぜ起きてしまったのか",
+        "url": "https://www.itmedia.co.jp/business/articles/2607/10/news010.html",
+        "summary": "ITmedia デジタル戦略EXPO 2026 夏では、各分野の第一人者や企業の現場でビジネス変革に取り組むリーダーの声を通じて、経営×IT×現場のコラボレーションで全社変革を進めるヒントをお届けします。 AIを活用したデジタル戦略が必須となる中、ダイハツ工業や旭化成、NOT A HOTELなどビジネス変革に取り組む企業の「当事者...",
+        "score": 0,
+        "published_at": "2026-07-09T23:23:44+00:00",
+        "fetched_at": "2026-07-10T22:31:21.751732+00:00"
+      },
+      {
+        "title": "Flint: A Visualization Language for the AI Era",
+        "url": "https://microsoft.github.io/flint-chart/",
+        "summary": "",
+        "score": 0,
+        "published_at": "2026-07-09T00:46:46+00:00",
+        "fetched_at": "2026-07-10T22:31:21.751700+00:00"
+      },
+      {
+        "title": "スマホをタッチせずに改札もレジも通過　日本で広がる「UWBタッチレス決済」最前線",
+        "url": "https://www.itmedia.co.jp/mobile/articles/2607/10/news097.html",
+        "summary": "UWB改札機をスマートフォンで通過する際の処理イメージ。駅構内に入ると設置されたBluetooth（BLE）ビーコンに反応してスマートフォンのUWB機能が有効になり、改札機がUWBの信号を元にした追跡と通過判定を行う（Nano Banana 2で作成） 今日、「Suica」に代表される日本国内の交通系ICカードの礎を作ったのはJR東日本で...",
+        "score": 0,
+        "published_at": "2026-07-10T04:23:29+00:00",
+        "fetched_at": "2026-07-10T22:31:21.751688+00:00"
+      },
+      {
+        "title": "なぜUnityのUIは書きづらいのか — Reactに学んで宣言的UIフレームワークを作った話",
+        "url": "https://zenn.dev/s4k1/articles/6c29073680ff21",
+        "summary": "1. はじめに 筆者はゲームクライアントのエンジニアです。 uGUI/UIToolkitにUniRx/R3を組み合わせてUIを実装してきました。 昨今はAIのおかげで、ほかの言語や環境を学ぶ敷居がずいぶん下がりました。そこで試しにWebやネイティブアプリのUI開発を調べてみたところ、UnityのUI開発との差の大きさに驚きました。Webやネイ...",
+        "score": 0,
+        "published_at": "2026-07-10T03:21:52+00:00",
+        "fetched_at": "2026-07-10T22:31:21.751674+00:00"
+      },
+      {
+        "title": "SREの積み重ねがAI駆動開発のガードレールになった ― 7つの実践/SRE Guardrails The 7",
+        "url": "https://speakerdeck.com/tomoyakitaura/sre-guardrails-the-7",
+        "summary": "SRE Next 2026の登壇資料です",
+        "score": 0,
+        "published_at": "2026-07-10T08:30:45+00:00",
+        "fetched_at": "2026-07-10T22:31:21.751660+00:00"
+      },
+      {
+        "title": "Generation-then-comprehension - kawasima",
+        "url": "https://scrapbox.io/kawasima/Generation-then-comprehension",
+        "summary": "コーディングエージェントを使った開発では、人間が理解してから実装するよりも、まずコードが生成され、それを後から理解する場面が大幅に増える。 このため認知的降伏を起こしやすい条件が揃い、よくわからないが動いているからヨシ！でApproveしてしまうことになる。 これを避けるために、動くテストをパスするコード...",
+        "score": 0,
+        "published_at": "2026-07-10T11:10:58+00:00",
+        "fetched_at": "2026-07-10T22:31:21.751648+00:00"
+      },
+      {
+        "title": "「メールが届かなくても仕方ない」を普通にしませんか",
+        "url": "https://xtech.nikkei.com/atcl/nxt/column/18/00138/063002060/",
+        "summary": "筆者が最近頭を悩ませていることの1つが、親族宛てに届くフィッシング詐欺メールだ。もちろん今に始まった話ではない。ただ、メールや電話で問い合わせを受け、限られた情報を基に詐欺メールかどうかを回答する頻度が高まっている。 この記事は会員登録で続きをご覧いただけます申込は簡単3分！ 今すぐ会員登録（無料） ...",
+        "score": 0,
+        "published_at": "2026-07-10T07:44:25+00:00",
+        "fetched_at": "2026-07-10T22:31:21.751634+00:00"
+      },
+      {
+        "title": "「Windows」PCにサードパーティー製ウイルス対策ソフトはまだ必要か",
+        "url": "https://japan.zdnet.com/article/35250124/",
+        "summary": "印刷する メールで送る テキスト HTML 電子書籍 PDF ダウンロード テキスト 電子書籍 PDF クリップした記事をMyページから読むことができます Microsoftの誰かが4月、「Windows Learning Center」で文書を公開し、全く異論の余地のない主張を示した。「多くの『Windows 11』ユーザーにとって、『Microsoft Defender Anti...",
+        "score": 0,
+        "published_at": "2026-07-10T07:48:01+00:00",
+        "fetched_at": "2026-07-10T22:31:21.751606+00:00"
+      },
+      {
+        "title": "「AIデスキリング」が始まった…生産性向上の影で、AIは人間の思考とスキルを静かにむしばんでいる | Business Insider Japan",
+        "url": "https://www.businessinsider.jp/article/2606-ai-deskilling-impact-on-worker-skills-productivity/",
+        "summary": "アンダーソン氏は6月から8月にかけて、自分では1行もコードを書かず、AIを使ってソフトウェア製品を構築していく様子を、YouTubeでライブ配信した。 彼が開発したアプリ「Road Trip Ninja（ロード・トリップ・ニンジャ）」は、家族連れが長距離ドライブの途中で安心して立ち寄れる場所、例えば清潔なトイレやまともな食...",
+        "score": 0,
+        "published_at": "2026-07-10T02:18:16+00:00",
+        "fetched_at": "2026-07-10T22:31:21.751592+00:00"
+      },
+      {
+        "title": "Interview With Mitchell Hashimoto",
+        "url": "https://alexalejandre.com/programming/interview-with-mitchell-hashimoto/",
+        "summary": "Mitchell Hashimoto was behind Vagrant, Packer, Consul, Terraform, Vault, Nomad, Waypoint and now builds Ghostty and Vouch. In this interview, we talk about terminals, Zig and open source. You’ve been interviewed a lot. Why do people like to interview you? In interviews, everyone comes from a diff...",
+        "score": 0,
+        "published_at": "2026-07-10T00:48:35+00:00",
+        "fetched_at": "2026-07-10T22:31:21.751575+00:00"
+      },
+      {
+        "title": "【無料】 ObsidianはAIの記憶保管には向いていない｜松濤Vimmer",
+        "url": "https://note.com/shotovim/n/n40164f5b555c",
+        "summary": "AI活用で一番効くのは、細かいTipsを知っていることよりも、あとからAIに渡せる文脈がどれだけ残っているかなんじゃないか、ということです。 AIの長期記憶や会話の保存、Obsidianのvaultに置くより独自のシステムを組んだほうがAI親和性が高い。 Gizmodoの動画でも言われたけどvaultは人間向けのノートで、AIが毎回読む...",
+        "score": 0,
+        "published_at": "2026-07-09T17:34:15+00:00",
+        "fetched_at": "2026-07-10T22:31:21.751556+00:00"
+      },
+      {
+        "title": "Cloudflareだけで独自ドメインメールをGmailから送受信できるようになってた",
+        "url": "https://zenn.dev/9m/articles/d08dcc093e1bbf",
+        "summary": "TL;DR メールの受信は Cloudflare Email Routing メールの送信は Cloudflare Email Sending メールの閲覧・作成には普段使っているGmailを利用 CloudflareがSMTPをしゃべれるようになったので、Gmailのエイリアスに追加できるぞ！ 独自ドメインのメールアドレスにお金かけたくない問題 個人開発をやっているとポコポコ独...",
+        "score": 0,
+        "published_at": "2026-07-10T03:47:12+00:00",
+        "fetched_at": "2026-07-10T22:31:21.751523+00:00"
+      },
+      {
+        "title": "第918回　homepageでクールな家庭内ポータル兼サービスダッシュボードを作ろう",
+        "url": "https://gihyo.jp/admin/serial/01/ubuntu-recipe/0918?utm_source=feed",
+        "summary": "家庭内で様々なサーバーやWebアプリを動かしていると、それらをまとめたダッシュボードがほしくなりますよね。今回はそうしたサービスダッシュボードを手軽に作れるhomepageを紹介します。",
+        "score": 0,
+        "published_at": "2026-07-08T00:14:00+00:00",
+        "fetched_at": "2026-07-10T22:31:21.399975+00:00"
+      },
+      {
+        "title": "Meta、画像生成モデル「Muse Image」をMeta AIなどで利用可能に、「Muse Video」もプレビュー",
+        "url": "https://gihyo.jp/article/2026/07/meta-muse-image-and-video?utm_source=feed",
+        "summary": "Metaは2026年7月7日、Meta Superintelligence Labsが開発したメディア生成モデル「Muse Image」と「Muse Video」を発表した。",
+        "score": 0,
+        "published_at": "2026-07-08T02:43:00+00:00",
+        "fetched_at": "2026-07-10T22:31:21.399962+00:00"
+      },
+      {
+        "title": "Google、Search ConsoleでInstagram・TikTok・X・YouTubeのGoogle検索での露出・流入を確認できる「プラットフォームプロパティ」追加を発表",
+        "url": "https://gihyo.jp/article/2026/07/search-console-platform-property?utm_source=feed",
+        "summary": "Googleは2026年7月7日、Google Search Consoleに新しいプロパティタイプ「プラットフォームプロパティ（platform properties）」を追加すると発表した。",
+        "score": 0,
+        "published_at": "2026-07-08T07:10:00+00:00",
+        "fetched_at": "2026-07-10T22:31:21.399948+00:00"
+      },
+      {
+        "title": "GoogleがPixel 7以降をLinuxカーネル6.12に一斉アップデートする理由",
+        "url": "https://gihyo.jp/article/2026/07/android-weekly-topics-260709?utm_source=feed",
+        "summary": "Googleが、Pixel 7からPixel 10にいたるまでの幅広いデバイスを対象に一挙に最新のLinuxカーネル 6.12へとアップデートする準備を進めていることが明らかになりました。",
+        "score": 0,
+        "published_at": "2026-07-08T23:46:00+00:00",
+        "fetched_at": "2026-07-10T22:31:21.399933+00:00"
+      },
+      {
+        "title": "Grok 4.5リリース ―コーディングとエージェント向けに強化した最初のモデル",
+        "url": "https://gihyo.jp/article/2026/07/grok-4-5?utm_source=feed",
+        "summary": "SpaceXAIは2026年7月8日、同社のAIモデルGrokの最新バージョンGrok 4.5をリリースした。",
+        "score": 0,
+        "published_at": "2026-07-09T07:09:00+00:00",
+        "fetched_at": "2026-07-10T22:31:21.399878+00:00"
+      },
+      {
+        "title": "Gentooのコアはリスペクトにあり ―開発者が語る“Why Gentoo”",
+        "url": "https://gihyo.jp/article/2026/07/daily-linux-260709?utm_source=feed",
+        "summary": "オープンソースLinuxの中でも比較的長い歴史をもちながら、特定企業のスポンサードに依存せず、ユーザが手元ですべてのソースコードをコンパイルすることにこだわり続けてきたGentoo Linux。",
+        "score": 0,
+        "published_at": "2026-07-09T07:32:00+00:00",
+        "fetched_at": "2026-07-10T22:31:21.399866+00:00"
+      },
+      {
+        "title": "Microsoft Research、AI時代のグラフ作成を支援する中間言語「Flint」を発表",
+        "url": "https://gihyo.jp/article/2026/07/flint?utm_source=feed",
+        "summary": "Microsoft Researchは2026年7月8日、AIエージェントによるグラフ作成を支援する中間言語「Flint」を発表した。",
+        "score": 0,
+        "published_at": "2026-07-09T09:43:00+00:00",
+        "fetched_at": "2026-07-10T22:31:21.399852+00:00"
+      },
+      {
+        "title": "Ubuntu 26.10（Stonking）の開発; arm64の位置付け変更の振り返りとpollinateの廃止、upkiによる証明書失効確認",
+        "url": "https://gihyo.jp/admin/clip/01/ubuntu-topics/202607/10?utm_source=feed",
+        "summary": "Arm64のこの一年の進展についての整理が行われています。",
+        "score": 0,
+        "published_at": "2026-07-10T01:20:00+00:00",
+        "fetched_at": "2026-07-10T22:31:21.399837+00:00"
+      },
+      {
+        "title": "Meta、エージェント型タスク向けモデル「Muse Spark 1.1」を発表",
+        "url": "https://gihyo.jp/article/2026/07/meta-muse-spark-1.1?utm_source=feed",
+        "summary": "Metaは2026年7月9日、エージェント型タスク向けのマルチモーダル推論モデル「Muse Spark 1.1」を発表した。",
+        "score": 0,
+        "published_at": "2026-07-10T09:07:00+00:00",
+        "fetched_at": "2026-07-10T22:31:21.399796+00:00"
+      },
+      {
+        "title": "スクエニ、ECサイトが1週間以上使えず　決済など重要機能の不具合でメンテ長期化",
+        "url": "https://www.itmedia.co.jp/news/articles/2607/08/news086.html",
+        "summary": "スクウェア・エニックスは、通販サイト「スクウェア・エニックスe-STORE」のリニューアルに伴うシステムメンテナンスについて、終了のめどが立っていないと明らかにした。7月1日午前0時ごろの開始から1週間以上、全サービスを利用できない状態が続いている。",
+        "score": 0,
+        "published_at": "2026-07-08T02:55:00+00:00",
+        "fetched_at": "2026-07-10T22:31:20.806197+00:00"
+      },
+      {
+        "title": "テスラ車が住宅に突っ込み高齢女性が死亡　遺族は「運転支援システムに欠陥」と訴えも、マスク氏らは反論　米国",
+        "url": "https://www.itmedia.co.jp/news/articles/2607/06/news031.html",
+        "summary": "米テキサス州で米Teslaの車が住宅に突っ込んで、家の中にいた76歳の女性が死亡する事故があった。自動運転支援システムを使用中だったというドライバーの証言に対してTesla側は、ドライバーの運転に原因があったと反論している。",
+        "score": 0,
+        "published_at": "2026-07-08T03:00:00+00:00",
+        "fetched_at": "2026-07-10T22:31:20.806185+00:00"
+      },
+      {
+        "title": "Metaの新AI「Muse Image」公開に伴う注意点　Instagram公開アカウントのコンテンツ再利用を防ぐには",
+        "url": "https://www.itmedia.co.jp/news/articles/2607/08/news087.html",
+        "summary": "Metaが画像生成AI「Muse Image」を公開したことに伴い、Instagramの公開アカウントで投稿した写真や動画を、他者がAI機能で再利用あるいは改変する可能性が浮上している。この再利用設定は初期状態で有効になっているが、設定で無効化できる。ただし、設定変更前に生成されたAIコンテンツは遡及して削除されない。",
+        "score": 0,
+        "published_at": "2026-07-08T03:00:00+00:00",
+        "fetched_at": "2026-07-10T22:31:20.806174+00:00"
+      },
+      {
+        "title": "女性声優にXの“青バッジ”を勝手に送り付ける怪事案が相次ぐ　津田美波さん、黒木ほの香さん、土屋李央さんなど",
+        "url": "https://www.itmedia.co.jp/news/articles/2607/08/news088.html",
+        "summary": "日本の女性声優から「何者かにXの有料サブスクリプションを送り付けられた」との報告が相次いでいる。意図は不明だが「アカウント乗っ取りの布石では」との声もあり、送り付けられたユーザー間で困惑が広がっている。",
+        "score": 0,
+        "published_at": "2026-07-08T03:03:00+00:00",
+        "fetched_at": "2026-07-10T22:31:20.806161+00:00"
+      },
+      {
+        "title": "BOOTH、0円出品で「セールはこちら」きょうから禁止　新着通知を使った“宣伝ハック”に終止符",
+        "url": "https://www.itmedia.co.jp/news/articles/2607/08/news089.html",
+        "summary": "「0円」の商品ページなどを新規公開しながら、実際には商品を販売せず、新商品の告知のみを行う「誘導・告知を主目的とする商品」が禁止商品に。",
+        "score": 0,
+        "published_at": "2026-07-08T03:07:00+00:00",
+        "fetched_at": "2026-07-10T22:31:20.806150+00:00"
+      }
+    ]
+  },
+  {
     "date": "2026-07-09",
     "articles": [
       {
