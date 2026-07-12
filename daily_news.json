@@ -1,5 +1,370 @@
 [
   {
+    "date": "2026-07-12",
+    "articles": [
+      {
+        "title": "情報漏洩に敏感な金融機関で、Claude・Gemini・ChatGPTを導入した話",
+        "url": "https://zenn.dev/seiuchi3939/articles/b12d6746d9f187",
+        "summary": "はじめに 私は国内の金融機関で、社内の情報システム・セキュリティに関わる業務をしています。この記事では、情報漏洩リスクに人一倍敏感な金融機関という環境で、Claude・Gemini・ChatGPTという複数の生成AIサービスを全社導入するに至った経緯と、その際にどうリスクを整理したかをまとめます。 「生成AIを導入したい...",
+        "score": 310,
+        "published_at": "2026-07-12T02:19:36+00:00",
+        "fetched_at": "2026-07-12T22:13:15.656763+00:00"
+      },
+      {
+        "title": "OpenAI、フロンティアモデルGPT-5.6 Solを含むGPT-5.6シリーズを一般提供 ——Codexを統合し、ChatGPT Workと切り替えて使える新デスクトップアプリも利用可能に",
+        "url": "https://gihyo.jp/article/2026/07/gpt-5.6-ga?utm_source=feed",
+        "summary": "penAIは2026年7月9日、新たなフロンティアモデル「GPT-5.6 Sol」を最上位に置く大規模言語モデルGPT-5.6シリーズを一般提供した。性能とコストのバランスを取る「GPT-5.6 Terra」、高速・低コストの「GPT-5.6 Luna」と合わせた3モデルで構成される。",
+        "score": 200,
+        "published_at": "2026-07-10T06:12:00+00:00",
+        "fetched_at": "2026-07-12T22:13:15.404414+00:00"
+      },
+      {
+        "title": "6.5年かかるコード解析を20時間で完了　4.6億行のレガシーコードに挑んだClaude活用術",
+        "url": "https://www.itmedia.co.jp/enterprise/articles/2607/10/news042.html",
+        "summary": "Anthropicは2026年7月6日（現地時間）、カナダのアルバータ州政府がAI「Claude」と「Claude Code」を活用し、大規模なサイバーセキュリティ対策と情報システム刷新に取り組んだ事例を公表した。州政府は2025年からClaude OpusとClaude Sonnetを採用し、4億6600万行のソースコードを約20時間で解析し、脆弱（ぜいじゃく）...",
+        "score": 110,
+        "published_at": "2026-07-09T23:49:26+00:00",
+        "fetched_at": "2026-07-12T22:13:15.657077+00:00"
+      },
+      {
+        "title": "AI「Claude」を使って開発ツールの「Bun」の53万行のZigコード全てをRustへ書き換え、Zig作者もブログで反応",
+        "url": "https://gigazine.net/news/20260712-bun-zig-rust/",
+        "summary": "JavaScriptランタイム「Bun」の開発チームが、AIコーディング支援ツール「Claude Code」を活用して進めていた、BunのZigコードをRustへ書き換える全面的な移植作業が完了したと発表しました。約53万行のZigコードがRustへ移植されたことで、メモリ管理に起因する不具合の削減が期待されています。 Rewriting Bun in Rust...",
+        "score": 110,
+        "published_at": "2026-07-12T08:33:00+00:00",
+        "fetched_at": "2026-07-12T22:13:15.656941+00:00"
+      },
+      {
+        "title": "有名エンジニアの .claude/skills 公開ラッシュから学ぶ、良い Claude Code Skills の書き方｜テック太郎",
+        "url": "https://note.com/ai_eng_tech/n/n1ef4d57df219",
+        "summary": "有名エンジニアの .claude/skills 公開ラッシュから学ぶ、良い Claude Code Skills の書き方 いま GitHub で、有名エンジニアが自分の .claude ディレクトリを丸ごと公開する動きが続いています。 Total TypeScript の Matt Pocock が公開した mattpocock/skills は 16万スター、Google Chrome チームの Addy Osmani に...",
+        "score": 110,
+        "published_at": "2026-07-12T10:20:50+00:00",
+        "fetched_at": "2026-07-12T22:13:15.656715+00:00"
+      },
+      {
+        "title": "経営者の『7月10日問題』 ～「ChatGPT」はどこまで士業に迫れるか【生成AIストリーム】",
+        "url": "https://forest.watch.impress.co.jp/docs/serial/aistream/2123986.html",
+        "summary": "",
+        "score": 100,
+        "published_at": "2026-07-10T07:45:23+00:00",
+        "fetched_at": "2026-07-12T22:13:15.657050+00:00"
+      },
+      {
+        "title": "【実験】AWS 東京と大阪を閉域で繋ぐ3つの方法、実際どれくらい速さが違うのか - Qiita",
+        "url": "https://qiita.com/sh_fukatsu/items/541051be6cbd4a90f2a6",
+        "summary": "AとBをベースラインに置くのは、「リージョンをまたぐことそのもののコスト」と「AZをまたぐことのコスト」を切り分けて見るためです。AとBは、これまで多くの方が計測されていますが、C〜Eの差に加えて、A・Bとの比較も行うことで、そもそも東京-大阪間は物理的にどれくらい離れているのかというベースラインが把握でき...",
+        "score": 100,
+        "published_at": "2026-07-12T04:05:18+00:00",
+        "fetched_at": "2026-07-12T22:13:15.657024+00:00"
+      },
+      {
+        "title": "AIの思考っぽい「J空間」を可視化できる「Jレンズ」を触ってみた",
+        "url": "https://gigazine.net/news/20260712-ai-j-space-jacobian-lens/",
+        "summary": "AIモデルの性能は急速に向上し続けていますが、実はAIが出力を決定するまでの処理過程は完全には解明されていません。そんな中、Claudeの開発元であるAnthropicがAIの出力決定に関連する「J-space(J空間)」という概念を提唱し、J空間を観察できる「J-lens(Jレンズ)」のデモアプリも公開しました。 Jacobian Lens – Qwen3...",
+        "score": 100,
+        "published_at": "2026-07-12T12:47:27+00:00",
+        "fetched_at": "2026-07-12T22:13:15.656969+00:00"
+      },
+      {
+        "title": "Anthropic、Claude内部に意識研究で提唱される「グローバルワークスペース」に似た構造を確認　表に出ない思考を可視化 | Ledge.ai",
+        "url": "https://ledge.ai/articles/anthropic_claude_global_workspace",
+        "summary": "Top > 学術＆研究 > Anthropic、Claude内部に意識研究で提唱される「グローバルワークスペース」に似た構造を確認　表に出ない思考を可視化",
+        "score": 100,
+        "published_at": "2026-07-12T03:46:09+00:00",
+        "fetched_at": "2026-07-12T22:13:15.656882+00:00"
+      },
+      {
+        "title": "Claude Code、とりあえずこれ読んどけばOKなまとめ（2026年版） - Qiita",
+        "url": "https://qiita.com/fuyunoki/items/5818688d20225aa8088a?utm_campaign=popular_items&utm_medium=twitter&utm_source=dlvr.it",
+        "summary": "はじめに はじめまして、新卒エンジニアのfuyunokiです。 この度、新卒として入社した会社でClaudeを使えるようになったので、自分用に調べたことをまとめてみました。せっかくなので記事として公開します。同じように「会社でClaude Code使えるようになったけど何から手を付ければ…」となっている新卒・若手エンジニア...",
+        "score": 100,
+        "published_at": "2026-07-12T12:13:01+00:00",
+        "fetched_at": "2026-07-12T22:13:15.656697+00:00"
+      },
+      {
+        "title": "OpenAIのフィジ・シモ氏、フルタイムの役職を退任――慢性疾患の療養に専念",
+        "url": "https://www.itmedia.co.jp/news/articles/2607/10/news079.html",
+        "summary": "OpenAIでAGI導入担当CEOを務めるフィジ・シモ氏が、フルタイムの役職を退き、パートタイムのアドバイザーに移行すると自身のXで明らかにした。7年前から抱える慢性疾患の療養に専念するためで、今後はAIによる疾病の治療などに取り組むという。アルトマンCEOは「本当に悲しい」とコメントした。",
+        "score": 100,
+        "published_at": "2026-07-10T00:31:00+00:00",
+        "fetched_at": "2026-07-12T22:13:13.771246+00:00"
+      },
+      {
+        "title": "Anthropic、Claudeの使い方を振り返る新機能「reflect」（振り返り）追加──AIとの付き合い方を見直すために",
+        "url": "https://www.itmedia.co.jp/news/articles/2607/10/news086.html",
+        "summary": "Anthropicは、AIアシスタント「Claude」の使い方を振り返るための新機能「reflect」(日本では「振り返り」）をβ版で公開した。過去のチャット活動をトピックや利用パターンごとに可視化し、AIの利用が自分の目標に沿っているかを見直せるようにする。休憩を促すナッジなどの機能も備える。",
+        "score": 100,
+        "published_at": "2026-07-10T01:24:00+00:00",
+        "fetched_at": "2026-07-12T22:13:13.771214+00:00"
+      },
+      {
+        "title": "「まるで人間」　OpenAIの新モデル「GPT-Live」のトーク力が話題　間を空けずに考えながら会話できる",
+        "url": "https://www.itmedia.co.jp/news/articles/2607/10/news114.html",
+        "summary": "OpenAIが提供を始めた音声会話向けモデル「GPT-Live」がXで話題だ。同社はこれまでも音声会話モデルを提供していたが、聞き取りと発話を同時に行う新アーキテクチャにより「会話が自然すぎる」などの声が上がっている。",
+        "score": 100,
+        "published_at": "2026-07-10T07:45:00+00:00",
+        "fetched_at": "2026-07-12T22:13:13.771098+00:00"
+      },
+      {
+        "title": "Apple、OpenAIと元従業員2人を提訴　「iPhoneの機密を盗んだ」と主張",
+        "url": "https://www.itmedia.co.jp/news/articles/2607/11/news038.html",
+        "summary": "Appleは、自社の営業秘密を不正に取得したとして、元従業員2人とOpenAIおよびその傘下企業を提訴した。iPhoneなどの開発情報がハードウェア参入を進めるOpenAIに流出したと主張。面接での機密情報の聞き出しや組織的な引き抜きを指摘し、損害賠償などを求めている。なお、AI機能での提携とは無関係としている。",
+        "score": 100,
+        "published_at": "2026-07-10T23:12:00+00:00",
+        "fetched_at": "2026-07-12T22:13:13.771030+00:00"
+      },
+      {
+        "title": "型は壁、Rustでもバグを直すな、表現できなくせよ",
+        "url": "https://speakerdeck.com/nwiizo/xing-habi-rustdemobaguwozhi-suna-biao-xian-dekinakuseyo",
+        "summary": "関数型まつりで登壇したりします。 https://2026.fp-matsuri.org",
+        "score": 10,
+        "published_at": "2026-07-11T06:18:53+00:00",
+        "fetched_at": "2026-07-12T22:13:15.657090+00:00"
+      },
+      {
+        "title": "Rust製の軽量ヘッドレスブラウザObscuraが良さげかも | kawarimidoll.com",
+        "url": "https://kawarimidoll.com/posts/202607112/",
+        "summary": "GitHub - h4ckf0r0day/obscura: The headless browser for AI agents and web scraping 機能 WebスクレイピングやAIエージェントの自動操作向けに作られたオープンソースのヘッドレスブラウザエンジンです。 Chromeに比べてバイナリサイズもメモリ使用量も小さく、軽量・高速であることをアピールしています。 JavaScrip...",
+        "score": 10,
+        "published_at": "2026-07-11T16:44:06+00:00",
+        "fetched_at": "2026-07-12T22:13:15.656996+00:00"
+      },
+      {
+        "title": "End-to-Endで考える信頼性 —�LINEアプリにおける�クライアント開発×SRE連携の実践",
+        "url": "https://speakerdeck.com/maruloop/end-to-end-sre",
+        "summary": "at https://sre-next.dev/2026/schedule/#slot105",
+        "score": 0,
+        "published_at": "2026-07-11T14:24:38+00:00",
+        "fetched_at": "2026-07-12T22:13:15.657063+00:00"
+      },
+      {
+        "title": "SRE NEXT 2026に参加しました｜maru",
+        "url": "https://sizu.me/maruloop/posts/kiiwa97nez3u",
+        "summary": "今回スマホアプリのエンジニアの方を半ば無理やり(?)誘わせていただいて、セッションを回ったり、色々な人と会話をしたり、共同登壇といいつつ9割以上のトークをお任せしたりしました。こんな私の無茶振りに付き合ってくださった森さんに本当に感謝します！今回のSRE NEXTのテーマがInclusiveだったのも、ちょうどタイミ...",
+        "score": 0,
+        "published_at": "2026-07-12T05:46:41+00:00",
+        "fetched_at": "2026-07-12T22:13:15.657010+00:00"
+      },
+      {
+        "title": "CSに\"SLO\"は要らない、経営層に\"99.9%\"は伝わらない - SREを全社に\"翻訳\"する3原則",
+        "url": "https://speakerdeck.com/cscengineer/translating-sre-for-the-whole-company",
+        "summary": "SRE NEXT 2026の登壇資料。 https://sre-next.dev/2026/schedule/#slot111",
+        "score": 0,
+        "published_at": "2026-07-12T06:33:48+00:00",
+        "fetched_at": "2026-07-12T22:13:15.656982+00:00"
+      },
+      {
+        "title": "Markdownをpushするだけで社内資料PDFを常に最新に — WIF×Google Driveで鍵レス自動配信",
+        "url": "https://zenn.dev/o2wsu9/articles/36dea065f5d73c",
+        "summary": "社内向けドキュメントを Markdown のまま Git で管理し、push するだけで Google Drive 上の PDF を最新化する仕組みを、鍵レス認証（Workload Identity Federation）で構築する手順を解説します。 TL;DR Markdown を main に push すると、PDF が自動生成されて Google Drive の同じファイルが上書きされます。共有リン...",
+        "score": 0,
+        "published_at": "2026-07-12T04:17:28+00:00",
+        "fetched_at": "2026-07-12T22:13:15.656955+00:00"
+      },
+      {
+        "title": "Terraform Actionを使ってみた。 命令的な操作をリソースのライフサイクルイベントに紐づけて実行できます | DevelopersIO",
+        "url": "https://dev.classmethod.jp/articles/terraform-actions/",
+        "summary": "Terraform Actions とは Terraform v1.14 で追加された新機能です。これまで Terraformは「宣言的」にリソースを管理するだけでしたが、Actions によって「命令的な操作」をライフサイクルイベントに紐付けて実行できるようになりました。 例えば、以下のようなActionブロックを定義します。CloudFrontのキャッシュの全...",
+        "score": 0,
+        "published_at": "2026-07-10T09:43:50+00:00",
+        "fetched_at": "2026-07-12T22:13:15.656926+00:00"
+      },
+      {
+        "title": "Microsoftアカウントをハッキングされ「これまでXBOXで購入したゲームはすべて再購入するように」とサポートから言われたゲーマーが怒りの訴訟＆勝訴",
+        "url": "https://gigazine.net/news/20260712-gamer-wins-legal-battle-hacked-xbox-account/",
+        "summary": "XBOXで複数のゲームを購入していたとあるゲーマーが、Microsoftアカウントをハッキングされたためカスタマーサポートに連絡したところ、アカウントの復旧は不可能であり、失ったゲームは「すべて再購入するように」と回答されたそうです。これに対して、このゲーマーはMicrosoftに対して訴訟を起こし、無事勝訴していま...",
+        "score": 0,
+        "published_at": "2026-07-12T10:41:38+00:00",
+        "fetched_at": "2026-07-12T22:13:15.656910+00:00"
+      },
+      {
+        "title": "【PowerShell】5.1 でモダンなフォルダ選択ダイアログを実装する - Qiita",
+        "url": "https://qiita.com/8_hisakichi_8/items/059a1ef74c77c5ac1495",
+        "summary": "背景 PowerShellでツールを作っていると、「ユーザーにフォルダを選んでもらいたい」という場面がけっこう出てきます。ログの出力先、バックアップ先、処理対象のフォルダ……等ですね。 ところが、一般的なFolderBrowserDialogでフォルダ選択ダイアログを出そうとすると以下のようなフォルダツリー形式のダイアログが出て...",
+        "score": 0,
+        "published_at": "2026-07-12T10:14:28+00:00",
+        "fetched_at": "2026-07-12T22:13:15.656896+00:00"
+      },
+      {
+        "title": "アルゴリズムは何を圧縮しているのか ─ Haskell から育った「圧縮代数」というメンタルモデル",
+        "url": "https://speakerdeck.com/naoya/compressed-algebra-with-haskell",
+        "summary": "関数型まつり2026 の発表資料です #fp_matsuri",
+        "score": 0,
+        "published_at": "2026-07-12T11:34:51+00:00",
+        "fetched_at": "2026-07-12T22:13:15.656826+00:00"
+      },
+      {
+        "title": "年間3ケタ近く面接するんだが、技術職でも見た目はめちゃくちゃ重要。男性は特に「ふわふわマッシュヘアにダブついたズボン」は本当に面接を通らない",
+        "url": "https://togetter.com/li/2719839",
+        "summary": "Madmax @madmax99993 ワイ年間2ケタ近い面接するんだが、見た目はめちゃくちゃ重要。技術職でも。女性は面接時にいわゆる見た目ハックが上手い。一方男性特に新卒が壊滅的だなとは思う。ふわふわマッシュヘアにダブついたズボンはホント面接通らない。ワイの好みではなく相当数なNを見ても明らかに偏るんだよね。↓ 2026-...",
+        "score": 0,
+        "published_at": "2026-07-12T17:47:07+00:00",
+        "fetched_at": "2026-07-12T22:13:15.656812+00:00"
+      },
+      {
+        "title": "GitHub Actions の parallel でデプロイは8分→3分、CI はコスト3割減になった",
+        "url": "https://zenn.dev/hatsu/articles/github-actions-steps-parallel",
+        "summary": "こんにちは、hatsu です。 先日、GitHub Actions で同じ job の中にある複数のステップを並列に実行できる parallel / background が 2026-06-25 に GA になりましたね。 これまで job の並列化はできましたが、step の並列化はできませんでした。 今回この parallel を実際のワークフローに入れてみて、ちゃんと速くな...",
+        "score": 0,
+        "published_at": "2026-07-12T02:12:00+00:00",
+        "fetched_at": "2026-07-12T22:13:15.656731+00:00"
+      },
+      {
+        "title": "IT業界入って分かった、そりゃ衰退するわこんなん",
+        "url": "https://anond.hatelabo.jp/20260712172838",
+        "summary": "6歳くらいの頃からプログラミングスクール入ってRuby弄ってたくらいには子供のころからCS一本で、 当然大学も情報系でガッツリ専門的な分野研究して、専門は人工知能とビッグデータ解析とかなんだけど、 周りの奴らと違って家自体は普通の家庭だったので、最初っから海外系を就職先に選べなくて、国内からキャリア積むし...",
+        "score": 0,
+        "published_at": "2026-07-12T08:44:38+00:00",
+        "fetched_at": "2026-07-12T22:13:15.656679+00:00"
+      },
+      {
+        "title": "前の客のATM暗証番号も丸見え…日本でも普及し始めた「スマートグラス」を使用してみた結果。“新型盗撮”に悪用の可能性も | 日刊SPA!",
+        "url": "https://nikkan-spa.jp/2172263",
+        "summary": "今年に入り、新たなデバイスが台頭しつつある。それはスマートグラスだ。 5月下旬、レイバンと米メタが共同開発した「Ray-Ban Meta（第2世代）」が国内で正式発売された。カメラ機能が搭載され、メガネをかけたまま通話や撮影ができ、同時通訳も可能だ。他ブランドの機種も続々と発売され、家電量販店には専用コーナーが...",
+        "score": 0,
+        "published_at": "2026-07-12T10:36:28+00:00",
+        "fetched_at": "2026-07-12T22:13:15.656658+00:00"
+      },
+      {
+        "title": "Ubuntu 26.10（Stonking）の開発; arm64の位置付け変更の振り返りとpollinateの廃止、upkiによる証明書失効確認",
+        "url": "https://gihyo.jp/admin/clip/01/ubuntu-topics/202607/10?utm_source=feed",
+        "summary": "Arm64のこの一年の進展についての整理が行われています。",
+        "score": 0,
+        "published_at": "2026-07-10T01:20:00+00:00",
+        "fetched_at": "2026-07-12T22:13:15.404432+00:00"
+      },
+      {
+        "title": "Meta、エージェント型タスク向けモデル「Muse Spark 1.1」を発表",
+        "url": "https://gihyo.jp/article/2026/07/meta-muse-spark-1.1?utm_source=feed",
+        "summary": "Metaは2026年7月9日、エージェント型タスク向けのマルチモーダル推論モデル「Muse Spark 1.1」を発表した。",
+        "score": 0,
+        "published_at": "2026-07-10T09:07:00+00:00",
+        "fetched_at": "2026-07-12T22:13:15.404391+00:00"
+      },
+      {
+        "title": "寝る前の「ベッドでスマホ」は睡眠時間を延ばす？　Apple Watchが示した意外な結果　欧州チームが研究発表",
+        "url": "https://www.itmedia.co.jp/news/articles/2607/09/news090.html",
+        "summary": "オランダのマーストリヒト大学とベルギーのアントワープ大学に所属する研究者らがPLOS Digital Healthで発表した論文「Sleep and smartphone use: Within and between-person relationships from an objective longitudinal smartphone and wearable data donation study」は、ベッドでのスマホ使用が睡眠時間を延ばす可能性があることを示した研究報告だ。",
+        "score": 0,
+        "published_at": "2026-07-09T22:20:00+00:00",
+        "fetched_at": "2026-07-12T22:13:13.771274+00:00"
+      },
+      {
+        "title": "Anthropic、バーナンキ元FRB議長を独立監督機関に招へい――AIが経済に与える影響を注視",
+        "url": "https://www.itmedia.co.jp/news/articles/2607/10/news074.html",
+        "summary": "Anthropicは、同社の独立監督機関LTBTの新メンバーに、元FRB議長のベン・バーナンキ氏を任命したと発表した。LTBTは、営利企業でありながら公益の追求を掲げるAnthropic独自のガバナンス構造の中核を担う組織。バーナンキ氏はAIが経済に与える影響に関する知見を提供する。",
+        "score": 0,
+        "published_at": "2026-07-10T00:00:00+00:00",
+        "fetched_at": "2026-07-12T22:13:13.771258+00:00"
+      },
+      {
+        "title": "「全東信」破産　経団連会長も言及　カード決済の環境整備強調　「事業者は健全経営を」",
+        "url": "https://www.itmedia.co.jp/news/articles/2607/10/news085.html",
+        "summary": "クレジットカード決済代行会社「全東信」（大阪市中央区）の破産手続きをめぐり、経団連の筒井義信会長は、大阪市内で開いた記者会見で「決済を扱う事業者は健全経営を徹底すべきだ」と述べた。キャッシュレス決済の普及が進む中、店舗や消費者が安心して利用できる環境づくりの重要性も強調した。",
+        "score": 0,
+        "published_at": "2026-07-10T01:16:00+00:00",
+        "fetched_at": "2026-07-12T22:13:13.771233+00:00"
+      },
+      {
+        "title": "相手を嫌いになる脳の仕組み、東京大が解明　光でマウスの感情操作に成功　うつ病治療に期待",
+        "url": "https://www.itmedia.co.jp/news/articles/2607/10/news089.html",
+        "summary": "特定の相手を嫌いになる脳の仕組みを、東京大の研究チームがマウス実験で解明した。光の刺激で神経細胞の活動を操作する「光遺伝学」の技術を使い、相手を嫌う感情の生成や消去に成功した。米科学誌Scienceで7月10日に報告する。",
+        "score": 0,
+        "published_at": "2026-07-10T02:07:00+00:00",
+        "fetched_at": "2026-07-12T22:13:13.771198+00:00"
+      },
+      {
+        "title": "ソニー、光学25倍ズーム搭載の「RX10 V」発売　1型センサーの高倍率機に9年ぶり新製品",
+        "url": "https://www.itmedia.co.jp/news/articles/2607/10/news090.html",
+        "summary": "ソニーは9日、1.0型CMOSセンサーと35mm判換算で24～600mm相当の光学25倍ズームレンズを搭載したレンズ一体型デジタルカメラ「RX10 V」を発表した。",
+        "score": 0,
+        "published_at": "2026-07-10T02:10:00+00:00",
+        "fetched_at": "2026-07-12T22:13:13.771169+00:00"
+      },
+      {
+        "title": "経産省、「全東信破産」受け中小支援　特別相談窓口を設置、日本公庫の貸付要件も緩和",
+        "url": "https://www.itmedia.co.jp/news/articles/2607/10/news107.html",
+        "summary": "経済産業省の赤沢亮正大臣が、決済代行事業者の全東信が破産手続きに入ったことを受け、日本政策金融公庫による貸し付け制度の要件を一部緩和すると発表した。資金繰りへの影響が懸念される中小企業向けの相談窓口も設置する。",
+        "score": 0,
+        "published_at": "2026-07-10T04:15:00+00:00",
+        "fetched_at": "2026-07-12T22:13:13.771123+00:00"
+      },
+      {
+        "title": "介護施設向け「ぷよぷよトレーナー」10月提供開始　演出は控えめ、詰将棋モードも",
+        "url": "https://www.itmedia.co.jp/news/articles/2607/10/news123.html",
+        "summary": "エンタケア研究所は9日、セガの国民的パズルゲーム「ぷよぷよ」のゲーム性を生かした介護施設向けの脳トレーニングゲーム「ぷよぷよトレーナー」を発表した。",
+        "score": 0,
+        "published_at": "2026-07-10T07:22:00+00:00",
+        "fetched_at": "2026-07-12T22:13:13.771110+00:00"
+      },
+      {
+        "title": "NTTドコモ、「準固体モバイルバッテリー」発売　不要なモバイルバッテリーの無料回収も",
+        "url": "https://www.itmedia.co.jp/news/articles/2607/10/news129.html",
+        "summary": "NTTドコモは10日、電池内部の液体含有量を抑え、安全性を高めた「準固体モバイルバッテリー01M」を全国のドコモショップとドコモオンラインショップで発売した。",
+        "score": 0,
+        "published_at": "2026-07-10T09:04:00+00:00",
+        "fetched_at": "2026-07-12T22:13:13.771085+00:00"
+      },
+      {
+        "title": "安いエアコンが消える？　「エアコン2027年問題」でメーカーは来年どう動くのか、ダイキンに聞いた",
+        "url": "https://www.itmedia.co.jp/news/articles/2607/10/news130.html",
+        "summary": "安いエアコンが売り場から消えるのではないかと話題になっている、いわゆる「エアコン2027年問題」。最近はテレビのニュースなどにもなっているが、メーカーはどう考えているのか。",
+        "score": 0,
+        "published_at": "2026-07-10T09:17:00+00:00",
+        "fetched_at": "2026-07-12T22:13:13.771072+00:00"
+      },
+      {
+        "title": "2日連続の「モバイルSuica」障害、JR東が原因を公表　別途負担の運賃は払い戻しへ",
+        "url": "https://www.itmedia.co.jp/news/articles/2607/10/news149.html",
+        "summary": "JR東日本は7月10日、6月30日と7月1日に発生した「モバイルSuica」のシステム障害について、原因と対策を発表した。また、その影響で定期券やSuicaグリーン券などを利用できなかったユーザーに対し、別途負担した運賃等の補償を実施する。",
+        "score": 0,
+        "published_at": "2026-07-10T11:05:00+00:00",
+        "fetched_at": "2026-07-12T22:13:13.771059+00:00"
+      },
+      {
+        "title": "テスラ車内で「Grok」と会話、日本でも展開へ　ナビ設定やルート確認を音声で",
+        "url": "https://www.itmedia.co.jp/news/articles/2607/10/news157.html",
+        "summary": "対話型AI「Grok」を日本のテスラ車で利用できるようになった。Tesla Japanが7月10日、X公式アカウントで発表した。利用には、ソフトウェアバージョン2026.20以降、「プレミアムコネクティビティ」（有料の車内通信プラン）の契約が必要になる。",
+        "score": 0,
+        "published_at": "2026-07-10T12:15:00+00:00",
+        "fetched_at": "2026-07-12T22:13:13.771045+00:00"
+      },
+      {
+        "title": "“防爆シェルター”を3Dプリントする技術　日本のスタートアップが開発　海外イベントの防衛装備庁ブースで展示へ",
+        "url": "https://www.itmedia.co.jp/news/articles/2607/10/news127.html",
+        "summary": "3Dプリント住宅を手掛けるセレンディクス（兵庫県西宮市）が、3Dプリンタで建築した防爆シェルターやドローン基地を英国の防衛産業展示会で展示する。既存の建築手法に対して形状や建設立地の自由度で勝るといい、防衛装備庁が出展するブース内で実物を展示する予定だ。",
+        "score": 0,
+        "published_at": "2026-07-11T02:00:00+00:00",
+        "fetched_at": "2026-07-12T22:13:13.771012+00:00"
+      },
+      {
+        "title": "なんでPSのディスク版ゲームがなくなるの？　不満たらたらのゲーム好きマンガ家を黙らせた担当の一言とは",
+        "url": "https://www.itmedia.co.jp/news/articles/2607/12/news013.html",
+        "summary": "ソニーが2028年の1月にPlayStationのゲームタイトルにおける物理ディスクの生産を終了すると発表しました。ボク個人もディスク版を残してほしいと思う1人ですが、実はあまり行動は伴っていないのでした。",
+        "score": 0,
+        "published_at": "2026-07-11T22:14:00+00:00",
+        "fetched_at": "2026-07-12T22:13:13.770992+00:00"
+      },
+      {
+        "title": "IT系上場企業の平均年収を業種別にみてみた 2026年版［前編］ ～ ネットベンチャー、ゲーム、メディア系",
+        "url": "https://www.publickey1.jp/blog/26/it_2026_1.html",
+        "summary": "IT系企業で平均年収が高いのは、勢いのあるネットベンチャー系企業なのか、それとも伝統的なSIerなのでしょうか。毎年恒例の記事を今年も公開します。 上場企業は毎年「有価証券報告書」の発行を義務づけられており、そこには従業員の人数や平均年齢...",
+        "score": 0,
+        "published_at": "2026-07-12T15:02:28+00:00",
+        "fetched_at": "2026-07-12T22:13:13.032697+00:00"
+      },
+      {
+        "title": "IT系上場企業の平均年収を業種別にみてみた 2026年版［後編］ ～ ソフトウェア／サービス系、SI／システム開発系、クラウド／通信キャリア系企業",
+        "url": "https://www.publickey1.jp/blog/26/it_2026_si.html",
+        "summary": "IT系企業で平均年収が高いのは、勢いのあるネットベンチャー系企業なのか、それとも伝統的なSIerなのでしょうか。毎年恒例の記事を今年も公開します。 上場企業は毎年「有価証券報告書」の発行を義務づけられており、そこには従業員の人数や平均年齢...",
+        "score": 0,
+        "published_at": "2026-07-12T15:17:12+00:00",
+        "fetched_at": "2026-07-12T22:13:13.032679+00:00"
+      }
+    ]
+  },
+  {
     "date": "2026-07-10",
     "articles": [
       {
