@@ -1,5 +1,410 @@
 [
   {
+    "date": "2026-07-15",
+    "articles": [
+      {
+        "title": "Claude Fable 5のサブスクリプション内提供を7月19日まで延長、CodexとChatGPT Workは5時間制限を一時撤廃＆アクティブユーザー600万人到達と使用量リセット",
+        "url": "https://gihyo.jp/article/2026/07/claude-fable-5-codex-usage-limit-updates?utm_source=feed",
+        "summary": "Anthropicは2026年7月12日、Claude Fable 5をサブスクリプションの利用枠に含める期間を7月19日まで延長すると発表した。一方、OpenAIのコアプロダクト部門責任者Thibault Sottiaux氏は同日、ChatGPTのPlus、Business、Proの各プランでCodexとChatGPT Workの5時間の利用制限を一時的に撤廃すると告知した。",
+        "score": 300,
+        "published_at": "2026-07-13T03:18:00+00:00",
+        "fetched_at": "2026-07-15T22:27:21.100744+00:00"
+      },
+      {
+        "title": "OpenAIのブラウザ「ChatGPT Atlas」終了へ　公開から1年足らずで",
+        "url": "https://www.itmedia.co.jp/news/articles/2607/13/news090.html",
+        "summary": "米OpenAIがAIブラウザ「ChatGPT Atlas」の停止日を2026年8月9日と案内し、データの移行手順を公開した。移行先には新しいChatGPTデスクトップアプリとChrome拡張機能を挙げている。",
+        "score": 200,
+        "published_at": "2026-07-13T05:20:00+00:00",
+        "fetched_at": "2026-07-15T22:27:19.671507+00:00"
+      },
+      {
+        "title": "ChatGPT、ワールドカップの勝敗予想に予測市場「Kalshi」のデータを反映開始",
+        "url": "https://www.itmedia.co.jp/news/articles/2607/15/news060.html",
+        "summary": "OpenAIは、予測市場を運営するKalshiの予想データを、ChatGPTのワールドカップ関連の回答に反映し始めた。特定の試合の勝敗予想を尋ねると、Kalshiのデータに基づく勝利予想グラフが表示される仕組み。ChatGPTのヘルプページにも記述が追加されており、チャット上での賭け行為はできないとしている。",
+        "score": 200,
+        "published_at": "2026-07-14T23:09:00+00:00",
+        "fetched_at": "2026-07-15T22:27:19.671112+00:00"
+      },
+      {
+        "title": "SEGAのゲームはRTX Sparkで動く。NVIDIAが協業を発表",
+        "url": "https://pc.watch.impress.co.jp/docs/news/2125394.html",
+        "summary": "",
+        "score": 100,
+        "published_at": "2026-07-15T11:55:59+00:00",
+        "fetched_at": "2026-07-15T22:27:21.398365+00:00"
+      },
+      {
+        "title": "AIの世界的リーダー、NVIDIA ジェンスン・フアンCEOが秋葉原に登場 セガの元社長 入交昭一郎氏への感謝イベント参加",
+        "url": "https://car.watch.impress.co.jp/docs/news/2125479.html",
+        "summary": "",
+        "score": 100,
+        "published_at": "2026-07-15T10:20:28+00:00",
+        "fetched_at": "2026-07-15T22:27:21.398323+00:00"
+      },
+      {
+        "title": "NVIDIAのジェンスン・フアンCEOが東京・秋葉原でセガとの協業を発表　セガのゲームタイトルが「RTX Spark」に順次登場！",
+        "url": "https://www.itmedia.co.jp/pcuser/articles/2607/15/news125.html",
+        "summary": "関連記事 NVIDIAのジェンスン・フアンCEOが緊急来日！　都内イベントにサプライズ登場、日本政府・企業との発表も予告 7月15日、NVIDIAのジェンスン・フアンCEOが来日し、都内で開催中の開発者向けイベント「Build-a-Claw-Tokyo」にサプライズ登場した。イベント後の囲み取材の模様をまとめた。 ジェンスン・フアンCEOと...",
+        "score": 100,
+        "published_at": "2026-07-15T11:53:49+00:00",
+        "fetched_at": "2026-07-15T22:27:21.398311+00:00"
+      },
+      {
+        "title": "The Memory Heist",
+        "url": "https://www.ayush.digital/blog/the-memory-heist",
+        "summary": "Take a look at this Claude conversation. Notice anything suspicious? Looks innocuous, but by the time Claude finished responding, it had already sent my full name, current employer, and the answers to my security questions to an attacker, without any indication that anything had happened. I've be...",
+        "score": 100,
+        "published_at": "2026-07-15T07:24:34+00:00",
+        "fetched_at": "2026-07-15T22:27:21.398184+00:00"
+      },
+      {
+        "title": "NVIDIAジェンスン・フアンCEO、セガのレジェンド鈴木裕氏、入交昭一郎氏が秋葉原で一堂に会す！",
+        "url": "https://pc.watch.impress.co.jp/docs/news/2125527.html",
+        "summary": "",
+        "score": 100,
+        "published_at": "2026-07-15T14:00:46+00:00",
+        "fetched_at": "2026-07-15T22:27:21.398127+00:00"
+      },
+      {
+        "title": "aws-actions/configure-aws-credentials で AWS 認証情報の環境変数へのエクスポートを抑止する - kakakakakku blog",
+        "url": "https://kakakakakku.hatenablog.com/entry/2026/07/15/193517",
+        "summary": "はじめに 普段よく GitHub Actions で aws-actions/configure-aws-credentials を使っているけど「output-credentials」と「output-env-credentials」というオプションがあることは知らなかった💡 aws-actions/configure-aws-credentials はデフォルト設定だと認証情報を GitHub Actions ジョブ全体の環境変数としてエク...",
+        "score": 100,
+        "published_at": "2026-07-15T11:10:19+00:00",
+        "fetched_at": "2026-07-15T22:27:21.398114+00:00"
+      },
+      {
+        "title": "【Claude Code】鹿野さんに聞く 私の推しの並行開発環境 大公開 / claude-code-parallel-2026-07-15",
+        "url": "https://speakerdeck.com/tonkotsuboy_com/claude-code-parallel-2026-07-15",
+        "summary": "【Claude Code】並行開発、どう回してる？ 鹿野さんに聞く 私の推しの並行開発環境 大公開 https://offers-jp.connpass.com/event/395255/ の登壇資料です",
+        "score": 100,
+        "published_at": "2026-07-15T04:41:49+00:00",
+        "fetched_at": "2026-07-15T22:27:21.398038+00:00"
+      },
+      {
+        "title": "セガのゲーム、NVIDIA「RTX Spark」で遊べるように　秋葉原で協業30周年を祝う",
+        "url": "https://www.itmedia.co.jp/news/articles/2607/15/news131.html",
+        "summary": "米NVIDIAとセガは7月15日、対戦格闘ゲーム「バーチャファイター」シリーズの新作を含む今後のセガタイトルを、NVIDIAの新型チップ「RTX Spark」を搭載するPCに対応させると発表した。両社の協業30周年を記念した都内のイベントで明らかにした。",
+        "score": 100,
+        "published_at": "2026-07-15T14:50:00+00:00",
+        "fetched_at": "2026-07-15T22:27:19.670908+00:00"
+      },
+      {
+        "title": "ニチレイ、システム障害はサイバー攻撃によるものと公表　17日から出荷業務など順次再開へ",
+        "url": "https://www.itmedia.co.jp/news/articles/2607/15/news120.html",
+        "summary": "ニチレイで発生したシステム障害について、同社はサーバがサイバー攻撃を受けたことを確認したと発表した。影響が出ている冷蔵倉庫の入出庫や冷凍食品の出荷といった業務は、外部のセキュリティ専門会社と安全対策を講じた上で、17日から順次再開する予定だ。",
+        "score": 10,
+        "published_at": "2026-07-15T10:20:00+00:00",
+        "fetched_at": "2026-07-15T22:27:19.670966+00:00"
+      },
+      {
+        "title": "スマホで27B級LLMが動く！PrismMLが「Bonsai 27B」を無料公開",
+        "url": "https://pc.watch.impress.co.jp/docs/news/2125273.html",
+        "summary": "",
+        "score": 0,
+        "published_at": "2026-07-15T05:52:28+00:00",
+        "fetched_at": "2026-07-15T22:27:21.398391+00:00"
+      },
+      {
+        "title": "[2026-07-15] AI Ready なはずだったアーキテクチャと、見えてきた課題・次に目指す状態",
+        "url": "https://speakerdeck.com/wxyzzz/2026-07-15-ai-ready-nahasutatutaakitekutiyato-jian-etekitake-ti-ci-nimu-zhi-suzhuang-tai",
+        "summary": "「AI Ready組織を見据えた データ基盤戦略とは」( https://findy.connpass.com/event/398555/ ) 登壇時資料です。",
+        "score": 0,
+        "published_at": "2026-07-15T11:55:17+00:00",
+        "fetched_at": "2026-07-15T22:27:21.398353+00:00"
+      },
+      {
+        "title": "AIエージェント×OAuth 2.0：Device Flowで社内データの安全な認可を実装した話 - エムスリーテックブログ",
+        "url": "https://www.m3tech.blog/entry/2026/07/15/100000",
+        "summary": "【SREチーム ブログリレー 2日目】 こんにちは、SREチームの青木です。 エムスリーには、アクセスログや社内レポートを配信する仕組みがあります。レポートには部署や案件ごとに見てよい人・見てはいけない人がいるため、アクセス制御を行う認可システムを内製し運用しています。 この認可システムはこれまでブラウザで...",
+        "score": 0,
+        "published_at": "2026-07-15T01:58:13+00:00",
+        "fetched_at": "2026-07-15T22:27:21.398297+00:00"
+      },
+      {
+        "title": "「もう隠す気ないねw」まだ発表もされていない『折りたたみiPhone』のケースがAmazonで何種類も売られている…デザインに対する厳しい意見も",
+        "url": "https://togetter.com/li/2720894",
+        "summary": "Pixel Foldのような｢折りたたみiPhone｣は登場するのか…？　最新の\"アメリカ現地イベント\"で示された｢重要なヒント｣ 6ページ目 | ビジネス | 東洋経済オンライン （6ページ目）｢折りたたみiPhoneは本当に登場するのか？｣—グーグルやサムスンが先行する中､アップルはどう動くのでしょうか。 東洋経済オンライン",
+        "score": 0,
+        "published_at": "2026-07-15T13:19:19+00:00",
+        "fetched_at": "2026-07-15T22:27:21.398283+00:00"
+      },
+      {
+        "title": "クリエイティブが作った、2万円台の“小さなピュアオーディオスピーカー”「Creative XF1」の音に驚く[Sponsored]",
+        "url": "https://av.watch.impress.co.jp/docs/topic/special/2123569.html",
+        "summary": "",
+        "score": 0,
+        "published_at": "2026-07-15T00:22:26+00:00",
+        "fetched_at": "2026-07-15T22:27:21.398269+00:00"
+      },
+      {
+        "title": "多層防御 vs 最先端のサプライチェーン攻撃 ―― freee の大規模障害訓練の舞台裏 - freee Developers Hub",
+        "url": "https://developers.freee.co.jp/entry/redteam-exercise-2026",
+        "summary": "こんにちは、北海道から freee red team*1に参加している yu です。 読者の皆さんは、freee の全社障害訓練というものをご存知でしょうか。 私自身、4年前の転職の際は障害訓練の記事を見て freee に興味を持つきっかけになったり、入社直後の2022年の障害訓練では手も足も出ず歯痒い思いをしたりと、大変思い入れの深い...",
+        "score": 0,
+        "published_at": "2026-07-15T08:30:45+00:00",
+        "fetched_at": "2026-07-15T22:27:21.398256+00:00"
+      },
+      {
+        "title": "電力8社がデータセンター送電網増強　全国30カ所、AI需要見据え先手 - 日本経済新聞",
+        "url": "https://www.nikkei.com/article/DGXZQOUC0889M0Y6A500C2000000/",
+        "summary": "東京電力ホールディングスなど大手電力8社が送電設備を増強する。変電所を全国30カ所で新増設する。人工知能（AI）需要で急増するデータセンター新設で、送電設備不足が課題となっている。電力需要予測の2倍のペースで整備し、AI投資を後押しする。データセンターを送電設備につなぐには最大で約10年かかる事例もあり、...",
+        "score": 0,
+        "published_at": "2026-07-15T10:57:31+00:00",
+        "fetched_at": "2026-07-15T22:27:21.398242+00:00"
+      },
+      {
+        "title": "AIで資料作成を終わらす、プロンプト＋パワポ420点｜うちた",
+        "url": "https://note.com/uchita_success/n/n5db702b25061",
+        "summary": "ベンチャー企業でAI活用推進リーダーしてるうちたです。 営業やバックオフィスをAIで自動化・質向上をして、ぬくぬく働きつつも成果を上げています。 この記事は、「AIでぬくぬく仕事する」を実現する、うちたの保管庫の玄関です。 うちた式パワポ変換 最新版　PDF/画像→パワポで編集（プロンプト） 資料リメイク　雑な...",
+        "score": 0,
+        "published_at": "2026-07-15T14:15:30+00:00",
+        "fetched_at": "2026-07-15T22:27:21.398228+00:00"
+      },
+      {
+        "title": "当社グループでのシステム障害発生について（第2報） | 株式会社ニチレイ",
+        "url": "https://www.nichirei.co.jp/news/2026/513.html",
+        "summary": "2026年7月15日 各位 株式会社ニチレイ 当社グループでのシステム障害発生について（第2報） 株式会社ニチレイ（本社：東京都中央区、代表取締役社長(CEO)：嶋本和訓）が、2026年7月13日付で公表しました、「当社グループでのシステム障害発生について」（第1報）に関して、調査で判明した内容および今後の対応について、...",
+        "score": 0,
+        "published_at": "2026-07-15T09:50:04+00:00",
+        "fetched_at": "2026-07-15T22:27:21.398213+00:00"
+      },
+      {
+        "title": "LUUPに会社負担で乗れる「LUUP for Work」--法人モードに切り替えるだけ、経費精算いらず",
+        "url": "https://japan.cnet.com/article/35250607/",
+        "summary": "管理者は専用の管理画面で従業員の利用状況を随時確認できる。車両には保険も付く。電動キックボードと電動シートボードには自賠責保険に加えて任意保険を、電動アシスト自転車には任意保険を付けている。いずれも相手への賠償だけでなく、乗っている本人のけがを補償する搭乗者傷害保険も含む。 背景には、移動のロスに...",
+        "score": 0,
+        "published_at": "2026-07-15T12:33:09+00:00",
+        "fetched_at": "2026-07-15T22:27:21.398199+00:00"
+      },
+      {
+        "title": "ニチレイ サイバー攻撃を公表 外食企業や食品メーカーに影響 | NHKニュース",
+        "url": "https://news.web.nhk/newsweb/na/na-k10015177751000",
+        "summary": "冷凍食品大手の「ニチレイ」でシステム障害が発生し、外食チェーンなどの間で商品の欠品などの影響が出ている問題で、会社はサイバー攻撃を受けたと公表しました。 ニチレイは13日、不正アクセスによるシステ…",
+        "score": 0,
+        "published_at": "2026-07-15T09:34:55+00:00",
+        "fetched_at": "2026-07-15T22:27:21.398169+00:00"
+      },
+      {
+        "title": "ニンテンドーシステムズ、社内CI/CD基盤の構築・運用体制を紹介。GitHub ActionsのSelf-hosted Runner導入事例を解説した「SRE NEXT 2026」講演資料が公開｜ゲームメーカーズ",
+        "url": "https://gamemakers.jp/article/2026_07_15_141297/",
+        "summary": "ニンテンドーシステムズ、CI/CD環境の開発・運用事例について解説した「SRE NEXT 2026」の自社講演で用いた資料を公開 GitHub ActionsのSelf-hosted Runnerを活用してシステム基盤を構築 3名のエンジニアが他プロダクトと兼務しながら小規模チームで運用を効率化した工夫などについても語られている ニンテンドーシステ...",
+        "score": 0,
+        "published_at": "2026-07-15T13:26:24+00:00",
+        "fetched_at": "2026-07-15T22:27:21.398156+00:00"
+      },
+      {
+        "title": "AIクローラーでインターネット経済がぶっ壊れるかもしれない話｜フォレスト出版",
+        "url": "https://note.com/forestpub/n/n78bd7f8a3955",
+        "summary": "フォレスト出版編集部の寺崎です。 先日、あるデータを目にして、思わずゾワッとしました。 インターネットの通信を世界規模で支えるCloudflareが、2026年7月の発表のなかで、ある一線を越えたことを明かしています。 「Webサイトへのアクセスの過半が、もう人間ではなくなった」 そんな、衝撃の事実です。 同社のCEOマ...",
+        "score": 0,
+        "published_at": "2026-07-15T06:17:13+00:00",
+        "fetched_at": "2026-07-15T22:27:21.398141+00:00"
+      },
+      {
+        "title": "スマートフォンを手首に固定できるリストバンドのMサイズが入荷、磁石で簡単着脱",
+        "url": "https://akiba-pc.watch.impress.co.jp/docs/news/news/2125084.html",
+        "summary": "",
+        "score": 0,
+        "published_at": "2026-07-15T12:40:27+00:00",
+        "fetched_at": "2026-07-15T22:27:21.398095+00:00"
+      },
+      {
+        "title": "FIREしたけど、暇すぎるからタイミーとかUberでちょこちょこ働いてる。 生活..",
+        "url": "https://anond.hatelabo.jp/20260715192124",
+        "summary": "FIREしたけど、暇すぎるからタイミーとかUberでちょこちょこ働いてる。 生活のためじゃなくて、「暇つぶし」と「社会見学」みたいな感覚。 これが意外と楽しい。 生活がかかってないから、高みの見物で仕事できるんだよ。 理不尽なこと言われても「あ、そういう人なんだ」で終わるし、逆に変なやつには「それ変だよ」っ...",
+        "score": 0,
+        "published_at": "2026-07-15T10:21:56+00:00",
+        "fetched_at": "2026-07-15T22:27:21.398069+00:00"
+      },
+      {
+        "title": "ロジクールの無線マウスやキーボードに付属する「Logi Bolt」ドングルは単なるUSBドングルではない",
+        "url": "https://gigazine.net/news/20260715-logitech-logi-bolt-spec/",
+        "summary": "ロジテック(ロジクール)のマウスやキーボードには、製品とPCを無線接続する独自のUSBドングル「Logi Bolt」が付属していることがあります。この正体がなんなのかについてインターネット上で議論があったため、海外テック系メディアのLTT Labsが詳細をロジテックに確認しました。 Logi Bolt Receiver: Not Just a Bluetoo...",
+        "score": 0,
+        "published_at": "2026-07-15T15:27:31+00:00",
+        "fetched_at": "2026-07-15T22:27:21.398055+00:00"
+      },
+      {
+        "title": "ローカル LLM を構築した",
+        "url": "https://zenn.dev/neet/articles/11bafab8645995",
+        "summary": "AI 利用の開示：この記事を書くにあたっての調査やブレインストーミング、校正には AI を用いましたが、本文の執筆やコードの実装、および出典の確認はすべて人間が行いました。 AI は好きだが AI 企業は嫌いだ こんにちは。みなさんは AI を使いこなしていますか？　私は正直、あまり乗れていません。もちろん AI は非...",
+        "score": 0,
+        "published_at": "2026-07-15T04:15:17+00:00",
+        "fetched_at": "2026-07-15T22:27:21.398022+00:00"
+      },
+      {
+        "title": "https://pc.watch.impress.co.jp/docs/news/2125521.html",
+        "url": "https://pc.watch.impress.co.jp/docs/news/2125521.html",
+        "summary": "",
+        "score": 0,
+        "published_at": "2026-07-15T13:25:24+00:00",
+        "fetched_at": "2026-07-15T22:27:21.398006+00:00"
+      },
+      {
+        "title": "boketeアプリ サービス終了のお知らせ",
+        "url": "https://bokete-photo.blogspot.com/2026/07/arigato.html",
+        "summary": "いつもboketeをご利用いただき、ありがとうございます。 2008年にWebサービスとして生まれ、2012年にアプリ化した「写真で一言 ボケて」は、2026年9月30日をもって、アプリのサービスを終了します。また、Web版も投稿機能を終了し、Flickrお題の殿堂入りボケ閲覧専用サイトになる予定です。 終了するもの boketeアプリ（...",
+        "score": 0,
+        "published_at": "2026-07-15T10:16:04+00:00",
+        "fetched_at": "2026-07-15T22:27:21.397991+00:00"
+      },
+      {
+        "title": "デロイトが国に納品したスライド351枚、全部数えたらパターンは7つだけだった｜うちた",
+        "url": "https://note.com/uchita_success/n/n030ad63765d3",
+        "summary": "一番意外だったのは、7つのうち“1つの型”だけで45%を占めていたこと。一流ほど、派手な技より“基本の型”を使い倒すんです。 全部言語化して、AIで再現するプロンプトも作ったので置いておきます。 経産省のサイトは、コンサル資料の\"宝の山\"コンサルの実物資料は、守秘義務のかたまりで普通は世に出ません。 ただ、例外...",
+        "score": 0,
+        "published_at": "2026-07-15T01:04:34+00:00",
+        "fetched_at": "2026-07-15T22:27:21.397970+00:00"
+      },
+      {
+        "title": "Hugging Face CEO、AIニュースサイト「HuggingNews」を紹介、Xの約1,200アカウントを軸に2時間ごとに更新",
+        "url": "https://gihyo.jp/article/2026/07/huggingnews?utm_source=feed",
+        "summary": "Hugging Face CEOのClément Delangue氏は7月10日、AI関連ニュースを掲載するWebサイト「HuggingNews」をXで紹介した。",
+        "score": 0,
+        "published_at": "2026-07-13T06:52:00+00:00",
+        "fetched_at": "2026-07-15T22:27:21.100725+00:00"
+      },
+      {
+        "title": "第182回　「Affinity by Canva」の実力と、「ツールの民主化」の先にあるもの",
+        "url": "https://gihyo.jp/design/serial/01/website-pickup/0182?utm_source=feed",
+        "summary": "2025年10月初旬、デザインソフト「Affinity」シリーズのウェブサイトが一時閉鎖されました。さまざまな憶測が飛び交うなか、「Affinity」は新たな“統合デザインソフト”へと生まれ変わり、完全無料の「Affinity by Canva」として提供されることが発表されました。",
+        "score": 0,
+        "published_at": "2026-07-14T00:05:00+00:00",
+        "fetched_at": "2026-07-15T22:27:21.100709+00:00"
+      },
+      {
+        "title": "Markdownからドキュメントサイトを構築、Astro/ViteベースのOSS「Blume」v1が公開",
+        "url": "https://gihyo.jp/article/2026/07/blume?utm_source=feed",
+        "summary": "開発者のHayden Bleasel氏は7月13日、MarkdownやMDXを基にドキュメントサイトを構築するオープンソースフレームワーク「Blume」の正式版となるv1.0.0を公開した。",
+        "score": 0,
+        "published_at": "2026-07-14T02:50:00+00:00",
+        "fetched_at": "2026-07-15T22:27:21.100691+00:00"
+      },
+      {
+        "title": "第919回　Ubuntu 26.04 LTSとsbuildで始めるパッケージビルド生活",
+        "url": "https://gihyo.jp/admin/serial/01/ubuntu-recipe/0919?utm_source=feed",
+        "summary": "今回は新しいsbuildについて、インストールからセットアップ、パッケージビルド環境の活用方法について紹介しましょう。",
+        "score": 0,
+        "published_at": "2026-07-14T23:59:00+00:00",
+        "fetched_at": "2026-07-15T22:27:21.100674+00:00"
+      },
+      {
+        "title": "Discourse、無料の公式ホスティングプラン「Free」の一般提供を開始",
+        "url": "https://gihyo.jp/article/2026/07/discourse-free-plan?utm_source=feed",
+        "summary": "コミュニティプラットフォーム「Discourse」は2026年7月14日、無料プラン「Free」の一般提供開始を発表した。",
+        "score": 0,
+        "published_at": "2026-07-15T02:01:00+00:00",
+        "fetched_at": "2026-07-15T22:27:21.100652+00:00"
+      },
+      {
+        "title": "ローソンでステーブルコイン支払い　KDDI・HashPortが技術実証へ　高輪ゲートウェイ店で8月実施",
+        "url": "https://www.itmedia.co.jp/news/articles/2607/13/news098.html",
+        "summary": "HashPortは7月13日、KDDI、ローソンと店頭でのステーブルコイン決済の技術実証を8月に実施すると発表した。日本円ステーブルコインでのレジ決済について、POS連携やレジ運用面を検証する。",
+        "score": 0,
+        "published_at": "2026-07-13T05:35:00+00:00",
+        "fetched_at": "2026-07-15T22:27:19.671477+00:00"
+      },
+      {
+        "title": "近くでクマ目撃投稿→5秒以内に通知「クマップ」提供開始　秋田の学生スタートアップ発",
+        "url": "https://www.itmedia.co.jp/news/articles/2607/13/news099.html",
+        "summary": "開発の原点は、大学の正面玄関にクマが出没した際、事務局の対応が土曜日だったため週明けまで3日かかった経験だったという。",
+        "score": 0,
+        "published_at": "2026-07-13T05:36:00+00:00",
+        "fetched_at": "2026-07-15T22:27:19.671465+00:00"
+      },
+      {
+        "title": "「今ネットで販売されているグッズは全て非公式品」　人気ゲーム「めっちゃカメレオン」開発者が注意喚起",
+        "url": "https://www.itmedia.co.jp/news/articles/2607/13/news107.html",
+        "summary": "人気ゲーム「めっちゃカメレオン」開発者の一人であるLEMORION（レモリオン）さんは12日、今ネット上で販売されているグッズは全て非公式品だと注意喚起した。",
+        "score": 0,
+        "published_at": "2026-07-13T06:49:00+00:00",
+        "fetched_at": "2026-07-15T22:27:19.671455+00:00"
+      },
+      {
+        "title": "ポケカ、本人確認にマイナカード「デジタル認証アプリ」　8月の抽選販売に導入　事前登録を呼び掛け",
+        "url": "https://www.itmedia.co.jp/news/articles/2607/13/news122.html",
+        "summary": "ポケモン社は7月13日、ポケモンカードゲームの本人認証で使う「デジタル認証アプリ」の事前登録を呼びかけた。公式通販サイト「ポケモンセンターオンライン」で8月に始める抽選販売を前に、アクセス集中を見込んで早めの手続きを促している。",
+        "score": 0,
+        "published_at": "2026-07-13T09:00:00+00:00",
+        "fetched_at": "2026-07-15T22:27:19.671444+00:00"
+      },
+      {
+        "title": "今後17年間アホのまま？──数を数え続ける「世界のナベアツbot」が30万に到達　本家「いっけー！の気持ち」",
+        "url": "https://www.itmedia.co.jp/news/articles/2607/13/news119.html",
+        "summary": "Xで数字を数え続ける非公式botアカウント「数え続ける世界のナベアツbot」さんのカウント数が7月13日、30万に到達した。ネタの生みの親で、かつて「世界のナベアツ」として活動した落語家の桂三度さんも同日、自身のXアカウントで反応した。",
+        "score": 0,
+        "published_at": "2026-07-13T09:00:00+00:00",
+        "fetched_at": "2026-07-15T22:27:19.671432+00:00"
+      },
+      {
+        "title": "中国ロボット企業が“ヒト型ロボ格闘大会”開催へ　さながら「リアルスティール」なプロモ映像公開",
+        "url": "https://www.itmedia.co.jp/news/articles/2607/13/news125.html",
+        "summary": "ロボット開発を手掛ける中国Unitree Roboticsが、ヒト型ロボットによる格闘大会「CMG 2026 Humanoid Robot Combat Competition」の開催を発表した。ロボット格闘技を描く映画「リアルスティール」さながらのバトルシーンを含んだプロモーション映像も公開。イベントの詳細は後日発表する予定だ。",
+        "score": 0,
+        "published_at": "2026-07-13T10:10:00+00:00",
+        "fetched_at": "2026-07-15T22:27:19.671418+00:00"
+      },
+      {
+        "title": "LINEヤフー、710万件の識別情報を誤送信　「LINEポコポコ」などゲームユーザー対象",
+        "url": "https://www.itmedia.co.jp/news/articles/2607/13/news126.html",
+        "summary": "LINEヤフーが、ゲーム「LINE ポコポコ」「LINE ポコパンタウン」「LINE ポコパン」ユーザーの識別情報710万件近くを外部の広告ツールに誤送信していたと発表した。",
+        "score": 0,
+        "published_at": "2026-07-13T10:19:00+00:00",
+        "fetched_at": "2026-07-15T22:27:19.671406+00:00"
+      },
+      {
+        "title": "ニチレイに不正アクセス、冷凍食品の出荷に支障　システムに障害",
+        "url": "https://www.itmedia.co.jp/news/articles/2607/13/news128.html",
+        "summary": "ニチレイは7月13日、不正アクセスによるシステム障害が発生したと発表した。冷蔵倉庫の入出庫や冷凍食品の出荷業務に影響が出ている。",
+        "score": 0,
+        "published_at": "2026-07-13T10:36:00+00:00",
+        "fetched_at": "2026-07-15T22:27:19.671394+00:00"
+      },
+      {
+        "title": "リチウムイオン電池の出火、都内で過去最多382件　26年は1.5倍ペースで急増　東京消防庁",
+        "url": "https://www.itmedia.co.jp/news/articles/2607/13/news129.html",
+        "summary": "東京消防庁管内でリチウムイオン電池を搭載した製品から出火する火災が急増している。同庁は7月13日、2026年5月末までの発生件数が179件に上り、前年同期の117件から1.5倍に増えたと発表した。25年は年間382件と過去最多だったが、26年はそれを上回るペースとなる。",
+        "score": 0,
+        "published_at": "2026-07-13T11:23:00+00:00",
+        "fetched_at": "2026-07-15T22:27:19.671383+00:00"
+      },
+      {
+        "title": "「コーヒーを飲む時間帯」で寿命が変わる？　ベストな時間は……米大学が4万人で健康効果を調査",
+        "url": "https://www.itmedia.co.jp/news/articles/2607/14/news028.html",
+        "summary": "米テュレーン大学と米ハーバード大学に所属する研究者らが医学誌「European Heart Journal」で発表した論文「Coffee drinking timing and mortality in US adults」は、コーヒーの飲む時間によって健康効果が異なることを明らかにした研究報告だ。",
+        "score": 0,
+        "published_at": "2026-07-13T22:00:00+00:00",
+        "fetched_at": "2026-07-15T22:27:19.671372+00:00"
+      },
+      {
+        "title": "数回の練習が数千回分の効果にも──物事の上達スピードを決めるのは練習量より「報酬の大きさ」　マウス実験がScience誌掲載",
+        "url": "https://www.itmedia.co.jp/news/articles/2607/14/news026.html",
+        "summary": "米ハワード・ヒューズ医学研究所に所属する研究者らがScience誌で発表した論文「Reward magnitude determines reinforcement learning efficiency」は、報酬の大きさが、学習速度の効率を高めることを明らかにした研究報告だ。",
+        "score": 0,
+        "published_at": "2026-07-13T22:00:00+00:00",
+        "fetched_at": "2026-07-15T22:27:19.671360+00:00"
+      },
+      {
+        "title": "「ポケモンGO」、開発チーム名を「Scopely Explore」に変更　ゲーム内の「Niantic」ロゴも",
+        "url": "https://www.itmedia.co.jp/news/articles/2607/14/news053.html",
+        "summary": "「Pokemon GO」の開発チームが、その名称を「Scopely Explore」に変更したことに伴い、ゲーム起動時に表示される「Niantic」ロゴもなくなりつつある。",
+        "score": 0,
+        "published_at": "2026-07-13T22:44:00+00:00",
+        "fetched_at": "2026-07-15T22:27:19.671347+00:00"
+      },
+      {
+        "title": "「Windows 11」の検索ボックス改善へ──Web結果の宣伝を排除、ローカル結果を優先",
+        "url": "https://www.itmedia.co.jp/news/articles/2607/14/news063.html",
+        "summary": "Microsoftは、「Windows 11」の検索ボックスの改善を発表した。検索ホームの簡素化、Web検索結果からのプロモーションコンテンツの排除に加え、WebやMicrosoft Storeの候補を表示するかどうかを選べる新設定を追加。アプリや設定、ファイルなどローカルの結果を優先する改善も含まれる。まずはWindows InsiderのExperimentalチャネルで段階的に展開する。",
+        "score": 0,
+        "published_at": "2026-07-13T22:52:00+00:00",
+        "fetched_at": "2026-07-15T22:27:19.671335+00:00"
+      }
+    ]
+  },
+  {
     "date": "2026-07-14",
     "articles": [
       {
