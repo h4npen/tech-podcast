@@ -1,5 +1,410 @@
 [
   {
+    "date": "2026-07-16",
+    "articles": [
+      {
+        "title": "「Claude」利用制限を全リセット　CodexとChatGPT Workも　“リセット合戦”再び",
+        "url": "https://www.itmedia.co.jp/aiplus/article/2607/16/2000000201/",
+        "summary": "米Anthropicは7月16日（日本時間）、AIサービス「Claude」の5時間および1週間の利用制限をリセットしたと発表した。一方、米OpenAIもデスクトップPC向けAIサービス「ChatGPT Work」およびAIコーディングツール「Codex」の週次利用制限をリセットすると発表し、“リセット合戦”の様相を呈している。 Anthropicの発表直後に...",
+        "score": 300,
+        "published_at": "2026-07-16T06:35:19+00:00",
+        "fetched_at": "2026-07-16T22:27:41.881594+00:00"
+      },
+      {
+        "title": "ChatGPT、ワールドカップの勝敗予想に予測市場「Kalshi」のデータを反映開始",
+        "url": "https://www.itmedia.co.jp/news/articles/2607/15/news060.html",
+        "summary": "OpenAIは、予測市場を運営するKalshiの予想データを、ChatGPTのワールドカップ関連の回答に反映し始めた。特定の試合の勝敗予想を尋ねると、Kalshiのデータに基づく勝利予想グラフが表示される仕組み。ChatGPTのヘルプページにも記述が追加されており、チャット上での賭け行為はできないとしている。",
+        "score": 200,
+        "published_at": "2026-07-14T23:09:00+00:00",
+        "fetched_at": "2026-07-16T22:27:39.719277+00:00"
+      },
+      {
+        "title": "PayPayの障害はAWSが原因、決済は「オフライン支払いモード」を",
+        "url": "https://k-tai.watch.impress.co.jp/docs/news/2125832.html",
+        "summary": "",
+        "score": 100,
+        "published_at": "2026-07-16T10:18:12+00:00",
+        "fetched_at": "2026-07-16T22:27:41.881582+00:00"
+      },
+      {
+        "title": "AWSのCDNサービスで大規模障害発生、各種ウェブサイトに接続しにくい状態が発生",
+        "url": "https://gigazine.net/news/20260716-aws-cloudfront-down/",
+        "summary": "AWSのCDNサービスであるAmazon CloudFrontで大規模な障害が発生しています。 Service health - Jul 16, 2026 | AWS Health Dashboard | Global https://health.aws.amazon.com/health/status AWSのステータスページを確認すると、日本時間の2026年7月16日16時45分頃からCloudFrontで問題が発生したとのこと。影響範囲はA...",
+        "score": 100,
+        "published_at": "2026-07-16T10:32:40+00:00",
+        "fetched_at": "2026-07-16T22:27:41.881497+00:00"
+      },
+      {
+        "title": "予定調整も情報収集もAIにお任せ、24時間働く「Gemini Spark」日本上陸",
+        "url": "https://pc.watch.impress.co.jp/docs/news/2125695.html",
+        "summary": "",
+        "score": 100,
+        "published_at": "2026-07-16T06:03:38+00:00",
+        "fetched_at": "2026-07-16T22:27:41.881485+00:00"
+      },
+      {
+        "title": "Claude Codeのスキル設計で効く4つのポイント —— 「AIへの仕事の任せ方」を意識した設計 - RAKUS Developers Blog | ラクス エンジニアブログ",
+        "url": "https://tech-blog.rakus.co.jp/entry/20260716/claude",
+        "summary": "こんにちは、菊池（akikuchi_rks）です。 私の所属するチームではClaude Codeを開発フローに取り入れており、私自身も設計書のレビューや定型調査の自動化など、さまざまな業務でスキル（Agent Skills）を作成してきました。 スキルを書き続けていて特に感じるのは、「とりあえず動くスキル」と「安定して業務に組み込め...",
+        "score": 100,
+        "published_at": "2026-07-16T06:03:52+00:00",
+        "fetched_at": "2026-07-16T22:27:41.881429+00:00"
+      },
+      {
+        "title": "NVIDIAのジェンスン・フアン氏が秋葉原でセガに賛辞　これは巨大テック企業のトップによる社交辞令ではなく、セガのゲームに脳を焼かれたゲーマーの叫びだ (1/2)",
+        "url": "https://ascii.jp/elem/000/004/420/4420031/",
+        "summary": "NVIDIAを「謎の半導体企業」と表現する人は流石にもういないだろう。少し前はPCグラフィックス、今はAI業界を牽引するビッグテック企業である。そんなNVIDIAも創業期に技術選択に失敗して死にかけており、その窮地を救ったのがセガだ。アーケードゲーム界に数々の名作ゲームを送り出し、「メガドライブ」（1988年）「セ...",
+        "score": 100,
+        "published_at": "2026-07-16T05:23:04+00:00",
+        "fetched_at": "2026-07-16T22:27:41.881383+00:00"
+      },
+      {
+        "title": "グーグルにまた訴訟、「Gemini」の著作権侵害で　大手出版社らが「無断利用」に怒り",
+        "url": "https://japan.cnet.com/article/35250597/",
+        "summary": "Googleに対し、出版社や作家らが新たな訴訟を提起した。原告は、Googleが出版社との提携関係を悪用して「膨大な数の著作物を臆面もなく複製」し、AIの学習に利用したと主張している。 出版社のHachette Book Group、Cengage、Elsevier、そして作家のScott Turow氏は米国時間7月10日、ニューヨーク南部地区連邦地方裁判所...",
+        "score": 100,
+        "published_at": "2026-07-15T09:27:22+00:00",
+        "fetched_at": "2026-07-16T22:27:41.881349+00:00"
+      },
+      {
+        "title": "Googleの24時間稼働AIエージェント「Gemini Spark」が日本語で利用可能に",
+        "url": "https://gigazine.net/news/20260716-gemini-spark-japanese/",
+        "summary": "GoogleがAIエージェント「Gemini Spark」の日本語での展開を2026年7月16日に開始しました。Gemini Sparkは個人最適化された24時間稼働のAIエージェントで、自然言語での対話で各種タスクを実行させることができます。 待望のパーソナル AI エージェント Gemini Spark が本日より日本語で展開開始🚀 情報収集やデータ整理...",
+        "score": 100,
+        "published_at": "2026-07-16T04:16:34+00:00",
+        "fetched_at": "2026-07-16T22:27:41.881335+00:00"
+      },
+      {
+        "title": "Claude Codeが化けた。今使っている3つのプラグイン+標準機能の活用法",
+        "url": "https://zenn.dev/sonicmoov/articles/8712598f532b18",
+        "summary": "はじめに 株式会社ソニックムーブでフロントエンドエンジニアとして働いているShoppingSharkです。 ソニックムーブに入社して業務でAIを使い始めて3ヶ月ほど経ちました。昨今はループエンジニアリングが話題ですが、個人ではまだそのレイヤーまで進めておらず、日々の業務はバイブコーディングで回しています。 この記事...",
+        "score": 100,
+        "published_at": "2026-07-16T02:38:31+00:00",
+        "fetched_at": "2026-07-16T22:27:41.881240+00:00"
+      },
+      {
+        "title": "セガのゲーム、NVIDIA「RTX Spark」で遊べるように　秋葉原で協業30周年を祝う",
+        "url": "https://www.itmedia.co.jp/news/articles/2607/15/news131.html",
+        "summary": "米NVIDIAとセガは7月15日、対戦格闘ゲーム「バーチャファイター」シリーズの新作を含む今後のセガタイトルを、NVIDIAの新型チップ「RTX Spark」を搭載するPCに対応させると発表した。両社の協業30周年を記念した都内のイベントで明らかにした。",
+        "score": 100,
+        "published_at": "2026-07-15T14:50:00+00:00",
+        "fetched_at": "2026-07-16T22:27:39.719116+00:00"
+      },
+      {
+        "title": "OpenAI、初のハードウェア「Codex Micro」を230ドルで発売　Apple提訴の渦中にある端末とは別物",
+        "url": "https://www.itmedia.co.jp/news/articles/2607/16/news055.html",
+        "summary": "OpenAIは、コーディング支援AI「Codex」向けの専用キーパッド「Codex Micro」を発売した。キーボードメーカーのWork Louderと共同開発した同社初のハードウェア製品で、価格は230ドル。なお、Appleによる営業秘密不正取得訴訟の渦中にある、開発中のAIデバイスとは別物だ。",
+        "score": 100,
+        "published_at": "2026-07-15T22:26:00+00:00",
+        "fetched_at": "2026-07-16T22:27:39.719082+00:00"
+      },
+      {
+        "title": "フアンCEO「次の産業革命はメイド・イン・ジャパン」　富士通など4社、NVIDIA技術でフィジカルAIの事業検討",
+        "url": "https://www.itmedia.co.jp/news/articles/2607/16/news073.html",
+        "summary": "富士通は7月16日、ファナック、安川電機、川崎重工業と共に、米NVIDIAの技術を取り入れた「フィジカルAI」の社会実装に向けた事業検討を始めたと発表した。各社のロボットを連携させる制御基盤を共通化し、工場や物流、医療などの現場で自動化を進める。",
+        "score": 100,
+        "published_at": "2026-07-16T03:56:00+00:00",
+        "fetched_at": "2026-07-16T22:27:39.719028+00:00"
+      },
+      {
+        "title": "NVIDIAとトヨタ、提携拡大　車両ソフトウェア開発や「ウーブン・シティ」での開発支援など",
+        "url": "https://www.itmedia.co.jp/news/articles/2607/16/news082.html",
+        "summary": "米NVIDIAがトヨタ自動車との提携を拡大する。車載ソフトの開発、工場のシミュレーション、都市交通向けAIの開発のほか、実証都市「ウーブン・シティ」の一部開発をNVIDIAが支援するとの報道も出ている。",
+        "score": 100,
+        "published_at": "2026-07-16T06:10:00+00:00",
+        "fetched_at": "2026-07-16T22:27:39.719017+00:00"
+      },
+      {
+        "title": "AWSで障害　「CloudFront」世界規模で不調　PayPayに影響、noteやニコニコ生放送もつながりにくく【復旧】",
+        "url": "https://www.itmedia.co.jp/news/articles/2607/16/news096.html",
+        "summary": "7月16日午後5時40分ごろから、AWSで障害が発生している。CDNサービスが世界規模で不調という。日本ではPayPayが影響を明らかにしている他、ニコニコ生放送、はてなブログ、noteといったサービスが同じタイミングで利用しにくくなっている。",
+        "score": 100,
+        "published_at": "2026-07-16T08:55:00+00:00",
+        "fetched_at": "2026-07-16T22:27:39.718973+00:00"
+      },
+      {
+        "title": "大手共同出資の“国産AI開発企業”が本格始動　NVIDIAも協力、「Rubin」2万7500基搭載の計算基盤を構築へ",
+        "url": "https://www.itmedia.co.jp/news/articles/2607/16/news101.html",
+        "summary": "国内大手が共同出資するAI開発企業Noetraが、国産のAIモデルの開発に向けて本格始動する。米NVIDIAの協力のもと、新たな計算基盤も構築する。",
+        "score": 100,
+        "published_at": "2026-07-16T10:07:00+00:00",
+        "fetched_at": "2026-07-16T22:27:39.718935+00:00"
+      },
+      {
+        "title": "フアンCEO「ジャパンAI構築はマストだ」　経産省、国産フィジカルAIで新プロジェクト　赤沢大臣も“革ジャン”羽織る",
+        "url": "https://www.itmedia.co.jp/news/articles/2607/16/news107.html",
+        "summary": "経済産業省が、国産フィジカルAI向け基盤モデルを構築する「FRONTia Project」をスタートさせた。国内44社が共同出資するAI開発企業Noetraと産総研を中心とし、2030年での「実世界ネイティブAI」実現を目指す。16日に開催されたキックオフイベントでは、NVIDIAのジェンスン・フアンCEOのほか、革ジャン姿で現れた赤沢経産大臣の姿があった。",
+        "score": 100,
+        "published_at": "2026-07-16T14:00:00+00:00",
+        "fetched_at": "2026-07-16T22:27:39.718920+00:00"
+      },
+      {
+        "title": "ニチレイ、システム障害はサイバー攻撃によるものと公表　17日から出荷業務など順次再開へ",
+        "url": "https://www.itmedia.co.jp/news/articles/2607/15/news120.html",
+        "summary": "ニチレイで発生したシステム障害について、同社はサーバがサイバー攻撃を受けたことを確認したと発表した。影響が出ている冷蔵倉庫の入出庫や冷凍食品の出荷といった業務は、外部のセキュリティ専門会社と安全対策を講じた上で、17日から順次再開する予定だ。",
+        "score": 10,
+        "published_at": "2026-07-15T10:20:00+00:00",
+        "fetched_at": "2026-07-16T22:27:39.719157+00:00"
+      },
+      {
+        "title": "シリーズも第2世代へ。2万円台のハイコスパスピーカー「EDIFIER MR4 MKII」はどんな音？【小寺信良の週刊 Electric Zooma!】",
+        "url": "https://av.watch.impress.co.jp/docs/series/zooma/2125119.html",
+        "summary": "",
+        "score": 0,
+        "published_at": "2026-07-16T00:29:28+00:00",
+        "fetched_at": "2026-07-16T22:27:41.881615+00:00"
+      },
+      {
+        "title": "Webサーバー「nginx」に3件の脆弱性 ～最大深刻度はCritical、DoSやコード実行の恐れ／「CVSS 4.0」の基本値は最高で10点満点中「9.2」。v1.30.4/v1.31.3への更新を",
+        "url": "https://forest.watch.impress.co.jp/docs/news/2125645.html",
+        "summary": "",
+        "score": 0,
+        "published_at": "2026-07-16T08:39:39+00:00",
+        "fetched_at": "2026-07-16T22:27:41.881604+00:00"
+      },
+      {
+        "title": "音楽生成AIの闇が流出ソースコードで発覚、「Suno」がYouTubeから大量収集",
+        "url": "https://japan.cnet.com/article/35250676/",
+        "summary": "ミュージシャンや配信サービス、レコード会社は長年、音楽生成AIサービスがAIツール構築のために、人間が制作した膨大な数の楽曲を利用していると主張してきた。そして今回、音楽生成AIを提供するSunoがどのようにして音楽を生成してきたのか、その実態が明らかになった。 404 Mediaが米国時間7月15日に報じたところによ...",
+        "score": 0,
+        "published_at": "2026-07-16T08:00:06+00:00",
+        "fetched_at": "2026-07-16T22:27:41.881561+00:00"
+      },
+      {
+        "title": "【Hothotレビュー】 ついに登場した「Ryzen 7 7700X3D」、低クロックでも光る圧倒的な高効率",
+        "url": "https://pc.watch.impress.co.jp/docs/column/hothot/2125750.html",
+        "summary": "",
+        "score": 0,
+        "published_at": "2026-07-16T13:23:41+00:00",
+        "fetched_at": "2026-07-16T22:27:41.881537+00:00"
+      },
+      {
+        "title": "Kiro でテスト駆動開発（TDD）：こうあるべき体験 | Amazon Web Services",
+        "url": "https://aws.amazon.com/jp/blogs/news/kiro-how-tdd-should-feel/",
+        "summary": "Amazon Web Services ブログ Kiro でテスト駆動開発（TDD）：こうあるべき体験 本記事は 2026 年 5 月 21 日に公開された Mike George 氏の “Test Driven Development (TDD) with Kiro: this is how it should feel” を翻訳したものです。 私のキャリアの初期に、所属していた組織は、コード品質の向上と自信を持ってリ...",
+        "score": 0,
+        "published_at": "2026-07-15T11:07:00+00:00",
+        "fetched_at": "2026-07-16T22:27:41.881524+00:00"
+      },
+      {
+        "title": "PALIT、VRAM 12GB搭載のGeForce RTX 3060カード",
+        "url": "https://pc.watch.impress.co.jp/docs/news/2125559.html",
+        "summary": "",
+        "score": 0,
+        "published_at": "2026-07-16T04:15:24+00:00",
+        "fetched_at": "2026-07-16T22:27:41.881475+00:00"
+      },
+      {
+        "title": "競技プログラミング（ヒューリスティック部門）世界大会で優勝した私が人生を振り返る - Shun_PI’s blog",
+        "url": "https://shun-pi.hatenablog.com/entry/2026/07/16/195647",
+        "summary": "自己紹介 初めまして、しゅんぴー（Shun_PI）と申します。 自己紹介を兼ねて、主な経歴と実績を簡単に記載しておきます。 World Tour Finals 2026 Heuristic 優勝 （競技プログラミングの一分野である「ヒューリスティックコンテスト」の世界大会） Kaggle Grandmaster （日本国内では100人弱程度） 東京大学工学部卒、...",
+        "score": 0,
+        "published_at": "2026-07-16T12:02:25+00:00",
+        "fetched_at": "2026-07-16T22:27:41.881464+00:00"
+      },
+      {
+        "title": "夏ボーナス初の100万円超え、AI追い風に5年連続最高　日経最終集計 - 日本経済新聞",
+        "url": "https://www.nikkei.com/article/DGXZQOUC102D30Q6A710C2000000/",
+        "summary": "日本経済新聞社がまとめた2026年夏ボーナス調査の最終集計で、全産業の平均支給額は前年比4.49%増の104万4168円だった。5年連続で過去最高を更新した。最終集計で100万円を超えたのは初めて。製造業では人工知能（AI）需要が追い風となった。上場企業を中心とした比較可能な396社を対象に7月1日時点のデータを集計した。...",
+        "score": 0,
+        "published_at": "2026-07-16T09:38:16+00:00",
+        "fetched_at": "2026-07-16T22:27:41.881452+00:00"
+      },
+      {
+        "title": "Ankerの充電器・モバイルバッテリーは信用できるのか？→× Ankerは信頼性がない ○ 信用はしていないが現状Anker以上に信用できるメーカーが存在しない ◎ 市役所の地図記号",
+        "url": "https://togetter.com/li/2721244",
+        "summary": "Ankerの充電器・モバイルバッテリーは信用できるのか？→× Ankerは信頼性がない ○ 信用はしていないが現状Anker以上に信用できるメーカーが存在しない ◎ 市役所の地図記号",
+        "score": 0,
+        "published_at": "2026-07-16T10:45:46+00:00",
+        "fetched_at": "2026-07-16T22:27:41.881417+00:00"
+      },
+      {
+        "title": "Google、無料AI「Gemma 4」を大幅強化。処理最大70%高速化やツール呼び出し改善",
+        "url": "https://pc.watch.impress.co.jp/docs/news/2125687.html",
+        "summary": "",
+        "score": 0,
+        "published_at": "2026-07-16T04:59:18+00:00",
+        "fetched_at": "2026-07-16T22:27:41.881405+00:00"
+      },
+      {
+        "title": "CloudFront VPCオリジン障害をInter-Region VPCピアリングで迂回してみた | DevelopersIO",
+        "url": "https://dev.classmethod.jp/articles/cloudfront-vpc-origin-failure-inter-region-vpc-peering-bypass/",
+        "summary": "2026年7月16日に発生したCloudFront VPCオリジン障害に対し、Inter-Region VPCピアリングとバージニア北部ALBによる迂回構成を構築して復旧しました。CloudFrontアクセスログによる障害進行の観測と、迂回構成の設計判断・構築手順を紹介します。 はじめに 2026年7月16日 16:45 JST頃（12:45 AM PDT）、CloudFront の VP...",
+        "score": 0,
+        "published_at": "2026-07-16T12:28:26+00:00",
+        "fetched_at": "2026-07-16T22:27:41.881396+00:00"
+      },
+      {
+        "title": "AIで声優の声再現し別人の曲を歌唱「侵害に当たりうる」　無断利用めぐり法務省が「声も保護対象」と指針案 | NEWSjp",
+        "url": "https://news.jp/i/1449343202717745669?c=62479058578587648?c=62479058578587648",
+        "summary": "生成AIによる著名人の声などの無断利用を巡り、法務省は「声も保護対象」とする指針案を示しました。 生成AIの普及に伴い、著名人の画像や声が勝手に使われるトラブルが深刻化していることを受け、法務省の検討会は声優らへのヒアリングを重ねて議論を進めてきました。 13日に示された指針案では、これまで明確な定義が...",
+        "score": 0,
+        "published_at": "2026-07-16T08:32:25+00:00",
+        "fetched_at": "2026-07-16T22:27:41.881370+00:00"
+      },
+      {
+        "title": "2.8兆パラメータ「Kimi K3」登場、100万トークン対応の新フラグシップ",
+        "url": "https://pc.watch.impress.co.jp/docs/news/2125917.html",
+        "summary": "",
+        "score": 0,
+        "published_at": "2026-07-16T17:04:37+00:00",
+        "fetched_at": "2026-07-16T22:27:41.881358+00:00"
+      },
+      {
+        "title": "Firefoxをブラウザのタブ内で丸ごと動かす「Firefox in WebAssembly」が登場、開発におけるAIコストは合計400万円以上に相当",
+        "url": "https://gigazine.net/news/20260716-firefox-in-webassembly/",
+        "summary": "ウェブブラウザのタブ内でMozilla Firefoxを丸ごと起動できる「Firefox in WebAssembly」をPuter Labsが公開しました。外観だけを再現したFirefox風の画面ではなく、ウェブページを描画するGeckoやJavaScriptを実行するSpiderMonkeyまでWebAssemblyとして動作します。開発にはAIが大量に使われ、開発に費やしたトークン...",
+        "score": 0,
+        "published_at": "2026-07-16T15:12:14+00:00",
+        "fetched_at": "2026-07-16T22:27:41.881321+00:00"
+      },
+      {
+        "title": "JavaScriptの日付処理が変わる！ DateからTemporalへ - ICS MEDIA",
+        "url": "https://ics.media/entry/260715/",
+        "summary": "JavaScriptで日付を扱ったことのある方なら、「3月のつもりでnew Date(2026, 3, 15)と書いたら4月になっていた」という経験が一度はあるのではないでしょうか。月だけが0始まりであることはDateクラスの仕様の一例ですが、そのほかにも、日付の計算やフォーマット、タイムゾーンの処理には手間がかかります。そうした扱...",
+        "score": 0,
+        "published_at": "2026-07-16T09:45:14+00:00",
+        "fetched_at": "2026-07-16T22:27:41.881307+00:00"
+      },
+      {
+        "title": "Appleの製品保証サービス「AppleCare＋」が値上げされるとの報道",
+        "url": "https://gigazine.net/news/20260716-apple-boosts-applecare-plus-prices/",
+        "summary": "Apple製品が故障した際に迅速な修理サービスを利用できるようになる製品保証サービスのAppleCare＋が値上げされると、Bloombergが報じています。 Apple Boosts AppleCare+ Monthly Prices by 50 Cents in Latest Increase - Bloomberg https://www.bloomberg.com/news/articles/2026-07-15/apple-boosts-applecare-month...",
+        "score": 0,
+        "published_at": "2026-07-16T11:49:07+00:00",
+        "fetched_at": "2026-07-16T22:27:41.881293+00:00"
+      },
+      {
+        "title": "「金属有機構造体(MOF)」の開発でノーベル化学賞を受賞した科学者がアメリカを離れ中国の研究所所長に就任",
+        "url": "https://gigazine.net/news/20260716-nobel-winning-chemist-leaves-us-china/",
+        "summary": "「金属有機構造体(Metal-Organic Frameworks、MOF)」を開発した功績で、2025年にノーベル化学賞を北川進氏やリチャード・ロブソン氏とともに受賞したオマー・ヤギー氏がアメリカを離れ、中国のAI材料研究所の所長に就任することが明らかになりました。この動きは、ドナルド・トランプ大統領による科学予算の削減と、中国...",
+        "score": 0,
+        "published_at": "2026-07-16T12:28:29+00:00",
+        "fetched_at": "2026-07-16T22:27:41.881277+00:00"
+      },
+      {
+        "title": "第182回　「Affinity by Canva」の実力と、「ツールの民主化」の先にあるもの",
+        "url": "https://gihyo.jp/design/serial/01/website-pickup/0182?utm_source=feed",
+        "summary": "2025年10月初旬、デザインソフト「Affinity」シリーズのウェブサイトが一時閉鎖されました。さまざまな憶測が飛び交うなか、「Affinity」は新たな“統合デザインソフト”へと生まれ変わり、完全無料の「Affinity by Canva」として提供されることが発表されました。",
+        "score": 0,
+        "published_at": "2026-07-14T00:05:00+00:00",
+        "fetched_at": "2026-07-16T22:27:41.627766+00:00"
+      },
+      {
+        "title": "Markdownからドキュメントサイトを構築、Astro/ViteベースのOSS「Blume」v1が公開",
+        "url": "https://gihyo.jp/article/2026/07/blume?utm_source=feed",
+        "summary": "開発者のHayden Bleasel氏は7月13日、MarkdownやMDXを基にドキュメントサイトを構築するオープンソースフレームワーク「Blume」の正式版となるv1.0.0を公開した。",
+        "score": 0,
+        "published_at": "2026-07-14T02:50:00+00:00",
+        "fetched_at": "2026-07-16T22:27:41.627754+00:00"
+      },
+      {
+        "title": "第919回　Ubuntu 26.04 LTSとsbuildで始めるパッケージビルド生活",
+        "url": "https://gihyo.jp/admin/serial/01/ubuntu-recipe/0919?utm_source=feed",
+        "summary": "今回は新しいsbuildについて、インストールからセットアップ、パッケージビルド環境の活用方法について紹介しましょう。",
+        "score": 0,
+        "published_at": "2026-07-14T23:59:00+00:00",
+        "fetched_at": "2026-07-16T22:27:41.627741+00:00"
+      },
+      {
+        "title": "Discourse、無料の公式ホスティングプラン「Free」の一般提供を開始",
+        "url": "https://gihyo.jp/article/2026/07/discourse-free-plan?utm_source=feed",
+        "summary": "コミュニティプラットフォーム「Discourse」は2026年7月14日、無料プラン「Free」の一般提供開始を発表した。",
+        "score": 0,
+        "published_at": "2026-07-15T02:01:00+00:00",
+        "fetched_at": "2026-07-16T22:27:41.627729+00:00"
+      },
+      {
+        "title": "物理キーボード搭載端末から見える、すべてに開かれたUI設計要件とは",
+        "url": "https://gihyo.jp/article/2026/07/android-weekly-topics-260716?utm_source=feed",
+        "summary": "今回は、物理キーボードを前提としたスマートフォンの動作要件を整理し、アプリの体験を一段上のレベルへ引き上げるポイントを掘り下げてみます。",
+        "score": 0,
+        "published_at": "2026-07-16T00:31:00+00:00",
+        "fetched_at": "2026-07-16T22:27:41.627716+00:00"
+      },
+      {
+        "title": "Thinking Machines Lab、オープンウェイトAIモデル「Inkling」を公開 ——テキスト・画像・音声を横断して推論",
+        "url": "https://gihyo.jp/article/2026/07/inkling?utm_source=feed",
+        "summary": "Thinking Machines Labは2026年7月15日、同社初のAIモデル「Inkling」を発表した。テキスト、画像、音声を横断して推論できる汎用モデルで、重みも公開した。",
+        "score": 0,
+        "published_at": "2026-07-16T07:00:00+00:00",
+        "fetched_at": "2026-07-16T22:27:41.627696+00:00"
+      },
+      {
+        "title": "マネフォ上方修正、売上最大623億円に　GitHub不正アクセス影響は「限定的」",
+        "url": "https://www.itmedia.co.jp/news/articles/2607/14/news070.html",
+        "summary": "不正アクセス関連の補償で最大1.5億円の売上影響を見込むが「好調な売上高とコストコントロールにより、通期予想への影響は限定的」。",
+        "score": 0,
+        "published_at": "2026-07-14T02:11:00+00:00",
+        "fetched_at": "2026-07-16T22:27:39.719426+00:00"
+      },
+      {
+        "title": "GMO、在宅勤務を完全廃止　コロナ禍以降続けてきた週1日の「推奨」も終了",
+        "url": "https://www.itmedia.co.jp/news/articles/2607/14/news074.html",
+        "summary": "GMOインターネットグループの熊谷正寿代表は7月14日、グループとして推奨してきた在宅勤務を13日付で完全廃止したとXで明らかにした。コロナ禍を機に始めた在宅勤務は約6年半で区切りを迎える。",
+        "score": 0,
+        "published_at": "2026-07-14T02:50:00+00:00",
+        "fetched_at": "2026-07-16T22:27:39.719416+00:00"
+      },
+      {
+        "title": "ATM出金上限を200万円→50万円に　auじぶん銀　初期設定も30万円に引き下げ",
+        "url": "https://www.itmedia.co.jp/news/articles/2607/14/news075.html",
+        "summary": "auじぶん銀行は7月13日、ATM出金限度額の上限を現在の200万円から50万円に引き下げると発表した。適用は9月13日からで、口座開設時の初期設定額も50万円から30万円に引き下げる。",
+        "score": 0,
+        "published_at": "2026-07-14T03:25:00+00:00",
+        "fetched_at": "2026-07-16T22:27:39.719407+00:00"
+      },
+      {
+        "title": "セブン-イレブン、テスラの「スーパーチャージャー」導入へ　26年度中に約10店舗",
+        "url": "https://www.itmedia.co.jp/news/articles/2607/14/news093.html",
+        "summary": "セブン-イレブンの店舗でテスラ車の急速充電が可能になる。第1号は神奈川県川崎市の店舗で、駐車場が広い店舗を中心に2026年度中に約10店へ広げる計画だ。",
+        "score": 0,
+        "published_at": "2026-07-14T07:20:00+00:00",
+        "fetched_at": "2026-07-16T22:27:39.719398+00:00"
+      },
+      {
+        "title": "富士急ハイランド、“分身”が代わりに並んでくれる　新チケット「分身くん」　通常料金＋2000円で",
+        "url": "https://www.itmedia.co.jp/news/articles/2607/14/news098.html",
+        "summary": "富士急ハイランドは、アトラクションの列に並ばずアプリ上で順番待ちができる仮想待機列（バーチャルキュー）機能付きワンデイパス「分身くん」を発売する。7月21日に販売を始め、22日から利用できる。",
+        "score": 0,
+        "published_at": "2026-07-14T07:45:00+00:00",
+        "fetched_at": "2026-07-16T22:27:39.719389+00:00"
+      },
+      {
+        "title": "ワンフェス「3Dスキャン禁止」中国語や韓国語でも告知　“デジタル万引き”対策",
+        "url": "https://www.itmedia.co.jp/news/articles/2607/14/news101.html",
+        "summary": "詳細は日本語で書かれているが、バナー画像には、日本語のほか中国語、韓国語、英語で禁止事項が書かれており、インバウンドのファンも意識した告知のようだ。",
+        "score": 0,
+        "published_at": "2026-07-14T07:49:00+00:00",
+        "fetched_at": "2026-07-16T22:27:39.719379+00:00"
+      },
+      {
+        "title": "上半期「情報サービス業」倒産、過去10年で最多　生成AIやノーコード普及が零細に逆風",
+        "url": "https://www.itmedia.co.jp/news/articles/2607/14/news104.html",
+        "summary": "ノーコード・ローコードツールや生成AIの普及で簡易な開発・制作業務の内製化が進み、価格競争に頼っていた小・零細規模の事業者が行き詰まっているという。",
+        "score": 0,
+        "published_at": "2026-07-14T08:06:00+00:00",
+        "fetched_at": "2026-07-16T22:27:39.719367+00:00"
+      },
+      {
+        "title": "ピカピカの一円玉流通へ、11年ぶり量産　キャッシュレス化で減少も、“アレ”でまさかの需要増",
+        "url": "https://www.itmedia.co.jp/news/articles/2607/14/news105.html",
+        "summary": "造幣局（大阪市）がXやYouTubeで「平成27年度以来、11年ぶりに1円の量産を行っています」として、一円硬貨の製造工程の動画を配信した。2026年度、1億3200万枚が製造される。",
+        "score": 0,
+        "published_at": "2026-07-14T08:14:00+00:00",
+        "fetched_at": "2026-07-16T22:27:39.719357+00:00"
+      },
+      {
+        "title": "赤沢経産相、決済代行業の実態調査実施へ　「全東信」破産受け　規制導入は慎重姿勢",
+        "url": "https://www.itmedia.co.jp/news/articles/2607/14/news111.html",
+        "summary": "赤沢亮正経済産業相は7月14日の閣議後記者会見で、クレジットカード決済代行会社「全東信」の破産開始決定に関連し、決済代行業の監督官庁が明確でないことを踏まえ、関係省庁と連携して再発防止策の検討に向けた実態調査を行う方針であることを明らかにした。規制導入については「資金繰りへの支障などが生じる恐れがある」として、現時点で慎重な姿勢を示した。",
+        "score": 0,
+        "published_at": "2026-07-14T09:42:00+00:00",
+        "fetched_at": "2026-07-16T22:27:39.719347+00:00"
+      }
+    ]
+  },
+  {
     "date": "2026-07-15",
     "articles": [
       {
