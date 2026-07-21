@@ -1,5 +1,410 @@
 [
   {
+    "date": "2026-07-21",
+    "articles": [
+      {
+        "title": "Claude CodeやCodexのサンドボックスを支えるbubblewrapを自作して理解する。その勢いでDockerも理解する - エムスリーテックブログ",
+        "url": "https://www.m3tech.blog/entry/2026/07/21/100000",
+        "summary": "こんにちは、エンジニアリンググループSREチームGeneral Managerの横本(@yokomotod)です。 この記事はSREチームブログリレーの4日目の記事です。前回は山本さんによるAWS DevOps Agentの記事でした。手書きの図が上手過ぎじゃないですかね。 www.m3tech.blog さて、Claude Code や Codex のサンドボックス機能*1は使われ...",
+        "score": 210,
+        "published_at": "2026-07-21T06:54:22+00:00",
+        "fetched_at": "2026-07-21T22:25:43.013849+00:00"
+      },
+      {
+        "title": "Claude Codeを組織一括でシングルサインオン、チームや個人の費用上限設定、デフォルト設定など可能に、「Claude apps gateway for AWS/Google Cloud」登場",
+        "url": "https://www.publickey1.jp/blog/26/claude_codeclaude_apps_gateway_for_awsgoogle_cloud.html",
+        "summary": "AnthropicのAIコーディングエージェントClaud Codeは非常に人気のあるサービスとして多くの組織で採用され始めています。 Claude Codeは個人で簡単に導入できますが、企業が組織としてClaude Codeを導入する場合...",
+        "score": 200,
+        "published_at": "2026-07-20T15:54:57+00:00",
+        "fetched_at": "2026-07-21T22:25:39.691780+00:00"
+      },
+      {
+        "title": "Rustで書き直されたBun、早くもClaude Codeアプリに本番投入された模様",
+        "url": "https://www.publickey1.jp/blog/26/rustbunclaude_code.html",
+        "summary": "Claude Codeを用いてわずか11日間でZig言語からRust言語へ移植されたことが話題となっているJavaScriptランタイムのBunですが、そのRust版Bunが早くも7月17日にリリースされたClaude Code v2.1....",
+        "score": 110,
+        "published_at": "2026-07-20T15:52:57+00:00",
+        "fetched_at": "2026-07-21T22:25:39.691794+00:00"
+      },
+      {
+        "title": "AI「Claude Fable 5」が87年来の難問「ヤコビアン予想」を覆す反例を生成したとAnthropic研究者が報告",
+        "url": "https://gigazine.net/news/20260721-claude-fable-5-jacobian-conjecture/",
+        "summary": "Anthropicに所属する数学者レベント・アルポゲ氏が、AIモデル「Claude Fable 5」を使って87年間未解決だったヤコビアン予想の反例を発見したと報告しました。 hello there the jacobian conjecture is false thanx to my close friend akhil for asking about it and my other close friend fable for working during th...",
+        "score": 100,
+        "published_at": "2026-07-21T05:48:39+00:00",
+        "fetched_at": "2026-07-21T22:25:43.014106+00:00"
+      },
+      {
+        "title": "『ジェミニクエスト』Gemini でまものに立ち向かえ！",
+        "url": "https://www.dragonquest.jp/geminiquest/",
+        "summary": "たいへんだ！ りゅうおうが、まものをあやつって、 ぼくらの街に、攻撃をしかけてきた。 立ち向かうために必要なのは ただひとつ。 この世界に伝わるじゅもん、 ジェミニ。 さあ、キミのその手とジェミニで 街の平和を取り戻そう。 この世界の勇者を 待っている。 ジェミニでじゅもんをとなえて、 りゅうおうを封印しよ...",
+        "score": 100,
+        "published_at": "2026-07-21T05:30:34+00:00",
+        "fetched_at": "2026-07-21T22:25:43.013902+00:00"
+      },
+      {
+        "title": "Gemini 3.6 Flash登場！17%効率化+値下げ。3.5 Flash-Liteも",
+        "url": "https://pc.watch.impress.co.jp/docs/news/2126733.html",
+        "summary": "",
+        "score": 100,
+        "published_at": "2026-07-21T18:04:38+00:00",
+        "fetched_at": "2026-07-21T22:25:43.013861+00:00"
+      },
+      {
+        "title": "Introducing Gemini 3.6 Flash, 3.5 Flash-Lite, and 3.5 Flash Cyber",
+        "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-6-flash-3-5-flash-lite-3-5-flash-cyber/",
+        "summary": "Introducing Gemini 3.6 Flash, 3.5 Flash-Lite, and 3.5 Flash Cyber",
+        "score": 100,
+        "published_at": "2026-07-21T16:13:14+00:00",
+        "fetched_at": "2026-07-21T22:25:43.013833+00:00"
+      },
+      {
+        "title": "Claude Code Web の Routine で日々の開発を自動化する",
+        "url": "https://zenn.dev/mizchi/scraps/4e5d72496e2bfc",
+        "summary": "自分が気に入ってる Claude Code Web を使った開発の(一部)自動化の手法を紹介します。 周りにあまり使ってる人がいないのですが、作者のボリスを参考に自分も開発の一部を自動化するのにある程度成功しています。 Claude Code Web Claude Code は Web 上のダッシュボードからコンテナ環境で開発することができます (一...",
+        "score": 100,
+        "published_at": "2026-07-21T08:10:33+00:00",
+        "fetched_at": "2026-07-21T22:25:43.013805+00:00"
+      },
+      {
+        "title": "AWS“兆ドル”誤見積は「ちょっとした計算ミス」　ジョークのつもり？　で大炎上→日本のAWS社員「あり得ない」と批判→対応",
+        "url": "https://www.itmedia.co.jp/news/articles/2607/19/news010.html",
+        "summary": "AWSが“兆単位”で課金計算ミス。それを「ちょっとした計算ミスです（ほんのちょっと）。で、その数兆ドルで何します？」とジョーク投稿して大炎上。",
+        "score": 100,
+        "published_at": "2026-07-18T22:40:00+00:00",
+        "fetched_at": "2026-07-21T22:25:40.286026+00:00"
+      },
+      {
+        "title": "Appleはもう「メモリのお得意様」ではない？　NVIDIAだけでiPhone数億台分、苦境に陥った”買いたたき王者”のいま【前編】",
+        "url": "https://www.itmedia.co.jp/news/articles/2607/16/news092.html",
+        "summary": "米Appleが中国CXMTからのメモリ調達を検討しているという話題が報じられ、騒ぎになっている。Appleがいままで不当に値下げを強いてきたメモリメーカーの反撃を受けている、という見方もあるが、その妥当性を考えてみよう。",
+        "score": 100,
+        "published_at": "2026-07-20T22:00:00+00:00",
+        "fetched_at": "2026-07-21T22:25:40.285974+00:00"
+      },
+      {
+        "title": "AMDとMicrosoftが戦略的提携を拡大　新AIラックスケール「Helios」をAzureに大規模導入へ",
+        "url": "https://www.itmedia.co.jp/news/articles/2607/21/news051.html",
+        "summary": "AMDは、Microsoftとの戦略的提携を拡大すると発表した。Microsoftはクラウドサービス「Azure」に、GPUやCPUを一体化したAMDのラックスケール製品「AMD Helios」を大規模に導入し、フロンティアAIモデルの推論処理などに活用する。Heliosは2026年後半から出荷が開始される予定だ。",
+        "score": 100,
+        "published_at": "2026-07-20T22:33:00+00:00",
+        "fetched_at": "2026-07-21T22:25:40.285960+00:00"
+      },
+      {
+        "title": "AWS、デプロイ速度が最大4倍になる「AWS CloudFormation Expressモード」を提供開始",
+        "url": "https://www.publickey1.jp/blog/26/aws4aws_cloudformation_express.html",
+        "summary": "Amazon Web Services（AWS）は、デプロイ速度が最大で4倍速になるAWS CloudFormationの新機能「AWS CloudFormation Expressモード」の提供を開始しました。 AWS CloudForm...",
+        "score": 100,
+        "published_at": "2026-07-21T13:50:39+00:00",
+        "fetched_at": "2026-07-21T22:25:39.691763+00:00"
+      },
+      {
+        "title": "最近、なぜみんなuvを使っているんですか？ Pythonパッケージ管理の変遷と現在地 - Findy Media",
+        "url": "https://findy-code.io/media/articles/chotto-wakaru-python",
+        "summary": "Pythonのパッケージ管理や仮想環境の構築においては、長らく「多種多様なツールが存在するが、どれがベストプラクティスなのかわからない」という状況が続いてきました。しかし、近年登場したRust製のパッケージ管理ツールuvは、その有力な回答として多くのユーザーから支持され、今、急速に普及しています。 過去に登場...",
+        "score": 20,
+        "published_at": "2026-07-20T23:36:53+00:00",
+        "fetched_at": "2026-07-21T22:25:43.013716+00:00"
+      },
+      {
+        "title": "Sakana AI、オーケストレーションモデルFuguのサイバーセキュリティ強化版「Fugu-Cyber」をリリース ―セキュリティベンチマークで“SOTAパフォーマンス”を達成",
+        "url": "https://gihyo.jp/article/2026/07/fugu-cyber?utm_source=feed",
+        "summary": "Sakana AIは2026年7月21日、同社が提供するAIオーケストレーションモデル「Sakana Fugu」をアップデートし、サイバー防御機能を特別に強化した「Fugu-Cyber」をリリースした。",
+        "score": 10,
+        "published_at": "2026-07-21T05:19:00+00:00",
+        "fetched_at": "2026-07-21T22:25:42.036227+00:00"
+      },
+      {
+        "title": "WordPressに認証不要でコード実行される緊急の脆弱性　即時更新を呼び掛け",
+        "url": "https://www.itmedia.co.jp/news/articles/2607/21/news084.html",
+        "summary": "WordPress開発チームは、深刻な2件の脆弱性を修正したセキュリティリリース「7.0.2」を公開した。未認証でリモートコードが実行される恐れがあるため、影響を受けるWebサイトへ自動更新を順次適用中。すでにWAF等での一時緩和策も提供されているが、開発チームは本体の迅速な手動アップデートを強く推奨している。",
+        "score": 10,
+        "published_at": "2026-07-21T05:06:00+00:00",
+        "fetched_at": "2026-07-21T22:25:40.285893+00:00"
+      },
+      {
+        "title": "「AIコーディングブーム」が去ったUSで、エンジニアに求められる「本体の強さ」",
+        "url": "https://atmarkit.itmedia.co.jp/ait/articles/2607/21/news012.html",
+        "summary": "「AIコーディングブーム」が去ったUSで、エンジニアに求められる「本体の強さ」：Go AbekawaのGo Global！　牛尾剛さん AI vs.人間編（前編）（1/2 ページ） 米国MS開発の最前線では「コーディングエージェントブーム」は既に終息し、AIは日常の文房具に。AI時代に本当に求められる「人間の本体の強さ」と、思考を手放さ...",
+        "score": 0,
+        "published_at": "2026-07-20T23:13:38+00:00",
+        "fetched_at": "2026-07-21T22:25:43.014134+00:00"
+      },
+      {
+        "title": "Cycloud 新基盤の全貌 第一回: 新リージョン基盤の全体像 | CyberAgent Developers Blog",
+        "url": "https://developers.cyberagent.co.jp/blog/archives/64643/",
+        "summary": "はじめに はじめまして。CyberAgent group Infrastructure Unit（CIU）に所属している後藤 秀信です。 普段は CIU にてプライベートクラウドを社内向けに提供しているチームに所属しています。 今回は、Cycloud の新基盤の全貌に迫る連載シリーズの第一回として、新リージョン基盤の全体像についてお届けします。 本稿で...",
+        "score": 0,
+        "published_at": "2026-07-21T06:48:34+00:00",
+        "fetched_at": "2026-07-21T22:25:43.014120+00:00"
+      },
+      {
+        "title": "映画『第9地区』ニール・ブロムカンプ監督、“全編生成AI”による短編SFホラー『NIGHTBORNE』を公開。フルテストAI映画として制作、新設のAIフィルムスタジオ「Barley Studios」初の作品",
+        "url": "https://news.denfaminicogamer.jp/news/260721i",
+        "summary": "『NIGHTBORNE』はピーター・ワッツ氏によるSF小説『エコープラクシア』の世界観を基にしたフィクション作品で、ニール・ブロムカンプ監督が制作した初の。すべてのフレームは「Seedance 2.0」によって生成されており、がプロンプトを通じて1カットずつディレクションを行っている。 映像は約13分間のドキュメンタリー形...",
+        "score": 0,
+        "published_at": "2026-07-21T02:28:02+00:00",
+        "fetched_at": "2026-07-21T22:25:43.014092+00:00"
+      },
+      {
+        "title": "「出揃ってから学ぶ」が、いちばん難しい。｜すてぃお",
+        "url": "https://note.com/suthio/n/nde91151ff475",
+        "summary": "「新しい技術は、情報が出揃ってから学べばいい」と考える人がいます。 「デファクトスタンダードが決まってから学ぼう」「淘汰が終わって、生き残ったものだけ学べば効率がいい」という考え方です。 一見、合理的に聞こえます。消える技術に時間を使うのは無駄だし、初期の荒削りな時期を避ければ、整った教材で快適に...",
+        "score": 0,
+        "published_at": "2026-07-21T02:37:46+00:00",
+        "fetched_at": "2026-07-21T22:25:43.014078+00:00"
+      },
+      {
+        "title": "「WordPress」に致命的脆弱性、未認証・条件なしで乗っ取れる ～CVSS 3.1で「9.8」／対策版の「WordPress 7.0.2」などが公開",
+        "url": "https://forest.watch.impress.co.jp/docs/news/2126337.html",
+        "summary": "",
+        "score": 0,
+        "published_at": "2026-07-21T02:50:54+00:00",
+        "fetched_at": "2026-07-21T22:25:43.014065+00:00"
+      },
+      {
+        "title": "Android版Xアプリが刷新。新機能は今後Android先行で提供へ",
+        "url": "https://pc.watch.impress.co.jp/docs/news/2126430.html",
+        "summary": "",
+        "score": 0,
+        "published_at": "2026-07-21T04:38:42+00:00",
+        "fetched_at": "2026-07-21T22:25:43.014053+00:00"
+      },
+      {
+        "title": "話題の組み込み型のベクトルデータベース LanceDB を Amazon S3 と Amazon Bedrock で試してみた | DevelopersIO",
+        "url": "https://dev.classmethod.jp/articles/20260720-lancedb-on-aws/",
+        "summary": "",
+        "score": 0,
+        "published_at": "2026-07-21T05:10:23+00:00",
+        "fetched_at": "2026-07-21T22:25:43.014042+00:00"
+      },
+      {
+        "title": "NIGHTBORNE — A Neill Blomkamp Sci-Fi Film. Fully AI (4K)",
+        "url": "https://www.youtube.com/watch?v=8Wbtt2JxP7g",
+        "summary": "A U.S. Army pilot is shot down and declared killed in action. Her husband buries an empty casket. The tapes say otherwise. NIGHTBORNE is a 13-minute sci-fi horror film from director Neill Blomkamp — the first release from Barley Studios. Told as a documentary: interviews, recovered program footag...",
+        "score": 0,
+        "published_at": "2026-07-21T09:11:41+00:00",
+        "fetched_at": "2026-07-21T22:25:43.014030+00:00"
+      },
+      {
+        "title": "SSDを買おうと思ってヨドバシに行った人、吉野家コピペみたいになる「2TBで10万円、もうね、アホかと」",
+        "url": "https://togetter.com/li/2723049",
+        "summary": "てるきち @trkbt10 ヨドバシ行ったんですよ、ヨドバシ SSDを買おうと思って そしたらなんと2TBで10万円とかいう値段ついてて バッッッッカ高くて絶句 たかだか2TBに10万円も払うとか狂気の沙汰 まあどうせ買うならと、4TBなら＋2万円ぐらいかなと隣見たら40万円超えてるんですよ もうね、バカかと、アホかと 2026-07-20 ...",
+        "score": 0,
+        "published_at": "2026-07-21T07:26:49+00:00",
+        "fetched_at": "2026-07-21T22:25:43.014014+00:00"
+      },
+      {
+        "title": "何でもプログラミングに置き換えて考えるのをやめろ",
+        "url": "https://anond.hatelabo.jp/20260721132201",
+        "summary": "プログラマは何でもプログラミング用語に置き換えて捉えがちだ。絵を描く様子を見て「これはコーディング作業に当たる」「線を修正するのはデバッグだ」というように。そういう捉え方こそプログラマのダメなところだ。 要するに「比喩でわかった気分になるな」という話である。 1. プログラミングに置き換えた時点で、プ...",
+        "score": 0,
+        "published_at": "2026-07-21T04:25:46+00:00",
+        "fetched_at": "2026-07-21T22:25:43.013988+00:00"
+      },
+      {
+        "title": "今こそ強調したい「RSSよ、永遠なれ！」 - YAMDAS現更新履歴",
+        "url": "https://yamdas.hatenablog.com/entry/20260721/hypertexting",
+        "summary": "techcrunch.com HyperTexting という iOS 用アプリの作者に取材した記事である。その作者を「アルゴリズムに依存しないこのウェブの未来像を形にした」と称えていて、ここでの「アルゴリズム」とは、要は Facebook や X などのソーシャルメディアのアルゴリズムを指しており、「ドゥームスクロール」といった言葉と共に...",
+        "score": 0,
+        "published_at": "2026-07-21T02:17:36+00:00",
+        "fetched_at": "2026-07-21T22:25:43.013960+00:00"
+      },
+      {
+        "title": "AIに会社の地図を持たせたら、3年目社員のように働き始めた 〜精度とトークン効率を上げるオントロジーの実践〜｜kunpe (ymdpharm)",
+        "url": "https://note.com/ymdpharm3/n/n8515d151e56d",
+        "summary": "AIに会社の地図を持たせたら、3年目社員のように働き始めた 〜精度とトークン効率を上げるオントロジーの実践〜 AI に仕事を頼むと、まず会社のことを説明する仕事が発生する。この困りごとは世界共通のようで、Y Combinator は「Company Brain」というカテゴリを立て、世界のすべての会社が必要とするようになる、と言...",
+        "score": 0,
+        "published_at": "2026-07-21T00:30:45+00:00",
+        "fetched_at": "2026-07-21T22:25:43.013946+00:00"
+      },
+      {
+        "title": "「パブリッシャーにゲームを奪われた」開発者、権利を取り戻したと報告。“契約条件こっそり変更・無給開発・実質取り分ゼロ”の横暴に決着 - AUTOMATON",
+        "url": "https://automaton-media.com/articles/newsjp/20260721-455966/",
+        "summary": "「パブリッシャーにゲームを奪われた」開発者、権利を取り戻したと報告。“契約条件こっそり変更・無給開発・実質取り分ゼロ”の横暴に決着 Three Dots Gamesの創設者兼リード開発者であるArtem Perevoz氏は7月21日、パブリッシャーとのトラブルについて、和解に至ったことを報告した。 Three Dots Gamesの創設者兼リード...",
+        "score": 0,
+        "published_at": "2026-07-21T10:03:52+00:00",
+        "fetched_at": "2026-07-21T22:25:43.013932+00:00"
+      },
+      {
+        "title": "さまざまなインフラ上でWebアプリケーションを構築、デプロイ、運用できるオープンソースのデプロイ基盤「OpenShip」リリース | gihyo.jp",
+        "url": "https://gihyo.jp/article/2026/07/openship",
+        "summary": "さまざまなインフラ上でWebアプリケーションを構築⁠⁠、デプロイ⁠⁠、運用できるオープンソースのデプロイ基盤「OpenShip」リリース Oblien LLCは2026年7月18日、オープンソースのデプロイメントプラットフォーム「OpenShip」をApache 2.0ライセンス[1]のもと、GitHub上で公開した。 Openship - Open-Source, Self-Hostabl...",
+        "score": 0,
+        "published_at": "2026-07-21T09:00:58+00:00",
+        "fetched_at": "2026-07-21T22:25:43.013917+00:00"
+      },
+      {
+        "title": "「以前のように戻してほしい」生成AIで作られたポップが乱立する売り場が買い物しにくいと話題に→デザインの意義と最新技術の使い方の話へ",
+        "url": "https://togetter.com/li/2723031",
+        "summary": "「以前のように戻してほしい」生成AIで作られたポップが乱立する売り場が買い物しにくいと話題に→デザインの意義と最新技術の使い方の話へ",
+        "score": 0,
+        "published_at": "2026-07-21T04:01:51+00:00",
+        "fetched_at": "2026-07-21T22:25:43.013889+00:00"
+      },
+      {
+        "title": "NY市に「ワンクリック解約」と「隠し手数料禁止」の新ルール。市民は年1.6億ドルの節約に | ギズモード・ジャパン",
+        "url": "https://www.gizmodo.jp/article/mamdanis-new-click-to-cancel-rule-makes-it-easier-for-new-yorkers-to-cancel-subscriptions/",
+        "summary": "当たり前のことがやっと当たり前になるんですね。いいな、ニューヨーク…。 ニューヨーク市が、全米の都市として初めて、動画配信サービスやジムの会員契約について、｢申し込んだときと同じ方法で解約できる｣よう、企業に義務付けるそうですよ。 ｢クリック・トゥ・キャンセル（ワンクリック解約）｣として知られるこの制度...",
+        "score": 0,
+        "published_at": "2026-07-21T05:32:14+00:00",
+        "fetched_at": "2026-07-21T22:25:43.013876+00:00"
+      },
+      {
+        "title": "エンジニアの成果、結局どう測ればいいのか",
+        "url": "https://zenn.dev/awesome_kou/articles/engineer-performance-metrics",
+        "summary": "行数や PR 数が「嘘の指標」なのではありません。連鎖の右端にある 途中経過 なのです。 途中経過を最終成果のように扱った瞬間に、おかしなことが起こり始めます 。 測った瞬間に指標は壊れる おかしなことが起こる理由には、名前がついています。グッドハートの法則 です。 イギリスの経済学者が指摘した現象で、後に...",
+        "score": 0,
+        "published_at": "2026-07-21T03:20:24+00:00",
+        "fetched_at": "2026-07-21T22:25:43.013820+00:00"
+      },
+      {
+        "title": "「リポスト直後のポスト」を一括で表示するサービスを始めました！｜Togetter（トゥギャッター ）",
+        "url": "https://note.com/togetter/n/n1b911f1524e4",
+        "summary": "当社が契約しているX社のEnterpriseAPIを利用してデータを収集するので、安全＆確実なポスト収集が可能です。バズって数百・数千リポストされているポストに対しても高速に収集処理を実施できる点が強みです。 ↓サンプルページ：実際に @twilog_official のポストの反応を集めてみたやつ リポスト後のポストには、その性...",
+        "score": 0,
+        "published_at": "2026-07-21T03:01:07+00:00",
+        "fetched_at": "2026-07-21T22:25:43.013789+00:00"
+      },
+      {
+        "title": "政府、マイナカードをAIエージェントと連携へ　重点計画に明記",
+        "url": "https://japan.cnet.com/article/35250805/",
+        "summary": "政府は7月21日、令和8年の「デジタル社会の実現に向けた重点計画」の概要を公表した。マイナンバーカードと外部のAIエージェントを安全につなぐ基盤「MCP」の構築を盛り込んだ。本人に代わってAIが行政手続きを進める将来を見据えた動きだ。 重点計画では、マイナカードについて官民での活用を推進し、「使うことが当た...",
+        "score": 0,
+        "published_at": "2026-07-21T08:32:46+00:00",
+        "fetched_at": "2026-07-21T22:25:43.013754+00:00"
+      },
+      {
+        "title": "LLM の「脳内」をハッキングする技術 - ｼﾞｮｲｼﾞｮｲｼﾞｮｲ",
+        "url": "https://joisino.hatenablog.com/entry/hack",
+        "summary": "LLM の内部状態やパラメータ、いわばLLM の「脳内」を局所的に書き換えることで、LLM の動作に介入する手法が発展を遂げています。 まずは最も基本的な操舵ベクトルについてみていきましょう。 操舵ベクトル LLM の内部状態を特定の方向に動かすことで動作を操作できます。このときに用いるベクトルのことを操舵ベクトル...",
+        "score": 0,
+        "published_at": "2026-07-21T09:10:55+00:00",
+        "fetched_at": "2026-07-21T22:25:43.013737+00:00"
+      },
+      {
+        "title": "Blenderで意識する「ポリゴン数」と「トポロジー」の意味とそれぞれの違いを見ていこう",
+        "url": "https://gihyo.jp/article/2026/07/blender-basics-81?utm_source=feed",
+        "summary": "第81回目は、モデルを作っていくときに意識するといい点について見ていきます。",
+        "score": 0,
+        "published_at": "2026-07-20T23:56:00+00:00",
+        "fetched_at": "2026-07-21T22:25:42.036281+00:00"
+      },
+      {
+        "title": "第275回　Replication Applier Metricsでレプリケーションの詳細を確認する",
+        "url": "https://gihyo.jp/article/2026/07/mysql-rcn0275?utm_source=feed",
+        "summary": "レプリカ遅延を確認するときは、SHOW REPLICA STATUSのSeconds_Behind_Sourceをよく見ます。ただし、この値だけでは遅延の原因まではわかりません。",
+        "score": 0,
+        "published_at": "2026-07-20T23:57:00+00:00",
+        "fetched_at": "2026-07-21T22:25:42.036266+00:00"
+      },
+      {
+        "title": "さまざまなインフラ上でWebアプリケーションを構築、デプロイ、運用できるオープンソースのデプロイ基盤「OpenShip」リリース",
+        "url": "https://gihyo.jp/article/2026/07/openship?utm_source=feed",
+        "summary": "Oblien LLCは2026年7月18日、オープンソースのデプロイメントプラットフォーム「OpenShip」をApache 2.0ライセンスのもとGitHub上で公開した。",
+        "score": 0,
+        "published_at": "2026-07-21T02:46:00+00:00",
+        "fetched_at": "2026-07-21T22:25:42.036248+00:00"
+      },
+      {
+        "title": "サウナ週4回で認知症リスク66%減？　中年男性2000人以上を20年追跡したフィンランドの研究",
+        "url": "https://www.itmedia.co.jp/news/articles/2607/19/news004.html",
+        "summary": "東フィンランド大学などに所属する研究者らが2016年に発表した論文「Sauna bathing is inversely associated with dementia and Alzheimer’s disease in middle-aged Finnish men」は、フィンランドで行われた約20年間にわたる調査によって、サウナに頻繁に入る習慣が、認知症やアルツハイマー病の予防につながる可能性が示された研究報告だ。",
+        "score": 0,
+        "published_at": "2026-07-19T22:00:00+00:00",
+        "fetched_at": "2026-07-21T22:25:40.286014+00:00"
+      },
+      {
+        "title": "「仕事を辞めるとボケる」は本当なのか？　ベトナム高齢者2000人超を早大などが分析",
+        "url": "https://www.itmedia.co.jp/news/articles/2607/17/news082.html",
+        "summary": "早稲田大学とベトナムの国民経済大学に所属する研究者らが2025年に発表した論文「Does Retirement Improve Cognitive Functioning？ Causal Evidence From Vietnam」は、ベトナムのデータを用いて、退職と認知機能の因果関係を調査した研究報告だ。",
+        "score": 0,
+        "published_at": "2026-07-19T23:00:00+00:00",
+        "fetched_at": "2026-07-21T22:25:40.286000+00:00"
+      },
+      {
+        "title": "Hugging FaceにAI主導のサイバー攻撃　防御もAIで対抗するも、商用モデルは解析拒否で「GLM」採用",
+        "url": "https://www.itmedia.co.jp/news/articles/2607/20/news010.html",
+        "summary": "Hugging Faceは、自律型AIエージェントによる本番インフラへの侵入を検知、対処したと発表した。一部の内部データセットと複数の資格情報への不正アクセスを確認した。ログ解析には当初商用AIを使ったが、安全ガードレールに阻まれたため、最終的にオープンウェイトモデル「GLM 5.2」を自社インフラで実行して解析した。",
+        "score": 0,
+        "published_at": "2026-07-20T01:08:00+00:00",
+        "fetched_at": "2026-07-21T22:25:40.285987+00:00"
+      },
+      {
+        "title": "パルマー・ラッキー氏のAnduril、軍用自律飛行VTOL機「Thunder」を公開",
+        "url": "https://www.itmedia.co.jp/news/articles/2607/21/news052.html",
+        "summary": "Anduril IndustriesとArcher Aviationは、防衛と商用の両用途を想定した自律飛行VTOLプラットフォームを共同開発したと発表した。Andurilは防衛向けモデルとなる自律攻撃回転翼機「Thunder」を公開。有人ヘリと連携して運用する仕様で、ミサイルなどの兵器を搭載し、2027年の初飛行を目指す。",
+        "score": 0,
+        "published_at": "2026-07-20T23:34:00+00:00",
+        "fetched_at": "2026-07-21T22:25:40.285946+00:00"
+      },
+      {
+        "title": "花王、ホラーゲーム「しずかなおそうじ」をSwitchに移植　「こわさひかえめモード」を新搭載",
+        "url": "https://www.itmedia.co.jp/news/articles/2607/21/news063.html",
+        "summary": "花王が掃除用品をPRするために制作したホラーゲーム「しずかなおそうじ」が、Nintendo Switchに登場。7月23日から200円で販売する。ダウンロード版のみ。",
+        "score": 0,
+        "published_at": "2026-07-21T01:54:00+00:00",
+        "fetched_at": "2026-07-21T22:25:40.285932+00:00"
+      },
+      {
+        "title": "ガッツリ冷える水冷ベストが“Pro”に進化　冷却性能1.6倍の新モデル「ChillerX Pro」を試す",
+        "url": "https://www.itmedia.co.jp/news/articles/2607/21/news056.html",
+        "summary": "シフトールからペルチェ素子を使って水を冷却し、それを循環させる冷却ウェア「ChillerX Pro」が登場した。性能は昨年の「ChillerX」の1.6倍にアップしており、屋外作業のプロ向け仕様となっている。",
+        "score": 0,
+        "published_at": "2026-07-21T03:18:00+00:00",
+        "fetched_at": "2026-07-21T22:25:40.285919+00:00"
+      },
+      {
+        "title": "GMO熊谷代表、原則出社の投稿について謝罪　「タイピングという説明が一人歩き」",
+        "url": "https://www.itmedia.co.jp/news/articles/2607/21/news076.html",
+        "summary": "GMOインターネットグループの熊谷正寿代表は7月21日、在宅勤務の「グループ推奨」廃止を巡る投稿について「表現の過剰性で誤解を生んだ」とXで謝罪した。在宅勤務そのものの否定ではなく、AI時代のオフィス価値の再定義が趣旨だと説明した。",
+        "score": 0,
+        "published_at": "2026-07-21T03:30:00+00:00",
+        "fetched_at": "2026-07-21T22:25:40.285906+00:00"
+      },
+      {
+        "title": "XのAndroidアプリ、1年かけ“過去最大級の刷新”も賛否　「UI変わりすぎ」「スペース使えない」の声も",
+        "url": "https://www.itmedia.co.jp/news/articles/2607/21/news081.html",
+        "summary": "米Xが7月20日（現地時間）、Android向けアプリをゼロから作り直したと発表した。1年以上をかけた再構築で、動作が速く滑らかになったという。一方、利用者からは操作性の変化に戸惑う声や、音声配信機能「スペース」を始められないという声も出ている。",
+        "score": 0,
+        "published_at": "2026-07-21T06:10:00+00:00",
+        "fetched_at": "2026-07-21T22:25:40.285872+00:00"
+      },
+      {
+        "title": "慶大のiPS脊髄損傷治療、最長4年追跡で長期的な安全性確認　来年度中にも治験届提出へ",
+        "url": "https://www.itmedia.co.jp/news/articles/2607/21/news098.html",
+        "summary": "慶応大の岡野栄之教授らの研究チームは7月21日、人工多能性幹細胞（iPS細胞）から作った神経のもとになる細胞を脊髄損傷患者4人に移植した臨床研究で、移植後最長4年間観察しても腫瘍や重い有害事象はみられず、長期的な安全性を確認したと発表した。神経機能の悪化例もなかった。",
+        "score": 0,
+        "published_at": "2026-07-21T09:44:00+00:00",
+        "fetched_at": "2026-07-21T22:25:40.285858+00:00"
+      },
+      {
+        "title": "中国Moonshot AI、「Kimi K3」人気でGPUひっ迫　新規サブスク受け付けを一時停止",
+        "url": "https://www.itmedia.co.jp/news/articles/2607/21/news099.html",
+        "summary": "中国Moonshot AIは7月19日（現地時間）、AIチャットサービス「Kimi」の新規有料契約の受け付けを一時停止すると発表した。16日に公開した大規模言語モデル「Kimi K3」への需要が想定を大きく上回り、GPUなどの計算資源が限界に近づいたためという。",
+        "score": 0,
+        "published_at": "2026-07-21T09:53:00+00:00",
+        "fetched_at": "2026-07-21T22:25:40.285843+00:00"
+      },
+      {
+        "title": "最も暑い時期の冷房時間、東京は世界12都市で最も“長い”　就寝時「つけっぱなし」も増加　ダイキン調べ",
+        "url": "https://www.itmedia.co.jp/news/articles/2607/21/news118.html",
+        "summary": "ダイキンは21日、東京を含む世界12都市に住む1200人のエアコンユーザーを対象に実施したアンケート調査の結果を発表した。エアコン稼働時間が最も長い都市は東京だった。",
+        "score": 0,
+        "published_at": "2026-07-21T12:29:00+00:00",
+        "fetched_at": "2026-07-21T22:25:40.285824+00:00"
+      },
+      {
+        "title": "企業向けでAIツールで成長率トップはAnthropic、アカウント数が最も多いのはMicrosoft 365。Oktaが調査結果を発表",
+        "url": "https://www.publickey1.jp/blog/26/aianthropicmicrosoft_365okta.html",
+        "summary": "アイデンティティ管理サービスを提供するOktaは、同社のサービスを用いている2万社以上の匿名化されたアクセスデータに基づく、企業でのAIツール利用実態について調査結果を発表しました。 成長率トップはAnthropic 1つ目の調査結果は、2...",
+        "score": 0,
+        "published_at": "2026-07-21T13:51:42+00:00",
+        "fetched_at": "2026-07-21T22:25:39.691744+00:00"
+      }
+    ]
+  },
+  {
     "date": "2026-07-20",
     "articles": [
       {
