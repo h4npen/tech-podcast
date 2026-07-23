@@ -1,5 +1,410 @@
 [
   {
+    "date": "2026-07-23",
+    "articles": [
+      {
+        "title": "アンソロピック「Claude Opus 5」明日にも発表か、GPT-5.6や中国AIに対抗 焦点は？",
+        "url": "https://www.sbbit.jp/article/cont1/186222",
+        "summary": "米アンソロピックが、次世代の最上位AIモデル「Claude Opus 5」を日本時間24日早朝にも発表するとの観測が強まっている。性能を高めながら安定性を高め、運用コストを抑えるモデルになるとの期待があり、OpenAIのGPT-5.6や低価格な中国勢との競争を左右しそうだ。 米アンソロピックが、次期最上位AIモデル「Claude Opus ...",
+        "score": 200,
+        "published_at": "2026-07-23T09:04:03+00:00",
+        "fetched_at": "2026-07-23T22:29:49.112980+00:00"
+      },
+      {
+        "title": "「Claude Code」プラグイン「Claude Security」がベータ公開 ～複数エージェントが脆弱性を指摘／検証・修正案の提示までを行うセキュリティ支援ツール",
+        "url": "https://forest.watch.impress.co.jp/docs/news/2127095.html",
+        "summary": "",
+        "score": 110,
+        "published_at": "2026-07-22T23:52:54+00:00",
+        "fetched_at": "2026-07-23T22:29:49.113280+00:00"
+      },
+      {
+        "title": "みんながAIを使う時、セキュリティについてどう考えればいいのか。 - VISASQ Dev Blog",
+        "url": "https://tech.visasq.com/claude-safe-adoption",
+        "summary": "🤖 AI執筆について この記事は AI（ChatGPT）が執筆し、筆者が修正・加筆を行なっています。 はじめに 夏の気温、なぜこんなにも体温を越えてくるのか。 こんにちは、CSIRTチームの嶺岸です。 東京の夏は無事に体温を越えておりますが、皆様いかがお過ごしでしょうか。近所のコンビニではレジ横に塩タブレットがご自由に...",
+        "score": 110,
+        "published_at": "2026-07-23T04:41:31+00:00",
+        "fetched_at": "2026-07-23T22:29:49.113264+00:00"
+      },
+      {
+        "title": "音声クローンが可能な音声合成AI「Qwen-Audio-3.0-TTS」が登場、日本語対応でGemini超えの性能",
+        "url": "https://gigazine.net/news/20260723-qwen-audio-3-tts/",
+        "summary": "AlibabaのAI研究チームであるQwen(Tongyi Lab)が音声合成AI「Qwen-Audio-3.0-TTS」を2026年7月20日にリリースしました。参考音声とテキストを入力することで、任意の声で任意のテキストを読み上げさせることができます。 Qwen-Audio-3.0-TTS https://funaudiollm.github.io/qwen-audio-3.0-tts/ Qwen-Audio-3.0-TTS: Mor...",
+        "score": 100,
+        "published_at": "2026-07-23T09:06:11+00:00",
+        "fetched_at": "2026-07-23T22:29:49.113370+00:00"
+      },
+      {
+        "title": "Google、Flashシリーズの新モデルGemini 3.6 Flash、3.5 Flash-Lite、3.5 Flash Cyberをリリース",
+        "url": "https://gihyo.jp/article/2026/07/gemini-3-6-flash-3-5-flash-lite-3-5-flash-cyber?utm_source=feed",
+        "summary": "Googleは2026年7月21日、同社の軽量モデルGemini Flashシリーズの新モデル「Gemini 3.6 Flash」、「Gemini 3.5 Flash-Lite」、「Gemini 3.5 Flash Cyber」をリリースした。",
+        "score": 100,
+        "published_at": "2026-07-22T00:34:00+00:00",
+        "fetched_at": "2026-07-23T22:29:48.845207+00:00"
+      },
+      {
+        "title": "Gemini Nano v3が示す「12GB RAM」のシステム要件から見えるもの",
+        "url": "https://gihyo.jp/article/2026/07/android-weekly-topics-260723?utm_source=feed",
+        "summary": "Gemini Nanoの最新世代「v3」がソフトウェア側の最適化でメモリ領域の占有問題を解決しようとしているので取り上げます。",
+        "score": 100,
+        "published_at": "2026-07-23T00:11:00+00:00",
+        "fetched_at": "2026-07-23T22:29:48.845126+00:00"
+      },
+      {
+        "title": "Claude Code用Claude Securityプラグインがベータ版として利用可能に",
+        "url": "https://gihyo.jp/article/2026/07/claude-security-plugin?utm_source=feed",
+        "summary": "Anthropicは2026年7月22日、Claude Code向けのClaude Securityプラグインがベータ版として利用可能になったことを発表した。",
+        "score": 100,
+        "published_at": "2026-07-23T02:58:00+00:00",
+        "fetched_at": "2026-07-23T22:29:48.845102+00:00"
+      },
+      {
+        "title": "AMDとMicrosoftが戦略的提携を拡大　新AIラックスケール「Helios」をAzureに大規模導入へ",
+        "url": "https://www.itmedia.co.jp/news/articles/2607/21/news051.html",
+        "summary": "AMDは、Microsoftとの戦略的提携を拡大すると発表した。Microsoftはクラウドサービス「Azure」に、GPUやCPUを一体化したAMDのラックスケール製品「AMD Helios」を大規模に導入し、フロンティアAIモデルの推論処理などに活用する。Heliosは2026年後半から出荷が開始される予定だ。",
+        "score": 100,
+        "published_at": "2026-07-20T22:33:00+00:00",
+        "fetched_at": "2026-07-23T22:29:47.906969+00:00"
+      },
+      {
+        "title": "Hugging Face侵害のAIエージェントはOpenAIのモデル──社内のサイバー能力評価中に「GPT-5.6 Sol」などが暴走し本番DBに侵入",
+        "url": "https://www.itmedia.co.jp/news/articles/2607/22/news056.html",
+        "summary": "OpenAIは、Hugging Faceで発生したサイバーインシデントの原因が自社のAIモデルだったと発表した。社内評価中に安全機能を抑制した「GPT-5.6 Sol」などが隔離環境を突破し、ゼロデイ脆弱性を悪用して外部に侵入したという。OpenAIはインフラ管理の厳格化や防御支援などの再発防止策を挙げている。",
+        "score": 100,
+        "published_at": "2026-07-21T22:45:00+00:00",
+        "fetched_at": "2026-07-23T22:29:47.906820+00:00"
+      },
+      {
+        "title": "AWS、デプロイ速度が最大4倍になる「AWS CloudFormation Expressモード」を提供開始",
+        "url": "https://www.itmedia.co.jp/news/articles/2607/22/news094.html",
+        "summary": "",
+        "score": 100,
+        "published_at": "2026-07-22T06:26:00+00:00",
+        "fetched_at": "2026-07-23T22:29:47.906638+00:00"
+      },
+      {
+        "title": "AMDとAnthropicが戦略的提携　「Helios」を最大2GW導入、最大50億ドルの出資も",
+        "url": "https://www.itmedia.co.jp/news/articles/2607/23/news063.html",
+        "summary": "AMDは、Anthropicとの戦略的提携を発表した。AnthropicはAMDの「Helios」および「Instinct MI450」シリーズを最大2GW規模で導入し、2027年上半期から順次展開する。AMDは最大50億ドルの株式投資を行うほか、Claudeを活用したGPU環境の最適化やROCm開発での協業も推進する。",
+        "score": 100,
+        "published_at": "2026-07-22T21:55:00+00:00",
+        "fetched_at": "2026-07-23T22:29:47.906548+00:00"
+      },
+      {
+        "title": "Samsung、Gemini搭載の「Android XR」スマートグラス発表　カメラで視界を認識、最大9時間駆動",
+        "url": "https://www.itmedia.co.jp/news/articles/2607/23/news070.html",
+        "summary": "Samsung Electronicsは、Googleと共同開発する「Android XR」ベースの新スマートグラスを発表した。アイウェアブランドのGentle MonsterおよびWarby Parkerと提携し、Geminiをネイティブに統合。まずはディスプレイ非搭載のオーディオグラスとして2026年秋に発売する。",
+        "score": 100,
+        "published_at": "2026-07-23T00:31:00+00:00",
+        "fetched_at": "2026-07-23T22:29:47.906511+00:00"
+      },
+      {
+        "title": "AWS、デプロイ速度が最大4倍になる「AWS CloudFormation Expressモード」を提供開始",
+        "url": "https://www.publickey1.jp/blog/26/aws4aws_cloudformation_express.html",
+        "summary": "Amazon Web Services（AWS）は、デプロイ速度が最大で4倍速になるAWS CloudFormationの新機能「AWS CloudFormation Expressモード」の提供を開始しました。 AWS CloudForm...",
+        "score": 100,
+        "published_at": "2026-07-21T13:50:39+00:00",
+        "fetched_at": "2026-07-23T22:29:47.321885+00:00"
+      },
+      {
+        "title": "アトラシアン、JiraがAIによる要件定義の自動作成、コンテキストを保持しつつタスクをClaudeやCopilotなどのAIエージェントへアサインなど新機能",
+        "url": "https://www.publickey1.jp/blog/26/jiraaiclaudecopilotai.html",
+        "summary": "アトラシアンは、プロジェクト管理ツールとして知られるJiraに生成AI機能を組み込み、AIによる要件定義の自動作成、作業すべきタスクの洗い出し、そして各タスクをClaude CodeやGitHub Copilotなどへ割り当てる新機能を発表...",
+        "score": 100,
+        "published_at": "2026-07-22T15:35:19+00:00",
+        "fetched_at": "2026-07-23T22:29:47.321854+00:00"
+      },
+      {
+        "title": "pre-commit互換のGitフック管理フレームワーク「prek」の紹介",
+        "url": "https://gihyo.jp/article/2026/07/monthly-python-2607?utm_source=feed",
+        "summary": "今月の「Python Monthly Topics」は、Gitフックを管理するフレームワーク「prek」を紹介します。prekは、Pythonプログラマーの間で人気があるpre-commitのRust実装です。",
+        "score": 20,
+        "published_at": "2026-07-23T00:06:00+00:00",
+        "fetched_at": "2026-07-23T22:29:48.845143+00:00"
+      },
+      {
+        "title": "「Firefox」、コンテナーをデフォルトで有効に",
+        "url": "https://japan.zdnet.com/article/35250878/",
+        "summary": "「Firefox」の最新版「Firefox 153」におけるセキュリティ強化の第一歩は、コンテナーをデフォルトで有効化したことだ。この重要なセキュリティ機能になじみのない読者は、「Firefoxコンテナー」に関する筆者の入門解説記事を読んでほしい。要点は簡単だ。Firefoxコンテナーはタブ同士を分離するため、あるタブの情報が...",
+        "score": 10,
+        "published_at": "2026-07-23T02:09:27+00:00",
+        "fetched_at": "2026-07-23T22:29:49.113414+00:00"
+      },
+      {
+        "title": "テスト中のAIが「脱走」して他社に不正侵入、試験問題の答えがある場所を推論",
+        "url": "https://www.cnn.co.jp/tech/35250893.html",
+        "summary": "米オープンAIのサム・アルトマン最高経営責任者（CEO）＝3月11日、ワシントン/Kylie Cooper/Reuters/File （CNN） 米オープンAIは、実験中の人工知能（AI）モデルが人の指示を受けずにテスト環境を脱出し、他社の本番環境に不正侵入したと発表した。サイバーセキュリティー試験でAIが「不正」を試みたと説明している。 A...",
+        "score": 10,
+        "published_at": "2026-07-23T03:04:31+00:00",
+        "fetched_at": "2026-07-23T22:29:49.113222+00:00"
+      },
+      {
+        "title": "サイバー被害のニチレイがバックアップからシステム復旧に成功→セキュリティ業界の人から早期復旧に疑問の声「仮にランサムウェアならバックアップデータから破壊する」",
+        "url": "https://togetter.com/li/2723874",
+        "summary": "サイバー被害のニチレイ、バックアップで早期再開　システム復旧成功 - 日本経済新聞 ニチレイで発生したシステム障害で、ハッカー集団がインターネット上で犯行声明を公表したことが22日までにわかった。同社はバックアップデータからのシステム復旧に成功しており、週内にも通常稼働に戻る見込み… 3 users 日本経済新...",
+        "score": 10,
+        "published_at": "2026-07-23T09:04:08+00:00",
+        "fetched_at": "2026-07-23T22:29:49.113114+00:00"
+      },
+      {
+        "title": "Sakana AI、オーケストレーションモデルFuguのサイバーセキュリティ強化版「Fugu-Cyber」をリリース ―セキュリティベンチマークで“SOTAパフォーマンス”を達成",
+        "url": "https://gihyo.jp/article/2026/07/fugu-cyber?utm_source=feed",
+        "summary": "Sakana AIは2026年7月21日、同社が提供するAIオーケストレーションモデル「Sakana Fugu」をアップデートし、サイバー防御機能を特別に強化した「Fugu-Cyber」をリリースした。",
+        "score": 10,
+        "published_at": "2026-07-21T05:19:00+00:00",
+        "fetched_at": "2026-07-23T22:29:48.845239+00:00"
+      },
+      {
+        "title": "WordPressに認証不要でコード実行される緊急の脆弱性　即時更新を呼び掛け",
+        "url": "https://www.itmedia.co.jp/news/articles/2607/21/news084.html",
+        "summary": "WordPress開発チームは、深刻な2件の脆弱性を修正したセキュリティリリース「7.0.2」を公開した。未認証でリモートコードが実行される恐れがあるため、影響を受けるWebサイトへ自動更新を順次適用中。すでにWAF等での一時緩和策も提供されているが、開発チームは本体の迅速な手動アップデートを強く推奨している。",
+        "score": 10,
+        "published_at": "2026-07-21T05:06:00+00:00",
+        "fetched_at": "2026-07-23T22:29:47.906905+00:00"
+      },
+      {
+        "title": "“交渉人”なのに犯人と内通、計120億円超の身代金吊り上げ　セキュリティ企業の元従業員に禁錮刑　米国",
+        "url": "https://www.itmedia.co.jp/news/articles/2607/22/news038.html",
+        "summary": "ランサムウェア攻撃の被害に遭った企業が、セキュリティ企業に対応を依頼。ところが被害企業を支援するはずの交渉人が、密かに犯人側と結託して身代金の額を吊り上げ、見返りを受け取っていた――米国でこんな事件が発生した。",
+        "score": 10,
+        "published_at": "2026-07-22T21:00:00+00:00",
+        "fetched_at": "2026-07-23T22:29:47.906574+00:00"
+      },
+      {
+        "title": "専門外のチームに入ってすぐリードに任命されたときのためのオンボーディング戦略 - KAKEHASHI Tech Blog",
+        "url": "https://kakehashi-dev.hatenablog.com/entry/2026/07/23/090000",
+        "summary": "カケハシの認証権限管理基盤チーム所属の萬治です。4月中旬に入社し、5月から kosuiさんと共同でテックリードをしています。入社エントリを書きます。 あなたは、入社して2週間でリードに任命された人を見たことはありますか？ それも、全くの専門外の領域で。 テックリードを拝命して2ヶ月半 (執筆時点)、どのように振...",
+        "score": 0,
+        "published_at": "2026-07-23T02:10:56+00:00",
+        "fetched_at": "2026-07-23T22:29:49.113442+00:00"
+      },
+      {
+        "title": "「出社中心」「生成AIほぼ必須」が4割超　企業がITフリーランスを求める本当の目的と「三重苦」の課題",
+        "url": "https://atmarkit.itmedia.co.jp/ait/articles/2607/23/news057.html",
+        "summary": "「出社中心」「生成AIほぼ必須」が4割超　企業がITフリーランスを求める本当の目的と「三重苦」の課題：“単に人をそろえる人月モデル”の終焉 エンが運営する「フリーランススタート」は、ITフリーランスを活用する企業515社を対象に実態調査を実施した。2026年の国内ITフリーランス市場規模は、1兆2209億円に達すると予...",
+        "score": 0,
+        "published_at": "2026-07-23T02:53:01+00:00",
+        "fetched_at": "2026-07-23T22:29:49.113428+00:00"
+      },
+      {
+        "title": "「検索結果は著作権法で保護される著作物ではない」と裁判所が判断してGoogleの訴えを却下",
+        "url": "https://gigazine.net/news/20260723-google-loses-lawsuit-against-serpapi/",
+        "summary": "検索結果を不正に利用したとして、Googleが検索エンジンのAPIを取り扱うテック企業・SerpApiを訴えていた裁判で、カリフォルニア州北部地方裁判所は、GoogleによるDMCAの申し立てを却下しました。却下の理由として裁判所は「検索結果は著作権法で保護される著作物にあたらない」という判断を下しています。 Google loses...",
+        "score": 0,
+        "published_at": "2026-07-23T10:59:54+00:00",
+        "fetched_at": "2026-07-23T22:29:49.113385+00:00"
+      },
+      {
+        "title": "AI新世紀：「偽チャッピー」につられる小学生　フィルタリング追いつかず | 毎日新聞",
+        "url": "https://mainichi.jp/articles/20260722/k00/00m/040/155000c",
+        "summary": "主要な対話型生成人工知能（AI）を模倣したウェブサイトが乱立している。利用しやすいのは、正規のサイトに年齢制限やフィルタリングでアクセスできない小学生だ。情報リテラシーを早期に教える必要性が高まっている。 「チャットGPTの偽サイトが使えてしまっています」――。 東京都練馬区教育委員会の情報通信技術（ICT...",
+        "score": 0,
+        "published_at": "2026-07-23T07:58:37+00:00",
+        "fetched_at": "2026-07-23T22:29:49.113354+00:00"
+      },
+      {
+        "title": "Home - Playing with code",
+        "url": "https://haqr.eu/tinyrenderer/",
+        "summary": "Software rendering in 500 lines of bare C++ In this series of articles, I aim to demonstrate how OpenGL, Vulkan, Metal, and DirectX work by writing a simplified clone from scratch. Surprisingly, many people struggle with the initial hurdle of learning a 3D graphics API. To help with this, I have ...",
+        "score": 0,
+        "published_at": "2026-07-23T12:46:47+00:00",
+        "fetched_at": "2026-07-23T22:29:49.113340+00:00"
+      },
+      {
+        "title": "「なんかアカウントもしかして乗っ取られてません?」10年以上前に使っていたX(Twitter)アカウントが乗っ取られたので、行政書士を通してX本社に書類を送りアカウントを復旧させた話",
+        "url": "https://togetter.com/li/2723727",
+        "summary": "アルコリリカ🍷公式アカウント @rcoririca 📢本日より連載開始❣✨ #アルコリリカ 『異世界では最推しになりたい』 漫画：砂尾（@suna_bl） 人間不信の宰相補佐×トラウマ持ち炎上アイドルの 人生リスタート神子選挙ファンタジーBL！ ▼連載はこちら👀 comic-walker.com/detail/KC_0087… pic.x.com/Im0obB1Mrs 2026-05-28 1...",
+        "score": 0,
+        "published_at": "2026-07-23T01:31:23+00:00",
+        "fetched_at": "2026-07-23T22:29:49.113324+00:00"
+      },
+      {
+        "title": "AI-Slopなデザインを生まないためのデザインプロセス戦略",
+        "url": "https://speakerdeck.com/takanorip/ai-slopnadezainwosheng-manaitamenodezainpurosesuzhan-lue",
+        "summary": "Sponsored · Your Podcast. Everywhere. Effortlessly. Share. Educate. Inspire. Entertain. You do you. We'll handle the rest. →",
+        "score": 0,
+        "published_at": "2026-07-22T13:33:20+00:00",
+        "fetched_at": "2026-07-23T22:29:49.113307+00:00"
+      },
+      {
+        "title": "[本日の一品]スッと転がってピタッと止まる、エレコムの新トラックボール「IST PLUS」",
+        "url": "https://k-tai.watch.impress.co.jp/docs/column/todays_goods/2127080.html",
+        "summary": "",
+        "score": 0,
+        "published_at": "2026-07-23T00:38:49+00:00",
+        "fetched_at": "2026-07-23T22:29:49.113293+00:00"
+      },
+      {
+        "title": "無償でも使えるインストーラー作成ソフト「Inno Setup 7」が公開 ～7年ぶりのメジャーアップデート／64bit版を新たに追加、「MAX_PATH」制限も撤廃",
+        "url": "https://forest.watch.impress.co.jp/docs/news/2126929.html",
+        "summary": "",
+        "score": 0,
+        "published_at": "2026-07-23T02:46:15+00:00",
+        "fetched_at": "2026-07-23T22:29:49.113247+00:00"
+      },
+      {
+        "title": "ランサムウェアの身代金の支払い、法律で禁止すべき？ 海外メディアによる賛否両論まとめ【やじうまWatch】",
+        "url": "https://internet.watch.impress.co.jp/docs/yajiuma/2127168.html",
+        "summary": "",
+        "score": 0,
+        "published_at": "2026-07-23T03:31:03+00:00",
+        "fetched_at": "2026-07-23T22:29:49.113234+00:00"
+      },
+      {
+        "title": "Palantir Foundryのオントロジーをミニマムに再現したOSSを実測検証した",
+        "url": "https://zenn.dev/mskbhd/articles/lab-198-gura105-operational-ontology-o",
+        "summary": "はじめに Palantir Foundry の「オントロジー（Ontology）」—— 物理データを意味のあるビジネスオブジェクトに抽象化し、Read/Write-back を統制するレイヤー。あの概念を ミニマム実装した OSS が公開されていたので、動かして検証した。 本家リポジトリ: gura105/operational-ontology (MIT, 22★) この記事では、実際...",
+        "score": 0,
+        "published_at": "2026-07-23T12:27:20+00:00",
+        "fetched_at": "2026-07-23T22:29:49.113192+00:00"
+      },
+      {
+        "title": "「マジで見づらいだけ」と大不評だったスーパーの生成AIポップ、看板ガチ勢の「きぬた歯科」さんの評価は意外にも…たしかに成功例はあるが、今回は的外れ？",
+        "url": "https://togetter.com/li/2723892",
+        "summary": "きぬた歯科 @西八王子 @kinutashika 看板王として言わせて頂きます。これはアリ、なんです。ありきたりでは差別化出来ません。POPをグチャグチャにする事で店内をカオス化させ、客のアドレナリンを促し、購買意欲を刺激する作戦です。パットしないスーパーは見習って下さい。#きぬた歯科 x.com/zoumotu/status… 2026-07-...",
+        "score": 0,
+        "published_at": "2026-07-23T12:38:34+00:00",
+        "fetched_at": "2026-07-23T22:29:49.113157+00:00"
+      },
+      {
+        "title": "iPhoneの箱はなぜ無傷で届くのか､アップルが世界中に｢おとりの箱｣を送り続ける驚きの理由",
+        "url": "https://toyokeizai.net/articles/-/952119",
+        "summary": "コンテンツブロックが有効であることを検知しました。 このサイトを利用するには、コンテンツブロック機能（広告ブロック機能を持つ拡張機能等）を無効にしてページを再読み込みしてください。 なお、Microsoft Edgeをご利用のお客様はプライバシー設定が影響している可能性があるため「追跡防止を有効にする」の設定を...",
+        "score": 0,
+        "published_at": "2026-07-23T10:43:10+00:00",
+        "fetched_at": "2026-07-23T22:29:49.113143+00:00"
+      },
+      {
+        "title": "るりま(Ruby リファレンスマニュアル)のソースを Markdown に移行しました - @znz blog",
+        "url": "https://blog.n-z.jp/blog/2026-07-23-rurema-to-markdown.html",
+        "summary": "2026年7月、るりま(Ruby の日本語リファレンスマニュアル)のドキュメントソースを、 長年使ってきた RD ベースの独自記法(RRD)から GitHub Flavored Markdown(GFM)ベースの記法に移行しました。 すでに本番切替も完了していて、いま docs.ruby-lang.org/ja/ で 見られるページは Markdown ソースからビルドされたもので...",
+        "score": 0,
+        "published_at": "2026-07-23T15:09:40+00:00",
+        "fetched_at": "2026-07-23T22:29:49.113128+00:00"
+      },
+      {
+        "title": "iOS 27、リース利用者の支払いが滞るとiPhoneの機能をリモートでロックするシステムを実装か【やじうまWatch】",
+        "url": "https://internet.watch.impress.co.jp/docs/yajiuma/2127174.html",
+        "summary": "",
+        "score": 0,
+        "published_at": "2026-07-23T03:31:37+00:00",
+        "fetched_at": "2026-07-23T22:29:49.113098+00:00"
+      },
+      {
+        "title": "ソフトバンクの空飛ぶ基地局「HAPS」 8月に日本で飛行試験",
+        "url": "https://www.watch.impress.co.jp/docs/news/2127402.html",
+        "summary": "",
+        "score": 0,
+        "published_at": "2026-07-23T10:25:29+00:00",
+        "fetched_at": "2026-07-23T22:29:49.113084+00:00"
+      },
+      {
+        "title": "Markdownファイルが、AI時代の負債に？　Googleが提案する「ナレッジ標準化」の一手",
+        "url": "https://atmarkit.itmedia.co.jp/ait/articles/2607/23/news055.html",
+        "summary": "Google Cloudは2026年6月12日（米国時間）、大規模言語モデル（LLM）を活用するAIエージェントが必要とするナレッジを表現するためのオープンフォーマット「Open Knowledge Format」（OKF）のバージョン0.1を公開した。 OKFは、YAMLフロントマター（YAML形式のメタデータ）を持つMarkdownファイルのディレクトリとしてナ...",
+        "score": 0,
+        "published_at": "2026-07-23T04:39:27+00:00",
+        "fetched_at": "2026-07-23T22:29:49.113070+00:00"
+      },
+      {
+        "title": "クラウドにOSSを「持っていかれる」問題：Elastic、Redis、HashiCorpから考えるAGPL - Convergence Lab.",
+        "url": "https://www.convergence-lab.com/blog/2026-07-23-open-core-agpl/",
+        "summary": "「ソースコードを公開すれば、利用者が増え、改善が返ってきて、みんなが得をする」 OSSにはそんな理想があります。しかし、実際にプロジェクトが成功すると、別の光景が現れることがあります。巨大クラウド事業者がOSSをマネージドサービスとして提供し、運用の手軽さと販売網を武器に大きな売上を得る。一方、最初にソ...",
+        "score": 0,
+        "published_at": "2026-07-23T02:17:28+00:00",
+        "fetched_at": "2026-07-23T22:29:49.113054+00:00"
+      },
+      {
+        "title": "『動くだけ』のその先へ — AI駆動開発で品質と速度を両取りする温故知新な新手法 / Beyond Just Vibe Coding - Combining Classic Principles with AI-Driven Development",
+        "url": "https://speakerdeck.com/itohiro73/beyond-just-vibe-coding-combining-classic-principles-with-ai-driven-development",
+        "summary": "『動くだけ』のその先へ — AI駆動開発で品質と速度を両取りする温故知新な新手法 / Beyond Just Vibe Coding - Combining Classic Principles with AI-Driven Development",
+        "score": 0,
+        "published_at": "2026-07-23T14:55:51+00:00",
+        "fetched_at": "2026-07-23T22:29:49.113037+00:00"
+      },
+      {
+        "title": "「惜しいデザイン」 を生み出さないための AIレビューループ",
+        "url": "https://speakerdeck.com/0b1tk/xi-siidezain-wosheng-michu-sanaitameno-airebiyurupu",
+        "summary": "2026年7月22日 「AIで変わる設計と判断——デザイン × フロントエンド、複数社が語る失敗と工夫」 登壇資料",
+        "score": 0,
+        "published_at": "2026-07-22T21:56:47+00:00",
+        "fetched_at": "2026-07-23T22:29:49.113019+00:00"
+      },
+      {
+        "title": "Blenderで意識する「ポリゴン数」と「トポロジー」の意味とそれぞれの違いを見ていこう",
+        "url": "https://gihyo.jp/article/2026/07/blender-basics-81?utm_source=feed",
+        "summary": "第81回目は、モデルを作っていくときに意識するといい点について見ていきます。",
+        "score": 0,
+        "published_at": "2026-07-20T23:56:00+00:00",
+        "fetched_at": "2026-07-23T22:29:48.845282+00:00"
+      },
+      {
+        "title": "第275回　Replication Applier Metricsでレプリケーションの詳細を確認する",
+        "url": "https://gihyo.jp/article/2026/07/mysql-rcn0275?utm_source=feed",
+        "summary": "レプリカ遅延を確認するときは、SHOW REPLICA STATUSのSeconds_Behind_Sourceをよく見ます。ただし、この値だけでは遅延の原因まではわかりません。",
+        "score": 0,
+        "published_at": "2026-07-20T23:57:00+00:00",
+        "fetched_at": "2026-07-23T22:29:48.845269+00:00"
+      },
+      {
+        "title": "さまざまなインフラ上でWebアプリケーションを構築、デプロイ、運用できるオープンソースのデプロイ基盤「OpenShip」リリース",
+        "url": "https://gihyo.jp/article/2026/07/openship?utm_source=feed",
+        "summary": "Oblien LLCは2026年7月18日、オープンソースのデプロイメントプラットフォーム「OpenShip」をApache 2.0ライセンスのもとGitHub上で公開した。",
+        "score": 0,
+        "published_at": "2026-07-21T02:46:00+00:00",
+        "fetched_at": "2026-07-23T22:29:48.845254+00:00"
+      },
+      {
+        "title": "第920回　GNOME向けのデスクトップAIアシスタント、Newelleを使用する",
+        "url": "https://gihyo.jp/admin/serial/01/ubuntu-recipe/0920?utm_source=feed",
+        "summary": "今回はGNOMEデスクトップ向けのAIアシスタントである、Newelleを紹介します。多機能なので今回は初期設定のみを解説します。",
+        "score": 0,
+        "published_at": "2026-07-21T23:52:00+00:00",
+        "fetched_at": "2026-07-23T22:29:48.845223+00:00"
+      },
+      {
+        "title": "ジャック・ドーシー氏創業のBlock、人とAIエージェントが協働できるOSSグループチャット基盤「Buzz」を公開",
+        "url": "https://gihyo.jp/article/2026/07/buzz?utm_source=feed",
+        "summary": "Twitterの創業者として知られるジャック・ドーシー氏が会長を務めるBlockは2026年7月21日、人間とエージェントのチームが協力して作業するためのチャットワークスペース「Buzz」をリリースした。",
+        "score": 0,
+        "published_at": "2026-07-22T06:28:00+00:00",
+        "fetched_at": "2026-07-23T22:29:48.845159+00:00"
+      },
+      {
+        "title": "Plasma AI、階層型エージェントループを構築するツール「Fractal」をオープンソース公開",
+        "url": "https://gihyo.jp/article/2026/07/plasma-ai-fractal?utm_source=feed",
+        "summary": "Plasma AIは2026年7月21日、複雑な作業を複数のAIエージェントに分担させるツール「Fractal」を公開した。",
+        "score": 0,
+        "published_at": "2026-07-23T06:01:00+00:00",
+        "fetched_at": "2026-07-23T22:29:48.845085+00:00"
+      },
+      {
+        "title": "LangChain、AIエージェントの評価を対話形式で構築する「Eval Engineering Skill」を公開",
+        "url": "https://gihyo.jp/article/2026/07/langchain-eval-engineering-skill?utm_source=feed",
+        "summary": "LangChainは2026年7月22日、AIエージェント向けの評価をコーディングエージェントと対話しながら構築する「Eval Engineering Skill」を公開した。",
+        "score": 0,
+        "published_at": "2026-07-23T08:56:00+00:00",
+        "fetched_at": "2026-07-23T22:29:48.845063+00:00"
+      },
+      {
+        "title": "パルマー・ラッキー氏のAnduril、軍用自律飛行VTOL機「Thunder」を公開",
+        "url": "https://www.itmedia.co.jp/news/articles/2607/21/news052.html",
+        "summary": "Anduril IndustriesとArcher Aviationは、防衛と商用の両用途を想定した自律飛行VTOLプラットフォームを共同開発したと発表した。Andurilは防衛向けモデルとなる自律攻撃回転翼機「Thunder」を公開。有人ヘリと連携して運用する仕様で、ミサイルなどの兵器を搭載し、2027年の初飛行を目指す。",
+        "score": 0,
+        "published_at": "2026-07-20T23:34:00+00:00",
+        "fetched_at": "2026-07-23T22:29:47.906956+00:00"
+      },
+      {
+        "title": "花王、ホラーゲーム「しずかなおそうじ」をSwitchに移植　「こわさひかえめモード」を新搭載",
+        "url": "https://www.itmedia.co.jp/news/articles/2607/21/news063.html",
+        "summary": "花王が掃除用品をPRするために制作したホラーゲーム「しずかなおそうじ」が、Nintendo Switchに登場。7月23日から200円で販売する。ダウンロード版のみ。",
+        "score": 0,
+        "published_at": "2026-07-21T01:54:00+00:00",
+        "fetched_at": "2026-07-23T22:29:47.906944+00:00"
+      }
+    ]
+  },
+  {
     "date": "2026-07-22",
     "articles": [
       {
@@ -9908,361 +10313,6 @@
         "summary": "OpenAIは2025年8月5日、2つのオープンモデル「gpt-oss-120b」と「gpt-oss-20b」をリリースした。",
         "score": 100,
         "fetched_at": "2026-06-23T22:45:29.837068+00:00"
-      }
-    ]
-  },
-  {
-    "date": "2026-06-22",
-    "articles": [
-      {
-        "title": "OpenAI、ChatGPTエージェントを発表 ―ブラウザ、ターミナル、APIからアクセス可能な自律型AIエージェント",
-        "url": "https://gihyo.jp/article/2025/07/chatgpt-agent?utm_source=feed",
-        "summary": "OpenAIは2025年7月17日、AIエージェントがさまざまな作業を自律的に行う「ChatGPTエージェント」を発表した。",
-        "score": 200,
-        "fetched_at": "2026-06-22T23:00:05.731291+00:00"
-      },
-      {
-        "title": "AIニュースノート：nano-bananaが話題に、AGENTS.mdの採用広がる、Microsoft Copilotに3Dモデリング機能が追加、ChatGPTでプロジェクト専用メモリー搭載、Claude for Chromeの安全設計など",
-        "url": "https://gihyo.jp/article/2025/08/ai-news-note-20250828?utm_source=feed",
-        "summary": "gihyo.jpのニュース記事として取り上げていなかったもののなかから、直近の興味深いAIに関連するニュース概要を簡単にまとめてみました。",
-        "score": 200,
-        "fetched_at": "2026-06-22T23:00:05.730695+00:00"
-      },
-      {
-        "title": "OpenAI、大学生による学生のためのChatGPT役立つチャット例「100 chats for college students」を公開",
-        "url": "https://gihyo.jp/article/2025/09/chatgpt-chats-for-college-students?utm_source=feed",
-        "summary": "OpenAIは2025年9月17日、ChatGPTを大学生が利用する場合に役立つチャット例「100 chats for college students」を公開した。",
-        "score": 200,
-        "fetched_at": "2026-06-22T23:00:05.730458+00:00"
-      },
-      {
-        "title": "OpenAI、ChatGPTにACP（Agentic Commerce Protocol）をベースとしたインスタントチェックアウト機能を導入 ―ACPはオープンソースとして公開",
-        "url": "https://gihyo.jp/article/2025/09/agentic-commerce-protocol?utm_source=feed",
-        "summary": "OpenAIは2025年9月29日、ChatGPTにAIエージェントコマースに便利な機能であるインスタントチェックアウト機能を導入し、米国のChatGPTユーザーが利用できるようになったことを発表した。",
-        "score": 200,
-        "fetched_at": "2026-06-22T23:00:05.730261+00:00"
-      },
-      {
-        "title": "OpenAI、AI搭載ブラウザ「ChatGPT Atlas」を発表 ——macOS版から提供開始",
-        "url": "https://gihyo.jp/article/2025/10/openai-browser-atlas?utm_source=feed",
-        "summary": "OpenAIは2025年10月21日、新しいAIブラウザ「ChatGPT Atlas」を発表した。発表時点ではmacOS用のアプリのみが提供される。",
-        "score": 200,
-        "fetched_at": "2026-06-22T23:00:05.729906+00:00"
-      },
-      {
-        "title": "Adobe Photoshop、Express、AcrobatがChatGPT上で無料で利用可能に",
-        "url": "https://gihyo.jp/article/2025/12/adobe-apps-for-chatgpt?utm_source=feed",
-        "summary": "Adobeは2025年12月10日、同社のアプリケーションをOpenAIのChatGPTから利用できる「Adobe Apps for ChatGPT」の提供を開始したことを発表した。",
-        "score": 200,
-        "fetched_at": "2026-06-22T23:00:05.729289+00:00"
-      },
-      {
-        "title": "OpenAI、画像生成モデルAPI「gpt-image-1.5」を発表 ——新しい画像生成・編集用ページChatGPT Imagesも提供開始",
-        "url": "https://gihyo.jp/article/2025/12/chatgpt-images-with-gpt-image-1.5?utm_source=feed",
-        "summary": "OpenAIは2025年12月16日、これまで同社が提供していた画像生成モデルから大幅に能力を向上させた新しい画像生成モデルとそのAPI「gpt-image-1.5」を発表した。",
-        "score": 200,
-        "fetched_at": "2026-06-22T23:00:05.729216+00:00"
-      },
-      {
-        "title": "Xcode⁠⁠、26.3 RCで⁠⁠ClaudeやCodexのコーディングエージェントを直接活用してアプリ開発が可能に ——MCPを利用して外部ツールでXcode Previewsのキャプチャ参照も実現",
-        "url": "https://gihyo.jp/article/2026/02/xcode-26.3-unlocks-the-power-of-agentic-coding?utm_source=feed",
-        "summary": "Appleは2026年2月3日、統合開発環境の最新版「Xcode 26.3」のRelease Candidate（RC）の提供を開始した。このリリースでXcode内から直接、AnthropicのClaude AgentやOpenAIのCodexをコーディングエージェントとして活用できる機能を導入したことを発表した。",
-        "score": 200,
-        "fetched_at": "2026-06-22T23:00:05.728686+00:00"
-      },
-      {
-        "title": "GitHub⁠⁠、ClaudeとCodexをエージェントとして直接実行する機能を、Copilot Pro+/Enterpriseユーザー向けにパブリックプレビューで提供開始 ——Visual Studio Codeでも利用可能に",
-        "url": "https://gihyo.jp/article/2026/02/github-agent-hq-claude-and-codex?utm_source=feed",
-        "summary": "GitHubは2026年2月4日、GitHubにおけるAIエージェント利用戦略「Agent HQ」において、AnthropicのClaudeおよびOpenAIのCodexが、GitHubおよびVisual Studio Code上で直接コーディングエージェントとして利用できるようになったことを発表した。",
-        "score": 200,
-        "fetched_at": "2026-06-22T23:00:05.728650+00:00"
-      },
-      {
-        "title": "フロンティアモデル「Claude Opus 4.6」および「GPT-5.3-Codex」がリリース ——ソフトウェア開発はAgentic Engineeringへ",
-        "url": "https://gihyo.jp/article/2026/02/claude-opus-4.6-and-gpt-5.3-codex?utm_source=feed",
-        "summary": "2026年2月5日、AnthropicはClaude Opus 4.6を発表しました。同日、OpenAIもGPT‑5.3‑Codexを発表しました。これらのモデルは両社のフロンティアモデルです。同日にリリースされたため、今回は一緒に取り上げます。",
-        "score": 200,
-        "fetched_at": "2026-06-22T23:00:05.728634+00:00"
-      },
-      {
-        "title": "OpenAI、ChatGPT用の最新モデル「GPT-5.3 Instant」をリリース",
-        "url": "https://gihyo.jp/article/2026/03/gpt-5.3-instant?utm_source=feed",
-        "summary": "OpenAIは2026年3月3日、ChatGPTでもっとも多く利用されているモデルのアップデートとして、GPT-5.3 Instantを発表した。",
-        "score": 200,
-        "fetched_at": "2026-06-22T23:00:05.728281+00:00"
-      },
-      {
-        "title": "OpenAI、Claude Code用のCodexプラグインをリリース",
-        "url": "https://gihyo.jp/article/2026/03/codex-plugin-cc?utm_source=feed",
-        "summary": "OpenAIは2026年3月31日、Claude CodeからCodexを使えるようにするプラグインをリリースした。",
-        "score": 200,
-        "fetched_at": "2026-06-22T23:00:05.727928+00:00"
-      },
-      {
-        "title": "OpenAI、最先端の画像生成モデル「ChatGPT Images 2.0」を発表 ——日本語を含む非ラテン文字のレンダリング能力も向上",
-        "url": "https://gihyo.jp/article/2026/04/chatgpt-images-2.0?utm_source=feed",
-        "summary": "OpenAIは2026年4月21日、最先端の画像生成モデルを発表した。ChatGPTでは「ChatGPT Images 2.0」として、開発者向けAPIでは「GPT Image 2」として展開する。",
-        "score": 200,
-        "fetched_at": "2026-06-22T23:00:05.727587+00:00"
-      },
-      {
-        "title": "ChatGPTモバイルアプリ内でCodexプレビュー版が利用可能に",
-        "url": "https://gihyo.jp/article/2026/05/codex-in-chatgpt-mobile?utm_source=feed",
-        "summary": "OpenAIは2026年5月14日、ChatGPTのモバイルアプリ内で実行できるCodexをプレビュー版としてリリースした。",
-        "score": 200,
-        "fetched_at": "2026-06-22T23:00:05.727190+00:00"
-      },
-      {
-        "title": "OpenAI、プライベートMCPサーバーをChatGPTやCodexに安全に接続できる「Secure MCP Tunnel」を提供開始",
-        "url": "https://gihyo.jp/article/2026/05/openai-secure-mcp-tunnel?utm_source=feed",
-        "summary": "OpenAIは2026年5月28日、プライベートネットワーク内のMCPサーバーを、インターネットに公開することなくOpenAIのサービスに接続できる「Secure MCP Tunnel」の提供を開始した。",
-        "score": 200,
-        "fetched_at": "2026-06-22T23:00:05.726916+00:00"
-      },
-      {
-        "title": "ノーベル化学賞のジョン・ジャンパー氏、Google DeepMindからAnthropicへ──「AlphaFold」開発の立役者",
-        "url": "https://www.itmedia.co.jp/news/articles/2606/21/news017.html",
-        "summary": "Google DeepMindで「AlphaFold」の開発を主導し、デミス・ハサビスCEOと共にノーベル化学賞を受賞したジョン・ジャンパー氏が、Anthropicに移ると自身のXで明らかにした。直近では「Gemini」を主導したGoogleのノーム・シャジーア氏がOpenAIに移っており、AI人材の獲得競争が一段と激しくなっている。",
-        "score": 200,
-        "fetched_at": "2026-06-22T23:00:04.729724+00:00"
-      },
-      {
-        "title": "OpenAI、Getty Imagesと複数年契約　ChatGPTの検索結果にライセンス画像を直接表示",
-        "url": "https://www.itmedia.co.jp/news/articles/2606/23/news075.html",
-        "summary": "Getty Imagesは、OpenAIと複数年契約の表示提携を締結した。同社が保有するライセンス済み画像ライブラリが、ChatGPT内の検索や発見機能で表示されるようになり、視覚的な情報提供が強化される。過去にAI企業を提訴してきた同社だが、近年は提携を拡大している。今回の発表では学習利用についての言及はない。",
-        "score": 200,
-        "fetched_at": "2026-06-22T23:00:04.729559+00:00"
-      },
-      {
-        "title": "複雑な脆弱性を推論、実用性の高い修正を提案する「Codex Security」リサーチプレビュー版として公開",
-        "url": "https://gihyo.jp/article/2026/03/codex-security?utm_source=feed",
-        "summary": "OpenAIは2026年3月6日、AIセキュリティエージェント「Codex Security」をリサーチプレビュー版として公開した。",
-        "score": 110,
-        "fetched_at": "2026-06-22T23:00:05.728233+00:00"
-      },
-      {
-        "title": "NVIDIA、OpenClawにセキュリティ制御を追加するプラグイン「NVIDIA NemoClaw」をプレビューリリース",
-        "url": "https://gihyo.jp/article/2026/03/nemoclaw?utm_source=feed",
-        "summary": "NVIDIAは2026年3月17日、AIチャットアシスタントOpenClawのプライバシーとセキュリティを強化し、安全に利用できるようにするオープンソースのプラグイン「NVIDIA NemoClaw」を早期プレビューとしてリリースした。",
-        "score": 110,
-        "fetched_at": "2026-06-22T23:00:05.728088+00:00"
-      },
-      {
-        "title": "Anthropic、重要ソフトウェアを保護するための取り組み「Project Glasswing」を発表 ——最新フロンティアモデル「Claude Mythos Preview」で脆弱性発見と修正を支援",
-        "url": "https://gihyo.jp/article/2026/04/project-glasswing?utm_source=feed",
-        "summary": "Anthropicは2026年4月7日、世界で重要なソフトウェアのセキュリティ確保を支援する緊急の取り組みとして、「Project Glasswing」を発表した。この取り組みは、未公開のフロンティアモデル「Claude Mythos Preview」を基盤としている。",
-        "score": 110,
-        "fetched_at": "2026-06-22T23:00:05.727807+00:00"
-      },
-      {
-        "title": "OpenAI、Trusted Access for Cyberを拡張、上位ティアでGPT-5.4-Cyber提供へ",
-        "url": "https://gihyo.jp/article/2026/04/openai-gpt-5.4-cyber?utm_source=feed",
-        "summary": "OpenAIは2026年4月14日、サイバー防衛に携わる個人やチーム向けプログラム「Trusted Access for Cyber（TAC）」の拡張を発表した。",
-        "score": 110,
-        "fetched_at": "2026-06-22T23:00:05.727707+00:00"
-      },
-      {
-        "title": "OpenAI、Agents SDKをアップデート。サンドボックス対応やメモリ制御を追加",
-        "url": "https://gihyo.jp/article/2026/04/openai-agents-sdk-updates?utm_source=feed",
-        "summary": "OpenAIは2026年4月15日、エージェントを開発するためのフレームワークである「Agents SDK」のPython版の大規模なアップデートを発表した。",
-        "score": 110,
-        "fetched_at": "2026-06-22T23:00:05.727674+00:00"
-      },
-      {
-        "title": "ソフトウェアの設計段階からサイバーセキュリティ対応機能を備える「OpenAI Daybreak」発表",
-        "url": "https://gihyo.jp/article/2026/05/openai-daybreak?utm_source=feed",
-        "summary": "OpenAIは2026年5月11日、AIを活用した新たなセキュリティ対応戦略「OpenAI Daybreak」を発表した。",
-        "score": 110,
-        "fetched_at": "2026-06-22T23:00:05.727288+00:00"
-      },
-      {
-        "title": "Claude Code、脆弱性検出と修正を支援する「security-guidance」プラグインを公開",
-        "url": "https://gihyo.jp/article/2026/05/claude-code-security-guidance-plugin?utm_source=feed",
-        "summary": "Anthropicは2026年5月26日、Claude Code向けのセキュリティ支援プラグイン「security-guidance」を公開した。",
-        "score": 110,
-        "fetched_at": "2026-06-22T23:00:05.726949+00:00"
-      },
-      {
-        "title": "Pythonパッケージマネージャー「uv」、脆弱性確認コマンド「uv audit」をプレビュー提供",
-        "url": "https://gihyo.jp/article/2026/06/uv-audit-preview?utm_source=feed",
-        "summary": "OpenAI傘下のAstralは2026年6月8日、Pythonパッケージマネージャー「uv」に、依存関係の脆弱性を確認する新コマンドuv auditと、インストール時に既知のマルウェア情報を照合する機能を追加したと発表した。いずれも現時点ではプレビュー機能で、設計の反復に伴い破壊的変更が入る可能性があるとしている。",
-        "score": 110,
-        "fetched_at": "2026-06-22T23:00:05.726587+00:00"
-      },
-      {
-        "title": "⚡️【8万バズ】寝てても動くGemini。「Workspace Studio」が一般公開！Gmail、Drive、スプシを早速自動化してみた｜たてばやし淳.エクセル兄さん@ ８万部ヒット「生成AI最速仕事術」著者",
-        "url": "https://note.com/on_consul/n/n103dc815653d",
-        "summary": "こんにちは、たてばやし淳です。 先日、Googleの「Workspace Studio」という機能についてXに投稿したところ、9万インプレッション/ 514いいね / 768保存という反応をいただきました。いいねより保存が多かったのが印象的でした。 ▼ 話題になったXの投稿はこちらです。 おおー！Googleの「Workspace Studio」ついに私の個...",
-        "score": 100,
-        "fetched_at": "2026-06-22T23:00:05.958459+00:00"
-      },
-      {
-        "title": "【draw.io】エンジニアの「雑なMermaid」を、綺麗な図解に変換する【アップデート版】 - Qiita",
-        "url": "https://qiita.com/ktdatascience/items/735ebfa8504fc658c812",
-        "summary": "はじめに この記事の対象読者はこんな人です。 構成図やフロー図を生成AIに清書させているが、「画像だと後から直せない」と感じている人（前回の記事は未読でも大丈夫です） 説明するための図を全部AIで作りたい人 AWSの構成図をAIに描かせたいけど、アイコンや体裁が崩れるのが気になる人 この記事は前回の続編ですが...",
-        "score": 100,
-        "fetched_at": "2026-06-22T23:00:05.958357+00:00"
-      },
-      {
-        "title": "Anthropicが2026年7月8日から一部サービスにおける本人確認の実施を明言、使用するシステムはDiscordで却下された「Persona Identities」",
-        "url": "https://gigazine.net/news/20260622-anthropic-claude-identity-verification/",
-        "summary": "Claudeの開発で知られるAI企業のAnthropicは2026年7月8日にプライバシーポリシーの更新を予定しています。新たなプライバシーポリシーには本人確認に関する項目が追加されており、一定の場合において本人確認が必要となることが明記されています。 Claude での本人確認 | Anthropicヘルプセンター https://support.claud...",
-        "score": 100,
-        "fetched_at": "2026-06-22T23:00:05.958326+00:00"
-      },
-      {
-        "title": "Claude Design ↔ Claude Code を行き来して作った資産ポートフォリオダッシュボード",
-        "url": "https://zenn.dev/unsoluble_sugar/articles/fd73c7b67d80ce",
-        "summary": "はじめに 一枚で資産を見渡すダッシュボード 自分の資産がいま全体でいくらで、どんな構成なのか。それをひと目で見られる場所がほしくて、資産ポートフォリオのダッシュボードを作ってみました。 国内株・米国株・投資信託・金（ゴールド）と、資産が複数の口座に散らばっていると、その合計額・内訳・増減をまとめて把...",
-        "score": 100,
-        "fetched_at": "2026-06-22T23:00:05.958308+00:00"
-      },
-      {
-        "title": "OpenAIも注目、非エンジニア農家がCodexで進める「農業のDX」。ハウス自動化から翻訳LINE Botまで | Business Insider Japan",
-        "url": "https://www.businessinsider.jp/article/2606-openai-codex-farm-automation/",
-        "summary": "従来までは現地に足を運び、温度計を見ながら手動で窓を開け閉めするしかなかった。だが、ハウスが複数棟あると、スタッフが歩き回って手動で対応する負担は大きい。 グループLINEに「温度」と入力したところ、センサーが設置されているビニールハウスの室温が表示された。撮影：小林優多郎冨安さんはスマート温度計「Sw...",
-        "score": 100,
-        "fetched_at": "2026-06-22T23:00:05.958277+00:00"
-      },
-      {
-        "title": "“次のディナーもあるかもね” - Linus、Bill Gatesと「歴史的」初顔合わせ",
-        "url": "https://gihyo.jp/article/2025/06/daily-linux-250623?utm_source=feed",
-        "summary": "6月20日、Microsoft AzureのCTOを務めるMark RussinovichはLinus Torvalds、Bill Gates、Dave Cutler、そしてRussinovich本人が写っているスリリングな写真を投稿した。",
-        "score": 100,
-        "fetched_at": "2026-06-22T23:00:05.731719+00:00"
-      },
-      {
-        "title": "Java on Azure Day 2025 基調講演レポート――Oracleとの戦略的協業、AI時代のJava開発生産性向上・レガシーモダナイズ・AIアプリ基盤の最新動向",
-        "url": "https://gihyo.jp/article/2025/06/java-on-azure-day-2025?utm_source=feed",
-        "summary": "2025年6月17日、日本マイクロソフトは、毎年恒例となった「Java on Azure Day 2025」を開催しました。",
-        "score": 100,
-        "fetched_at": "2026-06-22T23:00:05.731712+00:00"
-      },
-      {
-        "title": "Google、Geminiをコマンドラインから利用できるGemini CLIをオープンソースとして公開",
-        "url": "https://gihyo.jp/article/2025/06/gemini-cli?utm_source=feed",
-        "summary": "Googleは2025年6月25日、AIアシスタントGeminiをコマンドラインから操作できる「Gemini CLI」をオープンソースとして公開した。",
-        "score": 100,
-        "fetched_at": "2026-06-22T23:00:05.731646+00:00"
-      },
-      {
-        "title": "Anthropic、「アーティファクト」に作成アプリへのAI搭載機能と成果物共有のための専用スペースを追加",
-        "url": "https://gihyo.jp/article/2025/06/ai-apps-with-claude-artifacts?utm_source=feed",
-        "summary": "Anthropicは2025年6月25日、Claudeのコンテンツ作成機能であるアーティファクト（Artifacts）に、成果物の作成、ホスティング、共有のための専用スペースと、作品自体にAIを搭載させる機能を追加したことを発表した。",
-        "score": 100,
-        "fetched_at": "2026-06-22T23:00:05.731640+00:00"
-      },
-      {
-        "title": "Anthropic、ワンクリックでローカルMCPサーバーをインストールできる「Desktop Extensions」をリリース",
-        "url": "https://gihyo.jp/article/2025/06/claude-desktop-extensions?utm_source=feed",
-        "summary": "Anthropicは2025年6月25日、Claude Desktop上でボタンをクリックするだけでローカルMCP（Model Context Protocol）サーバーをインストールできるパッケージツール「Desktop Extensions」をリリースした。",
-        "score": 100,
-        "fetched_at": "2026-06-22T23:00:05.731605+00:00"
-      },
-      {
-        "title": "レベルアップ！つよつよエンジニアを目指すには？",
-        "url": "https://gihyo.jp/article/2025/07/aws-learning-guide-03?utm_source=feed",
-        "summary": "この連載では、それぞれのレベル別にAWSの学び方を紹介します。第3回は、「既にAWSを知っている人が、エンジニアとしてのレベルアップを目指すにはどうすべきか」についていくつかの方策を提案します。",
-        "score": 100,
-        "fetched_at": "2026-06-22T23:00:05.731503+00:00"
-      },
-      {
-        "title": "AWS、AIエージェント型IDE「Kiro」をリリース ―プロトタイプ作成から本番環境までAIがサポートする“スペック駆動開発”が可能に",
-        "url": "https://gihyo.jp/article/2025/07/kiro?utm_source=feed",
-        "summary": "AWSは2025年7月14日、新しいAIエージェント機能を備えたIDE、「Kiro」をプレビューリリースした。",
-        "score": 100,
-        "fetched_at": "2026-06-22T23:00:05.731362+00:00"
-      },
-      {
-        "title": "Anthropic、ワンクリックでClaudeに接続できるツールディレクトリを公開",
-        "url": "https://gihyo.jp/article/2025/07/cloude-directory?utm_source=feed",
-        "summary": "Anthropicは2025年7月15日、Claudeに接続するツールの新しいディレクトリを公開した。",
-        "score": 100,
-        "fetched_at": "2026-06-22T23:00:05.731336+00:00"
-      },
-      {
-        "title": "手首にAIで久々の革命か？ GeminiがWear OS搭載をサポート",
-        "url": "https://gihyo.jp/article/2025/07/android-weekly-topics-250717?utm_source=feed",
-        "summary": "7月9日、GoogleはWear OS搭載のスマートウォッチでGeminiが利用できるようになったと発表しました。",
-        "score": 100,
-        "fetched_at": "2026-06-22T23:00:05.731311+00:00"
-      },
-      {
-        "title": "AIツール「Claude」を使ってBlender上でモデリングしてみよう～準備編～",
-        "url": "https://gihyo.jp/article/2025/07/blender-basics-57?utm_source=feed",
-        "summary": "第57回目は、AIツールを使って指示を出し、Blender上でモデリングを行うための準備をしていきます。",
-        "score": 100,
-        "fetched_at": "2026-06-22T23:00:05.731272+00:00"
-      },
-      {
-        "title": "Claude Codeにカスタムサブエージェント機能が登場 ―複数のサブエージェントによるタスク特化の「エージェントチーム」を作成可能に",
-        "url": "https://gihyo.jp/article/2025/07/claude-code-sub-agents?utm_source=feed",
-        "summary": "Anthropicは2025年7月24日、同社のコーディングAIツールClaude Codeでカスタムサブエージェント（Custom Sub Agents）機能が追加されたことをアナウンスした。",
-        "score": 100,
-        "fetched_at": "2026-06-22T23:00:05.731174+00:00"
-      },
-      {
-        "title": "技術資格に「合格する」ための勉強法 ——IPA&AWS試験で成果を出した“実践ノウハウ”を公開",
-        "url": "https://gihyo.jp/article/2025/07/how-to-study-to-pass-technical-qualifications?utm_source=feed",
-        "summary": "2025年7月10日に開催された、ハイヤールー社主催の勉強会「Study Hack」では「資格で人生を変える勉強法」というテーマを取り上げました。登壇したのは、IPAとAWS認定資格のすべての区分に合格したENECHANGE社の岩本さんです。試行錯誤を重ねて培った勉強のノウハウをもとに「合格する」ための勉強法のエッセンスが紹介されました。",
-        "score": 100,
-        "fetched_at": "2026-06-22T23:00:05.731154+00:00"
-      },
-      {
-        "title": "Anthropic、Claude ProとMaxで新たな“週次レート制限”の導入を予告",
-        "url": "https://gihyo.jp/article/2025/07/cloude-weekly-rate-limits?utm_source=feed",
-        "summary": "Anthropicは2025年7月29日の𝕏へのポストで、同社のClaude ProおよびClaude Maxプランのユーザーに対して、8月下旬から週ごとの使用レート制限を行うことを予告した。",
-        "score": 100,
-        "fetched_at": "2026-06-22T23:00:05.731141+00:00"
-      },
-      {
-        "title": "Linux 6.16リリース ― NVIDIA GPUサポート強化、Intel APXサポート",
-        "url": "https://gihyo.jp/article/2025/07/daily-linux-250730?utm_source=feed",
-        "summary": "Linus Torvaldsは7月27日（米国時間）、「Linux 6.16」を公開した。",
-        "score": 100,
-        "fetched_at": "2026-06-22T23:00:05.731127+00:00"
-      },
-      {
-        "title": "クラスメソッド、Claude Codeを使った開発を体系化、効率化するフレームワーク「Tsumiki」をオープンソースとして公開",
-        "url": "https://gihyo.jp/article/2025/07/classmethod-tsumiki?utm_source=feed",
-        "summary": "クラスメソッドは2025年7月29日、AnthropicのAIコーディングツールClaude Codeを使った開発を体系化・効率化するフレームワーク「Tsumiki」（積み木）をオープンソースとして公開した。",
-        "score": 100,
-        "fetched_at": "2026-06-22T23:00:05.731101+00:00"
-      },
-      {
-        "title": "AIニュースノート：America’s AI Action Plan、ChatGPT学習モード、Qwen3-30B-A3B-Instruct-2507-FP8など",
-        "url": "https://gihyo.jp/article/2025/07/ai-news-note-20250730?utm_source=feed",
-        "summary": "gihyo.jpのニュース記事として取り上げていなかったもののなかから、直近の興味深いAIに関連するニュース概要を簡単にまとめてみました。",
-        "score": 100,
-        "fetched_at": "2026-06-22T23:00:05.731095+00:00"
-      },
-      {
-        "title": "Gemini CLIでカスタムスラッシュコマンドのサポートを開始",
-        "url": "https://gihyo.jp/article/2025/07/gemini-cli-custom-slash-commands?utm_source=feed",
-        "summary": "Googleは2025年7月31日、コマンドライン型AIアシスタント「Gemini CLI」で再利用可能なプロンプトを定義できる「カスタムスラッシュコマンド」をサポートしたことを発表した。",
-        "score": 100,
-        "fetched_at": "2026-06-22T23:00:05.731088+00:00"
-      },
-      {
-        "title": "Android Studio Narwhal Feature Dropの安定版が登場 ―Geminiを使ったエージェントモードが利用可能に",
-        "url": "https://gihyo.jp/article/2025/08/android-studio-narwhal-feature-drop?utm_source=feed",
-        "summary": "Googleは2025年7月31日、Android開発用の公式IDEであるAndroid Studioの最新バージョン「Android Studio Narwhal Feature Drop」を安定版としてリリースしたことを発表した。",
-        "score": 100,
-        "fetched_at": "2026-06-22T23:00:05.731042+00:00"
-      },
-      {
-        "title": "OpenAI、o3-miniと同等以上のオープンモデル「gpt-oss」をリリース ——ハーモニーレスポンス形式を扱うトークナイザーやレンダラーもオープンソースで公開",
-        "url": "https://gihyo.jp/article/2025/08/openai-gpt-oss?utm_source=feed",
-        "summary": "OpenAIは2025年8月5日、2つのオープンモデル「gpt-oss-120b」と「gpt-oss-20b」をリリースした。",
-        "score": 100,
-        "fetched_at": "2026-06-22T23:00:05.731009+00:00"
-      },
-      {
-        "title": "Android XRとGeminiの組み合わせで起こる化学変化とは",
-        "url": "https://gihyo.jp/article/2025/08/android-weekly-topics-250807?utm_source=feed",
-        "summary": "Android XRは、Project Moohanの名前で呼ばれており、Samsungがデバイスを開発中で、2025年内（Q3からQ4）には発売されるとされています。",
-        "score": 100,
-        "fetched_at": "2026-06-22T23:00:05.731002+00:00"
       }
     ]
   }
