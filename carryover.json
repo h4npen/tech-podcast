@@ -2184,6 +2184,54 @@
     "fetched_at": "2026-07-28T22:32:29.099177+00:00"
   },
   {
+    "title": "OpenAIの暴走AIエージェント、別企業のシステムにも不正侵入",
+    "url": "https://www.itmedia.co.jp/news/article/2607/29/2000000267/",
+    "summary": "OpenAIの隔離環境を脱出したAIエージェントが、Hugging Faceへのサイバー攻撃に加え、Modal Labsの顧客システムにも侵入していたことが分かった。",
+    "score": 100,
+    "published_at": "2026-07-29T03:47:59+00:00",
+    "fetched_at": "2026-07-29T22:27:13.661937+00:00"
+  },
+  {
+    "title": "Anthropicのミュトス、暗号アルゴリズムの新たな攻撃法を発見――耐量子署名「HAWK」の強度を半減",
+    "url": "https://www.itmedia.co.jp/news/article/2607/29/2000000256/",
+    "summary": "Anthropicは、最上位モデル「Claude Mythos Preview」（ミュトス）を活用し、暗号アルゴリズム自体の数学的欠陥を発見したと発表した。耐量子計算機暗号の署名方式「HAWK」と「AES」の削減版に対し、従来の攻撃を上回る手法を提示した。実運用システムへの影響はないものの、AIによる暗号解読や構造解析の新たな可能性を示す成果となる。",
+    "score": 100,
+    "published_at": "2026-07-28T22:50:56+00:00",
+    "fetched_at": "2026-07-29T22:27:13.662045+00:00"
+  },
+  {
+    "title": "AI開発のペースを調整する仕組みづくりを求める声明「Pacing the Frontier」が公開 ——OpenAIやAnthropicを含むフロンティアAI企業の従業員1,224人が署名",
+    "url": "https://gihyo.jp/article/2026/07/pacing-the-frontier?utm_source=feed",
+    "summary": "AI開発のペースを意図的に調整できるよう、技術面・ガバナンス面で必要な仕組みづくりを求める声明「Pacing the Frontier」が公開された。",
+    "score": 100,
+    "published_at": "2026-07-29T10:23:00+00:00",
+    "fetched_at": "2026-07-29T22:27:14.993324+00:00"
+  },
+  {
+    "title": "自分専用の歌唱合成エディター＆トレーナーをClaude Codeで開発。数十秒の歌唱データだけで歌ってくれるゼロショットボーカルシンセ「SoulX-Singer」の現在地（CloseBox） | テクノエッジ TechnoEdge",
+    "url": "https://www.techno-edge.net/article/2026/07/29/5344.html",
+    "summary": "最近は作家・ライター界隈で、テキストエディターをヴァイブ開発する流れがありますが、筆者は自前のボーカルシンセエディターを作っています。どういうことかというと……。 妻の歌声を再現し、新しい曲を歌ってもらうことは、自分にとってライフワークになっています。 これまでにも、最初は3曲しか残っていないボーカル...",
+    "score": 100,
+    "published_at": "2026-07-29T06:43:10+00:00",
+    "fetched_at": "2026-07-29T22:27:15.665197+00:00"
+  },
+  {
+    "title": "OpenAI、脆弱性の発見・検証・修正を行う「Codex Security CLI」をオープンソース公開／CI/CDへ組み込むことも可能",
+    "url": "https://forest.watch.impress.co.jp/docs/news/2128824.html",
+    "summary": "",
+    "score": 100,
+    "published_at": "2026-07-29T10:34:06+00:00",
+    "fetched_at": "2026-07-29T22:27:15.665264+00:00"
+  },
+  {
+    "title": "【決着】Claude CodeとCodexの設定ファイルを同期させる (みんな仲良く)",
+    "url": "https://zenn.dev/explaza/articles/20f7f41cff8428",
+    "summary": "ごまんと触れられてきた話題であるのにも関わらず、細かい所に手の届くツールが無かったので作成しました。 有名どころから個人で制作されているツールまで、一通り使わせていただいたのですが実際に困った場面があり・・・ サマリ 課題 同じプロジェクトでCodexとClaude Codeの両方を使っているとき、AGENTS.mdやSKILLS...",
+    "score": 100,
+    "published_at": "2026-07-28T22:23:21+00:00",
+    "fetched_at": "2026-07-29T22:27:15.665290+00:00"
+  },
+  {
     "title": "TypeScript 7.0 RCリリース ―Go言語ベースに移植され10倍高速に",
     "url": "https://gihyo.jp/article/2026/06/typescript-7-0-rc?utm_source=feed",
     "summary": "Microsoftは2026年6月18日、TypeScript 7.0のリリース候補版（RC）をリリースした。",
@@ -2814,6 +2862,30 @@
     "score": 10,
     "published_at": "2026-07-23T00:33:11+00:00",
     "fetched_at": "2026-07-28T22:32:29.099047+00:00"
+  },
+  {
+    "title": "KubernetesはAIを動かすプラットフォームに。横浜でKubeCon＋CloudNativeCon Japan 2026が開幕",
+    "url": "https://www.publickey1.jp/blog/26/kubernetesaikubeconcloudnativecon_japan_2026.html",
+    "summary": "クラウドネイティブ関連技術におけるIT業界最大のイベント「KubeCon+CloudNativeCon Japan 2026」が昨日（2026年7月29日）、パシフィコ横浜で開幕しました。日本でKubeCon＋CloudNativeConが...",
+    "score": 10,
+    "published_at": "2026-07-29T15:02:00+00:00",
+    "fetched_at": "2026-07-29T22:27:13.065526+00:00"
+  },
+  {
+    "title": "GitHub - reflex-dev/xy: Ultra-fast and customizable Python charts",
+    "url": "https://github.com/reflex-dev/xy",
+    "summary": "XY is an extremely fast, interactive, customizable Python charting library for the web, notebooks, and static exports. Charts are composed declaratively or through matplotlib conventions. You can fully customize them with Python, CSS, or Tailwind. With small charts, every point is sent to the bro...",
+    "score": 10,
+    "published_at": "2026-07-29T07:06:59+00:00",
+    "fetched_at": "2026-07-29T22:27:15.665128+00:00"
+  },
+  {
+    "title": "「AIの暴走」ではない、オープンAIのモデルが不正侵入した理由",
+    "url": "https://www.technologyreview.jp/s/386637/openai-called-the-hugging-face-attack-unprecedented-but-weve-been-here-before/",
+    "summary": "オープンAIのモデルが、テスト用のサンドボックスを脱出し、ハギング・フェイスのシステムに侵入した。ただしオープンAIは、サイバーセキュリティのガードレールをほとんど外し、外部への接続を1本だけ残していた。AIが予期しない抜け道を選ぶ挙動は10年前から知られており、この事態は予見できたはずだ。 by Will Dougl...",
+    "score": 10,
+    "published_at": "2026-07-28T23:33:57+00:00",
+    "fetched_at": "2026-07-29T22:27:15.665401+00:00"
   },
   {
     "title": "フロントエンド開発に必要なツールをまとめて統合した「Vite+」、ベータ公開",
@@ -10398,5 +10470,373 @@
     "score": 0,
     "published_at": "2026-07-28T03:35:02+00:00",
     "fetched_at": "2026-07-28T22:32:29.099313+00:00"
+  },
+  {
+    "title": "災害時、スマホの電池を少しでも長く　携帯各社のバッテリー節電策まとめ",
+    "url": "https://www.itmedia.co.jp/news/article/2607/29/2000000281/",
+    "summary": "7月28日に発生した「令和8年熊本地震」の影響で、一部地域では停電や通信障害も発生している。災害時、スマートフォンは家族との連絡や避難情報の確認に欠かせない一方、充電できない状況が長引く可能性もある。NTTドコモ、KDDI、ソフトバンクなどの携帯各社が推奨するスマホのバッテリー消費を抑える方法を整理した。",
+    "score": 0,
+    "published_at": "2026-07-29T12:26:55+00:00",
+    "fetched_at": "2026-07-29T22:27:13.661816+00:00"
+  },
+  {
+    "title": "警察庁、熊本地震に便乗した詐欺に注意喚起　義援金名目で電子マネーなどだまし取る手口",
+    "url": "https://www.itmedia.co.jp/news/article/2607/29/2000000280/",
+    "summary": "警察庁は7月29日、令和8年熊本地震に便乗した詐欺や悪質商法に注意するようXで呼び掛けた。公的機関をかたって義援金を募り、現金や電子マネー、暗号資産をだまし取る手口を挙げている。",
+    "score": 0,
+    "published_at": "2026-07-29T12:16:34+00:00",
+    "fetched_at": "2026-07-29T22:27:13.661832+00:00"
+  },
+  {
+    "title": "熊本地震で「Yahoo!天気」が意外な活躍？　断水・停電情報など投稿続出　ライフライン情報共有の場に",
+    "url": "https://www.itmedia.co.jp/news/article/2607/29/2000000277/",
+    "summary": "熊本県で震度7を観測した地震を巡り、天気アプリ「Yahoo!天気」の投稿機能を使って断水や停電などのライフライン情報を教え合う動きが、XなどのSNSで話題となっている。",
+    "score": 0,
+    "published_at": "2026-07-29T09:29:09+00:00",
+    "fetched_at": "2026-07-29T22:27:13.661846+00:00"
+  },
+  {
+    "title": "PayPayアプリで熊本地震への寄付が可能に　最短3ステップ・1円から",
+    "url": "https://www.itmedia.co.jp/news/article/2607/29/2000000278/",
+    "summary": "PayPay社は7月29日、決済アプリ「PayPay」に寄付機能を追加した。28日に発生した令和8年熊本地震の緊急支援募金にも寄付できる。",
+    "score": 0,
+    "published_at": "2026-07-29T09:13:24+00:00",
+    "fetched_at": "2026-07-29T22:27:13.661859+00:00"
+  },
+  {
+    "title": "陸自が「イオンモール熊本」内部をドローン撮影　防衛省が映像公開",
+    "url": "https://www.itmedia.co.jp/news/article/2607/29/2000000276/",
+    "summary": "",
+    "score": 0,
+    "published_at": "2026-07-29T09:08:35+00:00",
+    "fetched_at": "2026-07-29T22:27:13.661870+00:00"
+  },
+  {
+    "title": "「受信料の値上げは検討していない」NHK井上会長が明言　策定中の3カ年経営計画巡り",
+    "url": "https://www.itmedia.co.jp/news/article/2607/29/2000000275/",
+    "summary": "NHKの井上樹彦会長が「現時点で受信料の値上げは検討していない」と述べた。井上氏は「受信料の水準も計画の中で示すことになっているが、あくまでも経営の合理化と、受信料外収入の確保などの努力を尽くしていく」とした。",
+    "score": 0,
+    "published_at": "2026-07-29T08:27:32+00:00",
+    "fetched_at": "2026-07-29T22:27:13.661882+00:00"
+  },
+  {
+    "title": "ソニー、熊本の半導体工場で生産停止　令和8年熊本地震で　建屋などの被害状況を確認中",
+    "url": "https://www.itmedia.co.jp/news/article/2607/29/2000000274/",
+    "summary": "ソニーセミコンダクタソリューションズは7月29日、28日に発生した「令和8年熊本地震」による生産拠点への影響を発表した。グループ会社の本社兼生産拠点「熊本テクノロジーセンター」（熊本県菊陽町）では、地震発生直後から生産を停止している。",
+    "score": 0,
+    "published_at": "2026-07-29T07:43:16+00:00",
+    "fetched_at": "2026-07-29T22:27:13.661893+00:00"
+  },
+  {
+    "title": "熊本「通れた道」マップ、トヨタが公開　ホンダも「通行実績情報マップ」",
+    "url": "https://www.itmedia.co.jp/news/article/2607/29/2000000258/",
+    "summary": "28日に熊本県で発生した最大震度7の地震を受け、トヨタ自動車とホンダがそれぞれ、被災エリアで実際に通行できた道を表示するマップを公開した。",
+    "score": 0,
+    "published_at": "2026-07-29T05:47:37+00:00",
+    "fetched_at": "2026-07-29T22:27:13.661903+00:00"
+  },
+  {
+    "title": "BYDが作った軽EV「RACCO」発売　214万5000円から　CEV補助金込みなら200万円切り",
+    "url": "https://www.itmedia.co.jp/news/article/2607/29/2000000270/",
+    "summary": "BYD Auto Japanは、日本の軽自動車規格向けに専用設計したEV「BYD RACCO」を発売した。価格は214万5000円から。航続距離は最大320kmで、OTA更新や長期保証にも対応する。",
+    "score": 0,
+    "published_at": "2026-07-29T05:00:39+00:00",
+    "fetched_at": "2026-07-29T22:27:13.661915+00:00"
+  },
+  {
+    "title": "停電中の自宅を離れる時は「ブレーカー落とす」　消費者庁などが「通電火災」の注意喚起",
+    "url": "https://www.itmedia.co.jp/news/article/2607/29/2000000271/",
+    "summary": "「災害に伴う停電の復旧後、電気製品の損傷や意図しない作動による火災（通電火災）に注意してください」。消費者庁などが「通電火災」の注意喚起している。",
+    "score": 0,
+    "published_at": "2026-07-29T04:23:29+00:00",
+    "fetched_at": "2026-07-29T22:27:13.661925+00:00"
+  },
+  {
+    "title": "イオンモール熊本内部の様子も──自衛隊や警察庁、救助活動の動画・写真をSNSで積極発信",
+    "url": "https://www.itmedia.co.jp/news/article/2607/29/2000000269/",
+    "summary": "7月28日午後4時27分ごろに発生した「令和8年熊本地震」を受け、警察庁や自衛隊などが救助活動を進めている。XなどのSNSでも活動の様子を積極的に発信しており、画像や映像を通して動向を確認できる。",
+    "score": 0,
+    "published_at": "2026-07-29T03:46:38+00:00",
+    "fetched_at": "2026-07-29T22:27:13.661947+00:00"
+  },
+  {
+    "title": "TSMC熊本工場、段階的に通常操業へ　熊本の地震で一時中断、従業員の無事確認　台湾報道",
+    "url": "https://www.itmedia.co.jp/news/article/2607/29/2000000266/",
+    "summary": "半導体大手の台湾TSMCは7月28日夜、同日午後の最大震度7の地震で操業を一時中断した子会社JASM（熊本県菊陽町）について、従業員全員の無事を確認し、段階的に通常操業に戻りつつあると回答した。台湾紙・経済日報が報じた。",
+    "score": 0,
+    "published_at": "2026-07-29T02:48:13+00:00",
+    "fetched_at": "2026-07-29T22:27:13.661957+00:00"
+  },
+  {
+    "title": "熊本の地震で約84センチの地殻変動　国土地理院が観測",
+    "url": "https://www.itmedia.co.jp/news/article/2607/29/2000000264/",
+    "summary": "国土地理院は、7月28日に熊本県で発生した最大震度7の地震に伴う地殻変動が観測されたと公表した。",
+    "score": 0,
+    "published_at": "2026-07-29T02:11:56+00:00",
+    "fetched_at": "2026-07-29T22:27:13.661967+00:00"
+  },
+  {
+    "title": "Meta、エルパソのデータセンターをBlackRockと共同開発　総額140億ドル、Metaの出資比率は20％",
+    "url": "https://www.itmedia.co.jp/news/article/2607/29/2000000265/",
+    "summary": "Metaは、BlackRockとテキサス州エルパソのAIデータセンターキャンパスを開発・保有する合弁事業を設立すると発表した。総開発費約140億ドルのうちBlackRock側が80％を保有し、Metaは完成後にキャンパスを賃借する。外部資本を活用してバランスシートの負担を抑えつつ計算基盤を拡大する狙いだ。",
+    "score": 0,
+    "published_at": "2026-07-29T02:05:50+00:00",
+    "fetched_at": "2026-07-29T22:27:13.661978+00:00"
+  },
+  {
+    "title": "企業が広告を「早く、安全に、大量に」作るAI　アドビの新ツールが向かう先は“代理店いらず”か",
+    "url": "https://www.itmedia.co.jp/news/article/2607/29/2000000232/",
+    "summary": "生成AIで画像を作るのは速くなった。それでも社外に出す本番の広告には、なかなか使われない。Adobeが7月6日に発表した3つのソリューションは、この「作れるのに使えない」を埋めにきている。ノードをつないで工程そのものを再現可能にする仕組みは、企業とクリエイターのどちらを見ているのか。",
+    "score": 0,
+    "published_at": "2026-07-29T01:33:43+00:00",
+    "fetched_at": "2026-07-29T22:27:13.661989+00:00"
+  },
+  {
+    "title": "熊本地震、ふるさと納税で支援受付スタート　ふるさとチョイスや楽天で",
+    "url": "https://www.itmedia.co.jp/news/article/2607/29/2000000262/",
+    "summary": "「ふるさとチョイス」は専用の災害支援ページをいち早く開設した。",
+    "score": 0,
+    "published_at": "2026-07-29T00:48:52+00:00",
+    "fetched_at": "2026-07-29T22:27:13.662001+00:00"
+  },
+  {
+    "title": "MetaのザッカーバーグCEO、WSJ寄稿で「超知能は全員のものであるべき」",
+    "url": "https://www.itmedia.co.jp/news/article/2607/29/2000000259/",
+    "summary": "Metaのマーク・ザッカーバーグCEOはWall Street Journalに寄稿し、「superintelligence」（超知能）は特定の機関に集中させず広く分散普及させるべきだと主張した。権力の集中によるリスクや司法の公平性、雇用拡大に触れ、オープンな普及が安全と発展につながると強調。MicrosoftのナデラCEOらも賛意を示した。",
+    "score": 0,
+    "published_at": "2026-07-29T00:14:46+00:00",
+    "fetched_at": "2026-07-29T22:27:13.662012+00:00"
+  },
+  {
+    "title": "熊本地震でTeslaのスーパーチャージャー無料開放　熊本、福岡など九州10カ所",
+    "url": "https://www.itmedia.co.jp/news/article/2607/29/2000000257/",
+    "summary": "対象は、熊本、宮崎、大分、鹿児島の各1カ所と、福岡県（北九州、福岡、福岡?東、福岡?博多駅南、福岡?中洲川端、福岡?西）の6カ所で、計10カ所。",
+    "score": 0,
+    "published_at": "2026-07-28T23:11:28+00:00",
+    "fetched_at": "2026-07-29T22:27:13.662033+00:00"
+  },
+  {
+    "title": "MCP仕様「2026-07-28」を公開 ——プロトコルをステートレス化、拡張機構や認可も強化",
+    "url": "https://gihyo.jp/article/2026/07/mcp-spec-2026-07-28?utm_source=feed",
+    "summary": "Model Context Protocol（MCP）プロジェクトは2026年7月28日、新仕様「2026-07-28」を公開した。MCPは、AIアプリケーションと外部のツールやデータソースを接続するためのオープンプロトコル。",
+    "score": 0,
+    "published_at": "2026-07-29T01:51:00+00:00",
+    "fetched_at": "2026-07-29T22:27:14.993344+00:00"
+  },
+  {
+    "title": "第921回　Canonical Workshopでコーディングエージェントの実行環境を作る",
+    "url": "https://gihyo.jp/admin/serial/01/ubuntu-recipe/0921?utm_source=feed",
+    "summary": "今回はCanonicalがリリースしたWorkshopというツールでサンドボックス環境を構築し、ホスト環境を守りながらコーディングエージェントを動作させる方法を紹介します。",
+    "score": 0,
+    "published_at": "2026-07-29T00:02:00+00:00",
+    "fetched_at": "2026-07-29T22:27:14.993360+00:00"
+  },
+  {
+    "title": "「先が見えない領域だからこそ、面白い」 ――monomyth 樋口氏が語る、製造業におけるフィジカルAIの現在地",
+    "url": "https://gihyo.jp/article/2026/07/ai-nagoya-2026-report-01?utm_source=feed",
+    "summary": "2026年6月16日、名古屋コンベンションホールにて「AI博覧会 Nagoya 2026」が開催された。岡谷鋼機㈱／monomyth（モノミス）㈱の樋口 康太氏は「製造業 x Physical AI実装のリアル」と題して登壇した。本レポートでは、同講演とその後の樋口氏への取材をもとに、製造業におけるフィジカルAIの現在地と、この分野に今取り組む意義を整理する。",
+    "score": 0,
+    "published_at": "2026-07-28T23:58:00+00:00",
+    "fetched_at": "2026-07-29T22:27:14.993387+00:00"
+  },
+  {
+    "title": "現役Appleマップエンジニアが書いた日本の住所表記のやばさを指摘する「ヤバい日本の住所」が出版 | 書籍 | Mac OTAKARA",
+    "url": "https://www.macotakara.jp/etc/book/entry-51535.html",
+    "summary": "ヤバい日本の住所 幻冬舎から、現役Appleマップエンジニアの河合太郎著「ヤバい日本の住所」が出版されました。 元になっているのは、2023年6月7日にnoteで公開された「とにかく日本の住所のヤバさをもっと知るべきだと思います」で、出版のタイミングで、朝日新聞の天声人語「多様すぎる日本の住所」として紹介されるな...",
+    "score": 0,
+    "published_at": "2026-07-29T07:52:57+00:00",
+    "fetched_at": "2026-07-29T22:27:15.665047+00:00"
+  },
+  {
+    "title": "深刻度「緊急」のRails脆弱性「KindaRails2Shell」（CVE-2026-66066）の概要と対応指針 - GMO Flatt Security Blog",
+    "url": "https://blog.flatt.tech/entry/kindarails2shell_rails",
+    "summary": "2026年7月30日、認証を必要とせず、リモートからの任意コード実行（RCE）につながり得る脆弱性「CVE-2026-66066」を修正したRuby on Rails 7.2.3.2、8.0.5.1、8.1.3.1が公開されました（参考：Possible arbitrary file read and remote code execution in Active Storage variant processing）。 本脆弱性は、弊社GMO Fl...",
+    "score": 0,
+    "published_at": "2026-07-29T15:19:18+00:00",
+    "fetched_at": "2026-07-29T22:27:15.665070+00:00"
+  },
+  {
+    "title": "[石川温の「スマホ業界 Watch」] iPhone Airがアマゾンで異例の大幅値引き、叩き売りとなった理由とは",
+    "url": "https://k-tai.watch.impress.co.jp/docs/column/ishikawa/2129015.html",
+    "summary": "",
+    "score": 0,
+    "published_at": "2026-07-29T09:31:17+00:00",
+    "fetched_at": "2026-07-29T22:27:15.665082+00:00"
+  },
+  {
+    "title": "はてな情報削除ガイドラインを改定しました - はてなの告知",
+    "url": "https://hatena-announce.hatenastaff.com/entry/2026/07/29/160000",
+    "summary": "本日、はてな情報削除ガイドラインを改定しました。下記ページより改定版のダウンロードが可能です。 policies.hatena.ne.jp 今回の改定は、2012年の改定以来となる大幅な改定となります。 本ガイドラインは、2004年12月に制定された後、サービスを取り巻く環境の変化に沿い改定を重ねてまいりました。特に近年の変化と...",
+    "score": 0,
+    "published_at": "2026-07-29T09:02:58+00:00",
+    "fetched_at": "2026-07-29T22:27:15.665097+00:00"
+  },
+  {
+    "title": "世界を席巻する中国の人型ロボット、米国が輸入を禁止　「容認できない」安保リスク",
+    "url": "https://www.cnn.co.jp/business/35251078.html",
+    "summary": "生産施設で製造ラインから出荷された人型ロボット「EngineAI T800」＝7月24日、中国・鄭州/VCG/Getty Images （CNN） 米政府が外国テクノロジー依存の低減に動く中、世界の人型ロボット（ヒューマノイド）の大部分を供給する中国が突然、最大の輸出市場から締め出された。 トランプ政権は28日、米国の国家安全保障に「容...",
+    "score": 0,
+    "published_at": "2026-07-29T08:36:08+00:00",
+    "fetched_at": "2026-07-29T22:27:15.665112+00:00"
+  },
+  {
+    "title": "｢いまの日本は清朝に似ている｣豊かさゆえの\"思考停止\"に危機感を抱く中国人記者が､無償で在日外国人を取材し続ける理由",
+    "url": "https://toyokeizai.net/articles/-/952061?display=b",
+    "summary": "東京・中野区を愛するフランス人ITエンジニア、日本に住む中国人たちの合唱団やボランティア団体、都内の大学院で学ぶベトナム人留学生、日中夫妻のインフルエンサー、日本の「モノづくり」に魅せられメーカーの海外展開支援を行っているタイ人、ミャンマー料理店の店主、外国人と関わり合いながら働く日本人……。生活も...",
+    "score": 0,
+    "published_at": "2026-07-24T12:54:36+00:00",
+    "fetched_at": "2026-07-29T22:27:15.665141+00:00"
+  },
+  {
+    "title": "「Slackの使い方が下手な人なんとかならないの？」休日中の相手にメッセージを送っていいかどうかで大きく意見が割れる",
+    "url": "https://togetter.com/li/2726040",
+    "summary": "あゆゆん♪ @ayu_littlewing もうさぁ。。。Slackの使い方が下手な人なんとかならんの。。。 「〇〇の件を△さんに確認しとけ」って指示したのに、いつまでも送らないから突いたら「△さんがお休みのようだったので送るのやめました」って💢 非同期コミュニケーションなんだから相手が休みかどうかなんて関係ねぇだろ💢 202...",
+    "score": 0,
+    "published_at": "2026-07-29T07:39:59+00:00",
+    "fetched_at": "2026-07-29T22:27:15.665156+00:00"
+  },
+  {
+    "title": "完全版『火山の娘』開発者インタビュー。日本語改良・フルボイス化・新要素追加、盛り盛りを支えたのはまさかの『プロセカ』Colorful Paletteの情熱だった - AUTOMATON",
+    "url": "https://automaton-media.com/articles/interviewsjp/volcanoprincess-20260729-457061/",
+    "summary": "Colorful Paletteは、開発スタジオのEgg Hatcherが手がける『火山の娘』の完全版を発表した。本作は2023年にPC向けに発売された『火山の娘』をブラッシュアップしたもので、iOS/Android/PS5/Nintendo Switchといったマルチプラットフォームで展開される。 そんな完全版『火山の娘』の開発陣に、弊誌はインタビューを行う...",
+    "score": 0,
+    "published_at": "2026-07-29T03:35:55+00:00",
+    "fetched_at": "2026-07-29T22:27:15.665172+00:00"
+  },
+  {
+    "title": "[スタパ齋藤のApple野郎] 「Qi2 25Wなのに充電が進まない」原因は熱だった!!　\"ペルチェ＆ファン\"冷却で爆速充電を取り戻す!!!",
+    "url": "https://k-tai.watch.impress.co.jp/docs/column/stapaapple/2128618.html",
+    "summary": "",
+    "score": 0,
+    "published_at": "2026-07-28T23:54:13+00:00",
+    "fetched_at": "2026-07-29T22:27:15.665184+00:00"
+  },
+  {
+    "title": "隠しカメラを探し出せる「カメラバスター」がエアリアから",
+    "url": "https://akiba-pc.watch.impress.co.jp/docs/news/news/2128687.html",
+    "summary": "",
+    "score": 0,
+    "published_at": "2026-07-29T03:55:03+00:00",
+    "fetched_at": "2026-07-29T22:27:15.665208+00:00"
+  },
+  {
+    "title": "ヨドバシ.com、領収書の「商品同梱」「メール送信」終了",
+    "url": "https://www.watch.impress.co.jp/docs/news/2128868.html",
+    "summary": "",
+    "score": 0,
+    "published_at": "2026-07-29T04:58:34+00:00",
+    "fetched_at": "2026-07-29T22:27:15.665219+00:00"
+  },
+  {
+    "title": "AI エージェント時代のデジタルアイデンティティ",
+    "url": "https://speakerdeck.com/fujie/ai-ezientoshi-dai-nodezitaruaidenteitei",
+    "summary": "MyDataカンファレンス2026での講演資料 AIエージェントのアイデンティティ管理について説明",
+    "score": 0,
+    "published_at": "2026-07-29T15:29:48+00:00",
+    "fetched_at": "2026-07-29T22:27:15.665230+00:00"
+  },
+  {
+    "title": "I ditched Chrome for a lighter browser and my laptop's noticeably faster now",
+    "url": "https://www.makeuseof.com/replace-chrome-with-brave-browser-for-better-performance/",
+    "summary": "",
+    "score": 0,
+    "published_at": "2026-07-29T05:46:11+00:00",
+    "fetched_at": "2026-07-29T22:27:15.665241+00:00"
+  },
+  {
+    "title": "【資料公開】プロダクトオーナーの基本",
+    "url": "https://www.ryuzee.com/contents/blog/14623",
+    "summary": "みなさんこんにちは。@ryuzeeです。 プロダクトオーナーの相談に乗っていると、よく「忙しすぎて時間が取れないんだけど……」とか「プロダクトバックログアイテムを書くのが追いつかないんだけど……」みたいな話が出てきます。まぁ、どのプロダクトオーナーもだいたい大変なんですが、よくよく聞いてみると、なんでもかん...",
+    "score": 0,
+    "published_at": "2026-07-28T07:09:48+00:00",
+    "fetched_at": "2026-07-29T22:27:15.665253+00:00"
+  },
+  {
+    "title": "デジタル庁、AI基盤「源内」を被災自治体などに緊急提供　「平時をはるかに超える業務」対応のため",
+    "url": "https://www.itmedia.co.jp/aiplus/article/2607/29/2000000268/",
+    "summary": "デジタル庁は7月29日、政府職員向けの生成AI利用環境「ガバメントAI 源内」（以下、源内）を、「令和8年熊本地震」の被災自治体や関係自治体、災害対策機関などに緊急提供すると発表した。災害情報の集約や整理、共有に利用される。 デジタル庁は今回の提供目的について、災害情報の処理で「平時をはるかに超える業務」...",
+    "score": 0,
+    "published_at": "2026-07-29T04:19:30+00:00",
+    "fetched_at": "2026-07-29T22:27:15.665277+00:00"
+  },
+  {
+    "title": "「ランサムウェア攻撃を受けたニチレイの物流システムの復旧があんなに早かった理由」必要なところにコストをかけ、維持管理し続けた胆力がすごくて惚れる",
+    "url": "https://togetter.com/li/2726000",
+    "summary": "connect24h @connect24h プロジェクトXに採用 ・改ざんができないイミュータブルストレージを利用し、スナップショットを定期的に世代管理していた ・本番系ネットワークから論理・物理の両面で切り離したオフライン保管のバックアップも、別系統で確保していた ・平時から積み重ねてきたインフラ二重化への投資が、復旧...",
+    "score": 0,
+    "published_at": "2026-07-29T05:50:26+00:00",
+    "fetched_at": "2026-07-29T22:27:15.665303+00:00"
+  },
+  {
+    "title": "Microsoft、JavaScriptからWinRT APIを直接呼び出せる仕組みをパブリックプレビュー／Electron/Node.jsアプリからローカルAIや通知を利用。動的な生成で従来の不便を解消",
+    "url": "https://forest.watch.impress.co.jp/docs/news/2128639.html",
+    "summary": "",
+    "score": 0,
+    "published_at": "2026-07-29T01:51:36+00:00",
+    "fetched_at": "2026-07-29T22:27:15.665314+00:00"
+  },
+  {
+    "title": "これはめちゃ便利！ WindowsからiPhoneに、macOSからAndroidに、異なるOS・デバイス間でファイルを転送できる無料アプリ -LocalSend",
+    "url": "https://coliss.com/articles/build-websites/operation/work/securely-share-files-with-nearby-devices-over-a-local-network.html",
+    "summary": "iPhoneやMac間でファイルを転送できるAirDropが、WindowwsやAndroidでも使えたらなと思っている人もいると思います。 WindowsでもAndroidでも、さらにはmacOSとiOSの異なるOS、異なるデバイス間でファイルを高速に転送できる無料アプリを紹介します。 Local SendはWi-Fiでファイル転送をするため、安全に利用できます（...",
+    "score": 0,
+    "published_at": "2026-07-29T01:08:43+00:00",
+    "fetched_at": "2026-07-29T22:27:15.665328+00:00"
+  },
+  {
+    "title": "あれ? これ本気のヤツだ。Hasselblad共同開発スマホ、OPPO「Find X9 Ultra」【小寺信良の週刊 Electric Zooma!】",
+    "url": "https://av.watch.impress.co.jp/docs/series/zooma/2128562.html",
+    "summary": "",
+    "score": 0,
+    "published_at": "2026-07-29T02:53:52+00:00",
+    "fetched_at": "2026-07-29T22:27:15.665339+00:00"
+  },
+  {
+    "title": "「米政府主導でAI開発に減速を」　中国モデル台頭のさなかに出た共同声明",
+    "url": "https://pc.watch.impress.co.jp/docs/news/2129030.html",
+    "summary": "",
+    "score": 0,
+    "published_at": "2026-07-29T10:07:06+00:00",
+    "fetched_at": "2026-07-29T22:27:15.665349+00:00"
+  },
+  {
+    "title": "川重の乗れる多脚ロボット「コルレオ」　開発は仮想空間とフィジカルAI活用",
+    "url": "https://www.watch.impress.co.jp/docs/news/2128633.html",
+    "summary": "",
+    "score": 0,
+    "published_at": "2026-07-28T23:12:52+00:00",
+    "fetched_at": "2026-07-29T22:27:15.665359+00:00"
+  },
+  {
+    "title": "GPT-5.6とBlender MCPで、多少マシな3Dモデリングをさせるまで",
+    "url": "https://zenn.dev/test_myname/articles/gpt-5-6-blender-mcp-modeling",
+    "summary": "Vtuberの「ぷらむらいす」です。 GPT-5.6とBlender MCPを使い、1枚の見本画像から「銀装飾の黒いアンティーク鍵」を3Dモデリングさせました。 単純に「この画像を参考に作ってください」と頼むだけでは、キューブ、円柱、球などを並べた積み木のようなモデルになります。そこで今回は、Blender用のAGENTS.mdとSkillを作...",
+    "score": 0,
+    "published_at": "2026-07-29T04:57:30+00:00",
+    "fetched_at": "2026-07-29T22:27:15.665385+00:00"
+  },
+  {
+    "title": "髭剃りを買うたびに女性は買わなくていいと羨ましくなる→女性でも生える人が写真を投稿「さすがにAI…だよな？」「流石にここまでは生えない」",
+    "url": "https://togetter.com/li/2726037",
+    "summary": "やまー @ToyamaWoWo @o1s11draw すごい……！！私より剛毛な女性を見るのは珍しい！！仲間！！！ 2日に1回くらい抜いているので正確な数はわからないのですが、1週間放置すれば15本はこれくらい濃いのが生えてきます✌️✨ お尻も背中もふわふわしていませんか⁈✨答えたくなければ大丈夫です！！ 2026-07-29 13:16:02",
+    "score": 0,
+    "published_at": "2026-07-29T07:21:39+00:00",
+    "fetched_at": "2026-07-29T22:27:15.665414+00:00"
+  },
+  {
+    "title": "過大な営業行為が続くLPガス業界　規制の実効性強化に向けた判断基準を明確化へ",
+    "url": "https://www.itmedia.co.jp/smartjapan/articles/2607/28/news039.html",
+    "summary": "これまでLPガス業界では、アパートオーナー等に対する「無償貸与」や「貸付配管」といった商慣行が長らく続いており、それによりLPガスの消費者が不利益を被ることが問題視されてきた。このような商慣行は、消費者によるLPガスの自由な選択を妨げ、LPガス事業者の疲弊も招いてきた。 このため、国はLPガス小売の適正化に...",
+    "score": 0,
+    "published_at": "2026-07-28T10:51:44+00:00",
+    "fetched_at": "2026-07-29T22:27:15.665426+00:00"
+  },
+  {
+    "title": "世界的に見ると日本のiPhoneは安め、次世代機は8～13%値上げか。MM総研調べ",
+    "url": "https://pc.watch.impress.co.jp/docs/news/2128534.html",
+    "summary": "",
+    "score": 0,
+    "published_at": "2026-07-28T07:13:36+00:00",
+    "fetched_at": "2026-07-29T22:27:15.665436+00:00"
   }
 ]
