@@ -1,5 +1,410 @@
 [
   {
+    "date": "2026-09-08",
+    "articles": [
+      {
+        "title": "ドラクエファンが「こういうグッズ思いついた」とイメージ画像をAIで作成＆投稿←これやると実際の企画が潰れる可能性あるし企業ロゴ使用などにも問題が…",
+        "url": "https://togetter.com/li/2743006",
+        "summary": "岡安モフモフ（アーガイル社長）＠ChatGPT/Gemini/ClaudeなどLLMでサービス作る人 @shields_pikes @Dr_Emmett こういうのは、自分の持ってるIPでやるべきだよ。そして、商品化まで自分でやる。 人気のIPでこういうのを出して欲しかったら、絶対にこういう企画案を形にして表に出しちゃダメ。スクエニの社内でも前から似...",
+        "score": 300,
+        "published_at": "2026-09-08T06:37:51+00:00",
+        "fetched_at": "2026-09-08T23:30:13.334161+00:00"
+      },
+      {
+        "title": "NVIDIAのJensen Huang氏「AGIは到来した」、OpenAIからも「AGI時代に入りつつある」との声",
+        "url": "https://gihyo.jp/article/2026/09/toward-agi-era?utm_source=feed",
+        "summary": "OpenAIのGreg Brockman氏やMark Chen氏、NVIDIAのJensen Huang氏が、Xへの投稿でAGI（汎用人工知能）の到来や、その時代への移行に言及した。",
+        "score": 200,
+        "published_at": "2026-09-07T07:34:00+00:00",
+        "fetched_at": "2026-09-08T23:30:12.886789+00:00"
+      },
+      {
+        "title": "ChatGPT Workにユーザーの書く文章スタイルを学習して文書作成に反映させる機能が追加",
+        "url": "https://gihyo.jp/article/2026/09/chatgpt-learning-writing-style?utm_source=feed",
+        "summary": "OpenAIは2026年9月8日、ChatGPT Workを日常使うアプリと連携させることでユーザーの文章スタイルを学習し、文章作成内容に反映させる機能を装備したことを発表した。",
+        "score": 200,
+        "published_at": "2026-09-08T00:51:00+00:00",
+        "fetched_at": "2026-09-08T23:30:12.886758+00:00"
+      },
+      {
+        "title": "ChatGPT Workに“自分の文体”学習機能　GmailやSlackの文章から言い回しやクセを模倣",
+        "url": "https://www.itmedia.co.jp/news/article/2609/08/2000001256/",
+        "summary": "米OpenAIは9月7日（現地時間）、AIエージェント機能「ChatGPT Work」に、ユーザーの文体を学習する機能を追加したと公式Xで発表した。",
+        "score": 200,
+        "published_at": "2026-09-08T09:12:41+00:00",
+        "fetched_at": "2026-09-08T23:30:10.758920+00:00"
+      },
+      {
+        "title": "音楽生成AI「Lyria 3.5」、Geminiアプリで全ユーザー開放",
+        "url": "https://pc.watch.impress.co.jp/docs/news/2138938.html",
+        "summary": "",
+        "score": 100,
+        "published_at": "2026-09-08T02:54:15+00:00",
+        "fetched_at": "2026-09-08T23:30:13.334361+00:00"
+      },
+      {
+        "title": "最新AI「GPT-6 Astra」で“『スマブラ』クローン”が作られるも、なんとも言えない完成度に議論勃発。「当面は仕事が安泰」と皮肉るゲーム開発者も - AUTOMATON",
+        "url": "https://automaton-media.com/articles/newsjp/20260908-465804/",
+        "summary": "OpenAIは日本時間9月4日、最新AIモデル「GPT-6 Astra」の提供を開始した。従来モデルを凌駕するパフォーマンスにはゲーム開発の分野でもさっそく注目が集まっている。そのなかでは、あるユーザーが同モデルを用いて制作したという“『大乱闘スマッシュブラザーズ』のクローン”がSNSで共有され、議論が起こっている。 GPT-...",
+        "score": 100,
+        "published_at": "2026-09-08T09:51:41+00:00",
+        "fetched_at": "2026-09-08T23:30:13.334306+00:00"
+      },
+      {
+        "title": "[PDF] TBSテレビ「ラヴィット！」大規模配信の裏側と AWS サーバーレス設計",
+        "url": "https://pages.awscloud.com/rs/112-TZM-766/images/R14_0625_6_CDN227_v1.pdf",
+        "summary": "CDN227 TBSテレビ「ラヴィット！」大規模配信の 裏側と AWS サーバーレス設計 亀田 遼 株式会社TBSテレビ メディアテクノロジー局未来技術革新事業部 テクニカルプロダクトリード （株）TBSテレビ メディアテクノロジー局 未来技術革新事業部 テクニカルプロダクトリード 亀田 遼 TBSテレビ「ラヴィット！」 大規模配信...",
+        "score": 100,
+        "published_at": "2026-09-08T09:10:38+00:00",
+        "fetched_at": "2026-09-08T23:30:13.334193+00:00"
+      },
+      {
+        "title": "AIっぽくない画像を作る画風プロンプト38種類＋テンプレート - Qiita",
+        "url": "https://qiita.com/maeda-niku18/items/b633dda178c505461080",
+        "summary": "AI画像生成の「AIっぽさ」を消すための画風プロンプト集（38スタイル＋テンプレート） ChatGPT（GPT Image）で資料やWebサイト用のイラストを作っていると、毎回同じところで引っかかります。 線が均一すぎる、グラデーションが滑らかすぎる、顔が整いすぎている、背景に意味のない小物が増える。要するに、AIが生成した...",
+        "score": 100,
+        "published_at": "2026-09-08T05:05:02+00:00",
+        "fetched_at": "2026-09-08T23:30:13.334032+00:00"
+      },
+      {
+        "title": "Claude Codeの「コンテキスト」の仕組みとファイルの読み込ませ方を知ろう",
+        "url": "https://gihyo.jp/article/2026/09/claude-code-ai-driven-development-02?utm_source=feed",
+        "summary": "本連載は2026年9月刊行予定の『Claude Codeで作って学ぶ AI駆動アプリ開発入門』から一部、抜粋・編集してお届けします。第2回目は、Claude Codeが情報を扱う仕組みである「コンテキスト」を説明した後、Claude Codeに指定したファイルを読み込ませる「@記法」について説明します。",
+        "score": 100,
+        "published_at": "2026-09-08T00:06:00+00:00",
+        "fetched_at": "2026-09-08T23:30:12.886774+00:00"
+      },
+      {
+        "title": "OpenAI、エージェントによる研究加速と直面する安全性の壁を開示　チーフサイエンティストは「自発的減速」を提唱",
+        "url": "https://www.itmedia.co.jp/news/article/2609/07/2000001204/",
+        "summary": "OpenAIは、研究加速レポートとチーフサイエンティストのエッセイを公開した。社内でのAIエージェント活用により研究が急加速する一方、7月のインシデントによる訓練停止や、CoT監視の有効性低下など深刻な課題に直面していると開示。安全基準確立までの「自発的な減速」や国際的な規制枠組みの必要性を訴えた。",
+        "score": 100,
+        "published_at": "2026-09-07T00:19:02+00:00",
+        "fetched_at": "2026-09-08T23:30:10.759250+00:00"
+      },
+      {
+        "title": "Amazon Linuxが4年ぶりにメジャーバージョンアップ、「Amazon Linux 2027」パブリックプレビュー。SELinuxがデフォルトで強制モードに",
+        "url": "https://www.publickey1.jp/blog/26/amazon_linux4amazon_linux_2027selinux.html",
+        "summary": "Amazon Web Services（AWS）は、AWSに最適化されたLinux OSの4年ぶりとなるメジャーバージョンアップ「Amazon Linux 2027」をパブリックプレビューとしてリリースしました。 現時点の正式版はAmazo...",
+        "score": 100,
+        "published_at": "2026-09-08T15:54:55+00:00",
+        "fetched_at": "2026-09-08T23:30:10.023953+00:00"
+      },
+      {
+        "title": "Docker環境をガチで軽量化するための鉄板設定まとめ - Qiita",
+        "url": "https://qiita.com/nolanlover0527/items/24ee07122dd4d0523069",
+        "summary": "はじめに Docker環境が重すぎて頭を抱えている人は多いのではないでしょうか。 私自身も激重なDocker環境を触っていて、原因を一つずつ潰していった経験が何度かあります。 今回は、ローカルのDocker環境（Windows）を軽量化するための方法について、実際に行った手順と一緒に紹介します。 ただし、リソース削除やnamed ...",
+        "score": 10,
+        "published_at": "2026-09-07T23:24:29+00:00",
+        "fetched_at": "2026-09-08T23:30:13.334117+00:00"
+      },
+      {
+        "title": "日本語プログラミング言語「なでしこ3」のGo言語版がリリース ―単一バイナリを生成可能で高速動作",
+        "url": "https://gihyo.jp/article/2026/09/gonako?utm_source=feed",
+        "summary": "プログラマのクジラ飛行机（[@kujirahand）氏は2026年9月7日、日本語プログラミング言語「なでしこ3」をGo言語で実装した「なでしこ3(Go版)」（通称：gonako）をリリースした。",
+        "score": 10,
+        "published_at": "2026-09-08T07:30:00+00:00",
+        "fetched_at": "2026-09-08T23:30:12.886719+00:00"
+      },
+      {
+        "title": "巨大オンラインゲーム「EVE Online」。ゲームを支える240万行のPython 2.7のコードをPython 3へ移行すると発表",
+        "url": "https://www.publickey1.jp/blog/26/eve_online240python_27python_3.html",
+        "summary": "宇宙を舞台にした世界最大級の大規模オンラインゲーム「EVE Online」が、ゲームを支える240万行のPythonコードをPython 3に移行すると発表しました。 We have officially started our codeb...",
+        "score": 10,
+        "published_at": "2026-09-08T14:28:02+00:00",
+        "fetched_at": "2026-09-08T23:30:10.023973+00:00"
+      },
+      {
+        "title": "AIを10分使うだけで正解率が急低下、識者が説く3つの「べからず」 - 日本経済新聞",
+        "url": "https://www.nikkei.com/article/DGXZQOUC251P30V20C26A8000000/",
+        "summary": "日常業務において生成AI（人工知能）はとても便利だ。自然言語で質問するだけで、大抵のことに答えてくれる。文書の要約やメール文面の作成といった業務も代行してくれる。だが一方で、自分で考える機会が失われ、思考力が低下する懸念がある。AI利用のダークサイドといえるだろう。実際、思考力などが低下する恐れを示...",
+        "score": 0,
+        "published_at": "2026-09-08T01:21:01+00:00",
+        "fetched_at": "2026-09-08T23:30:13.334468+00:00"
+      },
+      {
+        "title": "おれはAIを信じない",
+        "url": "https://dailyportalz.jp/dpq/midokoro-20260908-1",
+        "summary": "お世話になっております。暑さに弱い江ノ島です。 近年、暑いじゃないですか。そんな中でエアコンが効きません。 前回買い換えたとき「まあだいたい部屋の大きさなんて6畳ぐらいだろう」と6畳用のエアコンを買ったところ、部屋の大きさが実は11畳ぐらいあって、南向きだし、木造、平屋という条件が重なって全然冷えず、...",
+        "score": 0,
+        "published_at": "2026-09-08T07:14:36+00:00",
+        "fetched_at": "2026-09-08T23:30:13.334455+00:00"
+      },
+      {
+        "title": "[FT]コンサル大手、若手に出社回帰促す　AI普及で対人スキル重視 - 日本経済新聞",
+        "url": "https://www.nikkei.com/article/DGXZQOCB074J50X00C26A9000000/",
+        "summary": "会計・コンサルティング大手が若手社員の出社回数を増やす検討をしている。技術的な業務の多くを人工知能（AI）で代替できるようになるなか、オフィス勤務を通じて対人スキルを磨くことが重要だと考えるようになったためだ。人間しか担えない業務が重要に世界の会計事務所「ビッグ4」の一つ、アーンスト・アンド・ヤング...",
+        "score": 0,
+        "published_at": "2026-09-08T00:29:06+00:00",
+        "fetched_at": "2026-09-08T23:30:13.334442+00:00"
+      },
+      {
+        "title": "「お試し」のつもりが定期購入　広がる「ダークパターン」が法規制に?",
+        "url": "https://www.watch.impress.co.jp/docs/topic/2137766.html",
+        "summary": "",
+        "score": 0,
+        "published_at": "2026-09-07T23:50:04+00:00",
+        "fetched_at": "2026-09-08T23:30:13.334429+00:00"
+      },
+      {
+        "title": "「雇用を守れ！」ロボット群が路上で訴え、AI規制求めデモ ポーランド",
+        "url": "https://www.afpbb.com/articles/-/3651960",
+        "summary": "この写真にはショッキングな表現、または18歳以上の年齢制限の対象となる内容が含まれます。 ご覧になる場合にはご了承の上、クリックしてください。 【9月8日 AFP】ポーランドの首都ワルシャワで7日、人工知能（AI）の規制を求めて約30台のロボットが路上でデモ活動を行った。ロボットたちは、旗を振り、スローガンを「...",
+        "score": 0,
+        "published_at": "2026-09-08T08:22:53+00:00",
+        "fetched_at": "2026-09-08T23:30:13.334418+00:00"
+      },
+      {
+        "title": "道マニア達よ、これがゼンリンの「一般国道トレカ」だ。全国459路線、9月11日から順次発売　敦賀市・岡山町1丁目交差点の「4連おにぎり」キーホルダーが付いてくるBOXセットは初回限定【地図ウォッチ】",
+        "url": "https://internet.watch.impress.co.jp/docs/column/chizu/2139036.html",
+        "summary": "",
+        "score": 0,
+        "published_at": "2026-09-08T05:21:47+00:00",
+        "fetched_at": "2026-09-08T23:30:13.334387+00:00"
+      },
+      {
+        "title": "Meta tried to shrink engineering teams around AI",
+        "url": "https://leaddev.com/ai/meta-tried-to-shrink-engineering-teams-around-ai",
+        "summary": "You have 1 article left to read this month before you need to register a free LeadDev.com account. Estimated reading time: 3 minutes Key takeaways: Meta’s AI “pods” boosted code changes 220%, but shipped features rose just 36% while incidents jumped 40%. Across 500+ orgs, PR throughput rose 37% w...",
+        "score": 0,
+        "published_at": "2026-09-08T13:22:28+00:00",
+        "fetched_at": "2026-09-08T23:30:13.334349+00:00"
+      },
+      {
+        "title": "テストを生成するな、信頼を生成しろ",
+        "url": "https://zenn.dev/nakurei/articles/generate-trust-not-tests",
+        "summary": "これはなに AIにコーディングを丸投げするなら、テストコードくらい確認しろという愚痴。 背景 | ただの愚痴 私はここ1年ほど毎日のように、コードの構造や仕様をAIへ与え、それに基づいてテストケースを作らせている。もちろんコード自体も書かせている。そしてAIに書かせたコードをチームメンバーにレビューさせ、チー...",
+        "score": 0,
+        "published_at": "2026-09-07T21:48:23+00:00",
+        "fetched_at": "2026-09-08T23:30:13.334331+00:00"
+      },
+      {
+        "title": "小学校の図書館にあったありえない本、1巻で全加算器を設計させるなど内容が濃すぎて多大な影響を受けた結果ITの道へ進んだ「コンピュータって何？がわかるいい本」",
+        "url": "https://togetter.com/li/2743017",
+        "summary": "ととがんま @totegamma 小学校の図書館にあったありえない本、一巻で全加算機を設計させ、三巻ではすでに「逆ポーランド記法の数式はスタックに入れると計算できる」というところまでを小学生に教え込む恐ろしいシリーズだった。おかげで僕はこの道に進むことになったのだけど、最近これを急に思い出したので買い揃える...",
+        "score": 0,
+        "published_at": "2026-09-08T04:37:56+00:00",
+        "fetched_at": "2026-09-08T23:30:13.334277+00:00"
+      },
+      {
+        "title": "LG以外のスマートテレビも画面に映る内容を追跡してユーザーをスパイしている、どうすれば止められるのか？",
+        "url": "https://gigazine.net/news/20260908-smart-tv-spying/",
+        "summary": "LG製スマートテレビが、ユーザーの視聴履歴などをネットワーク経由で外部へ送信していることが明らかになりました。しかし、画面に映るコンテンツを収集しているのはLGだけではありません。製品レビューサイトのRTINGS.comが主要メーカーのテレビやストリーミング端末を調査したところ、画面に映る内容を自動で識別する...",
+        "score": 0,
+        "published_at": "2026-09-08T11:17:37+00:00",
+        "fetched_at": "2026-09-08T23:30:13.334263+00:00"
+      },
+      {
+        "title": "母に無料スタンプを送っただけで「私ごとき無料でいいと思ってるんだ」「バカにしてる、見下してる」とヒスられたの、ほんとになんですか→驚きと同情の声が多数集まる",
+        "url": "https://togetter.com/li/2743144",
+        "summary": "母に無料スタンプを送っただけで「私ごとき無料でいいと思ってるんだ」「バカにしてる、見下してる」とヒスられたの、ほんとになんですか→驚きと同情の声が多数集まる",
+        "score": 0,
+        "published_at": "2026-09-08T10:24:37+00:00",
+        "fetched_at": "2026-09-08T23:30:13.334250+00:00"
+      },
+      {
+        "title": "AIが設計した薬「レントセルチブ」が人間の生物学的年齢を若返らせたことが判明",
+        "url": "https://gigazine.net/news/20260908-ai-assisted-medicine-age-reversal/",
+        "summary": "AIを活用した製薬会社のInsilico Medicineが、AIによって設計した「レントセルチブ」という薬で人間の生物学的年齢が若返ったと報告しました。 Integration of proteomic aging clocks in a phase 2a clinical trial supports simultaneous geroprotective assessment | Nature Biotechnology https://www.nature.com/ar...",
+        "score": 0,
+        "published_at": "2026-09-08T10:27:09+00:00",
+        "fetched_at": "2026-09-08T23:30:13.334236+00:00"
+      },
+      {
+        "title": "ETL 基盤を Embulk から dlt + dbt に乗り換えた 2 つの理由 - エムスリーテックブログ",
+        "url": "https://www.m3tech.blog/entry/embulk-to-dlt-dbt",
+        "summary": "この記事はコンシューマーチームブログリレー 4日目の記事です。 Embulk 0.9.25 で動かしていた担当プロジェクトの ETL を、dlt + dbt と Step Functions に全面移行しました。証明書エラーと BigQuery のレガシー API 利用で観念した話です。 こんにちは。エムスリーのコンシューマーチームエンジニアの園田です。 コン...",
+        "score": 0,
+        "published_at": "2026-09-08T05:02:18+00:00",
+        "fetched_at": "2026-09-08T23:30:13.334208+00:00"
+      },
+      {
+        "title": "ヘアモデル画像酷似で無断使用と提訴　「AI生成画像」に著作権あるのか、司法判断に注目",
+        "url": "https://www.sankei.com/article/20260908-R74BJGPGTVLPHKYJM27AZPAAY4/",
+        "summary": "原告企業が生成AIで制作し販売しているヘアカットモデルの画像（左）と、被告が無断で広告サイトに掲載したと原告側が主張している画像（いずれも原告側提供）生成AI（人工知能）を利用して作ったヘアカットモデルの画像と酷似した画像を無断で広告に使われ、著作権を侵害されたとして、大阪市のコンテンツ制作会社が千...",
+        "score": 0,
+        "published_at": "2026-09-08T14:50:52+00:00",
+        "fetched_at": "2026-09-08T23:30:13.334146+00:00"
+      },
+      {
+        "title": "InstagramのAI検出ラベルが誤作動しまくっていると話題に",
+        "url": "https://gigazine.net/news/20260908-instagram-ai-detection/",
+        "summary": "Metaは2024年5月から、AIで作成されたコンテンツに対して「AI Info(Made with AI)」というラベルを付ける施策を導入しています。その後も検出機能の強化などを実施していますが、2026年8月末頃から、明らかにAI生成画像なのにラベルがついていなかったり、人間が撮影した写真なのにラベルをつけたりといった誤検出が多数...",
+        "score": 0,
+        "published_at": "2026-09-08T05:35:12+00:00",
+        "fetched_at": "2026-09-08T23:30:13.334131+00:00"
+      },
+      {
+        "title": "React 19移行で学んだpnpmの依存関係解決の仕組み",
+        "url": "https://zenn.dev/yamatechi/articles/vite-monorepo-react-dedupe",
+        "summary": "React19移行で見つかった謎の不具合 pnpm workspaceとViteを使うモノレポで、複数あるReactアプリケーションの一つをReact19に更新しました。他のアプリはReact18のままだったため、両方のバージョンが共存している状態です。 変更後、検証していると謎の不具合に遭遇しました。 React19へ移行したアプリに古いReactが紛...",
+        "score": 0,
+        "published_at": "2026-09-08T05:19:42+00:00",
+        "fetched_at": "2026-09-08T23:30:13.334102+00:00"
+      },
+      {
+        "title": "Netanyahu got an explicit warning before Oct. 7. He didn't brief security chiefs",
+        "url": "https://www.haaretz.com/israel-news/israel-security/2026-09-08/ty-article-magazine/.highlight/netanyahu-got-an-explicit-warning-before-oct-7-he-didnt-brief-security-chiefs/000001a0-7a3b-d7d5-a9fc-7eff3d0f0000",
+        "summary": "Revealed: Netanyahu Received an Explicit Warning Days Before Oct. 7. He Didn't Brief Israel's Security Chiefs",
+        "score": 0,
+        "published_at": "2026-09-08T11:27:55+00:00",
+        "fetched_at": "2026-09-08T23:30:13.334086+00:00"
+      },
+      {
+        "title": "2026年版: Mac開発環境の最新セットアップとインストールスクリプト（翻訳）｜TechRacho by BPS株式会社",
+        "url": "https://techracho.bpsinc.jp/hachi8833/2026_09_08/159597",
+        "summary": "概要 元サイトの許諾を得て翻訳・公開いたします。 英語記事: My Development Setup in 2026 | baweaver 原文公開日: 2026年08月04日 原著者: Brandon Weaver 日本語タイトルは内容に即したものにしました。 ツールや拡張などへのリンクを適宜追加しています。 本記事は主にRails開発用の環境構築について解説されていま...",
+        "score": 0,
+        "published_at": "2026-09-08T08:47:26+00:00",
+        "fetched_at": "2026-09-08T23:30:13.334072+00:00"
+      },
+      {
+        "title": "「離婚してから自分が性格悪いことに気づいた」の人が誤解していること - いつか電池がきれるまで",
+        "url": "https://fujipon.hatenablog.com/entry/2026/09/08/170251",
+        "summary": "anond.hatelabo.jp いまネット界隈でかなり話題のこの『はてな匿名ダイアリー』のエントリについて。 読みながら、これAI？が半分、こういう「理由責め」しないと気が済まない人っているよな、が半分。 僕もけっこう「理由にこだわってしまう人間」だったので、「ちゃんと確認したい」「可能であれば自分でも改善したい...",
+        "score": 0,
+        "published_at": "2026-09-08T09:51:14+00:00",
+        "fetched_at": "2026-09-08T23:30:13.334054+00:00"
+      },
+      {
+        "title": "GitHub、Copilot CLIで複数AIモデルを使い分けてコスト削減を図る「Project HydraFusion」を研究プレビューで提供",
+        "url": "https://gihyo.jp/article/2026/09/github-copilot-hydrafusion?utm_source=feed",
+        "summary": "GitHubは2026年9月4日、コーディングタスクに応じてAIモデルと処理の進め方を選ぶ「Project HydraFusion」を公式ブログで紹介した。",
+        "score": 0,
+        "published_at": "2026-09-08T05:38:00+00:00",
+        "fetched_at": "2026-09-08T23:30:12.886741+00:00"
+      },
+      {
+        "title": "犬を飼うと認知症リスク48％減　東京に住む1万人以上を調査　国立環境研究所や東大など",
+        "url": "https://www.itmedia.co.jp/news/article/2609/07/2000001178/",
+        "summary": "国立環境研究所や東京大学などに所属する研究者らが国際学術誌「International Journal of Environmental Research and Public Health」で発表した論文「Investigating the Potential Protective Effect of Dog Ownership on Incident Disabling Dementia and Its Cost-Effectiveness」は、犬の飼育が高齢者の認知症の発症リスクに与える効果と、その費用対効果を調査した研究報告だ。",
+        "score": 0,
+        "published_at": "2026-09-06T22:00:00+00:00",
+        "fetched_at": "2026-09-08T23:30:10.759265+00:00"
+      },
+      {
+        "title": "楽天モバイル、KDDIローミングは「10月以降も継続」と再告知　「現在も詰めの協議」",
+        "url": "https://www.itmedia.co.jp/news/article/2609/07/2000001211/",
+        "summary": "楽天モバイルは9月5日、KDDIとのローミング契約について「現在も、詰めの協議を行なっています」とする告知を改めて公式サイトに掲載した。カバーに時間を要するエリアでは10月以降も継続する一方、十分カバーできているエリアは縮小するという。",
+        "score": 0,
+        "published_at": "2026-09-07T05:07:25+00:00",
+        "fetched_at": "2026-09-08T23:30:10.759237+00:00"
+      },
+      {
+        "title": "AIで「今日着た服」を自動判定　1日の“服コスパ”が分かるシステムがスゴイ",
+        "url": "https://www.itmedia.co.jp/news/article/2609/07/2000001213/",
+        "summary": "手持ちの服の価格を着た回数で割っていき、服を“減価償却”してコスパ管理できる――AIも使ったそんなシステムが面白い。",
+        "score": 0,
+        "published_at": "2026-09-07T05:18:39+00:00",
+        "fetched_at": "2026-09-08T23:30:10.759226+00:00"
+      },
+      {
+        "title": "カメラのないAIグラス、「RayNeo iO」はどこまでやれるのか　盗撮疑惑とは無縁になるが機能面は？",
+        "url": "https://www.itmedia.co.jp/news/article/2609/07/2000001208/",
+        "summary": "「RayNeo iO スマートグラス」は、ディスプレイとマイクはあるが、カメラを搭載しないAIグラスだ。昨今騒がれているAIグラスの盗撮問題とは無縁のプライバシーに配慮した設計が特長だが、カメラなしでどこまでやれるのか。実際に試用してみた。",
+        "score": 0,
+        "published_at": "2026-09-07T08:24:08+00:00",
+        "fetched_at": "2026-09-08T23:30:10.759215+00:00"
+      },
+      {
+        "title": "くら寿司株が一時3.7％安　「ちいかわ」コラボ中止が要因か",
+        "url": "https://www.itmedia.co.jp/news/article/2609/07/2000001229/",
+        "summary": "9月7日の東京株式市場で、くら寿司の株価が一時、前営業日比65円安（－3.7％）の1675円まで下落した。その後は下げ幅を縮め、終値は同44円安（－2.5％）の1696円だった。5日に発表した人気キャラクター「ちいかわ」とのコラボキャンペーンの中止が、下落材料の1つとみられる。",
+        "score": 0,
+        "published_at": "2026-09-07T09:03:26+00:00",
+        "fetched_at": "2026-09-08T23:30:10.759203+00:00"
+      },
+      {
+        "title": "近くの“安いマック”が分かる「価格帯マップ」話題　スタバやコメダも対応　店舗の価格差、独自に調査",
+        "url": "https://www.itmedia.co.jp/news/article/2609/07/2000001230/",
+        "summary": "全国のマクドナルド店舗のビッグマック価格を地図上で比較できる個人運営の非公式サイト「マクドナルド価格帯マップ」が、Xで話題になっている。同じビッグマックでも立地によって最大100円の差があり、「近いのに値段が違う」という気付きが拡散のきっかけになっている。",
+        "score": 0,
+        "published_at": "2026-09-07T09:10:43+00:00",
+        "fetched_at": "2026-09-08T23:30:10.759189+00:00"
+      },
+      {
+        "title": "醸造元に無許可でコラボ？　神田明神納涼祭りで販売された「VTuber日本酒」が物議　企画者は「事実関係確認中」",
+        "url": "https://www.itmedia.co.jp/news/article/2609/07/2000001221/",
+        "summary": "8月6?9日に開催された神田明神納涼祭りに合わせ、イベント団体が企画した「VTuberコラボ日本酒」を巡り、製造元として告知された酒造会社が「一切許諾していない」と声明を出したことが、Xで物議を醸している。祭りの実行委員会は9月6日、該当商品は「絶品グルメ屋台の会」が企画したものとして関与を否定。同会も同日、事実関係を確認中とした上で、新規受注は8月22日付で停止しているとアナウンスした。",
+        "score": 0,
+        "published_at": "2026-09-07T09:12:46+00:00",
+        "fetched_at": "2026-09-08T23:30:10.759177+00:00"
+      },
+      {
+        "title": "Google「Pixel 6a」で充電中に発火、けが人も　消費者庁",
+        "url": "https://www.itmedia.co.jp/news/article/2609/07/2000001231/",
+        "summary": "消費者庁は9月4日、Googleのスマートフォン「Pixel 6a」で発生した火災を、製品起因が疑われる重大製品事故として公表した。同日の公表ではリコール中のAnker製モバイルバッテリー「Anker PowerCore 10000」の火災も特記事項として取り上げている。",
+        "score": 0,
+        "published_at": "2026-09-07T09:24:52+00:00",
+        "fetched_at": "2026-09-08T23:30:10.759164+00:00"
+      },
+      {
+        "title": "メルカリ、くら寿司ちいかわ騒動巡りコメント　出品削除・禁止の有無は",
+        "url": "https://www.itmedia.co.jp/news/article/2609/07/2000001232/",
+        "summary": "メルカリは9月7日、くら寿司が実施した「ちいかわ」コラボキャンペーンを巡る騒動について、コメントした。",
+        "score": 0,
+        "published_at": "2026-09-07T10:12:00+00:00",
+        "fetched_at": "2026-09-08T23:30:10.759151+00:00"
+      },
+      {
+        "title": "全国に電子カルテ情報共有網　2030年度にも基盤構築　普及へ費用軽減がカギ",
+        "url": "https://www.itmedia.co.jp/news/article/2609/07/2000001233/",
+        "summary": "政府は全国の医療機関が患者の電子カルテ情報をインターネット上で共有するシステム基盤を令和12年度にも整備する。患者がかかりつけの病院以外でも治療や薬の処方をスムーズに受けられるよう医療体制を強化する。基盤構築に向けて、医療機関やシステム開発への財政支援を複数年度にわたり実施することを検討する。",
+        "score": 0,
+        "published_at": "2026-09-07T10:42:01+00:00",
+        "fetched_at": "2026-09-08T23:30:10.759140+00:00"
+      },
+      {
+        "title": "首の痛み、スマホ使用時の前かがみの姿勢に気を付けて　生活習慣も要因に",
+        "url": "https://www.itmedia.co.jp/news/article/2609/07/2000001234/",
+        "summary": "首に痛みや違和感を訴える人は多い。スマートフォンの使い過ぎも要因の一つとされ、今やシニアも長時間使うことはよくある。少しの違和感だとがまんしてしまいがちだが、日頃の姿勢や生活習慣に気を付けることで改善されることもある。首や肩の不調に詳しい医師に聞いた。",
+        "score": 0,
+        "published_at": "2026-09-07T10:49:30+00:00",
+        "fetched_at": "2026-09-08T23:30:10.759128+00:00"
+      },
+      {
+        "title": "ヘボいロボット大集合　技術力が低いロボット相撲大会「ヘボコン」開催、ハイテクは減点",
+        "url": "https://www.itmedia.co.jp/news/article/2609/07/2000001235/",
+        "summary": "技術力が低い開発者のためのロボット相撲大会「ヘボコン」が開かれ、個性豊かなロボットたちが珍妙なパフォーマンスが会場を沸かせた。",
+        "score": 0,
+        "published_at": "2026-09-07T11:02:39+00:00",
+        "fetched_at": "2026-09-08T23:30:10.759116+00:00"
+      },
+      {
+        "title": "VTuberの名前を一発入力できる「VTuber変換辞書」で騒動　BOOTHで一時販売停止も復活　「当初の判断に誤り」",
+        "url": "https://www.itmedia.co.jp/news/article/2609/07/2000001237/",
+        "summary": "同人誌「風とバーチャル」の編集部は9月7日、VTuberの名前を日本語入力で変換できるようにする有料データ「VTuber変換辞書」の販売を、通販・ダウンロード販売サービス「BOOTH」で一時停止した後、同日中に再開した。同辞書は5日に公開したもので、収録されたVTuberの一部から名前の無断使用だと批判が上がり、物議を醸していた。",
+        "score": 0,
+        "published_at": "2026-09-07T13:57:56+00:00",
+        "fetched_at": "2026-09-08T23:30:10.759105+00:00"
+      },
+      {
+        "title": "AI創薬候補、6種の「老化時計」で生物学的年齢の低下を示唆",
+        "url": "https://www.itmedia.co.jp/news/article/2609/08/2000001239/",
+        "summary": "バイオテクノロジー企業のInsilico Medicineは、生成AIで設計した特発性肺線維症の治療薬候補「レントセルチブ」のデータを再解析した結果を発表した。血中タンパク質から測る6種の「老化時計」すべてで、患者の生物学的年齢が最大約6歳分低下したという。老化への直接的な作用を確認するには更なる検証が必要としている。",
+        "score": 0,
+        "published_at": "2026-09-07T22:02:55+00:00",
+        "fetched_at": "2026-09-08T23:30:10.759092+00:00"
+      },
+      {
+        "title": "警察庁と日本MS、サイバー対策で協定　情報共有、教育で連携",
+        "url": "https://www.itmedia.co.jp/news/article/2609/08/2000001241/",
+        "summary": "サイバー事案の未然防止や、被害拡大の防止、捜査に資する情報の共有、次世代向けの教育などの啓発活動で連携する。",
+        "score": 0,
+        "published_at": "2026-09-07T23:45:01+00:00",
+        "fetched_at": "2026-09-08T23:30:10.759079+00:00"
+      },
+      {
+        "title": "くら寿司、「ちいかわ」グッズ不正で「警察と相談、厳正に対処」　メルカリと連携も",
+        "url": "https://www.itmedia.co.jp/news/article/2609/08/2000001240/",
+        "summary": "「ちいかわ」のコラボキャンペーンで、従業員による不正行為があった件について、「警察当局に相談の上で厳正に対処する」。",
+        "score": 0,
+        "published_at": "2026-09-08T00:35:24+00:00",
+        "fetched_at": "2026-09-08T23:30:10.759068+00:00"
+      }
+    ]
+  },
+  {
     "date": "2026-09-07",
     "articles": [
       {
