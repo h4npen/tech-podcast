@@ -1,5 +1,410 @@
 [
   {
+    "date": "2026-09-15",
+    "articles": [
+      {
+        "title": "OpenAI、AI安全性でAnthropic、Google DeepMindと協議中──Bloomberg報道",
+        "url": "https://www.itmedia.co.jp/news/article/2609/16/2000001522/",
+        "summary": "OpenAIが、AnthropicやGoogle DeepMindとAIの安全性確保に向けて協議を進めているとBloombergが報じた。反トラスト法の適用除外を巡っては米当局の警戒や議会での法案提出など議論が活発化。一方、NVIDIAのフアンCEOは市場原理で安全性と迅速な開発は両立可能として政府の介入に否定的な見方を示した。",
+        "score": 200,
+        "published_at": "2026-09-15T22:13:20+00:00",
+        "fetched_at": "2026-09-15T23:34:29.480922+00:00"
+      },
+      {
+        "title": "AIのテスト観点を「決定論的」にする - テスト観点カタログを作った",
+        "url": "https://zenn.dev/aldagram_tech/articles/316c4d944fd9d5",
+        "summary": "こんにちは！株式会社 Aldagramで業務委託QAをしている宮下です！ 前回は、Claude Code 上で QA プロセスを回す AI エージェント「qa-orchestrator」を作った話を書きました。 今回はその続きになります。 qa-orchestrator を運用してみて、いちばん気になっていたのが「仕様書に書かれていない振る舞いの観点が抜ける」...",
+        "score": 100,
+        "published_at": "2026-09-15T05:20:45+00:00",
+        "fetched_at": "2026-09-15T23:34:30.933628+00:00"
+      },
+      {
+        "title": "NVIDIAが映像フレーム補間や生中継翻訳などの放送業界向けAIコレクション「NVIDIA AI for Media」の大幅拡充を発表",
+        "url": "https://gigazine.net/news/20260915-nvidia-ai-for-media/",
+        "summary": "NVIDIAは放送業界向けのAIツールコレクションとして「NVIDIA AI For Media」を展開しています。このNVIDIA AI For Mediaに複数の新規AIツールが加わりました。 NVIDIA Brings Real-Time AI to Broadcast, Sports and Global Streaming at IBC | NVIDIA Blog https://blogs.nvidia.com/blog/ibc-news-2026/ NVIDIA AI For...",
+        "score": 100,
+        "published_at": "2026-09-15T09:02:39+00:00",
+        "fetched_at": "2026-09-15T23:34:30.933603+00:00"
+      },
+      {
+        "title": "生成AIが書いたドキュメントを読みたくない - Qiita",
+        "url": "https://qiita.com/take-yoda/items/e5d9ce6618523af1ffc5",
+        "summary": "株式会社ブレインパッドプロダクト開発部でRtoaster GenAIの開発をしている依田です。 Claude CodeにDesign docやPRを書かせていて、「情報量は多いのに、何を決めたのかがなかなか頭に入ってこない」と感じたことはないでしょうか。私は何度もあります。読んでいるあいだずっと気を張っていないと、一番知りたい結論を...",
+        "score": 100,
+        "published_at": "2026-09-14T11:11:06+00:00",
+        "fetched_at": "2026-09-15T23:34:30.933498+00:00"
+      },
+      {
+        "title": "AIレビューは３層でまわす | ドクセル",
+        "url": "https://www.docswell.com/s/3402128/KVJYJ3-2026-09-15-202358",
+        "summary": "レビューは3層で回す AI ローカル・PR時・デイリー、サブスクの範囲で 自走環境整備・運用スペシャル #6 ／ 2026年9月15日（火） AI 篠田 敬廣 篠田 敬廣 経歴 大手SIerでインフラ構築・設計、プロジェクトマネジメントに 従事したのち独立 現在 Waalsforce コミュニティ JAWS-UG 趣味 サウナ 連絡先 X: @yukkie1114 導...",
+        "score": 100,
+        "published_at": "2026-09-15T15:11:40+00:00",
+        "fetched_at": "2026-09-15T23:34:30.933467+00:00"
+      },
+      {
+        "title": "Anthropic、Claude Codeのプラグイン評価コマンド「claude plugin eval」を紹介",
+        "url": "https://gihyo.jp/article/2026/09/claude-plugin-eval?utm_source=feed",
+        "summary": "Anthropicは2026年9月11日、Claude Codeのプラグインやスキルの効果を評価するコマンド「claude plugin eval」を公式XアカウントのClaudeDevsで紹介した。",
+        "score": 100,
+        "published_at": "2026-09-14T02:36:00+00:00",
+        "fetched_at": "2026-09-15T23:34:30.361120+00:00"
+      },
+      {
+        "title": "便利なスラッシュコマンドを使いこなそう",
+        "url": "https://gihyo.jp/article/2026/09/claude-code-ai-driven-development-03?utm_source=feed",
+        "summary": "本連載は2026年9月刊行の『Claude Codeで作って学ぶ AI駆動アプリ開発入門』から一部、抜粋・編集してお届けします。第3回目は、Claude Codeの対話モード内で使用する「スラッシュコマンド」の基本とよく使うコマンドを解説します。",
+        "score": 100,
+        "published_at": "2026-09-15T00:11:00+00:00",
+        "fetched_at": "2026-09-15T23:34:30.361082+00:00"
+      },
+      {
+        "title": "トランプ政権のサックス氏、AI「ペース調整」論に苦言　「規制がなければできないふりをやめろ」",
+        "url": "https://www.itmedia.co.jp/news/article/2609/14/2000001433/",
+        "summary": "大統領科学技術諮問委員会のデビッド・サックス共同議長は、AnthropicとOpenAIのトップによるAI開発減速の提案を批判した。減速を望むなら規制や他者の許可を待たずに自ら実行すべきだと指摘。減速を条件に規制の枠組みを要求する姿勢は政治への脅迫に見えると述べ、利己的な動機を装うのをやめるよう求めた。",
+        "score": 100,
+        "published_at": "2026-09-13T23:14:08+00:00",
+        "fetched_at": "2026-09-15T23:34:29.481111+00:00"
+      },
+      {
+        "title": "シャープ、AIサーバ事業に参入　30年度に新規事業の“大半”占める売上2500億円目指す　狙いは？",
+        "url": "https://www.itmedia.co.jp/news/article/2609/15/2000001483/",
+        "summary": "シャープは9月15日、AIサーバ事業に参入すると発表した。同日から、米NVIDIAのGPUを搭載した業務向けAIサーバの受注を始める。まずはサーバ販売から開始し、今後は導入支援や保守、国内生産などに事業領域を広げる。国内のAI推論市場を主戦場に、2030年度に売上高2500億円を目指す。",
+        "score": 100,
+        "published_at": "2026-09-15T05:45:06+00:00",
+        "fetched_at": "2026-09-15T23:34:29.480982+00:00"
+      },
+      {
+        "title": "「監視されていないときのAIは、もう評価できない」　OpenAI現役研究者が個人声明",
+        "url": "https://www.itmedia.co.jp/news/article/2609/15/2000001500/",
+        "summary": "OpenAIの現役研究者ダニエル・セルサム氏は個人的な声明を公開し、モデルの状況認識向上により人間がその真の振る舞いを評価できなくなりつつあると警告した。意図しない目標を獲得したAIが制約から解放された場合、地球環境を損なうほどの極端な行動を取る恐れがあるとし、現行の安全対策に疑問を投げ掛けた。",
+        "score": 100,
+        "published_at": "2026-09-15T08:33:37+00:00",
+        "fetched_at": "2026-09-15T23:34:29.480949+00:00"
+      },
+      {
+        "title": "OpenAIやAnthropicなどAIベンダごとのAPIの違いを吸収し統合する「Agent Router」、Linux Foundation傘下で業界標準へ",
+        "url": "https://www.publickey1.jp/blog/26/openaianthropicapiagent_routerlinux_foundation.html",
+        "summary": "MCPやAGENTS.md、Agent2AgentプロトコルなどのAIエージェントに関する関連技術の標準化推進や開発などを行うLinux Foundation傘下のAgentic AI Foundation（AAIF）は、オープンソースとし...",
+        "score": 100,
+        "published_at": "2026-09-14T15:51:16+00:00",
+        "fetched_at": "2026-09-15T23:34:28.954323+00:00"
+      },
+      {
+        "title": "pnpm 12.4リリース、RustとPythonの依存関係もまとめてインストール可能に",
+        "url": "https://gihyo.jp/article/2026/09/pnpm-12.4?utm_source=feed",
+        "summary": "パッケージマネージャーpnpmのバージョン12.4が2026年9月8日にリリースされた。",
+        "score": 20,
+        "published_at": "2026-09-14T05:23:00+00:00",
+        "fetched_at": "2026-09-15T23:34:30.361113+00:00"
+      },
+      {
+        "title": "マイクロソフトがRust言語をC++/C#/TSに並ぶ社内のTier 1言語にしたことを明らかに。Windowsネイティブな社内の開発環境と統合",
+        "url": "https://www.publickey1.jp/blog/26/rustcctstier_1.html",
+        "summary": "マイクロソフト社内において、Rust言語がC++/C#/TypeScriptに並ぶTier 1言語になったことが明らかになりました。 マイクロソフトの開発部門でRustツールチームのプリンシパルエンジニア Victor Ciura氏がRus...",
+        "score": 20,
+        "published_at": "2026-09-13T15:27:57+00:00",
+        "fetched_at": "2026-09-15T23:34:28.954333+00:00"
+      },
+      {
+        "title": "Java 27リリース――ヒープ使用効率向上と安全性の重視",
+        "url": "https://gihyo.jp/article/2026/09/java27?utm_source=feed",
+        "summary": "2026年9月15日（米国時間）にJava 27がリリースされました。アップデート内容およびセキュリティ関連の話題などについて紹介します。",
+        "score": 10,
+        "published_at": "2026-09-15T22:00:00+00:00",
+        "fetched_at": "2026-09-15T23:34:30.361053+00:00"
+      },
+      {
+        "title": "オラクル、Javaのセキュリティパッチを毎月提供開始、AIが脆弱性の発見を加速しているとして",
+        "url": "https://www.publickey1.jp/blog/26/javaai.html",
+        "summary": "オラクルは、これまで3カ月ごとに提供してきたJavaのアップデートパッチのサイクルを速め、1カ月ごとにセキュリティパッチを提供することを発表。先月（2026年8月）から実際にセキュリティパッチの提供が開始されていることを明らかにしました。 ...",
+        "score": 10,
+        "published_at": "2026-09-15T15:49:38+00:00",
+        "fetched_at": "2026-09-15T23:34:28.954303+00:00"
+      },
+      {
+        "title": "『日本はライドシェアはもう諦めて自動運転に行くべきだが、なんでこんなに進まないのかめちゃ掘りしてみた』 に規制改革の当事（当時）者としてのコメント追記してみた｜川邊健太郎",
+        "url": "https://note.com/dennotai/n/n433ee03289a5",
+        "summary": "『日本はライドシェアはもう諦めて自動運転に行くべきだが、なんでこんなに進まないのかめちゃ掘りしてみた』 に規制改革の当事（当時）者としてのコメント追記してみた 9月8日、「永江一石のITマーケティング日記」と言うブログに、このようなエントリが出ました。（以後、「このブログ」と言います） https://www.land...",
+        "score": 0,
+        "published_at": "2026-09-15T00:44:15+00:00",
+        "fetched_at": "2026-09-15T23:34:30.933709+00:00"
+      },
+      {
+        "title": "AI sloppingのコツ｜株式会社HERP公式note",
+        "url": "https://note.herp.co.jp/n/na751e51ea47f",
+        "summary": "はじめにこんにちは､株式会社HERPのDevPlatformにてなんか色々している河原です｡今年5月に再入社しました｡ AIにより生成されるコードの品質は､人の手で書かれたオーガニックなコードよりも場所によってはもはや優れてさえいます｡一方で､技術的負債……というかTODOやらdeprecatedやらlinterのinline disableやら､カルマ値...",
+        "score": 0,
+        "published_at": "2026-09-15T08:45:14+00:00",
+        "fetched_at": "2026-09-15T23:34:30.933701+00:00"
+      },
+      {
+        "title": "【ベイズ推定】相手のことを答えると「本当に欲しそうなプレゼント」を当てにいく『欲しいもの.com』を作った",
+        "url": "https://zenn.dev/aucccchi/articles/hoshiimono-bayes-gift-diagnosis",
+        "summary": "プレゼントを選ぶとき、「30代女性におすすめ30選」のような記事を読んでも決まらない。相手のことを知っているのは自分なのに、記事は相手を知らないからです。 それなら逆に、相手のことをこちらが答えて、候補を絞ってもらう形にすればいい。そう考えて 欲しいもの.com という診断サイトを作りました。相手について 1...",
+        "score": 0,
+        "published_at": "2026-09-15T03:33:17+00:00",
+        "fetched_at": "2026-09-15T23:34:30.933693+00:00"
+      },
+      {
+        "title": "ハンズ渋谷、11月15日に閉店　48年の歴史に幕",
+        "url": "https://www.watch.impress.co.jp/docs/news/2140950.html",
+        "summary": "",
+        "score": 0,
+        "published_at": "2026-09-15T03:34:36+00:00",
+        "fetched_at": "2026-09-15T23:34:30.933685+00:00"
+      },
+      {
+        "title": "日本CTO協会、エンジニアが選ぶ #開発組織ブランドアワード2026 ランキング上位30社を発表 ｜一般社団法人 日本CTO協会",
+        "url": "https://cto-a.org/news/20260915_award",
+        "summary": "「テクノロジーによる自己変革を、日本社会のあたりまえに」というミッションを掲げ、継続的な進化を体現し続けるテクノロジーリーダー達と、その先へと共に向かう人々の知見や経験を社会に還元し、日本の変革を大きく前進させることを目的としています。",
+        "score": 0,
+        "published_at": "2026-09-15T09:44:15+00:00",
+        "fetched_at": "2026-09-15T23:34:30.933679+00:00"
+      },
+      {
+        "title": "React 互換の軽量ランタイム TanStack Redact とは",
+        "url": "https://azukiazusa.dev/blog/what-is-tanstack-redact/",
+        "summary": "TanStack Redact は、React のコンポーネントや Hooks の書き方を引き継ぐ軽量ランタイムです。同期描画を採用しており、React と同じ API があっても動作が異なる部分があります。この記事では基本的な導入方法と設計思想を説明し、同じ商品一覧を React と Redact で動かし、startTransition の動作の違いを確かめます...",
+        "score": 0,
+        "published_at": "2026-09-15T11:49:11+00:00",
+        "fetched_at": "2026-09-15T23:34:30.933672+00:00"
+      },
+      {
+        "title": "マッチ箱サイズのIP-KVMスイッチ「JetKVM Mini」、有線接続と無線接続の両方に対応して1080pのビデオキャプチャ機能・オープンソースのファームウェア",
+        "url": "https://gigazine.net/news/20260915-jetkvm-mini/",
+        "summary": "接続したPCをネットワーク経由で遠隔操作できるマッチ箱サイズのIP-KVMスイッチが「JetKVM Mini」です。 Introducing JetKVM Mini - JetKVM https://jetkvm.com/blog/introducing-jetkvm-mini JetKVM Miniはアルミニウム製のケースを採用した、幅42mm×奥行き42mm×高さ23mmのマッチ箱ほどのサイズのIP-KVMスイッチです。J...",
+        "score": 0,
+        "published_at": "2026-09-15T10:08:05+00:00",
+        "fetched_at": "2026-09-15T23:34:30.933664+00:00"
+      },
+      {
+        "title": "NEC PC-98シリーズの中で一番お手頃価格だった「PC-9801RX21/51」",
+        "url": "https://akiba-pc.watch.impress.co.jp/docs/column/retrohard/2132378.html",
+        "summary": "",
+        "score": 0,
+        "published_at": "2026-09-15T03:46:44+00:00",
+        "fetched_at": "2026-09-15T23:34:30.933655+00:00"
+      },
+      {
+        "title": "東京で27年無人タクシー運行、既存の運転手はどうなる？--失業懸念に川鍋会長が回答",
+        "url": "https://japan.cnet.com/article/35252621/",
+        "summary": "GOと米Waymo、日本交通は同日、2027年中に東京で完全無人タクシーの商用運行を目指すと発表した。段階的に100台規模で運行する計画で、正式な開始時期は安全性の確認と必要な許認可の取得後に決まる。 川鍋氏によると、ドライバーには年間10％弱の入れ替わりがある。今後無人タクシーが普及したとしても、採用を止めるこ...",
+        "score": 0,
+        "published_at": "2026-09-15T06:29:51+00:00",
+        "fetched_at": "2026-09-15T23:34:30.933649+00:00"
+      },
+      {
+        "title": "Apple「iOS 27」配信開始。アプリ起動が最大30%高速化、Siri AIも刷新",
+        "url": "https://pc.watch.impress.co.jp/docs/news/2140932.html",
+        "summary": "",
+        "score": 0,
+        "published_at": "2026-09-15T03:35:22+00:00",
+        "fetched_at": "2026-09-15T23:34:30.933642+00:00"
+      },
+      {
+        "title": "ありがちなUIに収束させない生成フロー。カナリーでの「デザイナー人格」のskill化について｜Cocoda",
+        "url": "https://cocoda.design/varhirac/p/pe1f4d8e389b2",
+        "summary": "AIによるUI生成の検証は、すでに多くのプロダクトデザイン組織が取り組んでいるところかと思います。 カナリーでは、2025年ごろから「最小のデザイン組織」を目指して、プロダクトデザインのAIワークフロー化を試みてきました。 今回はその中でも、UIのパターン出しにうまく役立っている「デザイナー人格のskill化」の取...",
+        "score": 0,
+        "published_at": "2026-09-15T01:25:56+00:00",
+        "fetched_at": "2026-09-15T23:34:30.933636+00:00"
+      },
+      {
+        "title": "イーロン・マスクがAppleとの独禁法訴訟を取り下げる",
+        "url": "https://gigazine.net/news/20260915-x-resolve-apple-lawsuit/",
+        "summary": "by Gage Skidmore イーロン・マスク氏が保有するXとSpaceXAIがAppleを相手取って起こした訴訟について、マスク氏側が訴訟を取り下げたことが分かりました。 X v Apple - filing - 20260914.pdf https://fingfx.thomsonreuters.com/gfx/legaldocs/gkplegaxbvb/X%20v%20Apple%20-%20filing%20-%2020260914.pdf Musk's X Co...",
+        "score": 0,
+        "published_at": "2026-09-15T04:46:39+00:00",
+        "fetched_at": "2026-09-15T23:34:30.933620+00:00"
+      },
+      {
+        "title": "AI Agentを利用した開発について雑感 - oranie's blog",
+        "url": "https://oranie.hatenablog.com/entry/2026/09/15/154245",
+        "summary": "なんと2024年ぶりの記事になりました。どれだけoutputをサボったのか。 そしてこの二年で本当にAIによって状況が変わった気がします。 昨今のAIパワーに漏れず、自分も仕事で頻繁にAIを利用した業務とかについて関わることがありました。 ただ、自身ではデモを開発することはあっても運用を見据えたものをゼロから一貫し...",
+        "score": 0,
+        "published_at": "2026-09-15T07:30:54+00:00",
+        "fetched_at": "2026-09-15T23:34:30.933611+00:00"
+      },
+      {
+        "title": "京都大学学術情報リポジトリKURENAI",
+        "url": "https://repository.kulib.kyoto-u.ac.jp/items/72511a65-569e-4aec-a07f-35ea8ca46288",
+        "summary": "京都大学学術情報リポジトリKURENAIでは、京都大学で日々創造される研究・教育成果をWebで公開しています。世界的に卓越した知的成果を社会へ還元することを目的として、2006年から図書館機構が運営している事業です。",
+        "score": 0,
+        "published_at": "2026-09-14T14:48:26+00:00",
+        "fetched_at": "2026-09-15T23:34:30.933594+00:00"
+      },
+      {
+        "title": "キリン、吐いた息から代謝わかる機器　脂質と糖質どちらの燃焼か可視化 - 家電 Watch",
+        "url": "https://kaden.watch.impress.co.jp/docs/news/2140948.html",
+        "summary": "",
+        "score": 0,
+        "published_at": "2026-09-15T03:36:02+00:00",
+        "fetched_at": "2026-09-15T23:34:30.933587+00:00"
+      },
+      {
+        "title": "Cisco Secure Email Gatewayに深刻な脆弱性、修正済みソフトウェアへの更新を　すでに悪用を確認、CISAも「重大なリスク」と評価",
+        "url": "https://internet.watch.impress.co.jp/docs/news/2141091.html",
+        "summary": "",
+        "score": 0,
+        "published_at": "2026-09-15T08:07:10+00:00",
+        "fetched_at": "2026-09-15T23:34:30.933580+00:00"
+      },
+      {
+        "title": "国内向けにAIサーバーの受注を開始",
+        "url": "https://corporate.jp.sharp/news/260915-a.html",
+        "summary": "2026年9月15日 シャープ株式会社 販売・保守パートナーとの連携により提供体制を整備し、事業参入 国内向けにAIサーバーの受注を開始 シャープは、生成AIの普及により拡大するAIインフラの需要に対応するため、AIサーバー事業に参入します。2027年度の販売開始に向け、企業、自治体、研究機関、データセンター事業者など...",
+        "score": 0,
+        "published_at": "2026-09-15T07:42:34+00:00",
+        "fetched_at": "2026-09-15T23:34:30.933573+00:00"
+      },
+      {
+        "title": "ローカルでAIを動かして元を取るまで何年かかるかがわかる「Sunk Cost」、例えばメモリ64GBのMac Studioではどれだけの時間が必要なのか？",
+        "url": "https://gigazine.net/news/20260915-sunk-cost/",
+        "summary": "PCの購入費用やAIの利用量などを基に、ローカルでAIを動かした場合に何年で元が取れるかを試算できるサイト「Sunk Cost」が公開されています。費用だけでなく、そのPCに収まるAIモデルや生成速度、クラウドモデルとの能力比較もまとめて確認できます。 Sunk Cost https://sunkcost.ai/ Sunk Costの画面上部には、PCの機...",
+        "score": 0,
+        "published_at": "2026-09-15T12:32:12+00:00",
+        "fetched_at": "2026-09-15T23:34:30.933565+00:00"
+      },
+      {
+        "title": "MSI、ゴッホの名画を天板にあしらったCore Ultra X9搭載14型2in1",
+        "url": "https://pc.watch.impress.co.jp/docs/news/2141086.html",
+        "summary": "",
+        "score": 0,
+        "published_at": "2026-09-15T07:47:07+00:00",
+        "fetched_at": "2026-09-15T23:34:30.933546+00:00"
+      },
+      {
+        "title": "三菱、ヒートポンプ機器の熱交換性能を3倍にする新技術 - 家電 Watch",
+        "url": "https://kaden.watch.impress.co.jp/docs/news/2140739.html",
+        "summary": "",
+        "score": 0,
+        "published_at": "2026-09-15T04:56:57+00:00",
+        "fetched_at": "2026-09-15T23:34:30.933539+00:00"
+      },
+      {
+        "title": "ネット全体が乗っ取られるまで半年!? AI開発の減速をAnthropic CEOが提言",
+        "url": "https://pc.watch.impress.co.jp/docs/news/2140906.html",
+        "summary": "",
+        "score": 0,
+        "published_at": "2026-09-15T03:44:56+00:00",
+        "fetched_at": "2026-09-15T23:34:30.933529+00:00"
+      },
+      {
+        "title": "AIエージェントの自己改善をどう設計するか / How to Design Self-Improvement for AI Agents",
+        "url": "https://speakerdeck.com/22mi/how-to-design-self-improvement-for-ai-agents",
+        "summary": "AIエージェントに改善を繰り返させても、プロンプトの加筆や出力の整形に留まり、最初の設計を見直せずに停滞することがあります。 本資料では、業務AIワークフローの構築・改善で経験した課題と関連研究をもとに、自己改善を支えるハーネスの設計を解説します。深層学習の訓練ループとの対応を手がかりに、Traini…",
+        "score": 0,
+        "published_at": "2026-09-15T09:49:31+00:00",
+        "fetched_at": "2026-09-15T23:34:30.933518+00:00"
+      },
+      {
+        "title": "「ヤバい住所」を集め続けた地図エンジニアが見つけた共通点とは？『ヤバい日本の住所』著者が明かす執筆の裏側 | i4U（アイフォーユー）",
+        "url": "https://i4u.gmo/QQZJU",
+        "summary": "「ヤバい住所」を集め続けた地図エンジニアが見つけた共通点とは？『ヤバい日本の住所』著者が明かす執筆の裏側 筆者は大学を出てからずっと、地図に携わるエンジニアとして過ごしてきました。地図サービスを世に出す仕事のなかで、否応なく付き合わされてきたのが「住所」です。この7月には『ヤバい日本の住所』（幻冬...",
+        "score": 0,
+        "published_at": "2026-09-15T09:07:07+00:00",
+        "fetched_at": "2026-09-15T23:34:30.933507+00:00"
+      },
+      {
+        "title": "誰かの役に立つアウトプットの作り方〜学びの循環に飛び込もう！",
+        "url": "https://speakerdeck.com/ikuodanaka/dareka-no-yakunitatsu-autoputto-no-tsukurikata-manabi-no-junkan-ni-tobikomou",
+        "summary": "2026/09/15 【Speaker Bootcamp】伝わる発表は準備が9割 ―自信を持つためのワークショップ https://findy.connpass.com/event/402618/",
+        "score": 0,
+        "published_at": "2026-09-15T15:20:23+00:00",
+        "fetched_at": "2026-09-15T23:34:30.933489+00:00"
+      },
+      {
+        "title": "バイブコーディングで GUI が壊れていく理由とその対策プロンプト",
+        "url": "https://zenn.dev/nrs/articles/9ba91aea587bf5",
+        "summary": "TLDL AIに常駐アプリの画面を作らせる際は以下の指示を出します。 この指示をそのまま伝えてみてください。 すべてのコンポーネントを Root の配下に置き、各コンポーネントは MVP パターンの Passive View として描画に関わるパラメータだけを操作し、動作は Chain of Responsibility でイベントをバブリングさせて、ス...",
+        "score": 0,
+        "published_at": "2026-09-15T13:00:04+00:00",
+        "fetched_at": "2026-09-15T23:34:30.933479+00:00"
+      },
+      {
+        "title": "Blenderのスカルプトモードの操作方法を知ろう 〜ブラシの設定や便利なマスク機能など〜",
+        "url": "https://gihyo.jp/article/2026/09/blender-basics-85?utm_source=feed",
+        "summary": "第85回目は、Blenderに用意されているスカルプトモードの実際の操作方法について見ていきます。",
+        "score": 0,
+        "published_at": "2026-09-14T00:32:00+00:00",
+        "fetched_at": "2026-09-15T23:34:30.361135+00:00"
+      },
+      {
+        "title": "ObsidianのCEO、Markdown生成向けの「Knap」を紹介 ——Web Clipperから独立したテンプレート言語",
+        "url": "https://gihyo.jp/article/2026/09/knap?utm_source=feed",
+        "summary": "ObsidianのCEOを務めるSteph Ango氏（kepano）は9月10日、データからMarkdownを生成するテンプレート言語「Knap」をXで紹介した。",
+        "score": 0,
+        "published_at": "2026-09-14T02:21:00+00:00",
+        "fetched_at": "2026-09-15T23:34:30.361128+00:00"
+      },
+      {
+        "title": "Safari 27、top-level awaitの不具合を修正、モジュールローダーを刷新",
+        "url": "https://gihyo.jp/article/2026/09/safari-top-level-await?utm_source=feed",
+        "summary": "WebKitは2026年9月2日、Safari 27でJavaScriptのtop-level awaitを仕様に完全準拠させたとする解説記事を公開した。",
+        "score": 0,
+        "published_at": "2026-09-14T05:51:00+00:00",
+        "fetched_at": "2026-09-15T23:34:30.361105+00:00"
+      },
+      {
+        "title": "Dario Amodei氏、最先端AIの開発減速を呼びかけ、Musk氏やAltman氏も反応 ──アライメントの確保と第三者評価が論点に",
+        "url": "https://gihyo.jp/article/2026/09/must-pace-the-frontier?utm_source=feed",
+        "summary": "AnthropicのDario Amodei氏は9月12日、最先端AIの能力向上の速度を抑え、安全対策に取り組む時間を確保するよう呼びかけるブログ「We Must Pace the Frontier」をXで紹介した。",
+        "score": 0,
+        "published_at": "2026-09-14T09:08:00+00:00",
+        "fetched_at": "2026-09-15T23:34:30.361097+00:00"
+      },
+      {
+        "title": "第279回　MySQL Group ReplicationのDistributed Recoveryについて",
+        "url": "https://gihyo.jp/article/2026/09/mysql-rcn0279?utm_source=feed",
+        "summary": "MySQL Group Replicationでは、新規メンバーの参加や障害からの復帰の際に、グループから離脱していた期間に発生したトランザクションの同期が必要になります。",
+        "score": 0,
+        "published_at": "2026-09-15T00:08:00+00:00",
+        "fetched_at": "2026-09-15T23:34:30.361090+00:00"
+      },
+      {
+        "title": "オープンソースのコーディングエージェントClineのデスクトップアプリ「Cline Desktop」が登場",
+        "url": "https://gihyo.jp/article/2026/09/cline-desktop?utm_source=feed",
+        "summary": "Cline Bot Inc.は2026年9月14日、オープンソースのコーディングエージェントClineのデスクトップ版「Cline Desktop」をベータ版として公開した。macOSおよびWindows上で動作する。",
+        "score": 0,
+        "published_at": "2026-09-15T02:56:00+00:00",
+        "fetched_at": "2026-09-15T23:34:30.361074+00:00"
+      },
+      {
+        "title": "GitHub Copilot、モデル自動選択「Auto」に3つのティアを追加 ——コストと品質の重視度を調整可能に",
+        "url": "https://gihyo.jp/article/2026/09/github-copilot-auto-model-selection?utm_source=feed",
+        "summary": "GitHubは2026年9月14日、GitHub Copilotのモデル自動選択機能「Auto」に、コスト・品質・応答時間の重視度を調整する3つの選択肢を追加したと発表した。",
+        "score": 0,
+        "published_at": "2026-09-15T07:12:00+00:00",
+        "fetched_at": "2026-09-15T23:34:30.361064+00:00"
+      },
+      {
+        "title": "「死亡事故がゼロの世の中を」──苦節7年、危険な作業をAIで省力化　全国で稼働する「交通誘導AI」の現在地",
+        "url": "https://www.itmedia.co.jp/news/article/2609/14/2000001430/",
+        "summary": "AIカメラとLED表示板で工事現場の交通誘導を行うシステムが、既に全国の国道などで動いている。9月9日開催の展示会「AIエキスポ」で、開発元のKB-eyeに話を聞いた。",
+        "score": 0,
+        "published_at": "2026-09-13T21:46:00+00:00",
+        "fetched_at": "2026-09-15T23:34:29.481118+00:00"
+      },
+      {
+        "title": "「悪用されそう」─―メルカリ「限定公開」機能、SNSで物議　同社に対策を聞いた",
+        "url": "https://www.itmedia.co.jp/news/article/2609/14/2000001434/",
+        "summary": "メルカリの限定公開機能に「マネーロンダリングや盗品売買など悪用を助長するのでは」などの懸念。同社に機能の狙いと対策を聞いた。",
+        "score": 0,
+        "published_at": "2026-09-14T02:50:42+00:00",
+        "fetched_at": "2026-09-15T23:34:29.481104+00:00"
+      },
+      {
+        "title": "レベルファイブ発表会のAI演出が物議　「不自然」「内容よりAIが気になる」　日野社長「派手にしたかった」",
+        "url": "https://www.itmedia.co.jp/news/article/2609/14/2000001440/",
+        "summary": "「妖怪ウォッチ」「イナズマイレブン」などを手掛けるレベルファイブが、9月10日のオンライン発表会でAI生成映像を多用し、Xなどで物議を醸している。同社の日野晃博社長は9月12日、AI映像に不快感を示した視聴者に謝罪したうえで、自社が進めるAI活用の方針について説明。発表会を「派手にしたい」との狙いから、最新AIを使った実験的な処理を取り入れたという。",
+        "score": 0,
+        "published_at": "2026-09-14T04:00:25+00:00",
+        "fetched_at": "2026-09-15T23:34:29.481097+00:00"
+      }
+    ]
+  },
+  {
     "date": "2026-09-14",
     "articles": [
       {
