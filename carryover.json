@@ -1,35 +1,11 @@
 [
   {
-    "title": "ドラクエファンが「こういうグッズ思いついた」とイメージ画像をAIで作成＆投稿←これやると実際の企画が潰れる可能性あるし企業ロゴ使用などにも問題が…",
-    "url": "https://togetter.com/li/2743006",
-    "summary": "岡安モフモフ（アーガイル社長）＠ChatGPT/Gemini/ClaudeなどLLMでサービス作る人 @shields_pikes @Dr_Emmett こういうのは、自分の持ってるIPでやるべきだよ。そして、商品化まで自分でやる。 人気のIPでこういうのを出して欲しかったら、絶対にこういう企画案を形にして表に出しちゃダメ。スクエニの社内でも前から似...",
-    "score": 300,
-    "published_at": "2026-09-08T06:37:51+00:00",
-    "fetched_at": "2026-09-08T23:30:13.334161+00:00"
-  },
-  {
     "title": "Claude Fable 5のサブスクリプション内提供を7月19日まで延長、CodexとChatGPT Workは5時間制限を一時撤廃＆アクティブユーザー600万人到達と使用量リセット",
     "url": "https://gihyo.jp/article/2026/07/claude-fable-5-codex-usage-limit-updates?utm_source=feed",
     "summary": "Anthropicは2026年7月12日、Claude Fable 5をサブスクリプションの利用枠に含める期間を7月19日まで延長すると発表した。一方、OpenAIのコアプロダクト部門責任者Thibault Sottiaux氏は同日、ChatGPTのPlus、Business、Proの各プランでCodexとChatGPT Workの5時間の利用制限を一時的に撤廃すると告知した。",
     "score": 300,
     "published_at": "2026-07-13T03:18:00+00:00",
     "fetched_at": "2026-09-10T23:17:57.196945+00:00"
-  },
-  {
-    "title": "ChatGPT Workに“自分の文体”学習機能　GmailやSlackの文章から言い回しやクセを模倣",
-    "url": "https://www.itmedia.co.jp/news/article/2609/08/2000001256/",
-    "summary": "米OpenAIは9月7日（現地時間）、AIエージェント機能「ChatGPT Work」に、ユーザーの文体を学習する機能を追加したと公式Xで発表した。",
-    "score": 200,
-    "published_at": "2026-09-08T09:12:41+00:00",
-    "fetched_at": "2026-09-08T23:30:10.758920+00:00"
-  },
-  {
-    "title": "ChatGPT Workにユーザーの書く文章スタイルを学習して文書作成に反映させる機能が追加",
-    "url": "https://gihyo.jp/article/2026/09/chatgpt-learning-writing-style?utm_source=feed",
-    "summary": "OpenAIは2026年9月8日、ChatGPT Workを日常使うアプリと連携させることでユーザーの文章スタイルを学習し、文章作成内容に反映させる機能を装備したことを発表した。",
-    "score": 200,
-    "published_at": "2026-09-08T00:51:00+00:00",
-    "fetched_at": "2026-09-08T23:30:12.886758+00:00"
   },
   {
     "title": "OpenAI、「ChatGPT Images 2.5」を発表 ——画像生成を高速化、画像への直接コメントにも対応",
@@ -336,6 +312,22 @@
     "fetched_at": "2026-09-22T00:12:32.419580+00:00"
   },
   {
+    "title": "ChatGPT Workにユーザーの書く文章スタイルを学習して文書作成に反映させる機能が追加",
+    "url": "https://gihyo.jp/article/2026/09/chatgpt-learning-writing-style?utm_source=feed",
+    "summary": "OpenAIは2026年9月8日、ChatGPT Workを日常使うアプリと連携させることでユーザーの文章スタイルを学習し、文章作成内容に反映させる機能を装備したことを発表した。",
+    "score": 200,
+    "published_at": "2026-09-08T00:51:00+00:00",
+    "fetched_at": "2026-09-22T23:41:11.658637+00:00"
+  },
+  {
+    "title": "OpenAIが10億人以上・40ペタバイト超えのユーザーデータを扱う自社製ストレージシステム「Habitat」について解説",
+    "url": "https://gigazine.net/news/20260922-openai-storage-habitat/",
+    "summary": "OpenAIはChatGPTやCodexといったサービスを展開しており、ユーザー数は2026年7月末時点で10億人に達しています。OpenAIは10億人を超えるユーザーのデータを自社製オンラインストレージシステム「Habitat」で管理しているとのこと。このHabitatの詳細がOpenAIの公式ブログで解説されています。 Rapidly scaling online st...",
+    "score": 200,
+    "published_at": "2026-09-22T12:59:39+00:00",
+    "fetched_at": "2026-09-22T23:41:11.849903+00:00"
+  },
+  {
     "title": "AWS、AIがフルスタックAWSアプリの基本コードを、セキュリティ、可観測性、インフラまで一気通貫で生成する「Nx Plugin for AWS 1.0」、オープンソースで公開",
     "url": "https://www.publickey1.jp/blog/26/awsaiawsnx_plugin_for_aws_10.html",
     "summary": "Amazon Web Services（AWS）は、AIがフルスタックのAWSアプリケーションに必要なアプリケーションの基本的なコードに加えて、セキュリティや可観測性などの要件も備えたインフラ構成のコードもまとめて生成してくれるツール「Nx...",
@@ -494,70 +486,6 @@
     "score": 110,
     "published_at": "2026-02-24T02:39:00+00:00",
     "fetched_at": "2026-09-22T00:12:31.801220+00:00"
-  },
-  {
-    "title": "Amazon Linuxが4年ぶりにメジャーバージョンアップ、「Amazon Linux 2027」パブリックプレビュー。SELinuxがデフォルトで強制モードに",
-    "url": "https://www.publickey1.jp/blog/26/amazon_linux4amazon_linux_2027selinux.html",
-    "summary": "Amazon Web Services（AWS）は、AWSに最適化されたLinux OSの4年ぶりとなるメジャーバージョンアップ「Amazon Linux 2027」をパブリックプレビューとしてリリースしました。 現時点の正式版はAmazo...",
-    "score": 100,
-    "published_at": "2026-09-08T15:54:55+00:00",
-    "fetched_at": "2026-09-08T23:30:10.023953+00:00"
-  },
-  {
-    "title": "Claude Codeの「コンテキスト」の仕組みとファイルの読み込ませ方を知ろう",
-    "url": "https://gihyo.jp/article/2026/09/claude-code-ai-driven-development-02?utm_source=feed",
-    "summary": "本連載は2026年9月刊行予定の『Claude Codeで作って学ぶ AI駆動アプリ開発入門』から一部、抜粋・編集してお届けします。第2回目は、Claude Codeが情報を扱う仕組みである「コンテキスト」を説明した後、Claude Codeに指定したファイルを読み込ませる「@記法」について説明します。",
-    "score": 100,
-    "published_at": "2026-09-08T00:06:00+00:00",
-    "fetched_at": "2026-09-08T23:30:12.886774+00:00"
-  },
-  {
-    "title": "Claude Code、コマンドアクセス許可の「オートモード」をデフォルトに",
-    "url": "https://gihyo.jp/article/2026/08/auto-mode-default-in-claude-code?utm_source=feed",
-    "summary": "Anthropicは2026年8月7日、Claude CodeのPro、Max、Teamプランの新規セッションで、8月14日より「オートモード」をアクセス許可モードのデフォルトとすることを発表した。",
-    "score": 100,
-    "published_at": "2026-08-10T02:19:00+00:00",
-    "fetched_at": "2026-09-08T23:30:12.887947+00:00"
-  },
-  {
-    "title": "Anthropic、「Claude Opus 5」の提供を開始",
-    "url": "https://gihyo.jp/article/2026/07/claude-opus-5?utm_source=feed",
-    "summary": "Anthropicは7月24日、新たなAIモデル「Claude Opus 5」を発表し、同日から提供を開始した。コーディングや長期にわたるエージェントタスク、知識労働を中心に、Claude Opus 4.8から性能を高めている。",
-    "score": 100,
-    "published_at": "2026-07-25T04:02:00+00:00",
-    "fetched_at": "2026-09-08T23:30:12.888710+00:00"
-  },
-  {
-    "title": "AIっぽくない画像を作る画風プロンプト38種類＋テンプレート - Qiita",
-    "url": "https://qiita.com/maeda-niku18/items/b633dda178c505461080",
-    "summary": "AI画像生成の「AIっぽさ」を消すための画風プロンプト集（38スタイル＋テンプレート） ChatGPT（GPT Image）で資料やWebサイト用のイラストを作っていると、毎回同じところで引っかかります。 線が均一すぎる、グラデーションが滑らかすぎる、顔が整いすぎている、背景に意味のない小物が増える。要するに、AIが生成した...",
-    "score": 100,
-    "published_at": "2026-09-08T05:05:02+00:00",
-    "fetched_at": "2026-09-08T23:30:13.334032+00:00"
-  },
-  {
-    "title": "[PDF] TBSテレビ「ラヴィット！」大規模配信の裏側と AWS サーバーレス設計",
-    "url": "https://pages.awscloud.com/rs/112-TZM-766/images/R14_0625_6_CDN227_v1.pdf",
-    "summary": "CDN227 TBSテレビ「ラヴィット！」大規模配信の 裏側と AWS サーバーレス設計 亀田 遼 株式会社TBSテレビ メディアテクノロジー局未来技術革新事業部 テクニカルプロダクトリード （株）TBSテレビ メディアテクノロジー局 未来技術革新事業部 テクニカルプロダクトリード 亀田 遼 TBSテレビ「ラヴィット！」 大規模配信...",
-    "score": 100,
-    "published_at": "2026-09-08T09:10:38+00:00",
-    "fetched_at": "2026-09-08T23:30:13.334193+00:00"
-  },
-  {
-    "title": "最新AI「GPT-6 Astra」で“『スマブラ』クローン”が作られるも、なんとも言えない完成度に議論勃発。「当面は仕事が安泰」と皮肉るゲーム開発者も - AUTOMATON",
-    "url": "https://automaton-media.com/articles/newsjp/20260908-465804/",
-    "summary": "OpenAIは日本時間9月4日、最新AIモデル「GPT-6 Astra」の提供を開始した。従来モデルを凌駕するパフォーマンスにはゲーム開発の分野でもさっそく注目が集まっている。そのなかでは、あるユーザーが同モデルを用いて制作したという“『大乱闘スマッシュブラザーズ』のクローン”がSNSで共有され、議論が起こっている。 GPT-...",
-    "score": 100,
-    "published_at": "2026-09-08T09:51:41+00:00",
-    "fetched_at": "2026-09-08T23:30:13.334306+00:00"
-  },
-  {
-    "title": "音楽生成AI「Lyria 3.5」、Geminiアプリで全ユーザー開放",
-    "url": "https://pc.watch.impress.co.jp/docs/news/2138938.html",
-    "summary": "",
-    "score": 100,
-    "published_at": "2026-09-08T02:54:15+00:00",
-    "fetched_at": "2026-09-08T23:30:13.334361+00:00"
   },
   {
     "title": "AWS、自然言語でデータ分析アプリを構築可能に、「Amazon Quick」に新機能",
@@ -2232,6 +2160,86 @@
     "fetched_at": "2026-09-22T00:12:32.419814+00:00"
   },
   {
+    "title": "Amazon Linuxが4年ぶりにメジャーバージョンアップ、「Amazon Linux 2027」パブリックプレビュー。SELinuxがデフォルトで強制モードに",
+    "url": "https://www.publickey1.jp/blog/26/amazon_linux4amazon_linux_2027selinux.html",
+    "summary": "Amazon Web Services（AWS）は、AWSに最適化されたLinux OSの4年ぶりとなるメジャーバージョンアップ「Amazon Linux 2027」をパブリックプレビューとしてリリースしました。 現時点の正式版はAmazo...",
+    "score": 100,
+    "published_at": "2026-09-08T15:54:55+00:00",
+    "fetched_at": "2026-09-22T23:41:09.652292+00:00"
+  },
+  {
+    "title": "Anthropic、「Claude Opus 5.5」公開　Fable 5.1並みの性能で利用コスト4割減",
+    "url": "https://www.itmedia.co.jp/news/article/2609/23/2000001673/",
+    "summary": "Anthropicは「Claude Opus 5.5」を発表した。多くの作業で「Fable 5.1」並みの性能を持ち、利用コストは「Opus 5」より約40％低い。Pro以上の有料プランとAPIで即日提供を始めた。アモデイCEOの「ペース調整」エッセイ後初のモデルで、METRなど外部機関による事前評価を経て、Fable 5.1と同等クラスのセーフガードを適用した。",
+    "score": 100,
+    "published_at": "2026-09-22T21:57:43+00:00",
+    "fetched_at": "2026-09-22T23:41:10.332691+00:00"
+  },
+  {
+    "title": "OpenAI、数学者の独立諮問グループと連携　内部モデルは「100件超の未解決問題を解決」",
+    "url": "https://www.itmedia.co.jp/news/article/2609/22/2000001671/",
+    "summary": "OpenAIは、数学者が設立した独立組織「AGMAI」と連携し、AIによる数学的成果の評価や公表方法について助言を受けると発表した。社内モデルによる100件以上の未解決問題解決を受けた動きで、急速な成果発表や帰属問題を巡る数学界からの批判に対応する。組織は独立して運営され、他社への助言も行う方針だ。",
+    "score": 100,
+    "published_at": "2026-09-22T02:49:24+00:00",
+    "fetched_at": "2026-09-22T23:41:10.332714+00:00"
+  },
+  {
+    "title": "OpenAI、フロンティアAIの国際標準づくりを米国主導で進めるよう提言　「RSIはまだ起きていない」",
+    "url": "https://www.itmedia.co.jp/news/article/2609/22/2000001670/",
+    "summary": "た。各国のAI安全性研究所の連携などを提案し、制御不能な自律的進化を防ぐ枠組みを求める。アルトマンCEOは国連安保理の公開会合でも発言する予定だ。",
+    "score": 100,
+    "published_at": "2026-09-22T01:51:09+00:00",
+    "fetched_at": "2026-09-22T23:41:10.332729+00:00"
+  },
+  {
+    "title": "Claude Codeの「コンテキスト」の仕組みとファイルの読み込ませ方を知ろう",
+    "url": "https://gihyo.jp/article/2026/09/claude-code-ai-driven-development-02?utm_source=feed",
+    "summary": "本連載は2026年9月刊行予定の『Claude Codeで作って学ぶ AI駆動アプリ開発入門』から一部、抜粋・編集してお届けします。第2回目は、Claude Codeが情報を扱う仕組みである「コンテキスト」を説明した後、Claude Codeに指定したファイルを読み込ませる「@記法」について説明します。",
+    "score": 100,
+    "published_at": "2026-09-08T00:06:00+00:00",
+    "fetched_at": "2026-09-22T23:41:11.658650+00:00"
+  },
+  {
+    "title": "Claude Code、コマンドアクセス許可の「オートモード」をデフォルトに",
+    "url": "https://gihyo.jp/article/2026/08/auto-mode-default-in-claude-code?utm_source=feed",
+    "summary": "Anthropicは2026年8月7日、Claude CodeのPro、Max、Teamプランの新規セッションで、8月14日より「オートモード」をアクセス許可モードのデフォルトとすることを発表した。",
+    "score": 100,
+    "published_at": "2026-08-10T02:19:00+00:00",
+    "fetched_at": "2026-09-22T23:41:11.659828+00:00"
+  },
+  {
+    "title": "Anthropic、「Claude Opus 5」の提供を開始",
+    "url": "https://gihyo.jp/article/2026/07/claude-opus-5?utm_source=feed",
+    "summary": "Anthropicは7月24日、新たなAIモデル「Claude Opus 5」を発表し、同日から提供を開始した。コーディングや長期にわたるエージェントタスク、知識労働を中心に、Claude Opus 4.8から性能を高めている。",
+    "score": 100,
+    "published_at": "2026-07-25T04:02:00+00:00",
+    "fetched_at": "2026-09-22T23:41:11.660596+00:00"
+  },
+  {
+    "title": "Claude Opus 5.5登場　Fable 5.1並みの性能をOpus 5より40%安価に",
+    "url": "https://www.watch.impress.co.jp/docs/news/2142619.html",
+    "summary": "",
+    "score": 100,
+    "published_at": "2026-09-22T18:06:19+00:00",
+    "fetched_at": "2026-09-22T23:41:11.849842+00:00"
+  },
+  {
+    "title": "Claude Codeの Plugins は設定したほうがいい - じゃあ、おうちで学べる",
+    "url": "https://syu-m-5151.hatenablog.com/entry/2026/09/22/124945",
+    "summary": "はじめに これまで、settings.json、CLAUDE.md、Commands、Hooks、Subagents、Skillsについて書いてきました。それぞれ設定すると、毎回説明することを減らせます。その次に困るのが、直した設定を、使っている環境へ届け続けることです。個人的にPluginsで嬉しいのは、自分のSkillをパッケージとして管理できることです...",
+    "score": 100,
+    "published_at": "2026-09-22T06:52:39+00:00",
+    "fetched_at": "2026-09-22T23:41:11.849873+00:00"
+  },
+  {
+    "title": "OpenAI、9月29日に新AIエージェントを発表へ──ソフトウェア株のパニックは再来するか | Forbes JAPAN 公式サイト（フォーブス ジャパン）",
+    "url": "https://forbesjapan.com/articles/detail/105213",
+    "summary": "企業向けソフトウェア株の投資家にとって、OpenAIの新たな発表は警戒材料となる可能性がある。 OpenAIは米国時間2026年9月29日、サンフランシスコのフォート・メイソンで年次開発者会議DevDayを開催する。DevDayで発表される内容によっては、ソフトウェア株全体に再び売りが広がりかねない。 OpenAIの最高経営責任者（CE...",
+    "score": 100,
+    "published_at": "2026-09-22T01:10:39+00:00",
+    "fetched_at": "2026-09-22T23:41:11.850126+00:00"
+  },
+  {
     "title": "マイクロソフトがRust言語をC++/C#/TSに並ぶ社内のTier 1言語にしたことを明らかに。Windowsネイティブな社内の開発環境と統合",
     "url": "https://www.publickey1.jp/blog/26/rustcctstier_1.html",
     "summary": "マイクロソフト社内において、Rust言語がC++/C#/TypeScriptに並ぶTier 1言語になったことが明らかになりました。 マイクロソフトの開発部門でRustツールチームのプリンシパルエンジニア Victor Ciura氏がRus...",
@@ -2288,20 +2296,12 @@
     "fetched_at": "2026-09-22T00:12:31.803128+00:00"
   },
   {
-    "title": "日本語プログラミング言語「なでしこ3」のGo言語版がリリース ―単一バイナリを生成可能で高速動作",
-    "url": "https://gihyo.jp/article/2026/09/gonako?utm_source=feed",
-    "summary": "プログラマのクジラ飛行机（[@kujirahand）氏は2026年9月7日、日本語プログラミング言語「なでしこ3」をGo言語で実装した「なでしこ3(Go版)」（通称：gonako）をリリースした。",
-    "score": 10,
-    "published_at": "2026-09-08T07:30:00+00:00",
-    "fetched_at": "2026-09-08T23:30:12.886719+00:00"
-  },
-  {
-    "title": "Docker環境をガチで軽量化するための鉄板設定まとめ - Qiita",
-    "url": "https://qiita.com/nolanlover0527/items/24ee07122dd4d0523069",
-    "summary": "はじめに Docker環境が重すぎて頭を抱えている人は多いのではないでしょうか。 私自身も激重なDocker環境を触っていて、原因を一つずつ潰していった経験が何度かあります。 今回は、ローカルのDocker環境（Windows）を軽量化するための方法について、実際に行った手順と一緒に紹介します。 ただし、リソース削除やnamed ...",
-    "score": 10,
-    "published_at": "2026-09-07T23:24:29+00:00",
-    "fetched_at": "2026-09-08T23:30:13.334117+00:00"
+    "title": "Python Workers are now generally available",
+    "url": "https://blog.cloudflare.com/python-workers-ga/",
+    "summary": "September 21, 2026Python Workers are now generally available We introduced Python Workers two years ago, providing a way to run Python applications in the Cloudflare Workers runtime. Our goal was to make it as simple to write Workers in Python as it is in TypeScript, and to make the ecosystem of ...",
+    "score": 20,
+    "published_at": "2026-09-21T14:42:20+00:00",
+    "fetched_at": "2026-09-22T23:41:11.850066+00:00"
   },
   {
     "title": "店で免許証スキャン→数時間で闇サイトへ　米国防長官含む1億5300万枚の流出、被害者たちが突き止めた意外な出所",
@@ -2816,436 +2816,28 @@
     "fetched_at": "2026-09-22T00:12:31.804938+00:00"
   },
   {
-    "title": "名古屋豪雨、冠水した道は今通れる？　トヨタ「通れた道マップ」で確認を",
-    "url": "https://www.itmedia.co.jp/news/article/2609/09/2000001295/",
-    "summary": "8日夕方以降は多くの道が冠水して通行できなかったようで、「通れた道マップが真っ赤だ」「マップが役に立った」といった声がSNSに相次いでいた。",
-    "score": 0,
-    "published_at": "2026-09-08T22:35:46+00:00",
-    "fetched_at": "2026-09-08T23:30:10.758842+00:00"
+    "title": "Amazon、MetaのAIエージェント「Muse」による代理購入をブロック　Shopifyは全店舗で対応へ",
+    "url": "https://www.itmedia.co.jp/news/article/2609/22/2000001669/",
+    "summary": "AmazonがMetaのAIエージェント「Muse」による自社サイトでの代理購入をブロックしたと報じられた。無断アクセスやセキュリティ上のリスクを理由としている。一方、MetaはShopify全ストアへの対応を発表するなど連携拡大を進める。自社サイトでのAIエージェント排除を強めるAmazonとの対立が鮮明になっている。",
+    "score": 10,
+    "published_at": "2026-09-22T00:43:43+00:00",
+    "fetched_at": "2026-09-22T23:41:10.332744+00:00"
   },
   {
-    "title": "ネコはなぜ箱に入りたがるのか？　ただ“狭い所好き”なだけではなかった　オランダ研究チームが2014年に調査",
-    "url": "https://www.itmedia.co.jp/news/article/2609/09/2000001253/",
-    "summary": "オランダのユトレヒト大学などに所属する研究者らがApplied Animal Behaviour Scienceで2014年に発表した論文「Will a hiding box provide stress reduction for shelter cats?」は、猫にとって箱に入ることがどのような影響を与えるかを検証した研究報告だ。",
-    "score": 0,
-    "published_at": "2026-09-08T22:00:00+00:00",
-    "fetched_at": "2026-09-08T23:30:10.758863+00:00"
+    "title": "Aikido、オープンウェイトのセキュリティ向けAIモデル「Altar-1」を公開",
+    "url": "https://gihyo.jp/article/2026/09/aikido-altar-1?utm_source=feed",
+    "summary": "Aikido Securityは2026年9月21日、同社初のオープンウェイトのセキュリティ向けAIモデル「Altar-1」を発表した。",
+    "score": 10,
+    "published_at": "2026-09-22T03:45:00+00:00",
+    "fetched_at": "2026-09-22T23:41:11.657864+00:00"
   },
   {
-    "title": "Meta、パーソナルAIエージェント「Muse」発表　メール送信や買い物も代行（まずは米国で無料提供開始）",
-    "url": "https://www.itmedia.co.jp/news/article/2609/09/2000001294/",
-    "summary": "Metaは、日常の作業を代行するパーソナルAIエージェント「Muse」を発表した。専用アプリやWhatsAppから操作でき、メール送信や旅行予約、Webフォーム入力などを自律して行う。専用VMや別エージェントによる多層防御で安全性を高め、決済やログイン情報との連携にも対応する。基本機能は無料。",
-    "score": 0,
-    "published_at": "2026-09-08T21:41:57+00:00",
-    "fetched_at": "2026-09-08T23:30:10.758879+00:00"
-  },
-  {
-    "title": "「ペンギンを返して」　Suica新キャラ候補3案公開でSNSに戸惑いの声　一般投票は8日から",
-    "url": "https://www.itmedia.co.jp/news/article/2609/08/2000001290/",
-    "summary": "JR東日本が9月8日に公開したSuicaの新イメージキャラクター候補3案のデザインが、XなどのSNSで波紋を広げている。公開直後から「期待を下回った」「これなら今のままでよかった」といった落胆の声が相次ぎ、2027年3月末で卒業する「Suicaのペンギン」のデザインを惜しむ声も上がっている。同社は同日午後3時から、後継キャラクターを決めるユーザー投票の受け付けを開始した。",
-    "score": 0,
-    "published_at": "2026-09-08T10:20:13+00:00",
-    "fetched_at": "2026-09-08T23:30:10.758894+00:00"
-  },
-  {
-    "title": "幻の「ちいかわ」コラボ第3弾皿、捨てちゃうの？　くら寿司に聞いてみた",
-    "url": "https://www.itmedia.co.jp/news/article/2609/08/2000001286/",
-    "summary": "くら寿司は9月8日、中止した「ちいかわ」コラボの第3弾で配布予定だったオリジナルすし皿について「厳重に管理しており、今後の対応については協議中」とITmedia NEWSの取材に回答した。",
-    "score": 0,
-    "published_at": "2026-09-08T09:44:41+00:00",
-    "fetched_at": "2026-09-08T23:30:10.758907+00:00"
-  },
-  {
-    "title": "「空飛ぶジンバルカメラ」日本上陸　手持ち撮影＋ドローンに装着して空中撮影もできる“合体メカ”だった",
-    "url": "https://www.itmedia.co.jp/news/article/2609/08/2000001263/",
-    "summary": "超ユニークで、なおかつ実用度がけっこう高そうな合体メカ、「空飛ぶジンバルカメラ」が日本上陸。ジンバルカメラにローターを4つ持つ“フライトキット”をガシッと装着することで、空飛ぶカメラに変身する。",
-    "score": 0,
-    "published_at": "2026-09-08T09:01:00+00:00",
-    "fetched_at": "2026-09-08T23:30:10.758933+00:00"
-  },
-  {
-    "title": "Suica、ついに“JR東日本全駅”で利用可能に　26年度末に6エリアを統合",
-    "url": "https://www.itmedia.co.jp/news/article/2609/08/2000001283/",
-    "summary": "東日本旅客鉄道（JR東日本）は9月8日、現在6つに分かれているSuicaの利用エリアを2026年度末に1つに統合すると発表した。タブレット端末などを使う新方式「どこでも改札（仮称）」も30年度から導入し、30年代初めに管内全駅でSuicaを使えるようにする。",
-    "score": 0,
-    "published_at": "2026-09-08T08:57:15+00:00",
-    "fetched_at": "2026-09-08T23:30:10.758945+00:00"
-  },
-  {
-    "title": "“ヒト型ロボット用救急車”爆誕　メカ用担架や予備パーツ積載　GMO系",
-    "url": "https://www.itmedia.co.jp/news/article/2609/08/2000001266/",
-    "summary": "人型ロボット開発などを手掛けるGMO AI＆ロボティクス商事（GMO AIR）は9月8日、人型ロボットの故障やトラブル時に現場へ駆けつけ、その場で診断・修理する専用車両「GMOヒューマノイド救急車」を発表した。同社によると、人型ロボットの保守に特化した車両は国内初という。",
-    "score": 0,
-    "published_at": "2026-09-08T07:00:46+00:00",
-    "fetched_at": "2026-09-08T23:30:10.758958+00:00"
-  },
-  {
-    "title": "Suica、3つの新キャラ候補を発表　ネット投票で決定へ　ペンギンは27年3月末で卒業",
-    "url": "https://www.itmedia.co.jp/news/article/2609/08/2000001270/",
-    "summary": "JR東日本は9月8日、2027年3月末で卒業する「Suicaのペンギン」の後継となる、新たなイメージキャラクターの候補3案を公開した。同日午後3時から23日までユーザー投票を受け付け、最多票の候補を採用する。",
-    "score": 0,
-    "published_at": "2026-09-08T06:42:50+00:00",
-    "fetched_at": "2026-09-08T23:30:10.758971+00:00"
-  },
-  {
-    "title": "大雨で「首都圏外郭放水路」稼働　濁流が“地下神殿”を満たすまでの動画公開　国交省",
-    "url": "https://www.itmedia.co.jp/news/article/2609/08/2000001271/",
-    "summary": "国土交通省江戸川河川事務所は9月7日、同日の大雨に伴い「首都圏外郭放水路」（埼玉県春日部市）に雨水が流れ込む様子を撮影した動画をXで公開した。",
-    "score": 0,
-    "published_at": "2026-09-08T06:28:27+00:00",
-    "fetched_at": "2026-09-08T23:30:10.758982+00:00"
-  },
-  {
-    "title": "Duolingoの新アイコンが「気持ち悪い」　世界のユーザーから「元に戻して」の声",
-    "url": "https://www.itmedia.co.jp/news/article/2609/08/2000001269/",
-    "summary": "SNSには「気持ち悪い」「汚い」といった不満の投稿が、日本語や英語、スペイン語など各国のユーザーから相次ぎ、「ホーム画面から消した」と報告する人もいる",
-    "score": 0,
-    "published_at": "2026-09-08T06:15:50+00:00",
-    "fetched_at": "2026-09-08T23:30:10.758994+00:00"
-  },
-  {
-    "title": "「データセンターの排熱で温泉を作ろう」が難しい3つの理由　本職のDC技術者にガチで考えてもらった",
-    "url": "https://www.itmedia.co.jp/news/article/2609/08/2000000887/",
-    "summary": "AI需要に伴い注目度が高まるデータセンター。昨今は環境問題の表出に伴い電力消費や排熱なども問題視されているが、こうした議論のたびに「排熱でお湯を沸かして温泉にすればいいのでは」といったアイデアが注目を集めるのをご存じだろうか。",
-    "score": 0,
-    "published_at": "2026-09-08T05:04:53+00:00",
-    "fetched_at": "2026-09-08T23:30:10.759007+00:00"
-  },
-  {
-    "title": "夏コミの経済効果は約155億円、うち99億円は同人誌など「物販」　他の観光イベントと違う",
-    "url": "https://www.itmedia.co.jp/news/article/2609/08/2000001254/",
-    "summary": "一般的な観光イベントでは交通機関や宿泊施設で発生する消費が経済効果の中心となるケースが多いが、コミケは同人誌やグッズなどへの支出が中核を担っており、「購入するためのイベントとしての性格が強い」。",
-    "score": 0,
-    "published_at": "2026-09-08T03:15:08+00:00",
-    "fetched_at": "2026-09-08T23:30:10.759019+00:00"
-  },
-  {
-    "title": "相次ぐ「道路冠水」が予測しづらい理由　ナビタイムに聞く、豪雨からクルマを救う「道路標高マップ」試作のきっかけ",
-    "url": "https://www.itmedia.co.jp/news/article/2609/08/2000001251/",
-    "summary": "最近、増えている局地的な豪雨による道路の冠水被害。ナビタイムジャパンが公開した「道路標高マップ（プロトタイプ）」は、そうした被害からクルマを守るために参考にしたい地図だ。",
-    "score": 0,
-    "published_at": "2026-09-08T03:10:18+00:00",
-    "fetched_at": "2026-09-08T23:30:10.759030+00:00"
-  },
-  {
-    "title": "NEC、量子コンピュータの実機開発を中止か　実用化への課題重く　報道",
-    "url": "https://www.itmedia.co.jp/news/article/2609/08/2000001250/",
-    "summary": "NECが量子コンピュータの実機開発を中止したと、日本経済新聞などが9月7日までに報じた。同社は1999年に「超電導量子ビット」を世界で初めて実現した、量子コンピュータ開発の先駆け的存在だった。",
-    "score": 0,
-    "published_at": "2026-09-08T02:13:56+00:00",
-    "fetched_at": "2026-09-08T23:30:10.759045+00:00"
-  },
-  {
-    "title": "東京科学大に不正アクセス、個人情報漏えいか　東工大・医科歯科大統合当時の学生・教職員情報も",
-    "url": "https://www.itmedia.co.jp/news/article/2609/08/2000001244/",
-    "summary": "漏えいの疑いがあるのは、東京科学大学と、統合当時に在籍していた学生・教職員などに関する氏名・住所・メールアドレスを含む個人情報だ。",
-    "score": 0,
-    "published_at": "2026-09-08T01:02:59+00:00",
-    "fetched_at": "2026-09-08T23:30:10.759057+00:00"
-  },
-  {
-    "title": "警察庁と日本MS、サイバー対策で協定　情報共有、教育で連携",
-    "url": "https://www.itmedia.co.jp/news/article/2609/08/2000001241/",
-    "summary": "サイバー事案の未然防止や、被害拡大の防止、捜査に資する情報の共有、次世代向けの教育などの啓発活動で連携する。",
-    "score": 0,
-    "published_at": "2026-09-07T23:45:01+00:00",
-    "fetched_at": "2026-09-08T23:30:10.759079+00:00"
-  },
-  {
-    "title": "GitHub、Copilot CLIで複数AIモデルを使い分けてコスト削減を図る「Project HydraFusion」を研究プレビューで提供",
-    "url": "https://gihyo.jp/article/2026/09/github-copilot-hydrafusion?utm_source=feed",
-    "summary": "GitHubは2026年9月4日、コーディングタスクに応じてAIモデルと処理の進め方を選ぶ「Project HydraFusion」を公式ブログで紹介した。",
-    "score": 0,
-    "published_at": "2026-09-08T05:38:00+00:00",
-    "fetched_at": "2026-09-08T23:30:12.886741+00:00"
-  },
-  {
-    "title": "AIと対話してネイティブiOS/Androidアプリをリアルタイムに構築、SwiftUI対応コーディングプラットフォーム「Dactyl」発表",
-    "url": "https://gihyo.jp/article/2026/08/dactyl?utm_source=feed",
-    "summary": "Deno開発チームは2026年8月23日、ネイティブのiOS/Androidアプリを開発できるバイブコーディングプラットフォーム「Dactyl」を発表した。",
-    "score": 0,
-    "published_at": "2026-08-25T06:59:00+00:00",
-    "fetched_at": "2026-09-08T23:30:12.887346+00:00"
-  },
-  {
-    "title": "第67回　仮想環境とPlamo Linuxネットワークインストール",
-    "url": "https://gihyo.jp/article/2026/08/zoku-gansiki-0067?utm_source=feed",
-    "summary": "前回はPlamo LinuxでQEMU/KVM仮想環境を動かすまでを概観、実行例としてネットワークインストール用のisoイメージを使ってみました。今回は、このネットインストール用イメージについて詳しく見てみます。",
-    "score": 0,
-    "published_at": "2026-08-25T02:53:00+00:00",
-    "fetched_at": "2026-09-08T23:30:12.887359+00:00"
-  },
-  {
-    "title": "差動機構の仕組みを理解して差動装置をプリントしよう",
-    "url": "https://gihyo.jp/article/2026/08/3dp-jungle-18?utm_source=feed",
-    "summary": "前回は傘歯車をAIと協業しつつ作る方法を解説しました。記事の最後では、曲がり傘歯車も作成することができました。そこで今回は差動機構の解説と作成をしてみます。また、少しだけ3DPでベアリングを使う際のコツもお伝えします。",
-    "score": 0,
-    "published_at": "2026-08-25T00:13:00+00:00",
-    "fetched_at": "2026-09-08T23:30:12.887372+00:00"
-  },
-  {
-    "title": "高校数学から最先端AIまでを「横断的」に学ぶ理由(続き) ——最先端AI/ロボティクスの仕組みを数理思考で解き明かす",
-    "url": "https://gihyo.jp/article/2026/08/mathematical-thinking-05?utm_source=feed",
-    "summary": "連載第2回で詳しく取り上げたのはベクトル、行列、微分、確率、物理学の5つでした。今回は、残る5つに注目します。",
-    "score": 0,
-    "published_at": "2026-08-25T00:12:00+00:00",
-    "fetched_at": "2026-09-08T23:30:12.887384+00:00"
-  },
-  {
-    "title": "Mintlify、技術情報検索「Mintlify Index」をベータ提供、公開MCPサーバーは無料",
-    "url": "https://gihyo.jp/article/2026/08/mintlify-index?utm_source=feed",
-    "summary": "ドキュメント作成・配信プラットフォームを手がけるMintlifyは2026年8月6日、コーディングエージェント向けの技術情報検索サービス「Mintlify Index」のベータ提供を開始した。",
-    "score": 0,
-    "published_at": "2026-08-10T08:42:00+00:00",
-    "fetched_at": "2026-09-08T23:30:12.887908+00:00"
-  },
-  {
-    "title": "Cloudflare、設定一つでWebサイトにWebMCPインターフェースを追加できる機能を開発者プレビューとして公開",
-    "url": "https://gihyo.jp/article/2026/08/cloudflare-webmcp-interface?utm_source=feed",
-    "summary": "Cloudflareは2026年8月6日、同社のサービスを利用するWebサイトにWebMCPインターフェースを追加する機能の開発者プレビューを開始した。",
-    "score": 0,
-    "published_at": "2026-08-10T06:30:00+00:00",
-    "fetched_at": "2026-09-08T23:30:12.887921+00:00"
-  },
-  {
-    "title": "レガシーインタフェースが“抜け道”に ―懸念が現実となったLinuxカーネル ロックダウンモードのバグ",
-    "url": "https://gihyo.jp/article/2026/08/daily-linux-260810?utm_source=feed",
-    "summary": "カーネルがロックダウンモードにあるにもかかわらず、アクセス可能なレガシーI/Oインタフェースが放置されている…",
-    "score": 0,
-    "published_at": "2026-08-10T05:20:00+00:00",
-    "fetched_at": "2026-09-08T23:30:12.887933+00:00"
-  },
-  {
-    "title": "「PyCon JP 2026 広島」見どころ完全ガイド ―キーノートスピーカー北尾崇氏（Pyxel作者）の紹介、サイン会も開催",
-    "url": "https://gihyo.jp/article/2026/08/pycon-jp-2026-highlights?utm_source=feed",
-    "summary": "2026年8月21日〜23日の3日間、広島国際会議場にて「PyCon JP 2026」が開催されます",
-    "score": 0,
-    "published_at": "2026-08-10T00:13:00+00:00",
-    "fetched_at": "2026-09-08T23:30:12.887960+00:00"
-  },
-  {
-    "title": "エージェント型開発ツールの普及で問われる、ワークフローの監査可能性［後編］",
-    "url": "https://gihyo.jp/article/2026/07/agent-workflow-auditability-02?utm_source=feed",
-    "summary": "前回は、エージェント型開発ツールの普及によって、変更の来歴、アイデンティティの帰属、意思決定の連鎖、ロールバック範囲といった点で、従来の監査モデルでは対応しきれない例外が生じることを取り上げました。今回は、こうした課題に対して、開発スピードと再構成可能性をどのように両立すべきかについて解説します。",
-    "score": 0,
-    "published_at": "2026-08-10T00:03:00+00:00",
-    "fetched_at": "2026-09-08T23:30:12.887974+00:00"
-  },
-  {
-    "title": "Linux Foundation、AIを使ったサイバー攻撃からOSSを守るプロジェクトAkritesを始動",
-    "url": "https://gihyo.jp/article/2026/06/akrites?utm_source=feed",
-    "summary": "Linux Foundationは2026年6月25日、IT業界の関連企業とともに、AIを活用したサイバー脅威から重要なオープンソースソフトウェアを守るための取り組み「Akrites」の創設を発表した。",
-    "score": 0,
-    "published_at": "2026-06-26T03:54:00+00:00",
-    "fetched_at": "2026-09-08T23:30:12.889717+00:00"
-  },
-  {
-    "title": "Ubuntu 26.10（Stonking）の開発; Betaの位置付けの変更、Arm64向けLivepatchの提供、Ubuntu Coreと“Golioth”によるMCU管理",
-    "url": "https://gihyo.jp/admin/clip/01/ubuntu-topics/202606/26?utm_source=feed",
-    "summary": "Ubuntuのリリースにおいて、stonking以降ではベータリリースの位置付けが変わることになりそうです。",
-    "score": 0,
-    "published_at": "2026-06-26T01:16:00+00:00",
-    "fetched_at": "2026-09-08T23:30:12.889730+00:00"
-  },
-  {
-    "title": "GitHub CLI v2.94.0、Discussions用コマンドを追加、Issueの分類・構造管理にも対応",
-    "url": "https://gihyo.jp/article/2026/06/github-cli-discussions-and-issue-management?utm_source=feed",
-    "summary": "GitHubは2026年6月10日、GitHub CLIでGitHub Discussionsを扱うための新しいコマンド、gh discussionを追加した。",
-    "score": 0,
-    "published_at": "2026-06-11T08:58:00+00:00",
-    "fetched_at": "2026-09-08T23:30:12.890299+00:00"
-  },
-  {
-    "title": "Google、専用GPU上で生成速度が最大4倍となる実験モデル「DiffusionGemma」を発表",
-    "url": "https://gihyo.jp/article/2026/06/diffusion-gemma?utm_source=feed",
-    "summary": "Googleは2026年6月10日、テキスト拡散（text diffusion）の手法を用いて非常に高速なテキスト生成を行う「DiffusionGemma」を発表、260億のパラメータをもつMoE（Mixture of Experts）モデルをApache 2.0ライセンスの下、実験的に公開した。",
-    "score": 0,
-    "published_at": "2026-06-11T02:10:00+00:00",
-    "fetched_at": "2026-09-08T23:30:12.890322+00:00"
-  },
-  {
-    "title": "AIでFusionに傘歯車（Bevel Gear）を作らせよう［2026年5月版］",
-    "url": "https://gihyo.jp/article/2026/06/3dp-jungle-17?utm_source=feed",
-    "summary": "皆さん、すこし前にAutodesk FusionにAutodesk Assistantなる生成AIツールが導入されたことに気づきましたか？ こういうツールが出てきたらとりあえずどこまでできるのか試してみたくなります。今回、歯車のデザインの中でちょっと難しめの傘歯車を作らせてみることにしました。",
-    "score": 0,
-    "published_at": "2026-06-10T23:53:00+00:00",
-    "fetched_at": "2026-09-08T23:30:12.890335+00:00"
-  },
-  {
-    "title": "Microsoft、AI特化のプラットフォーム「Project Solara」がもたらすパラダイムシフト",
-    "url": "https://gihyo.jp/article/2026/06/android-weekly-topics-260611?utm_source=feed",
-    "summary": "先日開催されたMicrosoftの年次開発者会議「Build 2026」で、数多くの発表が行われました。その中でも、モバイルや組み込みのエコシステムに関わる開発者、それから広くテクノロジの未来を注視する人々にとって、注目すべきニュースは「Project Solara」の発表です。",
-    "score": 0,
-    "published_at": "2026-06-10T23:52:00+00:00",
-    "fetched_at": "2026-09-08T23:30:12.890349+00:00"
-  },
-  {
-    "title": "「離婚してから自分が性格悪いことに気づいた」の人が誤解していること - いつか電池がきれるまで",
-    "url": "https://fujipon.hatenablog.com/entry/2026/09/08/170251",
-    "summary": "anond.hatelabo.jp いまネット界隈でかなり話題のこの『はてな匿名ダイアリー』のエントリについて。 読みながら、これAI？が半分、こういう「理由責め」しないと気が済まない人っているよな、が半分。 僕もけっこう「理由にこだわってしまう人間」だったので、「ちゃんと確認したい」「可能であれば自分でも改善したい...",
-    "score": 0,
-    "published_at": "2026-09-08T09:51:14+00:00",
-    "fetched_at": "2026-09-08T23:30:13.334054+00:00"
-  },
-  {
-    "title": "2026年版: Mac開発環境の最新セットアップとインストールスクリプト（翻訳）｜TechRacho by BPS株式会社",
-    "url": "https://techracho.bpsinc.jp/hachi8833/2026_09_08/159597",
-    "summary": "概要 元サイトの許諾を得て翻訳・公開いたします。 英語記事: My Development Setup in 2026 | baweaver 原文公開日: 2026年08月04日 原著者: Brandon Weaver 日本語タイトルは内容に即したものにしました。 ツールや拡張などへのリンクを適宜追加しています。 本記事は主にRails開発用の環境構築について解説されていま...",
-    "score": 0,
-    "published_at": "2026-09-08T08:47:26+00:00",
-    "fetched_at": "2026-09-08T23:30:13.334072+00:00"
-  },
-  {
-    "title": "Netanyahu got an explicit warning before Oct. 7. He didn't brief security chiefs",
-    "url": "https://www.haaretz.com/israel-news/israel-security/2026-09-08/ty-article-magazine/.highlight/netanyahu-got-an-explicit-warning-before-oct-7-he-didnt-brief-security-chiefs/000001a0-7a3b-d7d5-a9fc-7eff3d0f0000",
-    "summary": "Revealed: Netanyahu Received an Explicit Warning Days Before Oct. 7. He Didn't Brief Israel's Security Chiefs",
-    "score": 0,
-    "published_at": "2026-09-08T11:27:55+00:00",
-    "fetched_at": "2026-09-08T23:30:13.334086+00:00"
-  },
-  {
-    "title": "React 19移行で学んだpnpmの依存関係解決の仕組み",
-    "url": "https://zenn.dev/yamatechi/articles/vite-monorepo-react-dedupe",
-    "summary": "React19移行で見つかった謎の不具合 pnpm workspaceとViteを使うモノレポで、複数あるReactアプリケーションの一つをReact19に更新しました。他のアプリはReact18のままだったため、両方のバージョンが共存している状態です。 変更後、検証していると謎の不具合に遭遇しました。 React19へ移行したアプリに古いReactが紛...",
-    "score": 0,
-    "published_at": "2026-09-08T05:19:42+00:00",
-    "fetched_at": "2026-09-08T23:30:13.334102+00:00"
-  },
-  {
-    "title": "InstagramのAI検出ラベルが誤作動しまくっていると話題に",
-    "url": "https://gigazine.net/news/20260908-instagram-ai-detection/",
-    "summary": "Metaは2024年5月から、AIで作成されたコンテンツに対して「AI Info(Made with AI)」というラベルを付ける施策を導入しています。その後も検出機能の強化などを実施していますが、2026年8月末頃から、明らかにAI生成画像なのにラベルがついていなかったり、人間が撮影した写真なのにラベルをつけたりといった誤検出が多数...",
-    "score": 0,
-    "published_at": "2026-09-08T05:35:12+00:00",
-    "fetched_at": "2026-09-08T23:30:13.334131+00:00"
-  },
-  {
-    "title": "ヘアモデル画像酷似で無断使用と提訴　「AI生成画像」に著作権あるのか、司法判断に注目",
-    "url": "https://www.sankei.com/article/20260908-R74BJGPGTVLPHKYJM27AZPAAY4/",
-    "summary": "原告企業が生成AIで制作し販売しているヘアカットモデルの画像（左）と、被告が無断で広告サイトに掲載したと原告側が主張している画像（いずれも原告側提供）生成AI（人工知能）を利用して作ったヘアカットモデルの画像と酷似した画像を無断で広告に使われ、著作権を侵害されたとして、大阪市のコンテンツ制作会社が千...",
-    "score": 0,
-    "published_at": "2026-09-08T14:50:52+00:00",
-    "fetched_at": "2026-09-08T23:30:13.334146+00:00"
-  },
-  {
-    "title": "ETL 基盤を Embulk から dlt + dbt に乗り換えた 2 つの理由 - エムスリーテックブログ",
-    "url": "https://www.m3tech.blog/entry/embulk-to-dlt-dbt",
-    "summary": "この記事はコンシューマーチームブログリレー 4日目の記事です。 Embulk 0.9.25 で動かしていた担当プロジェクトの ETL を、dlt + dbt と Step Functions に全面移行しました。証明書エラーと BigQuery のレガシー API 利用で観念した話です。 こんにちは。エムスリーのコンシューマーチームエンジニアの園田です。 コン...",
-    "score": 0,
-    "published_at": "2026-09-08T05:02:18+00:00",
-    "fetched_at": "2026-09-08T23:30:13.334208+00:00"
-  },
-  {
-    "title": "AI駆動開発の全体感 ～AI時代の生産性を何で測るのか【AI駆動開発の実践例】",
-    "url": "https://forest.watch.impress.co.jp/docs/serial/aidriven/2137349.html",
-    "summary": "",
-    "score": 0,
-    "published_at": "2026-09-03T01:13:43+00:00",
-    "fetched_at": "2026-09-08T23:30:13.334220+00:00"
-  },
-  {
-    "title": "AIが設計した薬「レントセルチブ」が人間の生物学的年齢を若返らせたことが判明",
-    "url": "https://gigazine.net/news/20260908-ai-assisted-medicine-age-reversal/",
-    "summary": "AIを活用した製薬会社のInsilico Medicineが、AIによって設計した「レントセルチブ」という薬で人間の生物学的年齢が若返ったと報告しました。 Integration of proteomic aging clocks in a phase 2a clinical trial supports simultaneous geroprotective assessment | Nature Biotechnology https://www.nature.com/ar...",
-    "score": 0,
-    "published_at": "2026-09-08T10:27:09+00:00",
-    "fetched_at": "2026-09-08T23:30:13.334236+00:00"
-  },
-  {
-    "title": "母に無料スタンプを送っただけで「私ごとき無料でいいと思ってるんだ」「バカにしてる、見下してる」とヒスられたの、ほんとになんですか→驚きと同情の声が多数集まる",
-    "url": "https://togetter.com/li/2743144",
-    "summary": "母に無料スタンプを送っただけで「私ごとき無料でいいと思ってるんだ」「バカにしてる、見下してる」とヒスられたの、ほんとになんですか→驚きと同情の声が多数集まる",
-    "score": 0,
-    "published_at": "2026-09-08T10:24:37+00:00",
-    "fetched_at": "2026-09-08T23:30:13.334250+00:00"
-  },
-  {
-    "title": "LG以外のスマートテレビも画面に映る内容を追跡してユーザーをスパイしている、どうすれば止められるのか？",
-    "url": "https://gigazine.net/news/20260908-smart-tv-spying/",
-    "summary": "LG製スマートテレビが、ユーザーの視聴履歴などをネットワーク経由で外部へ送信していることが明らかになりました。しかし、画面に映るコンテンツを収集しているのはLGだけではありません。製品レビューサイトのRTINGS.comが主要メーカーのテレビやストリーミング端末を調査したところ、画面に映る内容を自動で識別する...",
-    "score": 0,
-    "published_at": "2026-09-08T11:17:37+00:00",
-    "fetched_at": "2026-09-08T23:30:13.334263+00:00"
-  },
-  {
-    "title": "小学校の図書館にあったありえない本、1巻で全加算器を設計させるなど内容が濃すぎて多大な影響を受けた結果ITの道へ進んだ「コンピュータって何？がわかるいい本」",
-    "url": "https://togetter.com/li/2743017",
-    "summary": "ととがんま @totegamma 小学校の図書館にあったありえない本、一巻で全加算機を設計させ、三巻ではすでに「逆ポーランド記法の数式はスタックに入れると計算できる」というところまでを小学生に教え込む恐ろしいシリーズだった。おかげで僕はこの道に進むことになったのだけど、最近これを急に思い出したので買い揃える...",
-    "score": 0,
-    "published_at": "2026-09-08T04:37:56+00:00",
-    "fetched_at": "2026-09-08T23:30:13.334277+00:00"
-  },
-  {
-    "title": "テストを生成するな、信頼を生成しろ",
-    "url": "https://zenn.dev/nakurei/articles/generate-trust-not-tests",
-    "summary": "これはなに AIにコーディングを丸投げするなら、テストコードくらい確認しろという愚痴。 背景 | ただの愚痴 私はここ1年ほど毎日のように、コードの構造や仕様をAIへ与え、それに基づいてテストケースを作らせている。もちろんコード自体も書かせている。そしてAIに書かせたコードをチームメンバーにレビューさせ、チー...",
-    "score": 0,
-    "published_at": "2026-09-07T21:48:23+00:00",
-    "fetched_at": "2026-09-08T23:30:13.334331+00:00"
-  },
-  {
-    "title": "Meta tried to shrink engineering teams around AI",
-    "url": "https://leaddev.com/ai/meta-tried-to-shrink-engineering-teams-around-ai",
-    "summary": "You have 1 article left to read this month before you need to register a free LeadDev.com account. Estimated reading time: 3 minutes Key takeaways: Meta’s AI “pods” boosted code changes 220%, but shipped features rose just 36% while incidents jumped 40%. Across 500+ orgs, PR throughput rose 37% w...",
-    "score": 0,
-    "published_at": "2026-09-08T13:22:28+00:00",
-    "fetched_at": "2026-09-08T23:30:13.334349+00:00"
-  },
-  {
-    "title": "帰宅困難者支援サイト｜名古屋市公式ウェブサイト",
-    "url": "https://www.city.nagoya.jp/bousaiportal/hazardmap/1013538.html",
-    "summary": "退避施設の位置がわかるマップや、防災情報を入手するための関連リンクを掲載しています。 下の画像から「名古屋市帰宅困難者退避場所マップ」のページへリンクします。 外出先で地震にあったら 大規模地震発生時は、まず自分の身の安全を確保してください。 主要駅など人が多く集まる場所で、皆さんが一斉に移動を開始...",
-    "score": 0,
-    "published_at": "2024-01-02T00:48:01+00:00",
-    "fetched_at": "2026-09-08T23:30:13.334374+00:00"
-  },
-  {
-    "title": "道マニア達よ、これがゼンリンの「一般国道トレカ」だ。全国459路線、9月11日から順次発売　敦賀市・岡山町1丁目交差点の「4連おにぎり」キーホルダーが付いてくるBOXセットは初回限定【地図ウォッチ】",
-    "url": "https://internet.watch.impress.co.jp/docs/column/chizu/2139036.html",
-    "summary": "",
-    "score": 0,
-    "published_at": "2026-09-08T05:21:47+00:00",
-    "fetched_at": "2026-09-08T23:30:13.334387+00:00"
-  },
-  {
-    "title": "「雇用を守れ！」ロボット群が路上で訴え、AI規制求めデモ ポーランド",
-    "url": "https://www.afpbb.com/articles/-/3651960",
-    "summary": "この写真にはショッキングな表現、または18歳以上の年齢制限の対象となる内容が含まれます。 ご覧になる場合にはご了承の上、クリックしてください。 【9月8日 AFP】ポーランドの首都ワルシャワで7日、人工知能（AI）の規制を求めて約30台のロボットが路上でデモ活動を行った。ロボットたちは、旗を振り、スローガンを「...",
-    "score": 0,
-    "published_at": "2026-09-08T08:22:53+00:00",
-    "fetched_at": "2026-09-08T23:30:13.334418+00:00"
-  },
-  {
-    "title": "「お試し」のつもりが定期購入　広がる「ダークパターン」が法規制に?",
-    "url": "https://www.watch.impress.co.jp/docs/topic/2137766.html",
-    "summary": "",
-    "score": 0,
-    "published_at": "2026-09-07T23:50:04+00:00",
-    "fetched_at": "2026-09-08T23:30:13.334429+00:00"
-  },
-  {
-    "title": "[FT]コンサル大手、若手に出社回帰促す　AI普及で対人スキル重視 - 日本経済新聞",
-    "url": "https://www.nikkei.com/article/DGXZQOCB074J50X00C26A9000000/",
-    "summary": "会計・コンサルティング大手が若手社員の出社回数を増やす検討をしている。技術的な業務の多くを人工知能（AI）で代替できるようになるなか、オフィス勤務を通じて対人スキルを磨くことが重要だと考えるようになったためだ。人間しか担えない業務が重要に世界の会計事務所「ビッグ4」の一つ、アーンスト・アンド・ヤング...",
-    "score": 0,
-    "published_at": "2026-09-08T00:29:06+00:00",
-    "fetched_at": "2026-09-08T23:30:13.334442+00:00"
-  },
-  {
-    "title": "おれはAIを信じない",
-    "url": "https://dailyportalz.jp/dpq/midokoro-20260908-1",
-    "summary": "お世話になっております。暑さに弱い江ノ島です。 近年、暑いじゃないですか。そんな中でエアコンが効きません。 前回買い換えたとき「まあだいたい部屋の大きさなんて6畳ぐらいだろう」と6畳用のエアコンを買ったところ、部屋の大きさが実は11畳ぐらいあって、南向きだし、木造、平屋という条件が重なって全然冷えず、...",
-    "score": 0,
-    "published_at": "2026-09-08T07:14:36+00:00",
-    "fetched_at": "2026-09-08T23:30:13.334455+00:00"
-  },
-  {
-    "title": "AIを10分使うだけで正解率が急低下、識者が説く3つの「べからず」 - 日本経済新聞",
-    "url": "https://www.nikkei.com/article/DGXZQOUC251P30V20C26A8000000/",
-    "summary": "日常業務において生成AI（人工知能）はとても便利だ。自然言語で質問するだけで、大抵のことに答えてくれる。文書の要約やメール文面の作成といった業務も代行してくれる。だが一方で、自分で考える機会が失われ、思考力が低下する懸念がある。AI利用のダークサイドといえるだろう。実際、思考力などが低下する恐れを示...",
-    "score": 0,
-    "published_at": "2026-09-08T01:21:01+00:00",
-    "fetched_at": "2026-09-08T23:30:13.334468+00:00"
+    "title": "日本語プログラミング言語「なでしこ3」のGo言語版がリリース ―単一バイナリを生成可能で高速動作",
+    "url": "https://gihyo.jp/article/2026/09/gonako?utm_source=feed",
+    "summary": "プログラマのクジラ飛行机（@kujirahand）氏は2026年9月7日、日本語プログラミング言語「なでしこ3」をGo言語で実装した「なでしこ3(Go版)」（通称：gonako）をリリースした。",
+    "score": 10,
+    "published_at": "2026-09-08T07:30:00+00:00",
+    "fetched_at": "2026-09-22T23:41:11.658611+00:00"
   },
   {
     "title": "「めっちゃカメレオン」Switch 2版発売　2人で開発したインディゲー、3カ月で到達",
@@ -10982,5 +10574,341 @@
     "score": 0,
     "published_at": "2026-09-20T16:29:22+00:00",
     "fetched_at": "2026-09-22T00:12:32.419838+00:00"
+  },
+  {
+    "title": "White Circle、AIモデルの追加学習向けフレームワーク「Halo」を発表 ——Hugging Faceの既存モデルに分散学習を追加",
+    "url": "https://gihyo.jp/article/2026/09/white-circle-halo?utm_source=feed",
+    "summary": "White Circleは2026年9月21日、学習済みのAIモデルを用途に合わせて調整するためのフレームワーク「Halo」を発表した。",
+    "score": 0,
+    "published_at": "2026-09-22T04:48:00+00:00",
+    "fetched_at": "2026-09-22T23:41:11.657842+00:00"
+  },
+  {
+    "title": "Xiaomi、AIモデル「MiMo-V2.6」Pro／Flashをオープンウェイトで公開",
+    "url": "https://gihyo.jp/article/2026/09/xiaomi-mimo-v2.6?utm_source=feed",
+    "summary": "Xiaomiは9月21日、AIモデル「MiMo-V2.6」シリーズのProとFlashを発表し、モデル重みを公開した。",
+    "score": 0,
+    "published_at": "2026-09-22T02:52:00+00:00",
+    "fetched_at": "2026-09-22T23:41:11.657881+00:00"
+  },
+  {
+    "title": "GitHub、Copilot CLIで複数AIモデルを使い分けてコスト削減を図る「Project HydraFusion」を研究プレビューで提供",
+    "url": "https://gihyo.jp/article/2026/09/github-copilot-hydrafusion?utm_source=feed",
+    "summary": "GitHubは2026年9月4日、コーディングタスクに応じてAIモデルと処理の進め方を選ぶ「Project HydraFusion」を公式ブログで紹介した。",
+    "score": 0,
+    "published_at": "2026-09-08T05:38:00+00:00",
+    "fetched_at": "2026-09-22T23:41:11.658624+00:00"
+  },
+  {
+    "title": "AIと対話してネイティブiOS/Androidアプリをリアルタイムに構築、SwiftUI対応コーディングプラットフォーム「Dactyl」発表",
+    "url": "https://gihyo.jp/article/2026/08/dactyl?utm_source=feed",
+    "summary": "Deno開発チームは2026年8月23日、ネイティブのiOS/Androidアプリを開発できるバイブコーディングプラットフォーム「Dactyl」を発表した。",
+    "score": 0,
+    "published_at": "2026-08-25T06:59:00+00:00",
+    "fetched_at": "2026-09-22T23:41:11.659225+00:00"
+  },
+  {
+    "title": "第67回　仮想環境とPlamo Linuxネットワークインストール",
+    "url": "https://gihyo.jp/article/2026/08/zoku-gansiki-0067?utm_source=feed",
+    "summary": "前回はPlamo LinuxでQEMU/KVM仮想環境を動かすまでを概観、実行例としてネットワークインストール用のisoイメージを使ってみました。今回は、このネットインストール用イメージについて詳しく見てみます。",
+    "score": 0,
+    "published_at": "2026-08-25T02:53:00+00:00",
+    "fetched_at": "2026-09-22T23:41:11.659238+00:00"
+  },
+  {
+    "title": "差動機構の仕組みを理解して差動装置をプリントしよう",
+    "url": "https://gihyo.jp/article/2026/08/3dp-jungle-18?utm_source=feed",
+    "summary": "前回は傘歯車をAIと協業しつつ作る方法を解説しました。記事の最後では、曲がり傘歯車も作成することができました。そこで今回は差動機構の解説と作成をしてみます。また、少しだけ3DPでベアリングを使う際のコツもお伝えします。",
+    "score": 0,
+    "published_at": "2026-08-25T00:13:00+00:00",
+    "fetched_at": "2026-09-22T23:41:11.659251+00:00"
+  },
+  {
+    "title": "高校数学から最先端AIまでを「横断的」に学ぶ理由(続き) ——最先端AI/ロボティクスの仕組みを数理思考で解き明かす",
+    "url": "https://gihyo.jp/article/2026/08/mathematical-thinking-05?utm_source=feed",
+    "summary": "連載第2回で詳しく取り上げたのはベクトル、行列、微分、確率、物理学の5つでした。今回は、残る5つに注目します。",
+    "score": 0,
+    "published_at": "2026-08-25T00:12:00+00:00",
+    "fetched_at": "2026-09-22T23:41:11.659264+00:00"
+  },
+  {
+    "title": "Mintlify、技術情報検索「Mintlify Index」をベータ提供、公開MCPサーバーは無料",
+    "url": "https://gihyo.jp/article/2026/08/mintlify-index?utm_source=feed",
+    "summary": "ドキュメント作成・配信プラットフォームを手がけるMintlifyは2026年8月6日、コーディングエージェント向けの技術情報検索サービス「Mintlify Index」のベータ提供を開始した。",
+    "score": 0,
+    "published_at": "2026-08-10T08:42:00+00:00",
+    "fetched_at": "2026-09-22T23:41:11.659789+00:00"
+  },
+  {
+    "title": "Cloudflare、設定一つでWebサイトにWebMCPインターフェースを追加できる機能を開発者プレビューとして公開",
+    "url": "https://gihyo.jp/article/2026/08/cloudflare-webmcp-interface?utm_source=feed",
+    "summary": "Cloudflareは2026年8月6日、同社のサービスを利用するWebサイトにWebMCPインターフェースを追加する機能の開発者プレビューを開始した。",
+    "score": 0,
+    "published_at": "2026-08-10T06:30:00+00:00",
+    "fetched_at": "2026-09-22T23:41:11.659802+00:00"
+  },
+  {
+    "title": "レガシーインタフェースが“抜け道”に ―懸念が現実となったLinuxカーネル ロックダウンモードのバグ",
+    "url": "https://gihyo.jp/article/2026/08/daily-linux-260810?utm_source=feed",
+    "summary": "カーネルがロックダウンモードにあるにもかかわらず、アクセス可能なレガシーI/Oインタフェースが放置されている…",
+    "score": 0,
+    "published_at": "2026-08-10T05:20:00+00:00",
+    "fetched_at": "2026-09-22T23:41:11.659815+00:00"
+  },
+  {
+    "title": "「PyCon JP 2026 広島」見どころ完全ガイド ―キーノートスピーカー北尾崇氏（Pyxel作者）の紹介、サイン会も開催",
+    "url": "https://gihyo.jp/article/2026/08/pycon-jp-2026-highlights?utm_source=feed",
+    "summary": "2026年8月21日〜23日の3日間、広島国際会議場にて「PyCon JP 2026」が開催されます",
+    "score": 0,
+    "published_at": "2026-08-10T00:13:00+00:00",
+    "fetched_at": "2026-09-22T23:41:11.659844+00:00"
+  },
+  {
+    "title": "エージェント型開発ツールの普及で問われる、ワークフローの監査可能性［後編］",
+    "url": "https://gihyo.jp/article/2026/07/agent-workflow-auditability-02?utm_source=feed",
+    "summary": "前回は、エージェント型開発ツールの普及によって、変更の来歴、アイデンティティの帰属、意思決定の連鎖、ロールバック範囲といった点で、従来の監査モデルでは対応しきれない例外が生じることを取り上げました。今回は、こうした課題に対して、開発スピードと再構成可能性をどのように両立すべきかについて解説します。",
+    "score": 0,
+    "published_at": "2026-08-10T00:03:00+00:00",
+    "fetched_at": "2026-09-22T23:41:11.659857+00:00"
+  },
+  {
+    "title": "Linux Foundation、AIを使ったサイバー攻撃からOSSを守るプロジェクトAkritesを始動",
+    "url": "https://gihyo.jp/article/2026/06/akrites?utm_source=feed",
+    "summary": "Linux Foundationは2026年6月25日、IT業界の関連企業とともに、AIを活用したサイバー脅威から重要なオープンソースソフトウェアを守るための取り組み「Akrites」の創設を発表した。",
+    "score": 0,
+    "published_at": "2026-06-26T03:54:00+00:00",
+    "fetched_at": "2026-09-22T23:41:11.661602+00:00"
+  },
+  {
+    "title": "Ubuntu 26.10（Stonking）の開発; Betaの位置付けの変更、Arm64向けLivepatchの提供、Ubuntu Coreと“Golioth”によるMCU管理",
+    "url": "https://gihyo.jp/admin/clip/01/ubuntu-topics/202606/26?utm_source=feed",
+    "summary": "Ubuntuのリリースにおいて、stonking以降ではベータリリースの位置付けが変わることになりそうです。",
+    "score": 0,
+    "published_at": "2026-06-26T01:16:00+00:00",
+    "fetched_at": "2026-09-22T23:41:11.661615+00:00"
+  },
+  {
+    "title": "GitHub CLI v2.94.0、Discussions用コマンドを追加、Issueの分類・構造管理にも対応",
+    "url": "https://gihyo.jp/article/2026/06/github-cli-discussions-and-issue-management?utm_source=feed",
+    "summary": "GitHubは2026年6月10日、GitHub CLIでGitHub Discussionsを扱うための新しいコマンド、gh discussionを追加した。",
+    "score": 0,
+    "published_at": "2026-06-11T08:58:00+00:00",
+    "fetched_at": "2026-09-22T23:41:11.662201+00:00"
+  },
+  {
+    "title": "Google、専用GPU上で生成速度が最大4倍となる実験モデル「DiffusionGemma」を発表",
+    "url": "https://gihyo.jp/article/2026/06/diffusion-gemma?utm_source=feed",
+    "summary": "Googleは2026年6月10日、テキスト拡散（text diffusion）の手法を用いて非常に高速なテキスト生成を行う「DiffusionGemma」を発表、260億のパラメータをもつMoE（Mixture of Experts）モデルをApache 2.0ライセンスの下、実験的に公開した。",
+    "score": 0,
+    "published_at": "2026-06-11T02:10:00+00:00",
+    "fetched_at": "2026-09-22T23:41:11.662215+00:00"
+  },
+  {
+    "title": "AIでFusionに傘歯車（Bevel Gear）を作らせよう［2026年5月版］",
+    "url": "https://gihyo.jp/article/2026/06/3dp-jungle-17?utm_source=feed",
+    "summary": "皆さん、すこし前にAutodesk FusionにAutodesk Assistantなる生成AIツールが導入されたことに気づきましたか？ こういうツールが出てきたらとりあえずどこまでできるのか試してみたくなります。今回、歯車のデザインの中でちょっと難しめの傘歯車を作らせてみることにしました。",
+    "score": 0,
+    "published_at": "2026-06-10T23:53:00+00:00",
+    "fetched_at": "2026-09-22T23:41:11.662229+00:00"
+  },
+  {
+    "title": "Microsoft、AI特化のプラットフォーム「Project Solara」がもたらすパラダイムシフト",
+    "url": "https://gihyo.jp/article/2026/06/android-weekly-topics-260611?utm_source=feed",
+    "summary": "先日開催されたMicrosoftの年次開発者会議「Build 2026」で、数多くの発表が行われました。その中でも、モバイルや組み込みのエコシステムに関わる開発者、それから広くテクノロジの未来を注視する人々にとって、注目すべきニュースは「Project Solara」の発表です。",
+    "score": 0,
+    "published_at": "2026-06-10T23:52:00+00:00",
+    "fetched_at": "2026-09-22T23:41:11.662242+00:00"
+  },
+  {
+    "title": "思考の外注割合を増やし、理解は外注しない - Konifar's ZATSU",
+    "url": "https://konifar-zatsu.hatenadiary.jp/entry/2026/09/22/112134",
+    "summary": "「思考は外注できるが理解は外注できない」という AI の関わり方を端的に表したﾂｲｯﾄがある。 you can outsource your thinking but you cannot outsource your understanding you can outsource your thinking but you cannot outsource your understanding— kache (@yacineMTB) 2026年2月4日 Andrej Karpathy 氏も \"ble...",
+    "score": 0,
+    "published_at": "2026-09-22T02:43:17+00:00",
+    "fetched_at": "2026-09-22T23:41:11.849717+00:00"
+  },
+  {
+    "title": "「AIは意識を持ち得ない」――世界的SF作家から届いたアンソロピックへの“メッセージ”",
+    "url": "https://que.dailyshincho.jp/node/20880/",
+    "summary": "何もしなければ永遠にそこに「留まる」だけ ―　Anthropic社を中心にAIに意識を持たせようとする試みが拡大しています。特に同社は社内にAIに意識をその哲学者を抱え、そうした傾向を加速させています。あなたはAIが意識を持つ可能性を強く批判していますが、その真意を教えてください。 チャン　これは「理論的に意識を...",
+    "score": 0,
+    "published_at": "2026-09-21T14:16:47+00:00",
+    "fetched_at": "2026-09-22T23:41:11.849739+00:00"
+  },
+  {
+    "title": "コロンビアで乗ったUberのおっちゃん「日本人は人生を良くしようとしすぎ」.…幸せって問題がない状態じゃなくて、問題があっても機嫌よくいられること",
+    "url": "https://posfie.com/@Count_Down_000/p/GX0uIFx",
+    "summary": "旅人KAD @kad4ani コロンビアで乗ったUberのおっちゃんが「日本人は人生を良くしようとしすぎ」「こっちは渋滞する、雨降る、予定ズレる、でもコーヒー飲んで笑う」「幸せって問題がない状態じゃなくて、問題があっても機嫌よくいられること」と言っていて、ボゴタの大渋滞の中でめちゃくちゃ人生の答え出てた。￼ 2026-0...",
+    "score": 0,
+    "published_at": "2026-09-21T02:22:29+00:00",
+    "fetched_at": "2026-09-22T23:41:11.849758+00:00"
+  },
+  {
+    "title": "大量注文が来てた古本屋(Amazon)だけど質問ある？",
+    "url": "https://anond.hatelabo.jp/20260922210618",
+    "summary": "ないだろうからデータだけ置いとく。ちな副業。 全体出品数2000で日売上が5点ぐらいだから大量といえば大量。お前ら安いのしか買わないし。 全体像 対象: レポート11ファイル（2026/04/13-09/14）、注文1,xxx件・商品売上 3,xxx,xxx円 該当疑い: 49件 / 商品売上 137,392円 / 手数料控除後の入金 116,597円 月別の全注文...",
+    "score": 0,
+    "published_at": "2026-09-22T12:14:40+00:00",
+    "fetched_at": "2026-09-22T23:41:11.849780+00:00"
+  },
+  {
+    "title": "ホームページに還ろう",
+    "url": "https://kitasenjudesign.com/zine/",
+    "summary": "____ ____ ____ _ _ ____ __ _ ____ __ ____ _ _ ____ _ _ __ _ _ ____ ____ __ ___ ____ ( _ \\( __)(_ _)/ )( \\( _ \\( ( \\ (_ _)/ \\ (_ _)/ )( \\( __) / )( \\ / \\ ( \\/ )( __)( _ \\ / _\\ / __)( __) ) / ) _) )( ) \\/ ( ) // / )( ( O ) )( ) __ ( ) _) ) __ (( O )/ \\/ \\ ) _) ) __// \\( (_ \\ ) _) (__\\_)(____) (__) ...",
+    "score": 0,
+    "published_at": "2026-09-22T10:10:43+00:00",
+    "fetched_at": "2026-09-22T23:41:11.849796+00:00"
+  },
+  {
+    "title": "「50歳超えだけど今からゲーム開発者になれる？」との人生相談に、“経験者”が大集結。年配組の熱い回答、あの人気ゲームのディレクターも名乗り出る - AUTOMATON",
+    "url": "https://automaton-media.com/articles/newsjp/20260922-469364/",
+    "summary": "もっとも注目された返信のひとつは「自分のことだ」として経歴を語るユーザー-Xaron-氏のものだ。ソフトウェアエンジニアだったという同氏がゲーム開発を始めたのは38歳の時で、10本のスマートフォン向けゲームをリリースしたものの失敗。その後46歳になってからフルタイムでゲーム業界で働き始め、50歳になってようやく...",
+    "score": 0,
+    "published_at": "2026-09-22T13:05:52+00:00",
+    "fetched_at": "2026-09-22T23:41:11.849812+00:00"
+  },
+  {
+    "title": "AIがチェスで圧勝する理由の一端が見えてきた――「ややこしいまま耐える」時間が人間より長い - ナゾロジー",
+    "url": "https://nazology.kusuguru.co.jp/archives/199973",
+    "summary": "「考えることが多すぎる。いったん状況をスッキリさせたい」 チェスや将棋で、駒の攻防が複雑に絡み合ったとき、そんな気持ちになったことはないでしょうか。 では、強いAIは、そのような局面をどう扱っているのでしょう。 オーストリアの複雑系科学ハブ（CSH）とイタリアのパルマ大学の研究チームが、人間とAIの対局記...",
+    "score": 0,
+    "published_at": "2026-09-22T13:17:12+00:00",
+    "fetched_at": "2026-09-22T23:41:11.849828+00:00"
+  },
+  {
+    "title": "JevでRAG検索の爆速化＆コスト削減は実現できるのか検証してみた - Qiita",
+    "url": "https://qiita.com/kikuziro/items/2be9091b328d8b844640",
+    "summary": "Deleted articles cannot be recovered. Draft of this article would be also deleted. Are you sure you want to delete this article?",
+    "score": 0,
+    "published_at": "2026-09-22T00:46:01+00:00",
+    "fetched_at": "2026-09-22T23:41:11.849857+00:00"
+  },
+  {
+    "title": "マキタの18Vバッテリーにも対応済み、リチウムイオンバッテリーの診断と修理をブラウザから無料で実行できる「Open Battery Information」",
+    "url": "https://gigazine.net/news/20260922-open-battery-information/",
+    "summary": "Open Battery Information(OBI)はバッテリー管理システム(BMS)によってロックされたリチウムイオンバッテリーの診断と修理を支援するために設計されたオープンソースプロジェクトです。 Open Battery Information https://openbatteryinformation.github.io/ mnh-jansson/open-battery-information https://github.com/m...",
+    "score": 0,
+    "published_at": "2026-09-22T11:06:19+00:00",
+    "fetched_at": "2026-09-22T23:41:11.849889+00:00"
+  },
+  {
+    "title": "BeRealの次は韓国発のVlogアプリ「setlog」がブームに？　Z世代の7割超が使う理由と「タイムリミットに追われない」クローズドな魅力",
+    "url": "https://www.itmedia.co.jp/mobile/articles/2609/22/news004.html",
+    "summary": "BeRealの次は韓国発のVlogアプリ「setlog」がブームに？　Z世代の7割超が使う理由と「タイムリミットに追われない」クローズドな魅力（1/3 ページ） 「Z世代に人気のアプリといえば、『BeReal』でしょ」──確かにその通りです。しかし、Z世代が早くも次のアプリへ視線を移していることをご存じでしょうか。 そのアプリと...",
+    "score": 0,
+    "published_at": "2026-09-22T04:41:10+00:00",
+    "fetched_at": "2026-09-22T23:41:11.849919+00:00"
+  },
+  {
+    "title": "【独自】古書店で「謎の大量注文」相次ぐ……AI学習か 米国向け「日本の本 50トン」の輸出記録も（2026年9月22日掲載）｜日テレNEWS NNN",
+    "url": "https://news.ntv.co.jp/category/society/e48899c1ab1445f683929740ef2b3aa6",
+    "summary": "日本各地のオンライン古書店に対して、今年8月ごろから書籍の大量注文が相次いでいることがわかった。古書店を取材すると「1日100冊売れる」「売上が5倍になった日もある」と話しており、業界内では「生成AI（人工知能）の学習データを集める目的ではないか」という見方が広がっている。さらに追跡取材を続けると、日本...",
+    "score": 0,
+    "published_at": "2026-09-22T02:56:00+00:00",
+    "fetched_at": "2026-09-22T23:41:11.849933+00:00"
+  },
+  {
+    "title": "iPhone Duo、開くアニメには3回で慣れた。それでもヒンジに嫉妬した理由 – @tarosite",
+    "url": "https://tarosite.net/design/2026/09/22/iphone-duo-openning-animation/",
+    "summary": "@tarosite 2026/09/22 / Tech / Thought / 松村太郎のiPhone Duoハンズオンでの観察を基にしたファーストインプレッション、第3回目はヒンジの話です。 過去のiPhone Duo連載も含めて、iPhone特集ページにまとめています。 https://tarosite.net/iphone26-surprise-and-shine/ iPhone Duoのヒンジ開閉アニメは3回で普通...",
+    "score": 0,
+    "published_at": "2026-09-22T07:39:06+00:00",
+    "fetched_at": "2026-09-22T23:41:11.849948+00:00"
+  },
+  {
+    "title": "dbtでレセプトデータをモデリングしてみたら、定石が全然通用しなかった話 - ホワイトヘルスケア - テックブログ",
+    "url": "https://techblog.whitehealthcare.co.jp/entry/2025/06/24/144726",
+    "summary": "はじめに この記事は開発部データチームの石田が医療データ（レセプト）の標準化をdbtで進める中で体験した、理想と現実のギャップを記録したものです 医療系データエンジニアの方や、複雑なドメインでdbtを使ったデータ基盤構築の経験がある方を想定しています レセプト（診療報酬明細書）データの特殊性について触れる...",
+    "score": 0,
+    "published_at": "2026-09-22T13:04:35+00:00",
+    "fetched_at": "2026-09-22T23:41:11.849962+00:00"
+  },
+  {
+    "title": "あの名コンビの声が“公認AI”で6カ国語に！　麻布台ヒルズ「まんが日本昔ばなし展」で体験するAI音声の最前線",
+    "url": "https://www.itmedia.co.jp/pcuser/articles/2609/22/news023.html",
+    "summary": "あの名コンビの声が“公認AI”で6カ国語に！　麻布台ヒルズ「まんが日本昔ばなし展」で体験するAI音声の最前線：古田雄介のデステック探訪（1/2 ページ） 10月25日まで麻布台ヒルズで実施している「まんが日本昔ばなし展」では、市原悦子さんと常田富士男さんの声そのままに6カ国語で「かぐやひめ」が楽しめる。背景にはNT...",
+    "score": 0,
+    "published_at": "2026-09-22T04:40:56+00:00",
+    "fetched_at": "2026-09-22T23:41:11.849977+00:00"
+  },
+  {
+    "title": "tanteki — 業務のための文書を端的に",
+    "url": "https://iwasa-kosui.github.io/tanteki/",
+    "summary": "業務のための文書を端的に同じ説明を何度も繰り返すADR、不要な進捗報告が書かれたDesign Doc。 生成AIが書いたノイズだらけの文書にうんざりしていませんか？ tanteki はその文書が本質的に述べたいことを見定めて、必要な情報だけを記述します。 ファイル取込 Design Doc1. 概要ファイル取込処理を非同期化する。APIは...",
+    "score": 0,
+    "published_at": "2026-09-21T23:10:19+00:00",
+    "fetched_at": "2026-09-22T23:41:11.849992+00:00"
+  },
+  {
+    "title": "新型「Mac mini」「Mac Studio」徹底レビュー！　ローカルAIはついに“実用域”へ　エージェントAIに事務仕事を任せて分かった驚異の進化",
+    "url": "https://www.itmedia.co.jp/pcuser/articles/2609/22/news024.html",
+    "summary": "新型「Mac mini」「Mac Studio」徹底レビュー！　ローカルAIはついに“実用域”へ　エージェントAIに事務仕事を任せて分かった驚異の進化：本田雅一のクロスオーバーデジタル（1/4 ページ） 発表から約1カ月――9月22日、ついに新型の「Mac mini」「Mac Studio」が発売される。 →Appleが「Mac mini」「Mac Studio」の新モデ...",
+    "score": 0,
+    "published_at": "2026-09-21T21:48:50+00:00",
+    "fetched_at": "2026-09-22T23:41:11.850006+00:00"
+  },
+  {
+    "title": "JevでAIエージェントのハーネスはどう変わるのか｜npaka",
+    "url": "https://note.com/npaka/n/ne4547ea3c6f5",
+    "summary": "Jevの登場によって、AIエージェントを支えるハーネスの設計がどう変わるのかについてまとめました。 1. はじめに2026年、AIエージェントの設計に新しい選択肢が登場しました。 その一つが、TypeSafe AIの「Jev」です。 Jevは、文章やコードを長く生成するLLMではなく、ソフトウェアの中で発生する判断を高速に処理するた...",
+    "score": 0,
+    "published_at": "2026-09-22T01:51:11+00:00",
+    "fetched_at": "2026-09-22T23:41:11.850020+00:00"
+  },
+  {
+    "title": "AI coding has made CI a bottleneck, so we reworked ours to keep up",
+    "url": "https://linear.app/now/ci-bottleneck-reworked",
+    "summary": "AI coding has made CI a bottleneck, so we reworked ours to keep up Earlier this year, I opened Linear to find that Tuomas, our CTO, had assigned an issue to me, titled “CI costs are high.” While I was at it, he also wanted me to make CI faster. Agents have made it exponentially faster to ship cod...",
+    "score": 0,
+    "published_at": "2026-09-21T23:00:38+00:00",
+    "fetched_at": "2026-09-22T23:41:11.850038+00:00"
+  },
+  {
+    "title": "うつが治らないのでLLMに頼ってみた",
+    "url": "https://anond.hatelabo.jp/20260921124722",
+    "summary": "何度も休職を繰り返している。 数年おきにエネルギーが底をついて動けなくなる。そのたびに心療内科に通い、抗うつ薬や睡眠薬を処方され、「しっかり休んでくださいね」と言われて休職に入る。しかし、復職して数年経つと、またじわじわと脳が過熱し、不眠とイライラと激しい倦怠感に襲われて倒れてしまう。 病院に通っ...",
+    "score": 0,
+    "published_at": "2026-09-21T03:48:37+00:00",
+    "fetched_at": "2026-09-22T23:41:11.850051+00:00"
+  },
+  {
+    "title": "スマートグラスの盗撮防止アプリ、約1カ月で利用者5,000人到達 | ギズモード・ジャパン",
+    "url": "https://www.gizmodo.jp/article/smart-glasses-privacy-zuckoff/",
+    "summary": "知らないうちに目の前の人から盗撮されているかも…。 近くにカメラ付きスマートグラスがあると知らせるアプリ「ZuckOff」が登場しました。2026年8月にApp Storeで公開されてから約1カ月で利用者は5,000人に達したそうです。 カメラ付きスマートグラスは、スマホを取り出さずに、見たままの景色を写真や動画で残せる便利...",
+    "score": 0,
+    "published_at": "2026-09-21T17:53:55+00:00",
+    "fetched_at": "2026-09-22T23:41:11.850081+00:00"
+  },
+  {
+    "title": "単価の安いAIモデルを使うとかえってコストが高くつくことがあるという研究結果",
+    "url": "https://gigazine.net/news/20260922-cheaper-ai-coding-cost/",
+    "summary": "プログラムの作成や修正をAIに任せるとき、単価の安いAIモデルを選べば費用も抑えられると思いがちです。ところが、AIの動作監視や評価を手がけるFiddlerの研究チームが複数のAIモデルに不具合を修正させて比べたところ、単価が安くても、正しく修正するための費用はかえって高くなる場合があることが分かりました。 Why...",
+    "score": 0,
+    "published_at": "2026-09-22T02:59:27+00:00",
+    "fetched_at": "2026-09-22T23:41:11.850095+00:00"
+  },
+  {
+    "title": "Stagehand",
+    "url": "https://www.browserbase.com/stagehand",
+    "summary": "Browsers Real browsers for your agent to use the web, without the headaches",
+    "score": 0,
+    "published_at": "2025-01-25T08:53:38+00:00",
+    "fetched_at": "2026-09-22T23:41:11.850138+00:00"
+  },
+  {
+    "title": "【独自】古書店で「謎の大量注文」相次ぐ……AI学習か 米国向け「日本の本 50トン」の輸出記録も（2026年9月22日掲載）｜日テレNEWS NNN",
+    "url": "https://news.ntv.co.jp/category/society/e48899c1ab1445f683929740ef2b3aa6?p=2",
+    "summary": "■AI学習に紙の書籍をスキャン、廃棄の事例も 古書注文の背景と疑われる書籍を使ったAI学習は、米国での事例が明らかになっている。米国のAI企業アンソロピックは「世界中のすべての書籍を破壊的にスキャンする」と計画し、本を収集、裁断、スキャン、データ化してAI学習に使っていたとされる。 同社が訴えられた米国の裁...",
+    "score": 0,
+    "published_at": "2026-09-22T04:44:40+00:00",
+    "fetched_at": "2026-09-22T23:41:11.850152+00:00"
+  },
+  {
+    "title": "グーグル、新カテゴリーノートPC「Googlebook」発売　899ドルから",
+    "url": "https://www.watch.impress.co.jp/docs/news/2142583.html",
+    "summary": "",
+    "score": 0,
+    "published_at": "2026-09-22T02:56:41+00:00",
+    "fetched_at": "2026-09-22T23:41:11.850164+00:00"
   }
 ]
