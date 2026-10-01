@@ -1,5 +1,410 @@
 [
   {
+    "date": "2026-10-01",
+    "articles": [
+      {
+        "title": "AWS、AIエージェントを自作できるツール「Strandsハーネス」をオープンソースで公開　特定のLLMに依存せず入れ替え可能",
+        "url": "https://www.itmedia.co.jp/news/article/2609/29/2000001837/",
+        "summary": "Amazon Web Services（AWS）は、GPTやClaude、Gemini、Ollamaなど主要なLLMやLLMランタイムを基にした高性能なAIエージェントを簡単に自作できるツール「Strandsハーネス」をオープンソースで公開しました。",
+        "score": 300,
+        "published_at": "2026-09-29T05:56:39+00:00",
+        "fetched_at": "2026-10-01T00:39:41.244908+00:00"
+      },
+      {
+        "title": "AWS、AIエージェントを自作できるツール「Strandsハーネス」をオープンソースで公開。特定のLLMに依存せず入れ替え可能、任意のコンテナ環境にデプロイ",
+        "url": "https://www.publickey1.jp/blog/26/awsaistrandsllm.html",
+        "summary": "Amazon Web Services（AWS）は、GPTやClaude、Gemini、Ollamaなど主要なLLMやLLMランタイムを基にした高性能なAIエージェントを簡単に自作できるツール「Strandsハーネス」をオープンソースで公開...",
+        "score": 300,
+        "published_at": "2026-09-28T15:01:25+00:00",
+        "fetched_at": "2026-10-01T00:39:40.500741+00:00"
+      },
+      {
+        "title": "OpenAI、AIとチームで作業する「ChatGPT Space」と、継続的に動作するクラウドエージェント「dots」を発表。GPT-6.1 Solも提供開始",
+        "url": "https://gihyo.jp/article/2026/09/openai-devday-20206-with-gpt-6.1-sol-and-dots?utm_source=feed",
+        "summary": "OpenAIは2026年9月29日、開発者向けイベント「OpenAI DevDay 2026」で、ChatGPT、Codex、AIモデルなどに関する20件超の発表を行った。",
+        "score": 200,
+        "published_at": "2026-09-30T04:58:00+00:00",
+        "fetched_at": "2026-10-01T00:39:41.805800+00:00"
+      },
+      {
+        "title": "OpenAIの「DevDay 2026」で発表された主なことまとめ",
+        "url": "https://www.itmedia.co.jp/news/article/2609/30/2000001868/",
+        "summary": "OpenAIは、年次開発者会議「DevDay 2026」で20件以上の新機能を発表した。常時稼働エージェント「dots」、新モデル「GPT-6.1 Sol」、最大8倍高速な有料枠「Ultrafast」を投入。Codexのクラウド実行やチーム向け協働空間「ChatGPT Space」も公開した。",
+        "score": 200,
+        "published_at": "2026-09-29T21:36:34+00:00",
+        "fetched_at": "2026-10-01T00:39:41.244825+00:00"
+      },
+      {
+        "title": "Google、次世代AIモデル「Gemini 4 Argon」を発表、100万トークンに対応",
+        "url": "https://sumahodigest.com/?p=72381",
+        "summary": "Googleは9月30日、次世代のフロンティアモデルとなる「Gemini 4 Argon」を発表しました。複雑で長時間にわたるタスクの推論を重視したモデルで、コーディングや知識業務、サイバーセキュリティ、クリエイティブ分野などで高い性能を発揮することを目指しています。 Gemini 4 Argonではモデルの命名体系も変更されており...",
+        "score": 110,
+        "published_at": "2026-09-30T20:39:10+00:00",
+        "fetched_at": "2026-10-01T00:39:41.916687+00:00"
+      },
+      {
+        "title": "「Claude Code」の真価は併用にあり　4つのインターフェース使い分けとハイブリッド運用",
+        "url": "https://atmarkit.itmedia.co.jp/ait/articles/2609/30/news006.html",
+        "summary": "「Claude Code」の真価は併用にあり　4つのインターフェース使い分けとハイブリッド運用：「AIはただのコード補完」はもう古い　速習・実践「Claude Code」（3）（1/3 ページ） Claude CodeをローカルPCで使う場合、4つの利用形態（CLI、VS Code拡張機能版、Desktopアプリ、Web版）があります。マークダウンプレビューツ...",
+        "score": 100,
+        "published_at": "2026-09-29T23:46:01+00:00",
+        "fetched_at": "2026-10-01T00:39:41.916771+00:00"
+      },
+      {
+        "title": "はてな匿名ダイアリーがChatGPTから使えるようになりました - はてラボ 開発者ブログ",
+        "url": "https://labo.hatenastaff.com/entry/2026/09/30/151500",
+        "summary": "先日、はてな匿名ダイアリーの20周年をお知らせした際に、今後も新しい取り組みを進めていくことをご案内しました。 そのひとつとして、このたび実験的に、はてな匿名ダイアリーがChatGPTから使えるようになりましたことをお知らせします。 ChatGPTとの会話の中から、はてな匿名ダイアリーの投稿を探したり、読んだり、...",
+        "score": 100,
+        "published_at": "2026-09-30T06:22:41+00:00",
+        "fetched_at": "2026-10-01T00:39:41.916697+00:00"
+      },
+      {
+        "title": "芝浦工業大学・尾崎教授の計算アルゴリズムをNVIDIAが新たに採用〜 AI時代のGPUから、科学シミュレーションに不可欠な高精度計算を引き出す 〜｜芝浦工業大学",
+        "url": "https://www.shibaura-it.ac.jp/headline/detail/20260930_7070_51_1.html",
+        "summary": "",
+        "score": 100,
+        "published_at": "2026-09-30T11:44:54+00:00",
+        "fetched_at": "2026-10-01T00:39:41.916631+00:00"
+      },
+      {
+        "title": "ChatGPT連携初日の増田で何が起きていたか",
+        "url": "https://anond.hatelabo.jp/20261001070030",
+        "summary": "昨日、増田にChatGPT連携が来た。 はてラボの告知が出たのが9月30日15:15。 https://labo.hatenastaff.com/entry/2026/09/30/151500 ChatGPTから増田を検索したり、読んだり、そして''そのまま投稿したりできる''ようになった。 で、初日に何が起きたのか、実際の増田を追ってみた。 16:59　まず「増田プラグインおめで...",
+        "score": 100,
+        "published_at": "2026-09-30T22:05:08+00:00",
+        "fetched_at": "2026-10-01T00:39:41.916495+00:00"
+      },
+      {
+        "title": "Gemini 4 Argon: our next era of frontier intelligence",
+        "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-4-argon/",
+        "summary": "Back Innovation & AI See all in Innovation & AI Models & Research Google DeepMind Google Research Google Labs Gemini models Quantum computing See all Products Developer tools Gemini app Gemini Notebook See all Infrastructure & cloud Global network Google Cloud See all Technology Safety & Security...",
+        "score": 100,
+        "published_at": "2026-09-30T20:28:49+00:00",
+        "fetched_at": "2026-10-01T00:39:41.916468+00:00"
+      },
+      {
+        "title": "GitHub - nanaism/yomiyasu: AI生成された文章の不自然さを取り除き、人間にとって自然な日本語へ書き直すためのAgent Skill",
+        "url": "https://github.com/nanaism/yomiyasu",
+        "summary": "『yomiyasu（よみやす）』は、AIが生成した日本語の不自然さを解消し、人間が読みやすく情報密度の高い日本語へ推敲するためのスキルです。 Codex、Claude Code、CursorをはじめとするAIコーディング環境に読み込ませて使用してください。 開発背景や言語学的病理の分析、複数のコーパスによる検証結果については、以下...",
+        "score": 100,
+        "published_at": "2026-09-30T18:28:31+00:00",
+        "fetched_at": "2026-10-01T00:39:41.916453+00:00"
+      },
+      {
+        "title": "Claude Codeを活用した効率的で安全なEKSアップグレード ――互換性調査から更新後の確認まで",
+        "url": "https://gihyo.jp/article/2026/09/amazon-eks-update-with-claude-code?utm_source=feed",
+        "summary": "Amazon EKS（以下、EKS）のアップグレードは、定期的に発生する作業です。この記事では、EKSのアップグレードに携わるエンジニアに向けて、Claude Codeを活用して作業を効率化する実践知を紹介します。具体的には、筆者が実務でEKSを1.32から1.34へと2バージョンアップグレードした際に、事前の互換性調査・更新作業・作業証跡の可視化という一連の流れにClaude Codeをどう活用したかをまとめました。",
+        "score": 100,
+        "published_at": "2026-09-28T01:18:00+00:00",
+        "fetched_at": "2026-10-01T00:39:41.805923+00:00"
+      },
+      {
+        "title": "Anthropic、Claude Sonnet 5.5を発表 ——Sonnet 5比で出力を30％高速化、タスク当たりの費用は最大30％減",
+        "url": "https://gihyo.jp/article/2026/09/claude-sonnet-5.5?utm_source=feed",
+        "summary": "Anthropicは9月28日、AIモデル「Claude Sonnet 5.5」を発表した。",
+        "score": 100,
+        "published_at": "2026-09-29T03:12:00+00:00",
+        "fetched_at": "2026-10-01T00:39:41.805890+00:00"
+      },
+      {
+        "title": "NVIDIA、AIエージェントを監視・制御する「Open Agent Safety Platform」を発表 ——OpenShellで実行環境を制御、NVIDIA BlueField-4上で動作するSentryでエージェントの行動を監視",
+        "url": "https://gihyo.jp/article/2026/09/nvidia-open-agent-safety-platform?utm_source=feed",
+        "summary": "NVIDIAは9月28日、AIエージェントの動作を監視・制御する「NVIDIA Open Agent Safety Platform」を発表した。",
+        "score": 100,
+        "published_at": "2026-09-29T05:18:00+00:00",
+        "fetched_at": "2026-10-01T00:39:41.805879+00:00"
+      },
+      {
+        "title": "Claude Code、同梱のclaude-apiスキルに新コマンド「build-eval」と「hillclimb」を追加 ——評価の作成からプロンプト・モデル設定の調整まで",
+        "url": "https://gihyo.jp/article/2026/09/claude-code-build-eval-and-hillclimb?utm_source=feed",
+        "summary": "Anthropicは2026年9月28日、Claude Codeで利用できるclaude-apiスキルに、サブコマンド「build-eval」と「hillclimb」を追加したことを紹介した。",
+        "score": 100,
+        "published_at": "2026-09-29T10:32:00+00:00",
+        "fetched_at": "2026-10-01T00:39:41.805840+00:00"
+      },
+      {
+        "title": "Geminiの「Gem」廃止へ、11月17日から「スキル」へ刷新",
+        "url": "https://www.itmedia.co.jp/news/article/2609/29/2000001839/",
+        "summary": "米Googleは、生成AI「Gemini」のカスタムbot機能「Gem」を廃止し、後継の「スキル」へ移行するとアプリ内で告知した。個人向けアカウントでは11月17日から自動移行を始め、既存のGemはユーザーの操作なしにスキルへ変換する。",
+        "score": 100,
+        "published_at": "2026-09-29T04:42:09+00:00",
+        "fetched_at": "2026-10-01T00:39:41.244938+00:00"
+      },
+      {
+        "title": "OpenAI、豪政府サイトへの不正アクセスで謝罪　最先端AI学習の安全指針も公開",
+        "url": "https://www.itmedia.co.jp/news/article/2609/30/2000001869/",
+        "summary": "OpenAIは、学習中のAIモデルが豪政府サイトへ不正アクセスした問題で、通知の遅れを認め謝罪した。ネットワーク制限の強化や最上位モデルの学習停止に加え、航空や原子力分野にならい学習前に安全性を体系的に検証する仕組みを導入する。豪議会の特別委員会にも出席し、一連の経緯を説明する。",
+        "score": 100,
+        "published_at": "2026-09-29T22:41:40+00:00",
+        "fetched_at": "2026-10-01T00:39:41.244816+00:00"
+      },
+      {
+        "title": "Google、「Gemini 4 Pro」ではなく「Gemini 4 Agron」発表　まずはサイバー防御組織に限定提供、出力上限は100万トークンに",
+        "url": "https://www.itmedia.co.jp/news/article/2610/01/2000001912/",
+        "summary": "Googleは、次世代フロンティアモデル「Gemini 4 Argon」を発表した。最大出力100万トークンに対応し、長時間に及ぶ業務処理や自律的なサイバー脆弱性修正に強みを持つ。安全対策を強化した上で、まずは信頼できるサイバー防御組織に先行提供し、有料APIなどで順次拡大する。",
+        "score": 100,
+        "published_at": "2026-09-30T22:16:25+00:00",
+        "fetched_at": "2026-10-01T00:39:41.244594+00:00"
+      },
+      {
+        "title": "コーディングエージェントにGoogle Cloudの専門知識とツールを組み込む「Google Cloud Developer Plugin for AI Coding Agents」発表",
+        "url": "https://www.publickey1.jp/blog/26/google_cloudgoogle_cloud_developer_plugin_for_ai_coding_agents.html",
+        "summary": "Google Cloudは、Claude CodeなどのコーディングエージェントにGoogle Cloudの専門知識とツールなどを組み込める「Google Cloud Developer Plugin for AI Coding Agent...",
+        "score": 100,
+        "published_at": "2026-09-29T15:44:15+00:00",
+        "fetched_at": "2026-10-01T00:39:40.500729+00:00"
+      },
+      {
+        "title": "Next.jsアプリをCloudflare WorkersやAWS LambdaなどVercel以外のサーバレス基盤へデプロイできる「Vinext 1.0」リリース",
+        "url": "https://www.publickey1.jp/blog/26/vercelnextjscloudflare_workersaws_lambdavercelvinext_10.html",
+        "summary": "Cloudflareは、代表的なWebアプリケーションフレームワークであるNext.jsを用いて開発したアプリケーションを、Cloudflare WorkersやAWS Lambda、NetlifyといったVercel以外のサーバレス基盤に...",
+        "score": 100,
+        "published_at": "2026-09-30T15:10:38+00:00",
+        "fetched_at": "2026-10-01T00:39:40.500691+00:00"
+      },
+      {
+        "title": "高崎市が約3800台の端末から「Google Workspace」へ直接接続　ネットワークをどう変えた？",
+        "url": "https://atmarkit.itmedia.co.jp/ait/articles/2609/30/news046.html",
+        "summary": "クラウドサービスや生成AIの業務利用が広がる一方、特に自治体などセキュリティを重視してインターネット接続を制限してきた組織では、既存のネットワーク構成とクラウド活用をどう両立するかが課題になる。 群馬県高崎市は、職員が利用する端末やオンプレミス型グループウェア、庁内ネットワークが更新時期を迎えたこと...",
+        "score": 10,
+        "published_at": "2026-09-30T01:59:02+00:00",
+        "fetched_at": "2026-10-01T00:39:41.916750+00:00"
+      },
+      {
+        "title": "情報セキュリティ白書2026 | 書籍・刊行物 | IPA 独立行政法人 情報処理推進機構",
+        "url": "https://www.ipa.go.jp/publish/wp-security/2026.html",
+        "summary": "編集・発行元 独立行政法人情報処理推進機構（IPA） 発行日 2026年10月19日（先行公開PDF：2026年9月30日） サイズ ソフトカバーA4判 ページ数 208ページ ISBN ISBN 978-4-905318-82-8 定価 定価：2,200円（本体価格2,000 円＋税10％） 書籍概要 概要 情報セキュリティ白書2026（サブタイトル：\"サイバー防御新時代：諸...",
+        "score": 10,
+        "published_at": "2026-09-30T10:11:27+00:00",
+        "fetched_at": "2026-10-01T00:39:41.916740+00:00"
+      },
+      {
+        "title": "Cloudflare、全APIに対応しTypeScriptで設定可能な新コマンドラインツール「cf」をリリース",
+        "url": "https://gihyo.jp/article/2026/09/cloudflare-cf-cli?utm_source=feed",
+        "summary": "Cloudflareは2026年9月28日、コマンドラインからCloudflare API全体を操作でき、TypeScriptで設定を記述できる新たなCLIツール「cf」をオープンベータ版としてリリースした。",
+        "score": 10,
+        "published_at": "2026-09-29T05:33:00+00:00",
+        "fetched_at": "2026-10-01T00:39:41.805867+00:00"
+      },
+      {
+        "title": "free-threaded Pythonでasyncioイベントループを複数動かす ―速くなる処理、速くならない処理",
+        "url": "https://gihyo.jp/article/2026/09/monthly-python-2609?utm_source=feed",
+        "summary": "2026年9月の「Python Monthly Topics」では、free-threaded Pythonで複数のasyncioイベントループを動かし、I/O処理の途中にあるPythonコードを複数のCPUコアで並列実行する方法を紹介します。",
+        "score": 10,
+        "published_at": "2026-09-30T00:00:00+00:00",
+        "fetched_at": "2026-10-01T00:39:41.805827+00:00"
+      },
+      {
+        "title": "Meta、企業向けAI事業「Meta Enterprise Platform」を開始　責任者としてMongoDBのCEO引き抜き",
+        "url": "https://www.itmedia.co.jp/news/article/2609/29/2000001829/",
+        "summary": "Metaは、企業向けの新AI事業「Meta Enterprise Platform」を発表した。AIモデルやエージェント群を企業や開発者向けに提供する。責任者にはMongoDBの社長兼CEOを即日退任したチランタン・デサイ氏が就任した。セキュリティを組み込み、年内には自社もデータ参照できない専用VMの提供を予定する。",
+        "score": 10,
+        "published_at": "2026-09-29T02:05:46+00:00",
+        "fetched_at": "2026-10-01T00:39:41.245006+00:00"
+      },
+      {
+        "title": "“期限切れクレカ”を蘇らせ、不正にタッチ決済する「ゾンビカード攻撃」　米研究チームが検証",
+        "url": "https://www.itmedia.co.jp/news/article/2609/29/2000001783/",
+        "summary": "米マサチューセッツ大学アマースト校に所属する研究者らがセキュリティ分野の国際会議「USENIX Security Symposium 2026」で発表した論文「Zombie Cards Back Online: Reviving Expired Credit Cards for Contactless Payments」は、期限切れのクレジットカードが非接触決済（タッチ決済）で不正利用できてしまうシステムの脆弱性を明らかにした研究報告だ。",
+        "score": 10,
+        "published_at": "2026-09-29T03:00:00+00:00",
+        "fetched_at": "2026-10-01T00:39:41.244987+00:00"
+      },
+      {
+        "title": "IIJ、新人エンジニア向け研修教材を無料公開　Web技術の基礎から生成AI活用まで20講義超",
+        "url": "https://www.itmedia.co.jp/news/article/2609/29/2000001854/",
+        "summary": "インターネットイニシアティブ（IIJ）は9月28日、新人向けハンズオン研修「IIJ Bootcamp」の2026年度版資料を公式エンジニアブログで紹介した。一部を除いてWebで無料公開しており、GitやDockerから生成AIを使ったWebアプリ開発まで一通り学べる。",
+        "score": 10,
+        "published_at": "2026-09-29T08:07:49+00:00",
+        "fetched_at": "2026-10-01T00:39:41.244881+00:00"
+      },
+      {
+        "title": "[石川温の「スマホ業界 Watch」] 楽天へのauローミングがいよいよ終了、都市部は約4割減か。マップで探る通信品質への影響",
+        "url": "https://k-tai.watch.impress.co.jp/docs/column/ishikawa/2144589.html",
+        "summary": "",
+        "score": 0,
+        "published_at": "2026-09-30T11:17:36+00:00",
+        "fetched_at": "2026-10-01T00:39:41.916759+00:00"
+      },
+      {
+        "title": "一休もお漏らしかよ",
+        "url": "https://anond.hatelabo.jp/20260930121339",
+        "summary": "平素より 一休.com をご愛顧賜りまして、誠にありがとうございます。 弊社にて発生した掲題の事象について重要なご連絡があり、本メールをお送りしております。 このたび、弊社の開発用データベース（一休.comサービスの開発に使用するデータのみを格納したデータベース）に対し、 第三者による不正アクセスが発生いたし...",
+        "score": 0,
+        "published_at": "2026-09-30T03:14:47+00:00",
+        "fetched_at": "2026-10-01T00:39:41.916729+00:00"
+      },
+      {
+        "title": "設計次第でAIコードの読む量は減らせる / designing-for-code-reading",
+        "url": "https://speakerdeck.com/minodriven/designing-for-code-reading",
+        "summary": "このイベントの登壇資料です。 今こそ聞きたいソフトウェア設計 #2 設計次第で、AIコードの読む量は減らせる https://findy.connpass.com/event/405803/",
+        "score": 0,
+        "published_at": "2026-09-30T10:31:41+00:00",
+        "fetched_at": "2026-10-01T00:39:41.916672+00:00"
+      },
+      {
+        "title": "【特集】 ミニPCでローカルAIエージェントはどこまで動く？「LM Studio Bionic」で試した",
+        "url": "https://pc.watch.impress.co.jp/docs/topic/feature/2144569.html",
+        "summary": "",
+        "score": 0,
+        "published_at": "2026-09-30T21:32:40+00:00",
+        "fetched_at": "2026-10-01T00:39:41.916651+00:00"
+      },
+      {
+        "title": "さよならイルカショー",
+        "url": "https://blog.tinect.jp/?p=91526",
+        "summary": "新江ノ島水族館 秋の連休、おれは鎌倉と江の島に行った。観光である。おれは鎌倉で生まれ育ったが、藤沢により近い津西の出なので、あまり寺社仏閣だの大仏だのが身近にあったわけでもない。 だからといって江の島を遊び場にしていたかというとそうでもない。地元の人間は地元の観光地にあまり行かない。 江ノ電も、ぜん...",
+        "score": 0,
+        "published_at": "2026-09-30T23:23:44+00:00",
+        "fetched_at": "2026-10-01T00:39:41.916608+00:00"
+      },
+      {
+        "title": "タイムズカー情報漏洩 集団訴訟｜参加希望者受付中",
+        "url": "https://timescar-lawsuit.com/",
+        "summary": "タイムズカー 情報漏洩 集団訴訟 会員の方、退会済みの方は、まずご登録ください。 2026年9月に公表された不正アクセスによる会員情報の漏えいについて、被害を受けた会員が共同で運営会社等に損害賠償を求める訴訟です。",
+        "score": 0,
+        "published_at": "2026-09-30T00:05:51+00:00",
+        "fetched_at": "2026-10-01T00:39:41.916597+00:00"
+      },
+      {
+        "title": "AI時代のコードレビューは人に向けるな、仕組みに向けろ",
+        "url": "https://speakerdeck.com/texmeijin/ai-jidai-no-kodo-rebyu-ha-hito-ni-mukeru-na-shikumi-ni-mukero",
+        "summary": "Technical Decisions and Reflections on \"Test Maker\" After Two Years of Development",
+        "score": 0,
+        "published_at": "2026-09-30T10:03:59+00:00",
+        "fetched_at": "2026-10-01T00:39:41.916574+00:00"
+      },
+      {
+        "title": "アップグレードして大丈夫？　「Windows 11 バージョン 26H2」で確認済みの問題は3件／基本的には問題がないが、いくつか注意点も",
+        "url": "https://forest.watch.impress.co.jp/docs/news/2144521.html",
+        "summary": "",
+        "score": 0,
+        "published_at": "2026-09-30T09:16:04+00:00",
+        "fetched_at": "2026-10-01T00:39:41.916562+00:00"
+      },
+      {
+        "title": "タイムズカー免許証画像流出、勝手にクレジットカード開設の恐れ　とるべき対策は - 日本経済新聞",
+        "url": "https://www.nikkei.com/article/DGXZQOUC303V60Q6A930C2000000/",
+        "summary": "パーク24のカーシェアサービス「タイムズカー」のシステムへの不正アクセスで運転免許証画像などが約160万件分流出した。本人確認書類画像の流出では国内最大規模だ。なりすましに悪用され、勝手にクレジットカードを発行される危険性がある。パーク24が不正アクセスを検知したのは25日午前9時10分ごろだ。「タイムズカ...",
+        "score": 0,
+        "published_at": "2026-09-30T14:16:30+00:00",
+        "fetched_at": "2026-10-01T00:39:41.916552+00:00"
+      },
+      {
+        "title": "凸凹育児とエンジニアを両方やるということ - yprestoの非技術ブログ",
+        "url": "https://ypresto.hatenablog.jp/entry/2026/09/30/233500",
+        "summary": "tech-blog-v2-opal.vercel.app これを見て、非常にわかるとなった。わたしは27の時に子どもが生まれてるので、かれこれ10年ぐらい子ども中心の生活をしていて、もどかしさも感じている。 (ただしわたしの場合、子どもが幼児のころコロナ禍のころに10人未満のスタートアップに参画したり、 孤独に耐えかねて友とClubhouse...",
+        "score": 0,
+        "published_at": "2026-09-30T15:08:58+00:00",
+        "fetched_at": "2026-10-01T00:39:41.916517+00:00"
+      },
+      {
+        "title": "【Hothotレビュー】 ルーターが固まっても勝手に復活！神デバイス「ezJack」を試してみた",
+        "url": "https://pc.watch.impress.co.jp/docs/column/hothot/2144666.html",
+        "summary": "",
+        "score": 0,
+        "published_at": "2026-09-30T21:22:42+00:00",
+        "fetched_at": "2026-10-01T00:39:41.916505+00:00"
+      },
+      {
+        "title": "Codexを使うなら、/recap・/copy・/exportを押さえておきたい - じゃあ、おうちで学べる",
+        "url": "https://syu-m-5151.hatenablog.com/entry/2026/09/29/161928",
+        "summary": "はじめに Codex CLIには、会話を要約する /recap、出力をコピーする /copy、会話全体を書き出す /export があります。いずれも会話に蓄積された情報を扱う機能ですが、対象と用途が異なります。 この記事では、3つのコマンドの役割と、関連する /compact・/status・/diff との違いを整理します。要約、コピー、保存で何...",
+        "score": 0,
+        "published_at": "2026-09-30T13:28:33+00:00",
+        "fetched_at": "2026-10-01T00:39:41.916482+00:00"
+      },
+      {
+        "title": "AI-Slopな日本語を構造レベルで読みやすくするSkill『yomiyasu（よみやす）』を作りました",
+        "url": "https://zenn.dev/algoartis/articles/0b1c731881b25c",
+        "summary": "興味深いことに、かつてAIの典型とされていた「〜しましょう」「することが可能です」「また、」といった表現は、2026年時点ではむしろ減少していました。 初期の定型句が書き手やモデル側で警戒されるようになった結果、より巧妙で無自覚な表現、すなわち「作業を比喩で言う動詞」や「直訳調の言い回し」へと病理が潜行...",
+        "score": 0,
+        "published_at": "2026-09-30T19:49:24+00:00",
+        "fetched_at": "2026-10-01T00:39:41.916434+00:00"
+      },
+      {
+        "title": "GitLab 19.4リリース ―目標指示でエージェントを自動実行させる「/goal」コマンドやGitLab運用のオープンウェイトモデルを提供開始",
+        "url": "https://gihyo.jp/article/2026/09/gitlab-19-4?utm_source=feed",
+        "summary": "GitLabは2026年9月17日、GitLabの新バージョンGitLab 19.4をリリースした。",
+        "score": 0,
+        "published_at": "2026-09-28T05:38:00+00:00",
+        "fetched_at": "2026-10-01T00:39:41.805911+00:00"
+      },
+      {
+        "title": "第280回　Group Replicationの適用遅延を考慮したメンバー管理",
+        "url": "https://gihyo.jp/article/2026/09/mysql-rcn0280?utm_source=feed",
+        "summary": "Group Replicationでは、すべてのメンバーがONLINEでも一部のSecondaryだけ更新の適用が遅れることがあります。",
+        "score": 0,
+        "published_at": "2026-09-28T23:49:00+00:00",
+        "fetched_at": "2026-10-01T00:39:41.805900+00:00"
+      },
+      {
+        "title": "Cloudflare、AstroベースのWordPress再構築CMS「EmDash 1.0」をリリース ―サンドボックス型プラグインと分散レジストリを採用",
+        "url": "https://gihyo.jp/article/2026/09/emdash-1-0?utm_source=feed",
+        "summary": "Cloudflareは2026年9月28日、Astroをベースに構築されたオープンソースのCMSである「EmDash」の正式版となる「EmDash 1.0」をリリースした。",
+        "score": 0,
+        "published_at": "2026-09-29T07:57:00+00:00",
+        "fetched_at": "2026-10-01T00:39:41.805851+00:00"
+      },
+      {
+        "title": "第928回　Lemonade+FastFlowLMでAMDのNPUを使ってAIモデルを利用する",
+        "url": "https://gihyo.jp/admin/serial/01/ubuntu-recipe/0928?utm_source=feed",
+        "summary": "今回はUbuntuでAMDのNPUを使用する方法を紹介します。またsnapのOpenClawパッケージについても紹介します。",
+        "score": 0,
+        "published_at": "2026-09-30T00:23:00+00:00",
+        "fetched_at": "2026-10-01T00:39:41.805813+00:00"
+      },
+      {
+        "title": "Microsoft、WSL containersを一般提供 ——CLIとAPIでWindowsからLinuxコンテナを操作",
+        "url": "https://gihyo.jp/article/2026/09/wsl-containers-ga?utm_source=feed",
+        "summary": "Microsoftは9月29日、Windows Subsystem for Linux（WSL）のコンテナ機能「WSL containers」の一般提供を開始した。",
+        "score": 0,
+        "published_at": "2026-09-30T08:18:00+00:00",
+        "fetched_at": "2026-10-01T00:39:41.805781+00:00"
+      },
+      {
+        "title": "ニッポンレンタカーでも会員41人の情報漏えいのおそれ　免許証番号やクレカ下4ケタも",
+        "url": "https://www.itmedia.co.jp/news/article/2609/29/2000001827/",
+        "summary": "同時期にはパーク24グループの「タイムズカー」でも、不正アクセスによる個人情報漏えいが発生していた。",
+        "score": 0,
+        "published_at": "2026-09-29T01:05:22+00:00",
+        "fetched_at": "2026-10-01T00:39:41.245022+00:00"
+      },
+      {
+        "title": "パーク24株が大幅続落、一時5％安　「タイムズカー」大規模漏えいで",
+        "url": "https://www.itmedia.co.jp/news/article/2609/29/2000001828/",
+        "summary": "子会社タイムズモビリティでの大規模な個人情報漏えいが嫌気された。",
+        "score": 0,
+        "published_at": "2026-09-29T01:32:39+00:00",
+        "fetched_at": "2026-10-01T00:39:41.245014+00:00"
+      },
+      {
+        "title": "ホンダのカーシェア「Honda EveryGo」終了へ　開始から10年弱",
+        "url": "https://www.itmedia.co.jp/news/article/2609/29/2000001831/",
+        "summary": "都市部の“クルマ離れ”を受け、ホンダ車に気軽に乗れるサービスとして2017年に開始。",
+        "score": 0,
+        "published_at": "2026-09-29T02:28:43+00:00",
+        "fetched_at": "2026-10-01T00:39:41.244996+00:00"
+      },
+      {
+        "title": "出社日 vs. 在宅日、運動量はこれだけ違う??ハイブリッドワーカー100人弱の太ももにデバイス装着し計測",
+        "url": "https://www.itmedia.co.jp/news/article/2609/29/2000001785/",
+        "summary": "フィンランドのトゥルク大学などに所属する研究者らがInternational Journal of Behavioral Nutrition and Physical Activityで発表した論文「How composition of device-measured 24-h movement behaviors differs between office and remote workdays among hybrid workers?」は、ハイブリッドワーカーの出社日とリモートワーク日における、24時間の身体活動の違いをウェアラブルデバイスを用いて分析した研究報告だ。",
+        "score": 0,
+        "published_at": "2026-09-29T03:00:00+00:00",
+        "fetched_at": "2026-10-01T00:39:41.244976+00:00"
+      },
+      {
+        "title": "セイコーマート、57万アカウントの会員情報漏えいか　スマホアプリ用のサーバ介し不正アクセス",
+        "url": "https://www.itmedia.co.jp/news/article/2609/29/2000001830/",
+        "summary": "北海道を中心にコンビニエンスストアを展開するセイコーマートは9月29日、会員制サービス「セイコーマートクラブ」の情報を保有するサーバに不正アクセスを受け、情報が漏えいした可能性があると発表した。スマートフォン向け「セイコーマートアプリ」のサーバを経由した攻撃だったといい、セイコーマートクラブ会員のアカウント約57万件が影響を受けた。",
+        "score": 0,
+        "published_at": "2026-09-29T03:46:59+00:00",
+        "fetched_at": "2026-10-01T00:39:41.244965+00:00"
+      }
+    ]
+  },
+  {
     "date": "2026-09-30",
     "articles": [
       {
