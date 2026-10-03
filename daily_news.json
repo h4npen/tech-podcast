@@ -1,5 +1,410 @@
 [
   {
+    "date": "2026-10-03",
+    "articles": [
+      {
+        "title": "OpenAI、AIとチームで作業する「ChatGPT Space」と、継続的に動作するクラウドエージェント「dots」を発表。GPT-6.1 Solも提供開始",
+        "url": "https://gihyo.jp/article/2026/09/openai-devday-20206-with-gpt-6.1-sol-and-dots?utm_source=feed",
+        "summary": "OpenAIは2026年9月29日、開発者向けイベント「OpenAI DevDay 2026」で、ChatGPT、Codex、AIモデルなどに関する20件超の発表を行った。",
+        "score": 200,
+        "published_at": "2026-09-30T04:58:00+00:00",
+        "fetched_at": "2026-10-03T00:35:36.963641+00:00"
+      },
+      {
+        "title": "ChatGPTにAIでバーチャル試着機能とカメラでの書類スキャン→PDF化機能",
+        "url": "https://www.itmedia.co.jp/news/article/2610/02/2000001945/",
+        "summary": "OpenAIは、ChatGPTにバーチャル試着やお気に入り保存などの新機能を追加した。商品情報カードから自身の写真を使って服やアクセサリーを着用した姿を生成できる。気になった商品の整理機能も備える。また、iOSアプリに、連続撮影した書類を自動で1つのPDFにまとめて送信できるスキャン機能も導入した。",
+        "score": 200,
+        "published_at": "2026-10-01T22:17:12+00:00",
+        "fetched_at": "2026-10-03T00:35:34.980005+00:00"
+      },
+      {
+        "title": "AIに実装を任せながら、Rustを学び続けたい。「Rust Learning Lab」を作りました - じゃあ、おうちで学べる",
+        "url": "https://syu-m-5151.hatenablog.com/entry/2026/10/02/163023",
+        "summary": "はじめに Rust Learning Labは、手元のRustコードを題材に、構文や型、所有権を説明してもらうためのCodex・Claude Code向けプラグインです。「この記号は何か」「なぜここで借用するのか」「この変更で何が変わるのか」といった疑問を、具体的なコードに沿って確かめられます。 github.com Rustを書き始めた人にも使え...",
+        "score": 110,
+        "published_at": "2026-10-02T08:42:07+00:00",
+        "fetched_at": "2026-10-03T00:35:37.353842+00:00"
+      },
+      {
+        "title": "Claude CodeのUIや動作をTypeScriptでカスタマイズできる「Mods」正式リリース",
+        "url": "https://gihyo.jp/article/2026/10/claude-code-mods?utm_source=feed",
+        "summary": "Anthropicは2026年10月1日、TypeScriptの記述でClaude Codeの動作をカスタマイズできる「Mods」の機能が正式に追加されたことを発表した。",
+        "score": 110,
+        "published_at": "2026-10-02T07:13:00+00:00",
+        "fetched_at": "2026-10-03T00:35:36.963432+00:00"
+      },
+      {
+        "title": "Claude Codeが拡張機能「mod」対応、UIや動作をカスタマイズ。Claude書かせて作成も | テクノエッジ TechnoEdge",
+        "url": "https://www.techno-edge.net/article/2026/10/02/5550.html",
+        "summary": "Anthropicが、AIコーディングツール「Claude Code」の外観や動作をユーザーの好みで拡張できる新機能「mod」を公開しました。 CLI版とデスクトップアプリで、Claude Code v2.1.287以降ならば設定不要で使えます。 ■ プロンプトもツール呼び出しも画面も書き換え可能modでできることの例として挙げられたのは、 ・Blast R...",
+        "score": 100,
+        "published_at": "2026-10-02T11:02:36+00:00",
+        "fetched_at": "2026-10-03T00:35:37.354182+00:00"
+      },
+      {
+        "title": "新しい日本語推敲スキル「yomiyasu」がバズっていたので、Claudeで日本語推敲スキル3つを比べてみた - Qiita",
+        "url": "https://qiita.com/inoyu-qiita/items/0ffe6e74ecaf3aaa8b14",
+        "summary": "はじめに Xで@oga_aiichiroさんが公開された、新しい日本語推敲スキル「yomiyasu」が話題になっていました。AIが書いた文章の「なんかAIっぽい」を、単語の置き換えではなく文の構造から直すスキルらしいです。 ちょうど自分もQiitaを書くとき、AIに文章の校正を頼んだあとで「整っているけど自分が書いた感じがしないな...",
+        "score": 100,
+        "published_at": "2026-10-02T15:17:29+00:00",
+        "fetched_at": "2026-10-03T00:35:37.353874+00:00"
+      },
+      {
+        "title": "AWSがサインイン画面を刷新、Google、GitHub、Appleのアカウントで利用可能に",
+        "url": "https://gihyo.jp/article/2026/10/aws-sign-in-updates?utm_source=feed",
+        "summary": "AWSはサインイン画面をリニューアルし、Amazon.comのほかGoogle、GitHub、Appleのアカウントを使用してサインイン、利用ができるようになったことをXなどで発表した。",
+        "score": 100,
+        "published_at": "2026-10-01T01:41:00+00:00",
+        "fetched_at": "2026-10-03T00:35:36.963582+00:00"
+      },
+      {
+        "title": "Google、Gemini 4 Argonを発表、サイバー防御向けに先行提供",
+        "url": "https://gihyo.jp/article/2026/10/gemini-4-argon?utm_source=feed",
+        "summary": "Googleは2026年9月30日、AIモデル「Gemini 4 Argon」を発表した。",
+        "score": 100,
+        "published_at": "2026-10-01T03:00:00+00:00",
+        "fetched_at": "2026-10-03T00:35:36.963553+00:00"
+      },
+      {
+        "title": "Google、Geminiのチャットに「Skills」を導入、個人向けから順次提供 ——Gemsは自動移行へ",
+        "url": "https://gihyo.jp/article/2026/09/gemini-skills?utm_source=feed",
+        "summary": "Googleは2026年9月30日、Geminiアプリの通常のチャットで、作業ごとの指示を保存して繰り返し使える「Skills」の個人向け提供を順次開始した。",
+        "score": 100,
+        "published_at": "2026-10-01T03:57:00+00:00",
+        "fetched_at": "2026-10-03T00:35:36.963538+00:00"
+      },
+      {
+        "title": "Amazon Aurora PostgreSQL、S3上のApache Iceberg、Parquetデータへの直接クエリ実行が可能に ―DuckDBを組み込み高速に実行",
+        "url": "https://gihyo.jp/article/2026/10/amazon-aurora-postgresql-direct-querying-iceberg-parquet?utm_source=feed",
+        "summary": "AWSは2026年9月30日、同社のマネージドRDBサービス「Amazon Aurora PostgreSQL」で、Apache IcebergおよびParquet形式のデータレイクに保存されたデータに対して直接クエリ実行できるようになったことを発表した。",
+        "score": 100,
+        "published_at": "2026-10-01T06:34:00+00:00",
+        "fetched_at": "2026-10-03T00:35:36.963522+00:00"
+      },
+      {
+        "title": "Google、「Gemini 4 Pro」ではなく「Gemini 4 Argon」発表　まずはサイバー防御組織に限定提供、出力上限は100万トークンに",
+        "url": "https://www.itmedia.co.jp/news/article/2610/01/2000001912/",
+        "summary": "Googleは、次世代フロンティアモデル「Gemini 4 Argon」を発表した。最大出力100万トークンに対応し、長時間に及ぶ業務処理や自律的なサイバー脆弱性修正に強みを持つ。安全対策を強化した上で、まずは信頼できるサイバー防御組織に先行提供し、有料APIなどで順次拡大する。",
+        "score": 100,
+        "published_at": "2026-10-01T05:02:06+00:00",
+        "fetched_at": "2026-10-03T00:35:34.980132+00:00"
+      },
+      {
+        "title": "OpenAI、推論過程を狙った組織的な“蒸留”行為を阻止　「Kimi」開発元の関係者が関与と主張",
+        "url": "https://www.itmedia.co.jp/news/article/2610/01/2000001929/",
+        "summary": "OpenAIは、モデルの推論過程を抜き出す組織的な“敵対的蒸留”を特定し、阻止したと発表した。活動の中核には中国Moonshot AIの関係者が関与したと分析。暗号化された推論を悪用する新たな手口に対し、アカウント停止や推論保護の強化を実施し、業界や政府機関との脅威情報共有を進めている。",
+        "score": 100,
+        "published_at": "2026-10-01T06:06:55+00:00",
+        "fetched_at": "2026-10-03T00:35:34.980107+00:00"
+      },
+      {
+        "title": "米連邦取引委がAI大手の調査開始　AnthropicやOpenAIなど、暴走や悪用の懸念",
+        "url": "https://www.itmedia.co.jp/news/article/2610/01/2000001931/",
+        "summary": "米主要メディアは9月30日、米連邦取引委員会（FTC）が人工知能（AI）開発企業に対する広範な調査を開始したと報じた。",
+        "score": 100,
+        "published_at": "2026-10-01T07:01:45+00:00",
+        "fetched_at": "2026-10-03T00:35:34.980084+00:00"
+      },
+      {
+        "title": "ソフトバンクG、OpenAIへの追加出資が完了　累計10兆円超　持分約13％に",
+        "url": "https://www.itmedia.co.jp/news/article/2610/01/2000001944/",
+        "summary": "ソフトバンクグループは10月1日、米OpenAIへの総額300億ドル（約4兆6743億円）の追加出資のうち、最終となる第3弾の100億ドルを実行した。これにより累計出資額は646億ドル（約10.2兆円）となり、持分比率は約13％に達した。",
+        "score": 100,
+        "published_at": "2026-10-01T10:45:57+00:00",
+        "fetched_at": "2026-10-03T00:35:34.980029+00:00"
+      },
+      {
+        "title": "Next.jsアプリをCloudflare WorkersやAWS LambdaなどVercel以外のサーバレス基盤へデプロイできる「Vinext 1.0」リリース",
+        "url": "https://www.publickey1.jp/blog/26/vercelnextjscloudflare_workersaws_lambdavercelvinext_10.html",
+        "summary": "Cloudflareは、代表的なWebアプリケーションフレームワークであるNext.jsを用いて開発したアプリケーションを、Cloudflare WorkersやAWS Lambda、NetlifyといったVercel以外のサーバレス基盤に...",
+        "score": 100,
+        "published_at": "2026-09-30T15:10:38+00:00",
+        "fetched_at": "2026-10-03T00:35:34.306077+00:00"
+      },
+      {
+        "title": "グーグル、最先端AI「ジェミニ4アルゴン」の一般公開見送り 安全上の懸念",
+        "url": "https://www.afpbb.com/articles/-/3655570",
+        "summary": "【10月1日 AFP】米グーグルは9月30日、同社で最も強力な人工知能（AI）モデル「ジェミニ4アルゴン」の一般公開を当面見送る方針を明らかにした。ハッカーによる悪用が懸念されるためとしている。一般公開までは、特定のサイバーセキュリティー専門家チームにのみアクセス権限が付与されるという。 一般公開の見送りにつ...",
+        "score": 10,
+        "published_at": "2026-10-01T06:35:20+00:00",
+        "fetched_at": "2026-10-03T00:35:37.354130+00:00"
+      },
+      {
+        "title": "e2e: The open source AI testing framework",
+        "url": "https://tester.army/e2e",
+        "summary": "Open Source AI testing frameworkCustomizable TypeScript testing framework for web, mobile apps and more.",
+        "score": 10,
+        "published_at": "2026-10-01T18:25:45+00:00",
+        "fetched_at": "2026-10-03T00:35:37.354103+00:00"
+      },
+      {
+        "title": "レジデンシャルプロキシ対策｜警察庁Webサイト",
+        "url": "https://www.npa.go.jp/bureau/cyber/what-we-do/alliance.html",
+        "summary": "レジデンシャルプロキシ対策アライアンス 社会全体でのレジデンシャルプロキシに係る不正なIoT機器のセキュリティ対策を推進するため、多岐に渡る主体が連携して対応を協議する「レジデンシャルプロキシ対策アライアンス」を設立しています。 設立概要（令和８年７月21日） 家庭用IoT機器を悪用したサイバー攻撃への官民...",
+        "score": 10,
+        "published_at": "2026-10-02T12:36:29+00:00",
+        "fetched_at": "2026-10-03T00:35:37.353904+00:00"
+      },
+      {
+        "title": "「Androidのマイナンバーカード」、20日スタート",
+        "url": "https://k-tai.watch.impress.co.jp/docs/news/2145170.html",
+        "summary": "",
+        "score": 0,
+        "published_at": "2026-10-02T07:06:40+00:00",
+        "fetched_at": "2026-10-03T00:35:37.354168+00:00"
+      },
+      {
+        "title": "AI時代の勉強法(2026)",
+        "url": "https://iwashi.co/2026/10/01/how-to-study-in-ai-era",
+        "summary": "はじめに つい最近、今の勉強法を簡単に記したXのポストをした。本記事では、もう少し掘り下げてまとめて書いてみようと思う。2026年のスナップショットであり、来年以降に読み返したら面白いかもしれないので。 なおこの記事は、文章の誤字脱字チェック以外には生成AIを活用しておらず、すべて手でタイプしている。 基...",
+        "score": 0,
+        "published_at": "2026-10-01T23:26:31+00:00",
+        "fetched_at": "2026-10-03T00:35:37.354157+00:00"
+      },
+      {
+        "title": "MicronのCEOがメモリ不足が2028年かそれ以降も続く可能性があると警告、「顧客は今年支払った価格よりも『はるかに高い価格』を支払うことになるだろう」",
+        "url": "https://gigazine.net/news/20261002-micron-ceo-ram-supply/",
+        "summary": "メモリメーカーのMicronが、メモリとストレージの供給不足は2027年と2028年にさらに深刻化するとの見通しを示しました。サンジェイ・メロートラCEOは需要と供給が均衡する時期を見通せないと説明し、不足が2028年以降も続く可能性を示唆しています。また、2027年向けの高帯域幅メモリ(HBM)について、顧客が2026年よりも...",
+        "score": 0,
+        "published_at": "2026-10-02T04:22:20+00:00",
+        "fetched_at": "2026-10-03T00:35:37.354144+00:00"
+      },
+      {
+        "title": "MCPゲートウェイを作って運用してわかったこと — Agent時代の権限管理の現在地",
+        "url": "https://speakerdeck.com/mtpooh/20261001-des37-mcpass",
+        "summary": "https://forkwell.connpass.com/event/404425/ での登壇資料です #DataEngineeringStudy",
+        "score": 0,
+        "published_at": "2026-10-01T20:29:50+00:00",
+        "fetched_at": "2026-10-03T00:35:37.354091+00:00"
+      },
+      {
+        "title": "メモリ64GB版「DGX Spark」登場。4,999ドルで、128GB版は値上げ",
+        "url": "https://pc.watch.impress.co.jp/docs/news/2145000.html",
+        "summary": "",
+        "score": 0,
+        "published_at": "2026-10-02T13:30:41+00:00",
+        "fetched_at": "2026-10-03T00:35:37.354078+00:00"
+      },
+      {
+        "title": "無料＆オープンソースのAIコーディングツール「Pi 1.0」が正式リリース、MCP対応や複数のAIモデルを切り替える機能を追加",
+        "url": "https://gigazine.net/news/20261002-pi-1-0/",
+        "summary": "機能を必要最小限に絞ったオープンソースのAIコーディングツール「Pi」が、正式版となる「Pi 1.0」を2026年10月1日にリリースしました。Pi 1.0では従来のシンプルな設計を維持しながら、外部ツールと連携するMCPへの標準対応や必要なツールだけを読み込む機能、複数のAIモデルを組み合わせる仕組みなどが追加されていま...",
+        "score": 0,
+        "published_at": "2026-10-02T08:55:01+00:00",
+        "fetched_at": "2026-10-03T00:35:37.354066+00:00"
+      },
+      {
+        "title": "日本企業「ハッキングされないでくれ」ランキング - Qiita",
+        "url": "https://qiita.com/konaito/items/16a6d2c5da7d144efe95",
+        "summary": "Deleted articles cannot be recovered. Draft of this article would be also deleted. Are you sure you want to delete this article? 漏れたら困るのは、お金だけじゃない。 パスワードは変えられる。 けれど、病歴は変えられない。誰にも話していなかった過去も、なかったことにはできない。 「日本企業、ハッキン...",
+        "score": 0,
+        "published_at": "2026-10-02T12:51:27+00:00",
+        "fetched_at": "2026-10-03T00:35:37.354052+00:00"
+      },
+      {
+        "title": "「タイムズカー」免許画像など漏えい 集団訴訟の登録者1万人超 | NHKニュース",
+        "url": "https://news.web.nhk/newsweb/na/nd-20261002de53951",
+        "summary": "カーシェアリングサービス「タイムズカー」のシステムが不正アクセスを受け、運転免許証の画像などが漏えいした問題で、集団訴訟に向けて弁護士が開設したサイトに登録した人が1万人以上にのぼることが分かりました…",
+        "score": 0,
+        "published_at": "2026-10-02T10:49:59+00:00",
+        "fetched_at": "2026-10-03T00:35:37.354037+00:00"
+      },
+      {
+        "title": "OpenPOI API — 日本全国337万件のPOI検索API",
+        "url": "https://openpoiapi.com/",
+        "summary": "渋谷駅のまわりで「カフェ」を探した状態から始まります。入力すると地図の範囲を優先した候補が出ます（/v1/suggest）。施設を選ぶと地図がその場所へ移動します。入力がカテゴリ名と完全に一致していれば、Enter を押すとそのカテゴリを表示中の地図の範囲を中心に近い順で検索します（/v1/search）。それ以外で Enter...",
+        "score": 0,
+        "published_at": "2026-10-02T02:14:44+00:00",
+        "fetched_at": "2026-10-03T00:35:37.354024+00:00"
+      },
+      {
+        "title": "［社説］パーク24の情報管理はずさんすぎる - 日本経済新聞",
+        "url": "https://www.nikkei.com/article/DGXZQODK026BY0S6A001C2000000/",
+        "summary": "パーク24が運営するカーシェアサービス「タイムズカー」のシステムが不正アクセスを受け、およそ660万アカウントの個人情報が漏洩した。約160万件には運転免許証や学生証の画像など本人確認書類の情報が含まれる。悪用されるリスクが高い個人情報を大量に抱えながら、あまりにずさんな管理だったと言わざるを得ない。サ...",
+        "score": 0,
+        "published_at": "2026-10-02T10:33:09+00:00",
+        "fetched_at": "2026-10-03T00:35:37.354008+00:00"
+      },
+      {
+        "title": "Qwen3.8-27Bの精度98%を維持しつつ9倍小型化しiPhoneでも動く「Bonsai-2-27B」など生成AI技術5つを解説（生成AIウィークリー） | テクノエッジ TechnoEdge",
+        "url": "https://www.techno-edge.net/article/2026/10/02/5549.html",
+        "summary": "この1週間の気になる生成AI技術・研究をいくつかピックアップして解説する今回の「生成AIウィークリー」（第161回）は、高度な画像編集ができるオープンウェイトな画像生成AI「Qwen-Image-2.1」や、XiaomiのオープンソースAIモデル「MiMo-V2.6」を取り上げます。 また、Black Forest Labsが公開したロボットを動かすAIモ...",
+        "score": 0,
+        "published_at": "2026-10-02T08:03:02+00:00",
+        "fetched_at": "2026-10-03T00:35:37.353994+00:00"
+      },
+      {
+        "title": "「完全国産」AI、KDDI傘下のELYZAが無料公開　「LLM-jp-4」ベースに性能強化",
+        "url": "https://www.itmedia.co.jp/aiplus/article/2610/02/2000001965/",
+        "summary": "KDDIグループのAI開発企業ELYZA（東京都文京区）は10月2日、AIモデル「ELYZA-Thinking-1.0-llm-jp-4-33b」および「ELYZA-Thinking-1.0-llm-jp-4-32b-a3b」を無料で公開した。国立情報学研究所（NII）が開発したオープンなAIモデル「LLM-jp-4」シリーズをベースに事後学習を実施し、性能を強化したという。 今回発表した2...",
+        "score": 0,
+        "published_at": "2026-10-02T08:31:13+00:00",
+        "fetched_at": "2026-10-03T00:35:37.353978+00:00"
+      },
+      {
+        "title": "Introducing Strands Decider 2B: a small, open source, decision model",
+        "url": "https://strandsagents.com/blog/introducing-strands-decider/",
+        "summary": "Introducing Strands Decider 2B: a small, open source, decision modelStrands Decider 2B is a small, open source, decision model optimized for fast experimentation, local development, and innovation. Earlier this year, we announced strands-labs, a place to get hands-on with state-of-the-art approac...",
+        "score": 0,
+        "published_at": "2026-10-01T23:31:29+00:00",
+        "fetched_at": "2026-10-03T00:35:37.353963+00:00"
+      },
+      {
+        "title": "自作GPTにKVキャッシュを実装し、プロンプトキャッシュの仕組みを学んだ - $shibayu36->blog;",
+        "url": "https://blog.shibayu36.org/entry/2026/10/02/214736",
+        "summary": "『つくりながら学ぶ！LLM自作入門』を理解するために、1層1ヘッドの最小構成のGPTから少しずつ発展させながら実装を進めている。前回の記事で、自作GPTに日本語GPT-2モデルを読み込み生成まで出来た。 『つくりながら学ぶ！LLM自作入門』を1層1ヘッドの最小構成から始めてみている 1層1ヘッドのGPTを4層に発展させ、生成...",
+        "score": 0,
+        "published_at": "2026-10-02T13:19:29+00:00",
+        "fetched_at": "2026-10-03T00:35:37.353948+00:00"
+      },
+      {
+        "title": "vCPUを減らせばVMが速くなる！？ Linux 7.4でマージが期待される“Steal Governor” | gihyo.jp",
+        "url": "https://gihyo.jp/article/2026/10/daily-linux-261001",
+        "summary": "Linux Daily Topics vCPUを減らせばVMが速くなる！？ Linux 7.4でマージが期待される“Steal Governor” Linuxカーネルは現在、10月中旬（10/18または10/24）に予定されている「Linux 7.3」の正式リリースに向けてリリース候補版（RC）を重ねているが、その次のバージョンである「Linux 7.4」に向けた新しい機能も着々と準...",
+        "score": 0,
+        "published_at": "2026-10-02T02:49:10+00:00",
+        "fetched_at": "2026-10-03T00:35:37.353934+00:00"
+      },
+      {
+        "title": "【速報】ヤマト運輸、不正アクセスで顧客情報流出か",
+        "url": "https://www.47news.jp/15026982.html",
+        "summary": "ヤマト運輸は2日、インターネット通販向けの決済サービスに不正アクセスがあり、顧客の氏名や住所、電話番号などの個人情報が流出した可能性があると発表した。クレジットカード情報やパスワードは含まれていないという。",
+        "score": 0,
+        "published_at": "2026-10-02T09:50:04+00:00",
+        "fetched_at": "2026-10-03T00:35:37.353918+00:00"
+      },
+      {
+        "title": "「ｅ－Ｔａｘ」で不具合　贈与税申告内容が閲覧される状態に | NHKニュース",
+        "url": "https://news.web.nhk/newsweb/na/nd-20261002de53960",
+        "summary": "税金の電子申告や納税ができる国税庁のシステム「e－Tax」で、贈与税の申告内容が本人以外からも閲覧される状態になる不具合があったとして、国税庁は謝罪しました。 国税庁によりますと、e－Taxのシス…",
+        "score": 0,
+        "published_at": "2026-10-02T12:19:52+00:00",
+        "fetched_at": "2026-10-03T00:35:37.353889+00:00"
+      },
+      {
+        "title": "Linuxネットワーク標準教科書 ダウンロード | Linux技術者認定試験 リナック | LPI-Japan",
+        "url": "https://linuc.org/textbooks/network/",
+        "summary": "ネットワークの仕組みを実習を通して基礎から学べる教材 「Linuxネットワーク標準教科書」は、Linux技術者教育に利用していただくことを目的として、LPI-Japanが無料で公開しています。 ネットワークの仕組みを実習を通して基礎から学べる教材です。実際にLinuxを操作して理解できます。 本教科書は、多くの教育機関から...",
+        "score": 0,
+        "published_at": "2026-10-02T22:00:08+00:00",
+        "fetched_at": "2026-10-03T00:35:37.353808+00:00"
+      },
+      {
+        "title": "【Cursor pstack】AIエージェントに開発を任せる環境をつくる ―月2,500件のPRを支えた開発基盤とは？",
+        "url": "https://zenn.dev/sc30gsw/books/080faba713547b",
+        "summary": "【Cursor pstack】AIエージェントに開発を任せる環境をつくる ―月2,500件のPRを支えた開発基盤とは？ AIエージェントに開発を任せるための環境づくりを、Cursorのpstackから学ぶ実践ガイドです。月2,500件のPRを支えた考え方を手がかりに、成果物を検証する仕組みから、pstackに含まれるPlaybook・Principle・Skillとい...",
+        "score": 0,
+        "published_at": "2026-10-02T14:24:04+00:00",
+        "fetched_at": "2026-10-03T00:35:37.353792+00:00"
+      },
+      {
+        "title": "タイムズカー免許証画像流出、集団訴訟準備サイトに1万人超登録　責任追及へ弁護士が開設",
+        "url": "https://www.sankei.com/article/20261002-CBY3MPTUCVOO7BQLK4W4MOITEM/",
+        "summary": "カーシェアリングサービス「タイムズカー」への不正アクセスで免許証画像などが流出した問題で、集団訴訟に向けた準備が進んでいる。東京弁護士会の牧野裕貴弁護士がサイトを開設し、2日午後1時までに、1万人以上が登録。牧野弁護士は「企業側の責任を追及するために多くの人の協力が必要だ」と呼びかけた。 サイトへの...",
+        "score": 0,
+        "published_at": "2026-10-02T10:30:35+00:00",
+        "fetched_at": "2026-10-03T00:35:37.353774+00:00"
+      },
+      {
+        "title": "普通のメガネなのに網膜投影　TDKがレンズに埋め込める透明ミラー",
+        "url": "https://www.watch.impress.co.jp/docs/news/2145266.html",
+        "summary": "",
+        "score": 0,
+        "published_at": "2026-10-02T12:11:08+00:00",
+        "fetched_at": "2026-10-03T00:35:37.353756+00:00"
+      },
+      {
+        "title": "ネットワークの仕組みを実習で体感できる入門教材「Linuxネットワーク標準教科書」を無償公開 ～2,000名超のLinuC Open Networkコミュニティで共創、LinuC学習の土台に ～",
+        "url": "https://lpi.or.jp/news/press/page/20261001_01/",
+        "summary": "ネットワークの仕組みを実習で体感できる入門教材「Linuxネットワーク標準教科書」を無償公開 ～2,000名超のLinuC Open Networkコミュニティで共創、LinuC学習の土台に ～ Linux技術者認定「LinuC(リナック)」などを実施する特定非営利活動法人エルピーアイジャパン(以下:LPI-Japan、東京都千代田区、理事長 鈴木 敦夫)...",
+        "score": 0,
+        "published_at": "2026-10-02T12:06:40+00:00",
+        "fetched_at": "2026-10-03T00:35:37.353738+00:00"
+      },
+      {
+        "title": "Microsoft、WSL containersを一般提供 ——CLIとAPIでWindowsからLinuxコンテナを操作",
+        "url": "https://gihyo.jp/article/2026/09/wsl-containers-ga?utm_source=feed",
+        "summary": "Microsoftは9月29日、Windows Subsystem for Linux（WSL）のコンテナ機能「WSL containers」の一般提供を開始した。",
+        "score": 0,
+        "published_at": "2026-09-30T08:18:00+00:00",
+        "fetched_at": "2026-10-03T00:35:36.963625+00:00"
+      },
+      {
+        "title": "新デバイス！ Googlebookが登場！ かつての惨敗を超えて描くAI時代のPC",
+        "url": "https://gihyo.jp/article/2026/10/android-weekly-topics-261001?utm_source=feed",
+        "summary": "Googleから新ノートPC「Googlebook」が発表されました。これまで同社はChromebookやPixelbookを通じてPC市場へアプローチしてきましたが、本機はAndroid OSを前面に押し出すハードウェアとして大きな注目を集めています。",
+        "score": 0,
+        "published_at": "2026-09-30T23:57:00+00:00",
+        "fetched_at": "2026-10-03T00:35:36.963611+00:00"
+      },
+      {
+        "title": "第134回　MySQL Workbenchの復活、PostgreSQL次期メジャーバージョン19最新情報",
+        "url": "https://gihyo.jp/article/2026/10/ossdb-various-news0134?utm_source=feed",
+        "summary": "この連載はOSSコンソーシアム データベース部会のメンバーがオープンソースデータベースの毎月の出来事をお伝えしています。",
+        "score": 0,
+        "published_at": "2026-09-30T23:57:00+00:00",
+        "fetched_at": "2026-10-03T00:35:36.963597+00:00"
+      },
+      {
+        "title": "vCPUを減らせばVMが速くなる！？ Linux 7.4でマージが期待される“Steal Governor”",
+        "url": "https://gihyo.jp/article/2026/10/daily-linux-261001?utm_source=feed",
+        "summary": "Linuxカーネルは現在、10月中旬（10/18または10/24）に予定されている「Linux 7.3」の正式リリースに向けてリリース候補版（RC）を重ねているが、その次のバージョンである「Linux 7.4」に向けた新しい機能も着々と準備が進んでいる。",
+        "score": 0,
+        "published_at": "2026-10-01T02:41:00+00:00",
+        "fetched_at": "2026-10-03T00:35:36.963567+00:00"
+      },
+      {
+        "title": "Agentic Codingとハーネスエンジニアリング ——AIの自走性能を最大化するためのしくみと考え方",
+        "url": "https://gihyo.jp/article/2026/10/agentic-coding-and-harness-engineering?utm_source=feed",
+        "summary": "AIエージェントによるコーディングが登場した当時、「生成物をすべて人間がチェックする」のは当たり前のことでした。しかし、LLMの性能向上により、この前提は大きく変わっています。本章では、現在のAgentic Codingのあり方と、なぜハーネスエンジニアリングが必要とされたのかを解説します。",
+        "score": 0,
+        "published_at": "2026-10-02T00:20:00+00:00",
+        "fetched_at": "2026-10-03T00:35:36.963491+00:00"
+      },
+      {
+        "title": "Snapdragon X2の公式サポート、24.04 LTSからのLTSアップグレード開始、カーネルの更新ポリシーの周期変更",
+        "url": "https://gihyo.jp/admin/clip/01/ubuntu-topics/202610/02?utm_source=feed",
+        "summary": "QualcommのSnapdragon X2シリーズにおけるUbuntuのネイティブサポートが近日登場することが予告されています。リリースは2027年予定です。",
+        "score": 0,
+        "published_at": "2026-10-02T00:28:00+00:00",
+        "fetched_at": "2026-10-03T00:35:36.963472+00:00"
+      },
+      {
+        "title": "Cloudflare、オープンソースのマルチモーダル意思決定モデル「Clef」と「Clef-flash」をリリース",
+        "url": "https://gihyo.jp/article/2026/10/cloudflare-clef-decision-model?utm_source=feed",
+        "summary": "Cloudflareは2026年10月1日、QwenをベースにCloudflareでトレーニングされた2つの意思決定モデル「Clef」と「Clef-flash」を、Apache 2.0ライセンスのもと、Hugging Face上でオープンソースとして公開した。",
+        "score": 0,
+        "published_at": "2026-10-02T02:10:00+00:00",
+        "fetched_at": "2026-10-03T00:35:36.963448+00:00"
+      },
+      {
+        "title": "Cloudflare、Git互換ストレージ「Artifacts」をオープンベータに ——米国・カナダ在住者向けに「次のGitHub」開発コンテストも開催",
+        "url": "https://gihyo.jp/article/2026/10/cloudflare-artifacts-open-beta?utm_source=feed",
+        "summary": "Cloudflareは2026年10月1日、Git互換ストレージ「Artifacts」をオープンベータとして公開した。あわせて、米国・カナダの居住者を対象に、ArtifactsとCloudflare Workersを使い、複数のAIエージェントが並行して作業できるGitプラットフォームを開発するコンテストの開催を発表した。",
+        "score": 0,
+        "published_at": "2026-10-02T08:19:00+00:00",
+        "fetched_at": "2026-10-03T00:35:36.963416+00:00"
+      },
+      {
+        "title": "TesterArmy、AIエージェントを使うE2Eテストフレームワーク「e2e」をオープンソースで公開",
+        "url": "https://gihyo.jp/article/2026/10/e2e?utm_source=feed",
+        "summary": "TesterArmyは、AIエージェントを使ってWeb・モバイルアプリを検証できるエンドツーエンド（E2E）テストフレームワーク「e2e」をオープンソースで公開した。",
+        "score": 0,
+        "published_at": "2026-10-02T10:06:00+00:00",
+        "fetched_at": "2026-10-03T00:35:36.963396+00:00"
+      },
+      {
+        "title": "Earendil、AIエージェントハーネスPi 1.0をリリース ——タスクの保存・再開に対応する「Pi Durable」も公開",
+        "url": "https://gihyo.jp/article/2026/10/pi-v1.0?utm_source=feed",
+        "summary": "Earendilは2026年10月1日、AIエージェントハーネスPiのバージョン1.0を公開したと発表した。",
+        "score": 0,
+        "published_at": "2026-10-02T11:18:00+00:00",
+        "fetched_at": "2026-10-03T00:35:36.963373+00:00"
+      }
+    ]
+  },
+  {
     "date": "2026-10-02",
     "articles": [
       {
@@ -9716,411 +10121,6 @@
         "score": 0,
         "published_at": "2026-09-03T00:08:00+00:00",
         "fetched_at": "2026-09-03T23:23:22.373604+00:00"
-      }
-    ]
-  },
-  {
-    "date": "2026-09-02",
-    "articles": [
-      {
-        "title": "ChatGPT、Business／EnterpriseプランなどでGitHub上のプラグインマーケットプレイスを同期可能に",
-        "url": "https://gihyo.jp/article/2026/08/chatgpt-github-plugin-marketplace-sync?utm_source=feed",
-        "summary": "OpenAIのVaibhav Srivastav氏は2026年8月29日、Xへの投稿で、BusinessやEnterpriseなどのChatGPTプランで、ワークスペース管理者がGitHub上のプラグインマーケットプレイスを継続的に同期できるようになったと明らかにした。",
-        "score": 200,
-        "published_at": "2026-08-31T04:57:00+00:00",
-        "fetched_at": "2026-09-02T23:27:28.665626+00:00"
-      },
-      {
-        "title": "「ChatGPT」広告、年換算の売上高10億ドルに　開始200日足らずで達成",
-        "url": "https://www.itmedia.co.jp/news/article/2609/01/2000000997/",
-        "summary": "OpenAIは、「ChatGPT」上の広告事業「ChatGPT Ads」の年換算売上高が開始200日足らずで10億ドル（約1600億円）に達したと発表した。セルフサービス出稿の提供地域をインドや欧州などに拡大する。上場を控える中、広告を多角化の重要な柱と位置付け、収益源の多様化と急成長をアピールする狙いがある。",
-        "score": 200,
-        "published_at": "2026-08-31T23:27:31+00:00",
-        "fetched_at": "2026-09-02T23:27:27.818021+00:00"
-      },
-      {
-        "title": "AWSとAzureが最大100Gbpsでの相互接続を開始。これでAWSはAzure、Google Cloud、Oracle Cloudとのマルチクラウドをサポート",
-        "url": "https://www.publickey1.jp/blog/26/awsazure100gbpsawsazuregoogle_cloudoracle_cloud.html",
-        "summary": "Amzon Web Services（AWS）とマイクロソフトは、両社が協力してAWSとMicrosoft Azureを最大100Gbpsの高速な閉域網で相互接続することを発表しました（AWSの発表、マイクロソフトの発表）。 両社ともにプレ...",
-        "score": 200,
-        "published_at": "2026-09-02T15:53:23+00:00",
-        "fetched_at": "2026-09-02T23:27:27.140461+00:00"
-      },
-      {
-        "title": "証明できる指摘だけを出す仮説駆動セキュリティアセスメントを Claude Code Skill にした",
-        "url": "https://zenn.dev/toshipon/articles/claude-code-security-assessment-skill",
-        "summary": "はじめに 以前、Security Audit Skill を作った話 を書きました。あれはレイヤーごとの検出パターン集で、「どこを見ればいいか」を教えてくれるスキルです。 しばらく運用して、足りないものに気づきました。「どこを見るか」と「どう結論づけるか」は別の技術 だということです。 パターン検出は eval() があれば「あ...",
-        "score": 110,
-        "published_at": "2026-09-02T12:24:12+00:00",
-        "fetched_at": "2026-09-02T23:27:29.049790+00:00"
-      },
-      {
-        "title": "Claude Fable 5.1、API仕様変更で違法蒸留の対策を強化",
-        "url": "https://pc.watch.impress.co.jp/docs/news/2137479.html",
-        "summary": "",
-        "score": 100,
-        "published_at": "2026-09-02T02:30:52+00:00",
-        "fetched_at": "2026-09-02T23:27:29.049748+00:00"
-      },
-      {
-        "title": "AIがコードを書く時代に、開発者は何を学ぶべきなのか。AWS認定デベロッパーの対策本を書きました - プログラマでありたい",
-        "url": "https://blog.takuros.net/entry/2026/08/31/150628",
-        "summary": "AWS認定デベロッパーの対策本を書きました。発売日は8月28日なので、もう既に書店にも並び始めています。 そしてこちらの写真は、ジュンク堂書店　池袋本店に書かせて頂いたポップです。 AI時代にこそ基礎を 一生使える考え方を 書きました！！ ※下手くそな字で申し訳ありません たった3行ですが、この本の執筆を通じて...",
-        "score": 100,
-        "published_at": "2026-08-31T16:47:20+00:00",
-        "fetched_at": "2026-09-02T23:27:29.049736+00:00"
-      },
-      {
-        "title": "Introducing Gemini 3.8 Flash and 3.8 Flash Cyber",
-        "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/3-8-flash-and-3-8-flash-cyber/",
-        "summary": "Back Innovation & AI See all in Innovation & AI Models & Research Google DeepMind Google Research Google Labs Gemini models Quantum computing See all Products Developer tools Gemini app Gemini Notebook See all Infrastructure & cloud Global network Google Cloud See all Technology Safety & Security...",
-        "score": 100,
-        "published_at": "2026-09-02T16:26:01+00:00",
-        "fetched_at": "2026-09-02T23:27:29.049587+00:00"
-      },
-      {
-        "title": "Anthropic公式のClaude Code講座で学んだ「4つのD」",
-        "url": "https://zenn.dev/karamage/articles/2ef2c2aea7dfdf",
-        "summary": "Anthropic が公式で出している無料のClaude Codeの講座をちょこちょこ受けてみました。 そこで出てきたのが「4つのD」という考え方です。 「4Dフレームワーク」とも言われています。 最初は「また思考のフレーミングの話か」とげんなりしました。 DだのEだのCだの、頭文字を並べただけの話は、だいたい中身が薄いからで...",
-        "score": 100,
-        "published_at": "2026-09-02T02:47:58+00:00",
-        "fetched_at": "2026-09-02T23:27:29.049434+00:00"
-      },
-      {
-        "title": "Claude Codeの対話モードで会話を始めてみよう",
-        "url": "https://gihyo.jp/article/2026/09/claude-code-ai-driven-development-01?utm_source=feed",
-        "summary": "本連載は2026年9月刊行予定の『Claude Codeで作って学ぶ AI駆動アプリ開発入門』から一部、抜粋・編集してお届けします。第1回目は、Claude Codeで指示を出すための対話モードの使いこなし方を解説します。複数行入力やキーボードショートカットなど、対話をもっと快適にする操作テクニックを身につけていきましょう。",
-        "score": 100,
-        "published_at": "2026-09-01T00:02:00+00:00",
-        "fetched_at": "2026-09-02T23:27:28.665554+00:00"
-      },
-      {
-        "title": "第925回　UbuntuでセルフホストFaaS「Orva」を使ってみよう",
-        "url": "https://gihyo.jp/admin/serial/01/ubuntu-recipe/0925?utm_source=feed",
-        "summary": "AWS Lambdaのようなサービスはクラウド上で動作します。「⁠同じようなものを自宅サーバーや社内サーバーで動かせたら便利なのに」と思うこともあるでしょう。そこで今回は、セルフホスト可能なFaaSであるOrvaをUbuntu上で動かしてみます。",
-        "score": 100,
-        "published_at": "2026-09-02T00:12:00+00:00",
-        "fetched_at": "2026-09-02T23:27:28.665469+00:00"
-      },
-      {
-        "title": "Anthropic、Claude Fable 5.1とMythos 5.1を発表",
-        "url": "https://gihyo.jp/article/2026/09/claude-fable-5.1-and-mythos-5.1?utm_source=feed",
-        "summary": "Anthropicは2026年9月1日、AIモデル「Claude Fable 5.1」と「Claude Mythos 5.1」を発表した。",
-        "score": 100,
-        "published_at": "2026-09-02T01:38:00+00:00",
-        "fetched_at": "2026-09-02T23:27:28.665446+00:00"
-      },
-      {
-        "title": "NVIDIA、MediaTekの転換社債に35億ドル投資　「NVLink Fusion」採用などでAI協業を強化",
-        "url": "https://www.itmedia.co.jp/news/article/2609/01/2000001005/",
-        "summary": "NVIDIAとMediaTekは、AI基盤をめぐる協業拡大を発表した。NVIDIAはMediaTekの転換社債に35億ドルを投資する。独自AIチップのラック統合やPC・車載向けチップの共同開発などを推進し、NVIDIAは顧客の囲い込みを、MediaTekは受託設計事業の強化を図る構えだ。",
-        "score": 100,
-        "published_at": "2026-09-01T01:36:31+00:00",
-        "fetched_at": "2026-09-02T23:27:27.817971+00:00"
-      },
-      {
-        "title": "梅田駅に“ロボット駅員”登場──身長178センチのヒューマノイド「ヒナタ」、Gemini搭載で乗り換えなどを60言語で案内",
-        "url": "https://www.itmedia.co.jp/news/article/2609/01/2000001023/",
-        "summary": "大阪メトロは8月31日、御堂筋線梅田駅の「Metro Opus（メトロオーパス）梅田店」に人型ロボット（ヒューマノイド）「ヒナタ」を設置し、接客案内サービスの実証実験を始めた。生成AIを搭載し、乗り換えや駅構内の案内から大阪の観光情報まで幅広く答える。",
-        "score": 100,
-        "published_at": "2026-09-01T05:03:51+00:00",
-        "fetched_at": "2026-09-02T23:27:27.817854+00:00"
-      },
-      {
-        "title": "Anthropic、「Claude Fable 5.1」と「Claude Mythos 5.1」発表　「監視の難しさ」への懸念も開示",
-        "url": "https://www.itmedia.co.jp/news/article/2609/02/2000001048/",
-        "summary": "Anthropicは新LLM「Claude Fable 5.1」と「Claude Mythos 5.1」を発表した。科学研究やコーディング性能が大幅に向上し、一般提供のFableに対し、Mythosは厳格な審査制を採用。System Cardでは高度な推論力に伴うエクスプロイト成功率や監視困難性などのリスクも報告されている。",
-        "score": 100,
-        "published_at": "2026-09-01T22:23:30+00:00",
-        "fetched_at": "2026-09-02T23:27:27.817771+00:00"
-      },
-      {
-        "title": "AIエージェントがRedshiftを操作してDWH構築や集計分析など可能に、Amazon RedshiftがAgent Toolkit for AWSと統合",
-        "url": "https://www.publickey1.jp/blog/26/airedshiftdwhamazon_redshiftagent_toolkit_for_aws.html",
-        "summary": "Amazon Web Services（AWS）は、同社がフルマネージドで提供するデータウェアハウスサービス「Amazon Redshift」が、Agent Toolkit for AWSと統合されたことを明らかにしました。 Agent T...",
-        "score": 100,
-        "published_at": "2026-09-01T15:07:04+00:00",
-        "fetched_at": "2026-09-02T23:27:27.140525+00:00"
-      },
-      {
-        "title": "ClaudeにSalesforceを統合した「Claudeforce」、AnthropicとSalesforceが発表。Claudeから営業データ分析や顧客対応を実現",
-        "url": "https://www.publickey1.jp/blog/26/claudesalesforceclaudeforceanthropicsalesforceclaude.html",
-        "summary": "SalesforceとAnthropicが「Claudeforce」を発表しました。 第一弾となる「Salesforce in Claude」では、Claudeの画面からプロンプトを入力するだけで、Salesforceのデータやワークフロー...",
-        "score": 100,
-        "published_at": "2026-09-02T02:43:59+00:00",
-        "fetched_at": "2026-09-02T23:27:27.140492+00:00"
-      },
-      {
-        "title": "AWSをゲームで学べる「AWS Cloud Quest」に新バージョン「AWS Cloud Quest 2.0」登場！ AIによるバーチャル顧客と対話し、要件を聞き出して正しくソリューションに落とし込め",
-        "url": "https://www.publickey1.jp/blog/26/awsaws_cloud_questaws_cloud_quest_20_ai.html",
-        "summary": "Amazon Web Services（AWS）は、3DオープンワールドでAWSを学べるオンラインゲーム「AWS Cloud Quest」の新バージョン「AWS Cloud Quest 2.0」の提供を開始しました。 AWS Cloud Q...",
-        "score": 100,
-        "published_at": "2026-09-02T15:55:28+00:00",
-        "fetched_at": "2026-09-02T23:27:27.140441+00:00"
-      },
-      {
-        "title": "Chainguardに学ぶセキュアなコンテナイメージの作り方",
-        "url": "https://zenn.dev/ymotongpoo/books/chainguard-image-toolchain",
-        "summary": "Chainguard社はDockerfileを使わず、melangeとapkoという2つのOSSツールを組み合わせてセキュアなコンテナイメージを作っています。本書はこの2ツールとWolfi OSがどう連携しているかを、概念の説明とハンズオンを交互に積み重ねながら手元で確かめる本です。ソースコードからAPKパッケージを作り、それをコンテナイメー...",
-        "score": 10,
-        "published_at": "2026-09-02T10:29:52+00:00",
-        "fetched_at": "2026-09-02T23:27:29.049708+00:00"
-      },
-      {
-        "title": "TypeScript 7.0リリース！ Misskeyで検証",
-        "url": "https://gihyo.jp/article/2026/08/misskey-25?utm_source=feed",
-        "summary": "今回は、MisskeyのコードベースでTypeScript 7.0のパフォーマンスを検証します。",
-        "score": 10,
-        "published_at": "2026-08-30T23:58:00+00:00",
-        "fetched_at": "2026-09-02T23:27:28.665655+00:00"
-      },
-      {
-        "title": "新しいAppleのポリッシングクロスは旧モデルと同じサイズでより滑らかな手触りに。",
-        "url": "https://applech2.com/archives/20260902-apple-polishing-cloth-2026.html",
-        "summary": "新しいAppleのポリッシングクロスは旧モデルと同じサイズでより滑らかな手触りになっています。詳細は以下から。 　Appleは2026年08月24日、Apple M6/M5 Proチップ搭載の「Mac mini ( […] The post 新しいAppleのポリッシングクロスは旧モデルと同じサイズでより滑らかな手触りに。 first appeared on AAPL Ch..",
-        "score": 0,
-        "published_at": "2026-09-01T22:35:44+00:00",
-        "fetched_at": "2026-09-02T23:27:29.049861+00:00"
-      },
-      {
-        "title": "AIに必要な「ルールのルール」 - 🐴 (馬)",
-        "url": "https://blog.takaumada.com/entry/agent-rule-of-rules",
-        "summary": "AIが文章やコードを速く作るようになればなるほど、人間によるレビューや決裁、品質保証といった、人間の意思決定がボトルネックになっていきます。その状況が続けば、企業はAIに人間への提案をさせるだけでなく、一定の条件の下で、判断と実行まで任せようとするでしょう。 たとえば購買先を選んで発注したり、顧客への...",
-        "score": 0,
-        "published_at": "2026-08-31T06:26:32+00:00",
-        "fetched_at": "2026-09-02T23:27:29.049832+00:00"
-      },
-      {
-        "title": "26卒エンジニアがAI時代に日本CTO協会の「新卒エンジニア合同研修」で学んだこと - ZOZO TECH BLOG",
-        "url": "https://techblog.zozo.com/entry/cto-a-training-2026",
-        "summary": "はじめに こんにちは。技術戦略部CTOブロックのikkouです。ZOZOでは毎年、独自の新卒研修を実施しています。さらに昨年からは、日本CTO協会の新卒エンジニア合同研修にも参加しています。参加は任意として、興味を持つ研修を自身で選択できるようにしました。本年度は2名の新卒エンジニアが参加しました。本記事では参加...",
-        "score": 0,
-        "published_at": "2026-08-31T05:43:36+00:00",
-        "fetched_at": "2026-09-02T23:27:29.049817+00:00"
-      },
-      {
-        "title": "pixiv・note・ガールズちゃんねる・好き嫌いcomが指定されて注目、「情プラ法」って何だ？　今知っておきたい情報プラットフォームにおける「自由」と「責任」",
-        "url": "https://internet.watch.impress.co.jp/docs/index/2137616.html",
-        "summary": "",
-        "score": 0,
-        "published_at": "2026-09-02T07:39:29+00:00",
-        "fetched_at": "2026-09-02T23:27:29.049802+00:00"
-      },
-      {
-        "title": "使っていないiMacやMacBookのディスプレイを他のMacのセカンドディスプレイにできるMacアプリ「OpenDisplay Receiver」がリリース。",
-        "url": "https://applech2.com/archives/20260902-opendisplay-receiver-mac-to-mac.html",
-        "summary": "使っていないiMacやMacBookのディスプレイを他のMacのセカンドディスプレイにできるMacアプリ「OpenDisplay Receiver」がリリースされています。詳細は以下から。 　OpenDisplayはド […] The post 使っていないiMacやMacBookのディスプレイを他のMacのセカンドディスプレイにできるMacアプリ「OpenDisplay Receiver」が...",
-        "score": 0,
-        "published_at": "2026-09-02T08:18:41+00:00",
-        "fetched_at": "2026-09-02T23:27:29.049776+00:00"
-      },
-      {
-        "title": "秘密を守れるAI、新興アカンパニーが整理　28年実現めざす - 日本経済新聞",
-        "url": "https://www.nikkei.com/article/DGXZQOUC316YS0R30C26A8000000/",
-        "summary": "データ保護技術のAcompany（アカンパニー、名古屋市）は、外部からデータを見られない状態で人工知能（AI）を利用できるようにする技術をまとめたホワイトペーパー（提言書）を公開した。2028年をめどに実現したい考えだ。開発する秘密計算技術を基盤に、生成AIを企業などで安全に使えるようにする。データを秘匿したま...",
-        "score": 0,
-        "published_at": "2026-09-02T11:26:33+00:00",
-        "fetched_at": "2026-09-02T23:27:29.049761+00:00"
-      },
-      {
-        "title": "【落合陽一】AIを前にロジカルシンキングは無意味。エンジニアなら「仕事で使える“本物”」で勝負してほしい - エンジニアtype | 転職type",
-        "url": "https://type.jp/et/feature/31627/",
-        "summary": "もちろん、人間の手やハードウエアが必要な場面は少なくありませんが、メールの返信やSlackでのやり取り、コーディングや表計算、CADによる設計、映像編集、原稿執筆など、コンピュータを使う作業は、ほぼ全てAIがやってくれるようになりました。 現在、大阪・関西万博でプロデュースしたシグネチャーパビリオン『null²...",
-        "score": 0,
-        "published_at": "2026-09-01T08:20:30+00:00",
-        "fetched_at": "2026-09-02T23:27:29.049680+00:00"
-      },
-      {
-        "title": "米GoPro、光学メーカーStarman Opticalと合併へ",
-        "url": "https://av.watch.impress.co.jp/docs/news/2137677.html",
-        "summary": "",
-        "score": 0,
-        "published_at": "2026-09-02T08:35:37+00:00",
-        "fetched_at": "2026-09-02T23:27:29.049666+00:00"
-      },
-      {
-        "title": "無償の定番ネットワーク調査ツール「NetEnum」が第3世代へ ～可視化、通信解析までカバー／「NetEnum6」が正式公開",
-        "url": "https://forest.watch.impress.co.jp/docs/news/2137283.html",
-        "summary": "",
-        "score": 0,
-        "published_at": "2026-09-02T07:03:31+00:00",
-        "fetched_at": "2026-09-02T23:27:29.049640+00:00"
-      },
-      {
-        "title": "「レッツノート」10月値上げ。カスタマイズSSDは価格2倍の衝撃",
-        "url": "https://pc.watch.impress.co.jp/docs/news/2137701.html",
-        "summary": "",
-        "score": 0,
-        "published_at": "2026-09-02T09:18:34+00:00",
-        "fetched_at": "2026-09-02T23:27:29.049628+00:00"
-      },
-      {
-        "title": "ECS デプロイパイプラインと構成管理を GitHub Actionsと ecspresso に移行しました",
-        "url": "https://zenn.dev/mybest_dev/articles/2cd71bc64ad380",
-        "summary": "マイベスト1人目の専任 SRE の秋吉です。ポメラニアンと暮らしています。 概要 マイベストでは、ステージング環境を含めて100個弱の ECS サービスを運用しています。これまで ECS の構成管理とデプロイは、CodePipeline / CodeBuild / CodeDeploy / 独自シェルスクリプトなどを組み合わせた複雑な仕組みで実現していまし...",
-        "score": 0,
-        "published_at": "2026-09-02T11:03:39+00:00",
-        "fetched_at": "2026-09-02T23:27:29.049616+00:00"
-      },
-      {
-        "title": "GoProが光学メーカーStarman Opticalと合併へ　コンシューマー製品は継続",
-        "url": "https://dc.watch.impress.co.jp/docs/news/2137532.html",
-        "summary": "",
-        "score": 0,
-        "published_at": "2026-09-02T04:46:45+00:00",
-        "fetched_at": "2026-09-02T23:27:29.049600+00:00"
-      },
-      {
-        "title": "自分で出した本を、国会図書館に納本してきた - Nothing ventured, nothing gained.",
-        "url": "https://takoratta.hatenablog.com/entry/2026/08/31/181136",
-        "summary": "自分で出した本を、国会図書館に納本してきた 突然だが、本を出したら国立国会図書館に納本しなければならない、というのをご存じだろうか。 私は知らなかった。正確に言うと、納本という制度があること自体は知っていた。ただ、それが自分に関係のある話だとは思っていなかった。 これまで何冊か本を書いてきたが、すべ...",
-        "score": 0,
-        "published_at": "2026-08-31T23:40:28+00:00",
-        "fetched_at": "2026-09-02T23:27:29.049548+00:00"
-      },
-      {
-        "title": "米NY市、公立校でのAI利用禁止へ 中学生以下対象",
-        "url": "https://www.afpbb.com/articles/-/3651158",
-        "summary": "教室で教師の話を聞く生徒たち（資料写真、2023年9月4日撮影）。(c)JEFF PACHOUD/AFP 【9月2日 AFP】米ニューヨーク市では今後、市内の公立学校に通う中学2年生（第8学年）以下のすべての児童・生徒を対象に、学校での人工知能（AI）の使用を禁じる方針であることが分かった。米メディアの報道を受け、関係者が2日、AFP...",
-        "score": 0,
-        "published_at": "2026-09-02T12:10:01+00:00",
-        "fetched_at": "2026-09-02T23:27:29.049533+00:00"
-      },
-      {
-        "title": "Aurora DSQL の現状 2026 (Rails の場合)",
-        "url": "https://diary.sorah.jp/2026/09/03/dsql-in-action",
-        "summary": "Also available in: English Aurora DSQL が re:Invent 2024 で披露されてから 1.5 年程度たちました。DynamoDB 程度の手軽さで SQL を喋る RDBMS が利用できる上に、DynamoDB を含む purpose-built databases にありがちな設計の難しさがない、という点でかなり便利なデータベースサービスになっています。ただ、それだ...",
-        "score": 0,
-        "published_at": "2026-09-02T16:00:07+00:00",
-        "fetched_at": "2026-09-02T23:27:29.049514+00:00"
-      },
-      {
-        "title": "ローカルLLMでどこまでコードが書けるか -LLM基礎知識 /　How much code can be written on a local LLM - fundamental knowledge",
-        "url": "https://speakerdeck.com/kishida/how-much-code-can-be-written-on-a-local-llm-fundamental-knowledge",
-        "summary": "2026年9月2日に開催された「コーディングのためのローカルLLM勉強会」での登壇資料です。 https://lycorptech-jp.connpass.com/event/402836/",
-        "score": 0,
-        "published_at": "2026-09-02T12:53:53+00:00",
-        "fetched_at": "2026-09-02T23:27:29.049484+00:00"
-      },
-      {
-        "title": "FREE-Wi.Fi: 無料Wi-Fiの登録に使える捨てメアド",
-        "url": "https://free-wi.fi/",
-        "summary": "受信箱は誰でも閲覧でき、メールは24時間で消えます。 登録は不要です。送信はできません。 メール本文だけでなく、メールヘッダーやSMTPのハンドシェイクログも見れます。 Simple (Simpleとは言っていない) なMail Transfer Protocolのお勉強に使えるかも…！ Contact us at abuse@{domain} / (c) 2026 ActiveTK.",
-        "score": 0,
-        "published_at": "2026-09-02T10:10:30+00:00",
-        "fetched_at": "2026-09-02T23:27:29.049468+00:00"
-      },
-      {
-        "title": "AIにまじなスライド作らせる｜【公式】Jinba",
-        "url": "https://note.com/jinbaflow/n/nc8372b84e572",
-        "summary": "AIでスライドを作ると、それらしい見た目のものは一瞬で出てきます。ところが実際に役員会議や顧客提案に持っていけるかというと、ほとんどの場合そのままでは使えません。角丸のカードが3枚並び、タイトルは「〜のご紹介」、結論はどこにも書いていない——そんな「AIが作った感」のあるスライドになりがちです。 私たちC...",
-        "score": 0,
-        "published_at": "2026-09-02T16:04:06+00:00",
-        "fetched_at": "2026-09-02T23:27:29.049451+00:00"
-      },
-      {
-        "title": "信頼できるAI基盤の実証 — オフライン閉域環境でAIは組織の右腕になれるか — | デジタル人材の育成 | IPA 独立行政法人 情報処理推進機構",
-        "url": "https://www.ipa.go.jp/jinzai/ics/core_human_resource/final_project/2026/pm_ai.html",
-        "summary": "プロジェクトの背景 近年、多くの企業で生成AIの業務利用が広がる一方、情報漏えいや誤情報などへの懸念から、利用を制限・禁止する動きが見られます。しかし、業務効率化への期待は大きく、組織の管理が及ばない「シャドーAI」の発生を招くなど、別の管理上の課題も生じています。 こうした状況は、組織がAIのリスクや...",
-        "score": 0,
-        "published_at": "2026-09-02T18:08:00+00:00",
-        "fetched_at": "2026-09-02T23:27:29.049412+00:00"
-      },
-      {
-        "title": "Blenderのスカルプトモードの概要を知ろう",
-        "url": "https://gihyo.jp/article/2026/08/blender-basics-84?utm_source=feed",
-        "summary": "本連載では、Blenderの基本的な知識、機能についてイラストを交えながら紹介しています。第84回目は、Blenderに用意されているスカルプトモードについて見ていきます。",
-        "score": 0,
-        "published_at": "2026-08-31T00:14:00+00:00",
-        "fetched_at": "2026-09-02T23:27:28.665640+00:00"
-      },
-      {
-        "title": "Debian、「生成AIの責任ある使用」を容認へ",
-        "url": "https://gihyo.jp/article/2026/08/daily-linux-260831?utm_source=feed",
-        "summary": "Debianプロジェクトは8月29日、数週間に渡ってプロジェクト内で議論されてきたAI/LLMの利用ポリシーに関する一般決議（General Resolution）の結果を発表した。",
-        "score": 0,
-        "published_at": "2026-08-31T06:37:00+00:00",
-        "fetched_at": "2026-09-02T23:27:28.665609+00:00"
-      },
-      {
-        "title": "OpenClaw 2.0リリース ―インストール、メッセージング、メモリ機能、スキル、モデル、自動化など大幅に機能強化",
-        "url": "https://gihyo.jp/article/2026/08/openclaw-2-0?utm_source=feed",
-        "summary": "OpenClaw開発チームは2026年8月30日、AIアシスタントOpenClawの新バージョンOpenClaw 2.0をリリースした。",
-        "score": 0,
-        "published_at": "2026-08-31T07:43:00+00:00",
-        "fetched_at": "2026-09-02T23:27:28.665596+00:00"
-      },
-      {
-        "title": "第278回　MySQL 9.7で変わったDATE型の挙動を確認してみる",
-        "url": "https://gihyo.jp/article/2026/09/mysql-rcn0278?utm_source=feed",
-        "summary": "MySQL 9.7.0のリリースノートを見ていると、DATE型に関する修正がいくつかまとめて入っていることに気付きます。",
-        "score": 0,
-        "published_at": "2026-09-01T00:01:00+00:00",
-        "fetched_at": "2026-09-02T23:27:28.665582+00:00"
-      },
-      {
-        "title": "第133回　連載12年目に突入、オープンソースカンファレンス京都報告、MySQLのステアリング・コミッティにJPMorganChaseとBooking. comが参画、PostgreSQLの多数の脆弱性が修正",
-        "url": "https://gihyo.jp/article/2026/09/ossdb-various-news0133?utm_source=feed",
-        "summary": "この連載はOSSコンソーシアム データベース部会のメンバーがオープンソースデータベースの毎月の出来事をお伝えしています。",
-        "score": 0,
-        "published_at": "2026-09-01T00:01:00+00:00",
-        "fetched_at": "2026-09-02T23:27:28.665569+00:00"
-      },
-      {
-        "title": "自宅でローカルLLMを動かしてみた ローカルなら実現できる遊びとこだわり",
-        "url": "https://gihyo.jp/article/2026/09/home-local-llm-guide?utm_source=feed",
-        "summary": "技術の進化により、ローカルLLMを個人のPCで動かすことも現実的になってきました。本稿では、ローカルLLMを手元で実際に動かしてみた知見をまとめます。快適に動かすための構成、性能と速度のトレードオフ、そして動かしてみて初めて見えてくるローカルLLMの現実がわかります。",
-        "score": 0,
-        "published_at": "2026-09-01T00:02:00+00:00",
-        "fetched_at": "2026-09-02T23:27:28.665538+00:00"
-      },
-      {
-        "title": "AAIF、MCPのガバナンスとA2Aの現状、AIエージェントにオープン標準が必要な理由を説明 ——9月10・11日に「AGNTCon + MCPCon Japan 2026」を渋谷で開催",
-        "url": "https://gihyo.jp/article/2026/09/aaif-mcp-a2a-briefing?utm_source=feed",
-        "summary": "Linux Foundation傘下のAgentic AI Foundation（AAIF）は2026年8月25日、日本の報道関係者を対象とするオンライン記者説明会を開催した。",
-        "score": 0,
-        "published_at": "2026-09-01T04:30:00+00:00",
-        "fetched_at": "2026-09-02T23:27:28.665518+00:00"
-      },
-      {
-        "title": "Linux 7.3-rc1リリース、次世代ハードウェアのサポートが加速",
-        "url": "https://gihyo.jp/article/2026/09/daily-linux-260901?utm_source=feed",
-        "summary": "Linus Torvaldsは8月30日、次期Linuxカーネル「Linux 7.3」の最初のリリース候補となる「Linux 7.3-rc1」を公開した。",
-        "score": 0,
-        "published_at": "2026-09-01T07:36:00+00:00",
-        "fetched_at": "2026-09-02T23:27:28.665485+00:00"
-      },
-      {
-        "title": "Google、AI画像作成・編集ツール「Google Pics」の一般提供を順次開始、オブジェクト単位の編集や画像内テキストの翻訳に対応",
-        "url": "https://gihyo.jp/article/2026/09/google-pics?utm_source=feed",
-        "summary": "Googleは2026年9月1日、AI画像作成・編集ツール「Google Pics」の一般提供を順次開始した。",
-        "score": 0,
-        "published_at": "2026-09-02T05:58:00+00:00",
-        "fetched_at": "2026-09-02T23:27:28.665429+00:00"
-      },
-      {
-        "title": "GitHub CLIに​-​-​​attachフラグ、コマンドラインからIssueやPull Requestへ画像・動画を添付可能に",
-        "url": "https://gihyo.jp/article/2026/09/github-cli-attach-flag?utm_source=feed",
-        "summary": "GitHubは2026年9月1日、GitHub CLIにローカルの画像や動画をアップロードできる--attachフラグを追加したと発表した。",
-        "score": 0,
-        "published_at": "2026-09-02T07:47:00+00:00",
-        "fetched_at": "2026-09-02T23:27:28.665407+00:00"
-      },
-      {
-        "title": "ティム・クック氏、Apple CEOとしての最後の日にメッセージ　「一生に一度の特権だった」",
-        "url": "https://www.itmedia.co.jp/news/article/2609/01/2000000996/",
-        "summary": "AppleのCEOティム・クック氏は任期最終日を迎え、社員向けメッセージとXへの投稿で15年間の感謝を表明した。9月1日付でジョン・ターナス氏が新CEOに就任し、クック氏は取締役会長（エグゼクティブチェアマン）として政策当局との関係維持などを担う。",
-        "score": 0,
-        "published_at": "2026-08-31T22:20:30+00:00",
-        "fetched_at": "2026-09-02T23:27:27.818045+00:00"
-      },
-      {
-        "title": "日産とホンダ、車載システム共通化へ　ECUやOS・ソフトウェアなど共同開発",
-        "url": "https://www.itmedia.co.jp/news/article/2609/01/2000000995/",
-        "summary": "日産自動車とホンダは8月31日、次世代SDVの中核を構成する複数のECUと、その上で動作する車載OS、ミドルウェア、車両制御ソフトウェアの主要部分を共通化する共同開発契約を締結したと発表した。2029年度以降、両社の次世代SDVへの適用を目指す。",
-        "score": 0,
-        "published_at": "2026-08-31T23:00:00+00:00",
-        "fetched_at": "2026-09-02T23:27:27.818033+00:00"
       }
     ]
   }
